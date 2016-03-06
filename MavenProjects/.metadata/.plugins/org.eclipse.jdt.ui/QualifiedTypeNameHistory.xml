@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="edu.uci.ics.crawler4j.crawler.CrawlConfig"/>
+<fullyQualifiedTypeName name="edu.uci.ics.crawler4j.robotstxt.RobotstxtConfig"/>
+<fullyQualifiedTypeName name="edu.uci.ics.crawler4j.robotstxt.RobotstxtServer"/>
+<fullyQualifiedTypeName name="edu.uci.ics.crawler4j.crawler.CrawlController"/>
+<fullyQualifiedTypeName name="java.util.regex.Pattern"/>
+<fullyQualifiedTypeName name="edu.uci.ics.crawler4j.url.WebURL"/>
+<fullyQualifiedTypeName name="edu.uci.ics.crawler4j.crawler.Page"/>
+<fullyQualifiedTypeName name="edu.uci.ics.crawler4j.parser.HtmlParseData"/>
+<fullyQualifiedTypeName name="java.util.Set"/>
+<fullyQualifiedTypeName name="edu.uci.ics.crawler4j.fetcher.PageFetchResult"/>
+<fullyQualifiedTypeName name="java.lang.NullPointerException"/>
+<fullyQualifiedTypeName name="edu.uci.ics.crawler4j.fetcher.PageFetcher"/>
+<fullyQualifiedTypeName name="edu.uci.ics.crawler4j.parser.BinaryParseData"/>
+<fullyQualifiedTypeName name="java.io.BufferedWriter"/>
+<fullyQualifiedTypeName name="java.io.FileWriter"/>
+<fullyQualifiedTypeName name="java.io.IOException"/>
+</qualifiedTypeNameHistroy>
