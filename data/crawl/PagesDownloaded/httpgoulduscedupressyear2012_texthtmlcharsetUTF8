@@ -1,0 +1,2327 @@
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head><script type="text/javascript">/* <![CDATA[ */_cf_loadingtexthtml="<img alt=' ' src='/CFIDE/scripts/ajax/resources/cf/images/loading.gif'/>";
+_cf_contextpath="";
+_cf_ajaxscriptsrc="/CFIDE/scripts/ajax";
+_cf_jsonprefix='//';
+_cf_clientid='77C3A80DF49164A018FA05851B5579F5';/* ]]> */</script><script type="text/javascript" src="/CFIDE/scripts/ajax/messages/cfmessage.js"></script>
+<script type="text/javascript" src="/CFIDE/scripts/ajax/package/cfajax.js"></script>
+<script type="text/javascript" src="/CFIDE/scripts/cfform.js"></script>
+<script type="text/javascript" src="/CFIDE/scripts/masks.js"></script>
+<script type="text/javascript" src="/CFIDE/scripts/cfformhistory.js"></script>
+<script type="text/javascript" src="/CFIDE/scripts/ajax/package/cfrichtexteditor.js"></script>
+<script type="text/javascript" src="/CFIDE/scripts/ajax/FCKeditor/fckeditor.js"></script>
+<script type="text/javascript" src="/CFIDE/scripts/ajax/yui/yahoo-dom-event/yahoo-dom-event.js"></script>
+<script type="text/javascript" src="/CFIDE/scripts/ajax/yui/animation/animation-min.js"></script>
+<script type="text/javascript" src="/CFIDE/scripts/ajax/ext/adapter/yui/ext-yui-adapter.js"></script>
+<script type="text/javascript" src="/CFIDE/scripts/ajax/ext/ext-all.js"></script>
+<script type="text/javascript" src="/CFIDE/scripts/ajax/package/cfwindow.js"></script>
+<link rel="stylesheet" type="text/css" href="/CFIDE/scripts/ajax/resources/ext/css/ext-all.css" />
+<link rel="stylesheet" type="text/css" href="/CFIDE/scripts/ajax/resources/cf/cf.css" />
+
+<title>Press Room (Fall 2012 - Spring 2013) - USC Gould School of Law</title>
+<meta charset="UTF-8">
+<meta name="description" content="Stellar faculty, diverse students, and innovative programs have made the USC Gould School of Law one of the most prominent law schools in the country.">
+
+<link rel="shortcut icon" href="/favicon.ico">
+
+
+
+
+
+
+
+<link rel="stylesheet" type="text/css" href="/assets/css/accordion.css?last_updated=091515">
+<link rel="stylesheet" type="text/css" href="/assets/css/animate.css?last_updated=091515">
+<link rel="stylesheet" type="text/css" href="/assets/css/2015-unclean.css?last_updated=091515">
+<link rel="stylesheet" type="text/css" href="/assets/css/2015.css?last_updated=091515">
+
+
+
+
+
+<link rel="stylesheet" type="text/css" href="/assets/css/usccal.css?last_updated=091515">
+<link rel="stylesheet" type="text/css" href="/mockup/layerslider/css/layerslider.css?last_updated=091515">
+
+<link rel="stylesheet" type="text/css" href="/includes/flexinav/flexinav.css?last_updated=091515">
+
+<link rel="stylesheet" type="text/css" href="/assets/css/jquery.mmenu.all.css?last_updated=091515">
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js?last_updated=091515"></script>
+<script type="text/javascript" src="/assets/javascripts/default.js?last_updated=091515"></script>
+<script type="text/javascript" src="/mockup/layerslider/js/greensock.js?last_updated=091515"></script>
+<script type="text/javascript" src="/mockup/layerslider/js/layerslider.transitions.js?last_updated=091515"></script>
+<script type="text/javascript" src="/mockup/layerslider/js/layerslider.kreaturamedia.jquery.js?last_updated=091515"></script>
+<script type="text/javascript" src="/includes/flexinav/flexinav_plugins.js?last_updated=091515"></script>
+<script type="text/javascript" src="/includes/flexinav/flexinav.js?last_updated=091515"></script>
+<script type="text/javascript" src="/mockup/news/jquery.bxslider.min.js?last_updated=091515"></script>
+<script type="text/javascript" src="/assets/javascripts/jquery.mmenu.min.js?last_updated=091515"></script>
+
+
+
+
+
+
+
+<script type="text/javascript">/* <![CDATA[ */
+	ColdFusion.Ajax.importTag('CFAJAXPROXY');
+/* ]]> */</script>
+
+<script type="text/javascript">/* <![CDATA[ */
+	ColdFusion.Ajax.importTag('CFFORM');
+/* ]]> */</script>
+
+<script type="text/javascript">/* <![CDATA[ */
+	ColdFusion.Ajax.importTag('CFTEXTAREA');
+/* ]]> */</script>
+
+<script type="text/javascript">/* <![CDATA[ */
+	ColdFusion.Ajax.importTag('CFWINDOW');
+/* ]]> */</script>
+</head> 
+
+
+
+<body>
+
+
+
+
+
+<div id="search_area" class="wow fadeInDownBig">
+<img src="/mockup/images/homepage/close.png" onClick="toggle_visibility('search_area');">
+<div style="position: absolute; top: 50%; left: 5%; width: 100%;">
+<form method="get" action="/search/" name="gs">
+<input type="text" name="query" id="query" value="what can we help you find?" style="color: #999; height: 50px; width: 60%; margin: 0px; padding: 0px; float: left; border: none; padding-left: 10px; padding-right: 0px; font-size: 30px;" onFocus="clearText(this);" onBlur="checkText(this);" autocomplete="off">
+<input type="image" src="/mockup/images/homepage/search.png" alt="Search" style="height: 45px; width: 45px; margin-left: 20px;">
+<br class="clear">
+<br>
+<p style="width: 80%; color: #fff; font-size: 18px;"><strong><span style="color: #ffc324;">or try these popular searches:</span></strong> <a href="/search/?query=events" style="color: #fff; border-bottom: 1px #fff dotted;">events</a>, <a href="/search/?query=career+services" style="color: #fff; border-bottom: 1px #fff dotted;">career services</a>, <a href="/search/?query=application+status" style="color: #fff; border-bottom: 1px #fff dotted;">application status</a>, <a href="/search/?query=class+profile" style="color: #fff; border-bottom: 1px #fff dotted;">class profile</a>, <a href="/search/?query=gpa" style="color: #fff; border-bottom: 1px #fff dotted;">gpa</a></p>
+</form>
+</div>
+</div>
+
+
+
+<div id="quicklinks">
+<div id="content">
+
+
+
+<ul>
+<li><a href="/about/contact/">Contact Us</a></li>
+<li><a href="/why/academics/cle/">CLE</a></li>
+<li><a href="/giving/choices/donatenow.cfm">Give Back</a></li>
+<li><a href="/press/contact/">Press Room</a></li>
+<li><a href="/events/">Events</a></li>
+<li><a href="/press/">News</a></li>
+
+<li><a href="http://mylaw2.usc.edu/portal/" target="_blank">My Portal</a></li>
+</ul>
+</div>
+</div>
+
+
+
+<div id="header">
+<div id="content">
+<a href="/"><img src="/images/header/usc-gould-school-of-law.png" height="73" width="259" class="logo"></a>
+<a href="http://www.usc.edu/" target="_blank"><img src="/images/header/university-of-southern-california.png" height="38" width="176" class="usc_branding"></a>
+</div>
+</div>
+
+
+
+<div id="menubar">
+<div id="content">
+
+
+
+
+
+<div id="menubar_mobile" style="height: 50px;">
+<a href="#my-menu" style="float: left; height: 50px; width: 50%; display: block;"><h3 style="font-size: 18px; font-weight: normal; color: #fff; float: left; padding: 16px 0px 0px 45px;">MENU</h3></a>
+<nav id="my-menu">
+   <ul>
+  
+      <li><a href="/">Home</a></li>
+      <li><a href="/search/">Search</a></li>
+      <li><span>About</span>
+         <ul>
+            <li><a href="/about/introduction/">Introduction from the Dean</a></li>
+            <li><a href="/about/history/">History of USC Gould</a>
+            <ul>
+            <li><a href="/about/history/timeline/">Timeline</a></li>
+            <li><a href="/about/history/diversity/">Diversity Pioneers</a></li>
+            <li><a href="/about/history/alumni/">Alumni on the Bench</a></li>
+            <li><a href="/about/history/women/">Women in the Law</a></li>
+            <li><a href="/about/history/interdisciplinary/">Interdisciplinary Legal Studies</a></li>
+            <li><a href="/about/history/public-interest/">Public Interest</a></li>
+            </ul>
+            </li>
+            <li><a href="/about/los-angeles/">Explore Los Angeles</a>
+            <ul>
+            <li><a href="/about/los-angeles/living/">Living in Los Angeles</a></li>
+            <li><a href="/about/los-angeles/getting-around/">Getting Around</a></li>
+            <li><a href="/about/los-angeles/history/">Los Angeles/USC History</a></li>
+            <li><a href="/about/los-angeles/attractions/">Attractions</a></li>
+            <li><a href="/about/los-angeles/housing/">Housing</a></li>
+         </ul>
+            </li>
+            <li><a href="/about/class-profile/">Class Profile</a></li>
+            <li><a href="/about/board/">Board of Councilors</a></li>
+            <li><a href="/about/visit/">Visit USC Gould</a>
+            <ul>
+            <li><a href="/about/visit/classroom/">Classroom Visits</a></li>
+            <li><a href="/about/visit/tours/">Law School Tours</a></li>
+            <li><a href="/about/visit/information-sessions/">Information Sessions</a></li>
+            <li><a href="/about/visit/walking-tour/">Self-Guided Walking Tour</a></li>
+            <li><a href="/about/visit/directions/">Driving Directions</a></li>
+            <li><a href="/about/visit/map/">Building Map</a></li>
+            <li><a href="/about/visit/llm/">LL.M. Student Visits</a></li>
+         </ul>            
+            </li>
+            <li><a href="/about/aba-required-disclosures/">ABA Required Disclosures</a>
+            <ul>
+            <li><a href="/about/aba-required-disclosures/overview/">Overview</a></li>
+            <li><a href="/about/aba-required-disclosures/faculty-and-administrators/">Faculty & Administrators</a></li>
+            <li><a href="/about/aba-required-disclosures/curriculum/">Curriculum</a></li>
+            <li><a href="/about/aba-required-disclosures/jd-enrollment-and-ethnicity/">J.D. Enrollment & Ethnicity</a></li>
+            <li><a href="/about/aba-required-disclosures/transfer-policy-and-awarding-of-credit/">Transfer Policy and Awarding of Credit</a></li>
+            <li><a href="/about/aba-required-disclosures/transfer-student-data/">Transfer Student Data</a></li>
+            <li><a href="/about/aba-required-disclosures/tuition-and-fees/">Tuition & Fees</a></li>
+            <li><a href="/about/aba-required-disclosures/withdrawal-tuition-refund-policy/">Withdrawal/Tuition Refund Policy</a></li>
+            <li><a href="/about/aba-required-disclosures/living-expenses/">Living Expenses</a></li>
+            <li><a href="/about/aba-required-disclosures/gpa-and-lsat-scores/">GPA & LSAT Scores</a></li>
+            <li><a href="/about/aba-required-disclosures/grants-and-scholarships/">Grants & Scholarships</a></li>
+            <li><a href="/about/aba-required-disclosures/jd-attrition/">J.D. Attrition</a></li>
+            <li><a href="/about/aba-required-disclosures/bar-passage-rates/">Bar Passage Rates</a></li>
+            <li><a href="/about/aba-required-disclosures/employment-statistics/">Employment Statistics</a></li>
+            <li><a href="/about/aba-required-disclosures/class-profile/">2015 Entering Class Profile</a></li>
+            <li><a href="/about/aba-required-disclosures/qualifications-for-admission-to-the-bar/">Qualifications for Admission to the Bar</a></li>
+            </ul>
+            </li>
+            <li><a href="/about/community/">Meet our Community</a></li>
+            <li><a href="/about/contact/">Contact Us</a>
+            <ul>
+            <li><a href="/about/contact/faculty/">Faculty Directory</a></li>
+            <li><a href="/about/contact/lecturers/">Lecturers in Law Directory</a></li>
+            <li><a href="/about/contact/staff/">Staff Directory</a></li>
+            <li><a href="/about/contact/directions/">Driving Directions</a></li>
+            <li><a href="/about/contact/map/">Building Map</a></li>            
+            </ul>
+            </li>
+         </ul>
+      </li>
+      <li><span>Admissions</span>
+      
+      <ul>
+      <li><span>J.D. Programs</span>
+         <ul>
+            
+              <li><span>3 Year J.D. Program</span>
+                  <ul>
+                      <li><a href="/how/jd/admissionsInformation.cfm">Admissions Information</a></li>               
+                      <li><a href="/how/jd/jdApplication.cfm">Apply Now</a></li>
+                      <li><a href="/how/jd/onlineapplicationstatus.cfm">Application Status Check</a></li>
+                      <li><a href="/why/academics/bar/">Character & Fitness</a></li>
+                      <li><a href="/how/jd/faq.cfm">FAQ</a></li>
+                      <li><a href="/how/jd/international.cfm">International JD Applicants</a></li>
+                      <li><a href="/how/jd/waitlist_log_in.cfm">Waiting List Response Form</a></li>
+                      <li><a href="/assets/docs/how/jd/getting-into-law-school-guide.pdf" target="_blank">Getting into Law School Guide</a></li>
+                      <li><a href="/how/transfer/">Transfer/Visitor Applicants</a>
+                      
+                      <ul>
+                      			<li><a href="/how/transfer/index.cfm">General Information</a></li>
+			<li><a href="/how/transfer/transfer.cfm">Application Requirements</a></li>           
+			<li><a href="/how/transfer/earlydecision.cfm">Transfer Early Decision</a></li> 
+			<li><a href="/how/transfer/regulardecision.cfm">Regular Decision</a></li> 
+			<li><a href="/how/transfer/visitinfo.cfm">Visiting Student Information</a></li>
+            </ul>
+                      
+                      </li>
+                  </ul>
+              </li>
+
+
+              <li><a href="/how/jd/3-plus-3-program/">3+3 Accelerated Bachelor/JD Program</a></li>
+              
+              <li><a href="/how/jd/2-year-jd-program-for-international-lawyers/">2 Year JD Program for International Lawyers</a></li>
+              <li><span>Costs and Financial Assistance</span>
+                  <ul>
+                      <li><a href="/how/jd/finaid/">Financial Aid</a></li>               
+                      <li><a href="/how/jd/finaid/costs.cfm">Cost of Attendance</a></li>
+                      <li><a href="/how/jd/finaid/Aid.cfm">Types of Aid</a></li>
+                      <li><a href="/how/jd/finaid/apply.cfm">How to Apply</a></li>
+                      <li><a href="/how/jd/finaid/lrap.cfm">Loan Repayment Assistance Program (LRAP)</a></li>
+
+                  </ul>
+              </li>
+
+
+
+              <li><a href="/how/jd/earlydecision/">Early Decision Program</a>
+				  <ul>
+                  
+                      <li><a href="/how/jd/earlydecision/faq.cfm">FAQs for Early Decision Program</a></li>
+                      <li><a href="/assets/docs/how/jd/early-decision-agreement.pdf" target="_blank">Early Decision Agreement Form</a></li>
+                  </ul>
+              </li>
+
+
+              <li><a href="/how/jd/rothman/">Frank Rothman Scholarship</a>
+				  <ul>
+                      <li><a href="/how/jd/rothman/details.cfm">Scholarship Details</a></li>
+                      <li><a href="/how/jd/rothman/bio.cfm">About Frank Rothman</a></li>
+                      <li><a href="/how/jd/rothman/scholars.cfm">The Rothman Scholars</a> 
+                          
+                      </li>
+                  </ul>
+              </li>
+
+      
+              <li><span>Getting To Know USC Gould</span>
+                  <ul>
+                      <li><a href="/how/visit/">Visit USC Gould</a></li>               
+                      <li><a href="/how/jd/recruitingSchedule.cfm">2015-16 Recruitment Calendar</a></li>
+                      <li><a href="/how/jd/studentAmbassadors.cfm">Meet Our Student Ambassadors</a>
+						              
+                      </li>
+
+                      <li><a href="/how/jd/request.cfm">Request/Download Viewbook</a></li>
+                      <li><a href="/how/jd/viewbook/index.html" target="_blank">Browse Viewbook online</a></li>
+                      <li><a href="http://www.youtube.com/user/USCGould" target="_blank">Videos</a></li>
+                  </ul>
+              </li>
+     
+              <li><a href="/careers/statistics/">Employment Statistics</a></li>
+      
+              <li><span>LSAC</span>
+                  <ul>
+                      <li><a href="/how/jd/lsac/lsac.cfm">LSAC</a></li>
+                      <li><a href="/how/jd/lsac/lsacLawSchoolForums.cfm">LSAC Law School Forums</a></li>
+                      <li><a href="/how/jd/lsac/lsacDiversityInitiatives.cfm">LSAC Diversity Initiatives</a></li>
+                  </ul>
+              </li>
+ 
+         </ul>
+      </li>
+
+
+
+
+
+
+
+
+
+
+<li><span>Graduate Programs</span>
+
+
+    	<ul>
+
+			<li><a href="/how/gip/llm/">LL.M. Program</a> 
+				
+      		</li>
+         
+
+			<li><a href="/how/gip/2-year/">2 Year LL.M. Program</a>
+            
+            
+            
+            
+            </li>
+            
+			<li><a href="/how/gip/transfer/">LL.M. to J.D. Transfer Program</a></li>
+
+			<li><a href="http://onlinellm.usc.edu/?Access_Code=USC-LLM-SEO2&utm_campaign=USC-LLM-SEO2" target="_blank" class="external_link">Online LL.M. Program</a></li>
+			<li><a href="/how/gip/onlinemsl/">Online Master of Studies in Law (MSL) Program</a>
+				
+            </li>
+			<li><a href="/how/gip/mcl/">Master of Comparative Law</a>
+				
+            </li>            
+			<li><a href="/how/gip/vip/">Visiting International Law Program</a></li>
+			<li><a href="/how/gip/sle/">Summer Law &amp; English</a>
+				
+        </li>
+		<li><a href="/how/gip/studyabroad.cfm">J.D. Study Abroad</a>
+     
+</li>
+        
+        <li><a href="/assets/docs/admissions/graduate/brochure.pdf" target="_blank" class="external_link">View Our Brochure</a></li>
+        <li><a href="/how/gip/contact.cfm">Contact Us</a></li>
+    </ul>
+    
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <li><a href="http://onlinellm.usc.edu/?Access_Code=USC-LLM-SEO2&utm_campaign=USC-LLM-SEO2">Online Programs</a></li>
+      <li><a href="http://onlinellm.usc.edu/?Access_Code=USC-LLM-SEO2&utm_campaign=USC-LLM-SEO2">Online Business Law Certificate</a></li>
+      </ul>
+
+      <li><span>Academics</span>
+         <ul>
+            <li><a href="/academics/calendar/">Academic Calendar</a></li>
+            <li><a href="/academics/curriculum/">Curriculum</a>
+            <ul>
+            <li><a href="/academics/curriculum/juris-doctor-degree-requirements/">Juris Doctor Degree Requirements</a></li>
+            <li><a href="/academics/curriculum/first-year-curriculum/">First Year Curriculum</a></li>
+            <li><a href="/academics/curriculum/upper-division-course-offerings/">Upper Division Course Offerings</a></li>
+            <li><a href="/academics/curriculum/course-descriptions/">Course Descriptions</a></li>
+
+            <li><a href="/academics/curriculum/externships/">Externships</a></li>
+            <li><a href="/academics/curriculum/dual-degree-programs/">Dual Degree Programs</a></li>
+            <li><a href="/academics/curriculum/jd-study-abroad/">J.D. Study Abroad</a></li>
+            <li><a href="/academics/curriculum/academic-calendar/">Academic Calendar</a></li>
+            <li><a href="/academics/curriculum/grading-system/">Grading System</a></li>
+            <li><a href="/academics/curriculum/class-and-exam-schedules/">Class & Exam Schedules</a></li>
+            </ul>
+            </li>
+            <li><a href="/academics/faculty/">Faculty</a></li>
+            <li><a href="/academics/certificates/">Certificate Programs</a>
+            <ul>
+			<li><a href="/academics/certificates/adr/">Alternative Dispute Resolution (ADR)</a></li>
+			<li><a href="/academics/certificates/business/">Business Law</a></li>
+			<li><a href="/academics/certificates/entertainment/">Entertainment Law</a></li>
+			</ul>            
+            </li>
+            <li><a href="/academics/clinical-programs/">Clinical Programs</a></li>
+            <li><a href="/academics/alternative-dispute-resolution-program/">Alternative Dispute Resolution Program</a></li>
+            <li><a href="/academics/business-law-program/">Business Law Program</a>
+            
+            
+                        
+            
+            
+            </li>
+            <li><a href="/academics/media-entertainment-and-technology-law-program/">Media, Entertainment and Technology Law Program</a>
+            
+             <ul>
+        <li><a href="/academics/media-entertainment-and-technology-law-program/curriculum/">Our Approach and Curriculum</a></li>
+        <li><a href="/academics/media-entertainment-and-technology-law-program/courses/">Media and Entertainment Law Courses</a></li>
+        <li><a href="/academics/media-entertainment-and-technology-law-program/opportunities">Patent and Technology Law - Courses and Other Opportunities</a></li>
+        <li><a href="http://iptlc.usc.edu/" target="_blank" class="external_link">Intellectual Property and Technology Law Clinic</a></li>
+        <li><a href="/academics/media-entertainment-and-technology-law-program/faculty/">Affiliated Faculty</a></li>
+        <li><a href="/academics/media-entertainment-and-technology-law-program/research/">Research</a></li>
+        <li><a href="/academics/media-entertainment-and-technology-law-program/students/">Meet our Students and Alumni</a></li>
+        <li><a href="/academics/media-entertainment-and-technology-law-program/requirements/">Requirements for Media and Entertainment Law Certificate</a></li>
+        <li><a href="/why/students/orgs/entertainmentLaw.cfm">Entertainment Law Society</a></li>
+        <li><a href="http://mcir.usc.edu/" target="_blank" class="external_link">Music Copyright Infringement Database</a></li>
+        <li><a href="/academics/media-entertainment-and-technology-law-program/practicum/">Entertainment Practicum</a></li>
+        <li><a href="/academics/media-entertainment-and-technology-law-program/events/">Events</a></li>
+        <li><a href="/academics/media-entertainment-and-technology-law-program/news/">In the News</a></li>
+        <li><a href="/academics/media-entertainment-and-technology-law-program/contact/">Contact Us</a></li>
+    </ul>
+            
+            </li>
+            <li><a href="/academics/state-bar-examinations/">State Bar Examinations</a></li>
+            <li><a href="/why/academics/cle/">Continuing Legal Education</a></li>
+         </ul>
+      </li>
+
+      <li><span>Student Life</span>
+         <ul>
+            <li><a href="/students/student-services/">Student Services Office</a></li>
+            <li><a href="/students/class-and-exam-schedules/">Class &amp; Exam Schedules</a></li>
+            <li><a href="/students/peer-mentors/">Peer Mentors</a></li>
+            <li><a href="/students/student-organizations/">Student Organizations</a></li>
+            <li><a href="/students/academic-journals-and-honors-programs/">Academic Journals &amp; Honors Programs</a></li>
+            <li><a href="/students/disability-student-services/">Disability Student Services</a></li>
+            <li><a href="/students/public-service/">Public Service</a></li>
+
+
+<li><a href="/students/first-generation-professionals/">First Generation Professionals Program</a>
+
+</li>
+
+
+            <li><a href="/students/students-with-families/">Students with Families</a></li>
+            <li><a href="http://transnet.usc.edu/" target="_blank" class="external_link">Transportation</a></li>
+            <li><a href="/students/university-services/">University Services</a></li>
+         </ul>
+      </li>
+
+      <li><span>Faculty</span>
+         <ul>
+            <li><a href="/faculty/">Faculty Directory</a></li>
+            <li><a href="/faculty/lecturers/">Lecturers in Law Directory</a></li>
+            <li><a href="/faculty/experts/">Experts Directory</a></li>
+            <li><a href="/faculty/scholarship/">Scholarship</a></li>
+            <li><a href="/faculty/distinctions/">Distinctions &amp; Awards</a></li>
+            <li><a href="/faculty/news/">In the News</a></li>
+            <li><a href="/faculty/blogs/">Blogs</a></li>
+            <li><a href="/centers/">Centers</a></li>
+            <li><a href="/faculty/workshops/">Workshops &amp; Conferences</a>
+            
+            <ul>
+            <li><a href="/faculty/workshops/faculty/">Faculty Workshops</a></li>
+            </ul>
+            
+            </li>
+         </ul>
+      </li>
+
+      <li><span>Careers</span>
+         <ul>
+            <li><a href="/careers/">Career Services</a></li>
+            <li><a href="/careers/students/">Information for Students</a>
+            <ul>
+            <li><a href="/careers/students/counseling/">Career Counseling</a></li>
+            <li><a href="/careers/students/resources/">Career Resources</a></li>
+            <li><a href="/careers/students/employment/">Employment Opportunities</a></li>
+            <li><a href="/careers/students/statistics/">Employment Statistics</a></li>
+            <li><a href="/careers/students/programming/">Career Programming</a></li>
+            <li><a href="/careers/students/faqs/">Frequently Asked Questions</a></li>
+            </ul>
+            </li>
+            <li><a href="/careers/alumni">Information for Alumni</a></li>
+            <li><a href="/careers/employers/">Information for Employers</a>
+            <ul>
+            <li><a href="/careers/employers/recruitment/">On Campus Recruitment Opportunities</a></li>
+            <li><a href="/careers/employers/post/">Post a Job/Resume Collect</a></li>
+            <li><a href="/careers/employers/other/">Off Campus Recruitment Programs</a></li>
+            </ul>
+
+            </li>
+            <li><a href="/careers/reciprocity/">Reciprocity</a></li>
+            <li><a href="/careers/contact/">Contact Us</a></li>
+         </ul>
+      </li>
+
+      <li><span>Alumni</span>
+         <ul>
+            <li><a href="/alumni/getinvolved/committee.cfm">Alumni Association</a>
+
+            </li>
+            <li><a href="/giving/choices/annualfund.cfm">Annual Fund Programs</a></li>
+            <li><a href="/giving/counsel.cfm">Board of Councilors</a></li>
+            <li><a href="/alumni/events/receptions.cfm">Events</a></li>
+            <li><a href="/giving/choices/donatenow.cfm">Giving Back</a></li>
+            <li><a href="/alumni/class-notes/">Class Notes</a></li>
+            <li><a href="/alumni/contactinfo.cfm">Update Contact Info</a></li>
+            <li><a href="/alumni/contact.cfm">Contact Us</a></li>
+         </ul>
+      </li>
+      
+      <li><span>Library</span>
+         <ul>
+            <li><a href="/library/">Law Library</a></li>
+            <li><a href="/library/services/">Services &amp; Information</a>
+            
+            <ul>
+            <li><a href="/library/services/map/">Library Map</a></li>
+            <li><a href="/library/services/access.cfm">Access Policy</a></li>
+            <li><a href="/library/services/borrowing.cfm">Borrowing</a></li>
+            <li><a href="/library/services/interlibrary.cfm">Interlibrary Loan</a></li>
+            <li><a href="/library/services/staff.cfm">Law Library Staff</a></li>
+            </ul>
+            
+            </li>
+            <li><a href="/library/search/">Search Library Catalogs</a></li>
+            <li><a href="http://lawlibguides.usc.edu/content.php?pid=253364" target="_blank">Research Guides</a></li>
+            <li><a href="/library/resources.cfm">Online Resources</a></li>
+         </ul>
+      </li>
+
+ 
+
+         <li><a href="/press/">Press Room</a>
+         <ul>
+            <li><a href="/press/">Press Room</a>
+            <ul>
+               
+               <li ><a href="/press/?year=2016">Fall 2016 - Spring 2017</a></li>           
+               
+               <li ><a href="/press/?year=2015">Fall 2015 - Spring 2016</a></li>           
+               
+               <li ><a href="/press/?year=2014">Fall 2014 - Spring 2015</a></li>           
+               
+               <li ><a href="/press/?year=2013">Fall 2013 - Spring 2014</a></li>           
+               
+               <li ><a href="/press/?year=2012">Fall 2012 - Spring 2013</a></li>           
+               
+               <li ><a href="/press/?year=2011">Fall 2011 - Spring 2012</a></li>           
+               
+               <li ><a href="/press/?year=2010">Fall 2010 - Spring 2011</a></li>           
+               
+               <li ><a href="/press/?year=2009">Fall 2009 - Spring 2010</a></li>           
+               
+               <li ><a href="/press/?year=2008">Fall 2008 - Spring 2009</a></li>           
+               
+               <li ><a href="/press/?year=2007">Fall 2007 - Spring 2008</a></li>           
+               
+               <li ><a href="/press/?year=2006">Fall 2006 - Spring 2007</a></li>           
+               
+               <li ><a href="/press/?year=2005">Fall 2005 - Spring 2006</a></li>           
+            
+</ul>
+            </li>
+            <li><a href="/press/contact/">Contact Us</a></li>
+            <li><a href="/press/expert/">Find an Expert</a></li>
+          
+            <li><a href="/press/publications/">Publications</a>
+            <ul>
+            <li><a href="/press/publications/magazine/">USC Law Magazine</a></li>
+            <li><a href="/press/publications/enews/">eNews</a></li>
+            <li><a href="/press/publications/clinical/">Clinical Perspectives</a></li>
+            <li><a href="/press/publications/identity/">Identity Guidelines</a></li>
+            </ul>
+            </li>
+            <li><a href="/press/advisories/">Media Advisories</a></li>
+            <li><a href="/press/social/">Social Media</a>
+            <ul>
+            <li><a href="/press/social/facebook/">Facebook</a></li>
+            <li><a href="/press/social/twitter/">Twitter</a></li>
+            <li><a href="http://www.youtube.com/user/USCGould" target="_blank" class="external_link">YouTube</a></li>
+            <li><a href="https://instagram.com/uscgouldlaw/" target="_blank" class="external_link">Instagram</a></li>
+            <li><a href="https://www.linkedin.com/edu/school?id=17973&trk=edu-cp-sa-sname" target="_blank" class="external_link">LinkedIn</a></li>
+            <li><a href="https://www.flickr.com/photos/69930317@N08/" target="_blank" class="external_link">Flickr</a></li>
+            </ul>
+            </li>
+         </ul>
+
+<li><a href="/portal/">My Portal</a></li>
+<li><a href="/site/?desktop">Switch to Desktop Site</a></li>
+
+   </ul>
+</nav>
+     <script type="text/javascript">
+         jQuery(document).ready(function( $ ) {
+            $("#my-menu").mmenu({
+               "extensions": [
+                  "theme-dark"
+               ]
+            });
+         });
+      </script>
+</div>
+
+
+
+
+
+<div id="flexinav1" class="flexinav">
+<div class="flexinav_wrapper">
+<ul class="flexinav_menu">
+
+
+
+<li class="flexnav_mega"><span>About</span>
+<div class="flexinav_ddown flexinav_ddown_full">
+<div id="menubar_image">
+<img src="/mockup/images/admissions.jpg" height="370" width="300">
+</div>
+<div id="menubar_description">
+<h2>About</h2>
+<p>USC Gould is one of the nation's top-ranked law schools with a 115+ year history and reputation for academic excellence.  We are known for our diverse student body, interdisciplinary education and our tight-knit alumni network of over 10,000 professionals throughout the globe.  With entering J.D. class sizes of less than 200 the learning experience is intimate and collegial.  Our location in Los Angeles provides unlimited opportunities in one of world's top legal markets.  It is home to major entertainment, business and law firms, as well as a gateway to international markets.</p>
+</div>
+<div id="menubar_links">
+<ul>
+<li><a href="/about/introduction/">Introduction from the Dean</a></li>
+<li><a href="/about/history/">History of USC Gould</a></li>
+<li><a href="/about/los-angeles/">Explore Los Angeles</a></li>
+<li><a href="/about/class-profile/">Class Profile</a></li>
+<li><a href="/about/board/">Board of Councilors</a></li>
+<li><a href="/about/visit/">Visit USC Gould</a></li>
+<li><a href="/about/aba-required-disclosures/">ABA Required Disclosures</a></li>
+<li><a href="/about/community/">Meet our Community</a></li>
+<li><a href="/about/contact/">Contact Us</a></li>
+</ul>
+</div>   
+</div>
+</li>
+
+
+
+<li class="flexnav_mega"><span>Admissions</span>
+<div class="flexinav_ddown flexinav_ddown_full">
+<div id="flexinav_left" style="height: 100%; float: left; width: 300px;">
+<img src="/mockup/images/homepage/jd-programs.jpg" style="height: 100px; width: 300px;">
+<h2 style="color: #ffc324; font-family: National; font-weight: bold; margin: 0px; padding: 0px;">J.D. Programs</h2>
+<ul style="list-style: none; margin: 5px 0px 0px 0px; padding: 0px;">
+<li style="height: 30px; margin: 0px; padding: 0px; line-height: 30px; background-color: #000; color: #fff; float: none; border: 0px; border-top: 1px dotted #555555; border-bottom: 1px dotted #555555; font-size: 13px; background: url('/mockup/images/right-arrow.png') no-repeat; background-position: 0px 7px;"><a href="/how/jd/" style="color: #fff; display: block; margin-left: 25px;">3 Year J.D. Program</a></li>
+<li style="height: 30px; margin: 0px; padding: 0px; line-height: 30px; background-color: #000; color: #fff; float: none; border: 0px; border-bottom: 1px dotted #555555; font-size: 13px; background: url('/mockup/images/right-arrow.png') no-repeat; background-position: 0px 7px;"><a href="/how/jd/3-plus-3-program/" style="color: #fff; display: block; margin-left: 25px;">3+3 Accelerated Bachelor/J.D. Program</a></li>
+<li style="height: 30px; margin: 0px; padding: 0px; line-height: 30px; background-color: #000; color: #fff; float: none; border: 0px; border-bottom: 1px dotted #555555; font-size: 13px; background: url('/mockup/images/right-arrow.png') no-repeat; background-position: 0px 7px;"><a href="/how/jd/2-year-jd-program-for-international-lawyers/" style="color: #fff; display: block; margin-left: 25px;">2 Year JD Program for International Lawyers</a></li>
+<li style="height: 30px; margin: 0px; padding: 0px; line-height: 30px; background-color: #000; color: #fff; float: none; border: 0px; border-bottom: 1px dotted #555555; font-size: 13px; background: url('/mockup/images/right-arrow.png') no-repeat; background-position: 0px 7px;"><a href="/how/jd/earlydecision/" style="color: #fff; display: block; margin-left: 25px;">Early Decision Program</a></li>
+<li style="height: 30px; margin: 0px; padding: 0px; line-height: 30px; background-color: #000; color: #fff; float: none; border: 0px; border-bottom: 1px dotted #555555; font-size: 13px; background: url('/mockup/images/right-arrow.png') no-repeat; background-position: 0px 7px;"><a href="/how/transfer/" style="color: #fff; display: block; margin-left: 25px;">Transfer Student Program</a></li>
+<li style="height: 30px; margin: 0px; padding: 0px; line-height: 30px; background-color: #000; color: #fff; float: none; border: 0px; border-bottom: 1px dotted #555555; font-size: 13px;"></li>
+</ul>
+</div>
+<div id="flexinav_middle" style="height: 100%; float: left; width: 300px; margin-left: 20px; margin-right: 20px;">
+<img src="/mockup/images/homepage/graduate-programs.jpg" style="height: 100px; width: 300px;">
+<h2 style="color: #ffc324; font-family: National; font-weight: bold; margin: 0px; padding: 0px;"><a href="/admissions/graduate/" style="color: #ffc324;">Graduate Programs</a></h2>
+<ul style="list-style: none; margin: 5px 0px 0px 0px; padding: 0px;">
+<li style="height: 30px; margin: 0px; padding: 0px; line-height: 30px; background-color: #000; color: #fff; float: none; border: 0px; border-top: 1px dotted #555555; border-bottom: 1px dotted #555555; font-size: 13px; background: url('/mockup/images/right-arrow.png') no-repeat; background-position: 0px 7px;"><a href="/how/gip/llm/" style="color: #fff; display: block; margin-left: 25px;">LL.M. Program</a></li>
+<li style="height: 30px; margin: 0px; padding: 0px; line-height: 30px; background-color: #000; color: #fff; float: none; border: 0px; border-bottom: 1px dotted #555555; font-size: 13px; background: url('/mockup/images/right-arrow.png') no-repeat; background-position: 0px 7px;"><a href="/how/gip/2-year/" style="color: #fff; display: block; margin-left: 25px;">2 Year LL.M. Program</a></li>
+<li style="height: 30px; margin: 0px; padding: 0px; line-height: 30px; background-color: #000; color: #fff; float: none; border: 0px; border-bottom: 1px dotted #555555; font-size: 13px; background: url('/mockup/images/right-arrow.png') no-repeat; background-position: 0px 7px;"><a href="/how/gip/transfer/" style="color: #fff; display: block; margin-left: 25px;">LL.M. to J.D. Transfer Program</a></li>
+<li style="height: 30px; margin: 0px; padding: 0px; line-height: 30px; background-color: #000; color: #fff; float: none; border: 0px; border-bottom: 1px dotted #555555; font-size: 13px; background: url('/mockup/images/right-arrow.png') no-repeat; background-position: 0px 7px;"><a href="/how/gip/mcl/" style="color: #fff; display: block; margin-left: 25px;">Master of Comparative Law Program</a></li>
+<li style="height: 30px; margin: 0px; padding: 0px; line-height: 30px; background-color: #000; color: #fff; float: none; border: 0px; border-bottom: 1px dotted #555555; font-size: 13px; background: url('/mockup/images/right-arrow.png') no-repeat; background-position: 0px 7px;"><a href="/how/gip/vip/" style="color: #fff; display: block; margin-left: 25px;">Visiting International Law Program</a></li>
+<li style="height: 30px; margin: 0px; padding: 0px; line-height: 30px; background-color: #000; color: #fff; float: none; border: 0px; border-bottom: 1px dotted #555555; font-size: 13px; background: url('/mockup/images/right-arrow.png') no-repeat; background-position: 0px 7px;"><a href="/how/gip/sle/" style="color: #fff; display: block; margin-left: 25px;">Summer Law & English Program</a></li>
+
+<li style="height: 30px; margin: 0px; padding: 0px; line-height: 30px; background-color: #000; color: #fff; float: none; border: 0px; border-bottom: 1px dotted #555555; font-size: 13px;"></li>
+
+
+</ul>
+</div>
+<div id="flexinav_right" style="height: 100%; float: left; width: 300px;">
+<img src="/mockup/images/homepage/online-programs.jpg" style="height: 100px; width: 300px;">
+<h2 style="color: #ffc324; font-family: National; font-weight: bold; margin: 0px; padding: 0px;">Online Programs</h2>
+<ul style="list-style: none; margin: 5px 0px 0px 0px; padding: 0px;">
+<li style="height: 30px; margin: 0px; padding: 0px; line-height: 30px; background-color: #000; color: #fff; float: none; border: 0px; border-top: 1px dotted #555555; border-bottom: 1px dotted #555555; font-size: 13px; background: url('/mockup/images/right-arrow.png') no-repeat; background-position: 0px 7px;"><a href="http://onlinellm.usc.edu/?Access_Code=USC-LLM-SEO2&utm_campaign=USC-LLM-SEO2" target="_blank" class="external_link" style="color: #fff; display: block; margin-left: 25px;">Online LL.M. Program</a></li>
+<li style="height: 30px; margin: 0px; padding: 0px; line-height: 30px; background-color: #000; color: #fff; float: none; border: 0px; border-bottom: 1px dotted #555555; font-size: 13px; background: url('/mockup/images/right-arrow.png') no-repeat; background-position: 0px 7px;"><a href="http://onlinellm.usc.edu/?Access_Code=USC-LLM-SEO2&utm_campaign=USC-LLM-SEO2" target="_blank" class="external_link" style="color: #fff; display: block; margin-left: 25px;">Online Business Law Certificate</a></li>
+<li style="height: 30px; margin: 0px; padding: 0px; line-height: 30px; background-color: #000; color: #fff; float: none; border: 0px; border-bottom: 1px dotted #555555; font-size: 13px; background: url('/mockup/images/right-arrow.png') no-repeat; background-position: 0px 7px;"><a href="/how/gip/onlinemsl/" style="color: #fff; display: block; margin-left: 25px;">Online Master of Studies in Law (MSL) Program</a></li>
+
+
+<li style="height: 30px; margin: 0px; padding: 0px; line-height: 30px; background-color: #000; color: #fff; float: none; border: 0px; border-bottom: 1px dotted #555555; font-size: 13px;"></li>
+<li style="height: 30px; margin: 0px; padding: 0px; line-height: 30px; background-color: #000; color: #fff; float: none; border: 0px; border-bottom: 1px dotted #555555; font-size: 13px;"></li>
+<li style="height: 30px; margin: 0px; padding: 0px; line-height: 30px; background-color: #000; color: #fff; float: none; border: 0px; border-bottom: 1px dotted #555555; font-size: 13px;"></li>
+<li style="height: 30px; margin: 0px; padding: 0px; line-height: 30px; background-color: #000; color: #fff; float: none; border: 0px; border-bottom: 1px dotted #555555; font-size: 13px;"></li>
+
+</ul>
+</div>   
+</div>
+</li>
+
+
+
+<li class="flexnav_mega"><span>Academics</span>
+<div class="flexinav_ddown flexinav_ddown_full">
+<img src="http://weblaw.usc.edu/mockup/images/library-books.jpg" style="height: 100px; width: 940px;">
+
+<div id="flexinav_middle" style="height: 100%; float: left; width: 460px; margin-left: 10px; margin-right: 10px;">
+<h2 style="color: #ffc324; font-family: National; font-weight: bold; margin: 0px; padding: 0px;">Academics</h2>
+<ul style="list-style: none; margin: 5px 0px 0px 0px; padding: 0px;">
+<li style="height: 30px; margin: 0px; padding: 0px; line-height: 30px; background-color: #000; color: #fff; float: none; border: 0px; border-top: 1px dotted #555555; border-bottom: 1px dotted #555555; font-size: 13px; background: url('/mockup/images/right-arrow.png') no-repeat; background-position: 0px 7px;"><a href="/academics/calendar/" style="color: #fff; display: block; margin-left: 25px;">Academic Calendar</a></li>
+<li style="height: 30px; margin: 0px; padding: 0px; line-height: 30px; background-color: #000; color: #fff; float: none; border: 0px; border-bottom: 1px dotted #555555; font-size: 13px; background: url('/mockup/images/right-arrow.png') no-repeat; background-position: 0px 7px;"><a href="/academics/curriculum/" style="color: #fff; display: block; margin-left: 25px;">Curriculum</a></li>
+<li style="height: 30px; margin: 0px; padding: 0px; line-height: 30px; background-color: #000; color: #fff; float: none; border: 0px; border-bottom: 1px dotted #555555; font-size: 13px; background: url('/mockup/images/right-arrow.png') no-repeat; background-position: 0px 7px;"><a href="/academics/faculty/" style="color: #fff; display: block; margin-left: 25px;">Faculty</a></li>
+<li style="height: 30px; margin: 0px; padding: 0px; line-height: 30px; background-color: #000; color: #fff; float: none; border: 0px; border-bottom: 1px dotted #555555; font-size: 13px; background: url('/mockup/images/right-arrow.png') no-repeat; background-position: 0px 7px;"><a href="/academics/certificates/" style="color: #fff; display: block; margin-left: 25px;">Certificate Programs</a></li>
+<li style="height: 30px; margin: 0px; padding: 0px; line-height: 30px; background-color: #000; color: #fff; float: none; border: 0px; border-bottom: 1px dotted #555555; font-size: 13px; background: url('/mockup/images/right-arrow.png') no-repeat; background-position: 0px 7px;"><a href="/academics/clinical-programs/" style="color: #fff; display: block; margin-left: 25px;">Clinical Programs</a></li>
+<li style="height: 30px; margin: 0px; padding: 0px; line-height: 30px; background-color: #000; color: #fff; float: none; border: 0px; border-bottom: 1px dotted #555555; font-size: 13px; background: url('/mockup/images/right-arrow.png') no-repeat; background-position: 0px 7px;"><a href="/centers/" style="color: #fff; display: block; margin-left: 25px;">Centers &amp; Workshops</a></li>
+</ul>
+</div>
+<div id="flexinav_right" style="height: 100%; float: left; width: 460px;">
+<ul style="list-style: none; margin: 27px 0px 0px 0px; padding: 0px;">
+<li style="height: 30px; margin: 0px; padding: 0px; line-height: 30px; background-color: #000; color: #fff; float: none; border: 0px; border-top: 1px dotted #555555; border-bottom: 1px dotted #555555; font-size: 13px; background: url('/mockup/images/right-arrow.png') no-repeat; background-position: 0px 7px;"><a href="/academics/alternative-dispute-resolution-program/" style="color: #fff; display: block; margin-left: 25px;">Alternative Dispute Resolution Program</a></li>
+<li style="height: 30px; margin: 0px; padding: 0px; line-height: 30px; background-color: #000; color: #fff; float: none; border: 0px; border-bottom: 1px dotted #555555; font-size: 13px; background: url('/mockup/images/right-arrow.png') no-repeat; background-position: 0px 7px;"><a href="/academics/business-law-program/" style="color: #fff; display: block; margin-left: 25px;">Business Law Program</a></li>
+<li style="height: 30px; margin: 0px; padding: 0px; line-height: 30px; background-color: #000; color: #fff; float: none; border: 0px; border-bottom: 1px dotted #555555; font-size: 13px; background: url('/mockup/images/right-arrow.png') no-repeat; background-position: 0px 7px;"><a href="/academics/media-entertainment-and-technology-law-program/" style="color: #fff; display: block; margin-left: 25px;">Media, Entertainment & Technology Law Program</a></li>
+<li style="height: 30px; margin: 0px; padding: 0px; line-height: 30px; background-color: #000; color: #fff; float: none; border: 0px; border-bottom: 1px dotted #555555; font-size: 13px; background: url('/mockup/images/right-arrow.png') no-repeat; background-position: 0px 7px;"><a href="/academics/state-bar-examinations/" style="color: #fff; display: block; margin-left: 25px;">State Bar Examinations</a></li>
+<li style="height: 30px; margin: 0px; padding: 0px; line-height: 30px; background-color: #000; color: #fff; float: none; border: 0px; border-bottom: 1px dotted #555555; border-bottom: 1px dotted #555555; font-size: 13px; background: url('/mockup/images/right-arrow.png') no-repeat; background-position: 0px 7px;"><a href="/why/academics/cle/" style="color: #fff; display: block; margin-left: 25px;">Continuing Legal Education</a></li>
+<li style="height: 30px; margin: 0px; padding: 0px; line-height: 30px; background-color: #000; color: #fff; float: none; border: 0px; border-bottom: 1px dotted #555555; border-bottom: 1px dotted #555555; font-size: 13px;">&nbsp;</li>
+</ul>
+</div>   
+</div>
+</li>
+
+
+
+<li class="flexnav_mega"><span>Student Life</span>
+<div class="flexinav_ddown flexinav_ddown_full">
+<div id="menubar_image">
+<img src="/mockup/images/academics-and-programs.jpg" height="370" width="300">
+</div>
+<div id="menubar_description">
+<h2>Student Life</h2>
+<p>From your first day on campus you'll notice USC Gould is different. It's small enough to be a community in the real sense of the word even though USC is one the country's largest research universities, and located in the second largest city in the United States. People know your name here, faculty and administration are accessible, and your success is everyone's priority - all of which makes for an unparalleled student experience.</p>
+</div>
+<div id="menubar_links">
+<ul>
+<li><a href="/students/student-services/">Student Services Office</a></li>
+<li><a href="/students/class-and-exam-schedules/">Class &amp; Exam Schedules</a></li>
+<li><a href="/students/peer-mentors/">Peer Mentors</a></li>
+<li><a href="/students/student-organizations/">Student Organizations</a></li>
+<li><a href="/students/academic-journals-and-honors-programs/">Academic Journals &amp; Honors Programs</a></li>
+<li><a href="/students/disability-student-services/">Disability Student Services</a></li>
+<li><a href="/students/public-service/">Public Service</a></li>
+<li><a href="/students/first-generation-professionals/">First Generation Professionals Program</a></li>
+<li><a href="/students/students-with-families/">Students with Families</a></li>
+<li><a href="http://transnet.usc.edu/" target="_blank" class="external_link">Transportation</a></li>
+<li><a href="/students/university-services/">University Services</a></li>
+</ul>
+</div>   
+</div>
+</li>
+
+
+
+<li class="flexnav_mega"><span>Faculty</span>
+<div class="flexinav_ddown flexinav_ddown_full">
+<div id="menubar_image">
+
+<img src="/assets/images/menubar/faculty/3.jpg" alt="Faculty" height="370" width="300">
+</div>
+<div id="menubar_description">
+<h2>Faculty</h2>
+<p>The USC Gould School of Law faculty is nationally recognized for its scholarship in many fields including administrative law, constitutional law, bankruptcy and corporate law, intellectual property, law and race, and taxation. Interdisciplinary scholarship in law and economics, law and history, law and philosophy, law and politics, and law and psychology has long been a signature of the school.</p>
+</div>
+<div id="menubar_links">
+<ul>
+<li><a href="/faculty/">Faculty Directory</a></li>
+<li><a href="/faculty/lecturers/">Lecturers in Law Directory</a></li>
+<li><a href="/faculty/experts/">Experts Directory</a></li>
+<li><a href="/faculty/scholarship/">Scholarship</a></li>
+<li><a href="/faculty/distinctions/">Distinctions &amp; Awards</a></li>
+<li><a href="/faculty/news/">In the News</a></li>
+<li><a href="/faculty/blogs/">Blogs</a></li>
+<li><a href="/centers/">Centers</a></li>
+<li><a href="/faculty/workshops/">Workshops &amp; Conferences</a></li>
+</ul>
+</div>   
+</div>
+</li>
+
+
+
+<li class="flexnav_mega"><span>Careers</span>
+<div class="flexinav_ddown flexinav_ddown_full">
+<div id="menubar_image">
+<img src="/mockup/images/careers.jpg" height="370" width="300">
+</div>
+<div id="menubar_description">
+<h2>Careers</h2>
+<p>The USC Gould School of Law Career Services Office is dedicated to providing students and graduates the information and tools necessary for successful career development and advancement.</p>
+</div>
+<div id="menubar_links">
+<ul>
+<li><a href="/careers/">Career Services</a></li>
+<li><a href="/careers/students/">Information For Students</a></li>
+<li><a href="/careers/alumni/">Information For Alumni</a></li>
+<li><a href="/careers/employers/">Information For Employers</a></li>
+<li><a href="/careers/reciprocity/">Reciprocity</a></li>
+<li><a href="/careers/contact/">Contact Us</a></li>
+</ul>
+</div>   
+</div>
+</li>
+
+
+
+<li class="flexnav_mega"><span>Alumni</span>
+<div class="flexinav_ddown flexinav_ddown_full">
+<div id="menubar_image">
+<img src="/mockup/images/alumni.jpg" height="370" width="300">
+</div>
+<div id="menubar_description">
+<h2>Alumni</h2>
+<p>Alumni of the USC Gould School of Law constitute a network of over 10,000. Gould alumni are a diverse group of professionals that includes legal experts who are nationally and internationally recognized leaders in many fields of law, such as arbitration, business, entertainment, real estate, and government. Whether newly graduated or recently retired, all of USC Gould's alumni share a Trojan connection that is both lifelong and worldwide.</p>
+</div>
+<div id="menubar_links">
+<ul>
+<li><a href="/alumni/getInvolved/committee.cfm">Alumni Association</a></li>
+<li><a href="/giving/choices/annualFund.cfm">Annual Fund Programs</a></li>
+<li><a href="/giving/counsel.cfm">Board of Councilors</a></li>
+<li><a href="/alumni/events/receptions.cfm">Events</a></li>
+<li><a href="/giving/choices/donatenow.cfm">Giving Back</a></li>
+<li><a href="/alumni/class-notes/">Class Notes</a></li>
+<li><a href="/alumni/contactinfo.cfm">Update Contact Info</a></li>
+<li><a href="/alumni/contact.cfm">Contact Us</a></li>
+</ul>
+</div>   
+</div>
+</li>
+
+
+
+<li class="flexnav_mega"><span>Library</span>
+<div class="flexinav_ddown flexinav_ddown_full">
+<div id="menubar_image">
+<img src="/mockup/images/library.jpg" height="370" width="300">
+</div>
+<div id="menubar_description">
+<h2>Library</h2>
+<p>The Gabriel and Matilda Barnett Information Technology Center and The Asa V. Call Law Library supports the teaching and research activities of the USC Gould community.</p>
+</div>
+<div id="menubar_links">
+<ul>
+<li><a href="/library/">Law Library</a></li>
+<li><a href="/library/services/">Services &amp; Information</a></li>
+<li><a href="/library/search/">Search Library Catalogs</a></li>
+<li><a href="http://lawlibguides.usc.edu/" target="_blank" class="external_link">Research Guides</a></li>
+<li><a href="/library/resources.cfm">Online Resources</a></li>
+</ul>
+</div>   
+</div>
+</li>
+
+
+
+<li><a href="javascript:void(0);" onClick="toggle_visibility('search_area');"><img src="/mockup/images/search.png" alt="Search" height="18" width="18"></a></li>
+</ul>
+
+
+
+<ul class="flexinav_menu flexinav_menu_right">
+<img src="/images/header/weather/26.png" style="float: right; margin-top: 15px; margin-right: 20px;">
+<span style="font-size: 19px; color: #fff; float: right; margin-top: 15px;">64&deg;</span>
+</ul>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+
+<div id="header_image"><img src="/assets/images/header/longer/10.jpg" style="width: 100%;"></div>
+
+
+
+
+<div id="background_full">
+
+
+
+
+<div id="content">
+
+<div id="redesign_left_column">
+
+
+
+<div id="leftnav">
+
+
+
+
+<ul>
+<li><a href="/press/" class="active">Press Room</a>
+
+<ul>
+               
+               <li ><a href="/press/?year=2016">Fall 2016 - Spring 2017</a></li>           
+               
+               <li ><a href="/press/?year=2015">Fall 2015 - Spring 2016</a></li>           
+               
+               <li ><a href="/press/?year=2014">Fall 2014 - Spring 2015</a></li>           
+               
+               <li ><a href="/press/?year=2013">Fall 2013 - Spring 2014</a></li>           
+               
+               <li ><a href="/press/?year=2012">Fall 2012 - Spring 2013</a></li>           
+               
+               <li ><a href="/press/?year=2011">Fall 2011 - Spring 2012</a></li>           
+               
+               <li ><a href="/press/?year=2010">Fall 2010 - Spring 2011</a></li>           
+               
+               <li ><a href="/press/?year=2009">Fall 2009 - Spring 2010</a></li>           
+               
+               <li ><a href="/press/?year=2008">Fall 2008 - Spring 2009</a></li>           
+               
+               <li ><a href="/press/?year=2007">Fall 2007 - Spring 2008</a></li>           
+               
+               <li ><a href="/press/?year=2006">Fall 2006 - Spring 2007</a></li>           
+               
+               <li ><a href="/press/?year=2005">Fall 2005 - Spring 2006</a></li>           
+            
+</ul>
+
+</li>
+<li><a href="/press/contact/">Contact Us</a></li>
+<li><a href="/press/expert/">Find an Expert</a></li>
+
+
+<li><a href="/press/faculty/">Faculty in the News</a>
+
+</li>
+
+<li><a href="/press/publications/">Publications</a>
+
+</li>
+<li><a href="/press/advisories/">Media Advisories</a></li>
+<li><a href="/press/social/">Social Media</a>
+
+</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div></div>
+
+
+
+<div id="redesign_right_column_twocolumn">
+
+
+
+<h1>Press Room (Fall 2012 - Spring 2013)</h1>
+
+
+
+
+    <ul class="itemlist">      
+
+        <li class="clearfix">
+        
+            <a href="/press/article.cfm?newsid=4038"><img src="/portal/news/images/news/news4038.jpg" width="100" height="100" alt="USC Gould Student Named Bergstrom Fellow" class="fleft" /></a>
+        
+        	<div class="descr">
+                  <a href="/press/article.cfm?newsid=4038"><h2>USC Gould Student Named Bergstrom Fellow</h2></a>
+                <h3>June 28, 2013</h3>
+                <p>Stephanie Krol '14 shares about her fellowship experience at Michigan Law.<a href="/press/article.cfm?newsid=4038">...more</a></p>
+                <br />
+            </div>
+        </li>
+
+        <li class="clearfix">
+        
+            <a href="/press/article.cfm?newsid=4035"><img src="/portal/news/images/news/news4035.jpg" width="100" height="100" alt="Shareholders as Watchdogs" class="fleft" /></a>
+        
+        	<div class="descr">
+                  <a href="/press/article.cfm?newsid=4035"><h2>Shareholders as Watchdogs</h2></a>
+                <h3>June 24, 2013</h3>
+                <p>Prof. Ehud Kamar calls for transparency in executive compensation<a href="/press/article.cfm?newsid=4035">...more</a></p>
+                <br />
+            </div>
+        </li>
+
+        <li class="clearfix">
+        
+            <a href="/press/article.cfm?newsid=4032"><img src="/portal/news/images/news/news4032.jpg" width="100" height="100" alt="Criminal Law at the Crossroads" class="fleft" /></a>
+        
+        	<div class="descr">
+                  <a href="/press/article.cfm?newsid=4032"><h2>Criminal Law at the Crossroads</h2></a>
+                <h3>June 12, 2013</h3>
+                <p>Conference examines a criminal justice system ripe for reform<a href="/press/article.cfm?newsid=4032">...more</a></p>
+                <br />
+            </div>
+        </li>
+
+        <li class="clearfix">
+        
+            <a href="/press/article.cfm?newsid=4027"><img src="/portal/news/images/news/news4027.jpg" width="100" height="100" alt="Prof. Elyn Saks Joins National Advisory Council" class="fleft" /></a>
+        
+        	<div class="descr">
+                  <a href="/press/article.cfm?newsid=4027"><h2>Prof. Elyn Saks Joins National Advisory Council</h2></a>
+                <h3>May 31, 2013</h3>
+                <p>Saks will also attend Mental Health Conference at the White House<a href="/press/article.cfm?newsid=4027">...more</a></p>
+                <br />
+            </div>
+        </li>
+
+        <li class="clearfix">
+        
+            <a href="/press/article.cfm?newsid=4028"><img src="/portal/news/images/news/news4028.gif" width="100" height="100" alt="Alumni Rise to the Law Firm Challenge" class="fleft" /></a>
+        
+        	<div class="descr">
+                  <a href="/press/article.cfm?newsid=4028"><h2>Alumni Rise to the Law Firm Challenge</h2></a>
+                <h3>May 31, 2013</h3>
+                <p>Annual giving competition raises nearly $250,000<a href="/press/article.cfm?newsid=4028">...more</a></p>
+                <br />
+            </div>
+        </li>
+
+        <li class="clearfix">
+        
+            <a href="/press/article.cfm?newsid=4025"><img src="/portal/news/images/news/news4025.jpg" width="100" height="100" alt="Moving Forward, Looking Back" class="fleft" /></a>
+        
+        	<div class="descr">
+                  <a href="/press/article.cfm?newsid=4025"><h2>Moving Forward, Looking Back</h2></a>
+                <h3>May 23, 2013</h3>
+                <p>418 graduate at USC Gould Commencement 2013<a href="/press/article.cfm?newsid=4025">...more</a></p>
+                <br />
+            </div>
+        </li>
+
+        <li class="clearfix">
+        
+            <a href="/press/article.cfm?newsid=4026"><img src="/portal/news/images/news/news4026.jpg" width="100" height="100" alt="Hooray for Hollywood!" class="fleft" /></a>
+        
+        	<div class="descr">
+                  <a href="/press/article.cfm?newsid=4026"><h2>Hooray for Hollywood!</h2></a>
+                <h3>May 23, 2013</h3>
+                <p>USC Gould tops The Hollywood Reporter list for entertainment<a href="/press/article.cfm?newsid=4026">...more</a></p>
+                <br />
+            </div>
+        </li>
+
+        <li class="clearfix">
+        
+            <a href="/press/article.cfm?newsid=4023"><img src="/portal/news/images/news/news4023.jpg" width="100" height="100" alt="USC Develops Virtual Tool to Train Child Interviewers" class="fleft" /></a>
+        
+        	<div class="descr">
+                  <a href="/press/article.cfm?newsid=4023"><h2>USC Develops Virtual Tool to Train Child Interviewers</h2></a>
+                <h3>May 14, 2013</h3>
+                <p>Prof. Tom Lyon helps child interviewers ask the right questions.<a href="/press/article.cfm?newsid=4023">...more</a></p>
+                <br />
+            </div>
+        </li>
+
+        <li class="clearfix">
+        
+            <a href="/press/article.cfm?newsid=4022"><img src="/portal/news/images/news/news4022.jpg" width="100" height="100" alt="Pirating and the Future of Digital Copyright" class="fleft" /></a>
+        
+        	<div class="descr">
+                  <a href="/press/article.cfm?newsid=4022"><h2>Pirating and the Future of Digital Copyright</h2></a>
+                <h3>May 13, 2013</h3>
+                <p>Changing rules and regulations in the entertainment industry<a href="/press/article.cfm?newsid=4022">...more</a></p>
+                <br />
+            </div>
+        </li>
+
+        <li class="clearfix">
+        
+            <a href="/press/article.cfm?newsid=4019"><img src="/portal/news/images/news/news4019.jpg" width="100" height="100" alt="Law and Art" class="fleft" /></a>
+        
+        	<div class="descr">
+                  <a href="/press/article.cfm?newsid=4019"><h2>Law and Art</h2></a>
+                <h3>May 6, 2013</h3>
+                <p>Getty Trust CEO shares his vision and values for museums<a href="/press/article.cfm?newsid=4019">...more</a></p>
+                <br />
+            </div>
+        </li>
+
+        <li class="clearfix">
+        
+            <a href="/press/article.cfm?newsid=4018"><img src="/portal/news/images/news/news4018.jpg" width="100" height="100" alt="Spirit of the Law" class="fleft" /></a>
+        
+        	<div class="descr">
+                  <a href="/press/article.cfm?newsid=4018"><h2>Spirit of the Law</h2></a>
+                <h3>May 1, 2013</h3>
+                <p>Prof. Alex Lee discovers professional purpose through faith<a href="/press/article.cfm?newsid=4018">...more</a></p>
+                <br />
+            </div>
+        </li>
+
+        <li class="clearfix">
+        
+            <a href="/press/article.cfm?newsid=4016"><img src="/portal/news/images/news/news4016.jpg" width="100" height="100" alt="A Shared Journey" class="fleft" /></a>
+        
+        	<div class="descr">
+                  <a href="/press/article.cfm?newsid=4016"><h2>A Shared Journey</h2></a>
+                <h3>April 25, 2013</h3>
+                <p>Admitted students visit USC Gould for Law Day<a href="/press/article.cfm?newsid=4016">...more</a></p>
+                <br />
+            </div>
+        </li>
+
+        <li class="clearfix">
+        
+            <a href="/press/article.cfm?newsid=4015"><img src="/portal/news/images/news/news4015.JPG" width="100" height="100" alt="Keep Your Head in the Game" class="fleft" /></a>
+        
+        	<div class="descr">
+                  <a href="/press/article.cfm?newsid=4015"><h2>Keep Your Head in the Game</h2></a>
+                <h3>April 24, 2013</h3>
+                <p>Leigh Steinberg tells students how to impact the sports industry<a href="/press/article.cfm?newsid=4015">...more</a></p>
+                <br />
+            </div>
+        </li>
+
+        <li class="clearfix">
+        
+            <a href="/press/article.cfm?newsid=4013"><img src="/portal/news/images/news/news4013.jpg" width="100" height="100" alt="Drawing the Drone Line" class="fleft" /></a>
+        
+        	<div class="descr">
+                  <a href="/press/article.cfm?newsid=4013"><h2>Drawing the Drone Line</h2></a>
+                <h3>April 23, 2013</h3>
+                <p>Students discuss the need for new privacy protections<a href="/press/article.cfm?newsid=4013">...more</a></p>
+                <br />
+            </div>
+        </li>
+
+        <li class="clearfix">
+        
+            <a href="/press/article.cfm?newsid=4007"><img src="/portal/news/images/news/news4007.jpg" width="100" height="100" alt="Trojan Network Shines at 2013 Mentor Lunch" class="fleft" /></a>
+        
+        	<div class="descr">
+                  <a href="/press/article.cfm?newsid=4007"><h2>Trojan Network Shines at 2013 Mentor Lunch</h2></a>
+                <h3>April 19, 2013</h3>
+                <p>First-year students get advice from law school alumni<a href="/press/article.cfm?newsid=4007">...more</a></p>
+                <br />
+            </div>
+        </li>
+
+        <li class="clearfix">
+        
+            <a href="/press/article.cfm?newsid=4010"><img src="/portal/news/images/news/news4010.jpg" width="100" height="100" alt="National Champions" class="fleft" /></a>
+        
+        	<div class="descr">
+                  <a href="/press/article.cfm?newsid=4010"><h2>National Champions</h2></a>
+                <h3>April 19, 2013</h3>
+                <p>Students earn bragging rights at transactional law competition<a href="/press/article.cfm?newsid=4010">...more</a></p>
+                <br />
+            </div>
+        </li>
+
+        <li class="clearfix">
+        
+            <a href="/press/article.cfm?newsid=4006"><img src="/portal/news/images/news/news4006.jpg" width="100" height="100" alt="From the Front" class="fleft" /></a>
+        
+        	<div class="descr">
+                  <a href="/press/article.cfm?newsid=4006"><h2>From the Front</h2></a>
+                <h3>April 17, 2013</h3>
+                <p>Prof. Cruz reports on Supreme Court same-sex marriage hearings<a href="/press/article.cfm?newsid=4006">...more</a></p>
+                <br />
+            </div>
+        </li>
+
+        <li class="clearfix">
+        
+            <a href="/press/article.cfm?newsid=4005"><img src="/portal/news/images/news/news4005.jpg" width="100" height="100" alt="Latino Values, Outreach Celebrated by L.A. Legal Community" class="fleft" /></a>
+        
+        	<div class="descr">
+                  <a href="/press/article.cfm?newsid=4005"><h2>Latino Values, Outreach Celebrated by L.A. Legal Community</h2></a>
+                <h3>April 16, 2013</h3>
+                <p><a href="/press/article.cfm?newsid=4005">...more</a></p>
+                <br />
+            </div>
+        </li>
+
+        <li class="clearfix">
+        
+            <a href="/press/article.cfm?newsid=4004"><img src="/portal/news/images/news/news4004.jpg" width="100" height="100" alt="Prof. Lee Epstein awarded Guggenheim Fellowship" class="fleft" /></a>
+        
+        	<div class="descr">
+                  <a href="/press/article.cfm?newsid=4004"><h2>Prof. Lee Epstein awarded Guggenheim Fellowship</h2></a>
+                <h3>April 12, 2013</h3>
+                <p>Legal scholar recognized for achievement and exceptional promise<a href="/press/article.cfm?newsid=4004">...more</a></p>
+                <br />
+            </div>
+        </li>
+
+        <li class="clearfix">
+        
+            <a href="/press/article.cfm?newsid=4001"><img src="/portal/news/images/news/news4001.jpg" width="100" height="100" alt="Business Casual" class="fleft" /></a>
+        
+        	<div class="descr">
+                  <a href="/press/article.cfm?newsid=4001"><h2>Business Casual</h2></a>
+                <h3>April 11, 2013</h3>
+                <p>Transactional law alumni dinner matches students & attorneys<a href="/press/article.cfm?newsid=4001">...more</a></p>
+                <br />
+            </div>
+        </li>
+
+        <li class="clearfix">
+        
+            <a href="/press/article.cfm?newsid=4000"><img src="/portal/news/images/news/news4000.jpg" width="100" height="100" alt="Making the School Year Count" class="fleft" /></a>
+        
+        	<div class="descr">
+                  <a href="/press/article.cfm?newsid=4000"><h2>Making the School Year Count</h2></a>
+                <h3>April 10, 2013</h3>
+                <p>Students, faculty, staff feted at awards ceremony<a href="/press/article.cfm?newsid=4000">...more</a></p>
+                <br />
+            </div>
+        </li>
+
+        <li class="clearfix">
+        
+            <a href="/press/article.cfm?newsid=3999"><img src="/portal/news/images/news/news3999.jpg" width="100" height="100" alt="Degrees of Difference" class="fleft" /></a>
+        
+        	<div class="descr">
+                  <a href="/press/article.cfm?newsid=3999"><h2>Degrees of Difference</h2></a>
+                <h3>April 9, 2013</h3>
+                <p>J.D.-LL.M. Partnership event examines other legal systems<a href="/press/article.cfm?newsid=3999">...more</a></p>
+                <br />
+            </div>
+        </li>
+
+        <li class="clearfix">
+        
+            <a href="/press/article.cfm?newsid=3998"><img src="/portal/news/images/news/news3998.jpg" width="100" height="100" alt="Appetite for east coast success" class="fleft" /></a>
+        
+        	<div class="descr">
+                  <a href="/press/article.cfm?newsid=3998"><h2>Appetite for east coast success</h2></a>
+                <h3>April 8, 2013</h3>
+                <p>Panelists share what it takes to stand out as an associate<a href="/press/article.cfm?newsid=3998">...more</a></p>
+                <br />
+            </div>
+        </li>
+
+        <li class="clearfix">
+        
+            <a href="/press/article.cfm?newsid=3996"><img src="/portal/news/images/news/news3996.jpg" width="100" height="100" alt="Women making partner: The balancing act" class="fleft" /></a>
+        
+        	<div class="descr">
+                  <a href="/press/article.cfm?newsid=3996"><h2>Women making partner: The balancing act</h2></a>
+                <h3>April 3, 2013</h3>
+                <p>Panelists share their experiences with the Women's Law Association.<a href="/press/article.cfm?newsid=3996">...more</a></p>
+                <br />
+            </div>
+        </li>
+
+        <li class="clearfix">
+        
+            <a href="/press/article.cfm?newsid=3995"><img src="/portal/news/images/news/news3995.jpg" width="100" height="100" alt="A Freedom Fighter’s Story" class="fleft" /></a>
+        
+        	<div class="descr">
+                  <a href="/press/article.cfm?newsid=3995"><h2>A Freedom Fighter’s Story</h2></a>
+                <h3>April 2, 2013</h3>
+                <p>Legendary human rights activist relates path to “soft vengeance”<a href="/press/article.cfm?newsid=3995">...more</a></p>
+                <br />
+            </div>
+        </li>
+
+        <li class="clearfix">
+        
+            <a href="/press/article.cfm?newsid=3993"><img src="/portal/news/images/news/news3993.JPG" width="100" height="100" alt="Moot Court March Madness" class="fleft" /></a>
+        
+        	<div class="descr">
+                  <a href="/press/article.cfm?newsid=3993"><h2>Moot Court March Madness</h2></a>
+                <h3>April 1, 2013</h3>
+                <p>National Moot Court Team reps have their game faces on as they prepare for the finals.<a href="/press/article.cfm?newsid=3993">...more</a></p>
+                <br />
+            </div>
+        </li>
+
+        <li class="clearfix">
+        
+            <a href="/press/article.cfm?newsid=3991"><img src="/portal/news/images/news/news3991.jpg" width="100" height="100" alt="Expanding Legal Horizons" class="fleft" /></a>
+        
+        	<div class="descr">
+                  <a href="/press/article.cfm?newsid=3991"><h2>Expanding Legal Horizons</h2></a>
+                <h3>March 19, 2013</h3>
+                <p>3Ls share Washington, D.C., experience<a href="/press/article.cfm?newsid=3991">...more</a></p>
+                <br />
+            </div>
+        </li>
+
+        <li class="clearfix">
+        
+            <a href="/press/article.cfm?newsid=3990"><img src="/portal/news/images/news/news3990.jpg" width="100" height="100" alt="Advice for the New Lawyer" class="fleft" /></a>
+        
+        	<div class="descr">
+                  <a href="/press/article.cfm?newsid=3990"><h2>Advice for the New Lawyer</h2></a>
+                <h3>March 14, 2013</h3>
+                <p>Alumna offers career pointers for students<a href="/press/article.cfm?newsid=3990">...more</a></p>
+                <br />
+            </div>
+        </li>
+
+        <li class="clearfix">
+        
+            <a href="/press/article.cfm?newsid=3989"><img src="/portal/news/images/news/news3989.jpg" width="100" height="100" alt="Dean Rasmussen: Practice Law with Purpose" class="fleft" /></a>
+        
+        	<div class="descr">
+                  <a href="/press/article.cfm?newsid=3989"><h2>Dean Rasmussen: Practice Law with Purpose</h2></a>
+                <h3>March 13, 2013</h3>
+                <p>Dean discusses his career path<a href="/press/article.cfm?newsid=3989">...more</a></p>
+                <br />
+            </div>
+        </li>
+
+        <li class="clearfix">
+        
+            <a href="/press/article.cfm?newsid=3988"><img src="/portal/news/images/news/news3988.jpg" width="100" height="100" alt="Prof. Lee Epstein Named Phi Beta Kappa Visiting Scholar" class="fleft" /></a>
+        
+        	<div class="descr">
+                  <a href="/press/article.cfm?newsid=3988"><h2>Prof. Lee Epstein Named Phi Beta Kappa Visiting Scholar</h2></a>
+                <h3>March 11, 2013</h3>
+                <p>Will visit eight campuses in 2013-14 academic year<a href="/press/article.cfm?newsid=3988">...more</a></p>
+                <br />
+            </div>
+        </li>
+
+        <li class="clearfix">
+        
+            <a href="/press/article.cfm?newsid=3987"><img src="/portal/news/images/news/news3987.jpg" width="100" height="100" alt="Their Fifteen Minutes of Flame" class="fleft" /></a>
+        
+        	<div class="descr">
+                  <a href="/press/article.cfm?newsid=3987"><h2>Their Fifteen Minutes of Flame</h2></a>
+                <h3>March 6, 2013</h3>
+                <p>Moot Court finalists face final grilling<a href="/press/article.cfm?newsid=3987">...more</a></p>
+                <br />
+            </div>
+        </li>
+
+        <li class="clearfix">
+        
+            <a href="/press/article.cfm?newsid=3986"><img src="/portal/news/images/news/news3986.jpg" width="100" height="100" alt="Challenging Detention and Torture" class="fleft" /></a>
+        
+        	<div class="descr">
+                  <a href="/press/article.cfm?newsid=3986"><h2>Challenging Detention and Torture</h2></a>
+                <h3>March 5, 2013</h3>
+                <p>Center for Constitutional Rights Executive Director Vince Warren speaks out<a href="/press/article.cfm?newsid=3986">...more</a></p>
+                <br />
+            </div>
+        </li>
+
+        <li class="clearfix">
+        
+            <a href="/press/article.cfm?newsid=3985"><img src="/portal/news/images/news/news3985.jpg" width="100" height="100" alt="National Transactional LawMeet" class="fleft" /></a>
+        
+        	<div class="descr">
+                  <a href="/press/article.cfm?newsid=3985"><h2>National Transactional LawMeet</h2></a>
+                <h3>March 4, 2013</h3>
+                <p>USC Gould Team Headed to Finals in National Transactional Competition<a href="/press/article.cfm?newsid=3985">...more</a></p>
+                <br />
+            </div>
+        </li>
+
+        <li class="clearfix">
+        
+            <a href="/press/article.cfm?newsid=3992"><img src="/portal/news/images/news/news3992.jpg" width="100" height="100" alt="Online Music Archive Moves to USC Gould" class="fleft" /></a>
+        
+        	<div class="descr">
+                  <a href="/press/article.cfm?newsid=3992"><h2>Online Music Archive Moves to USC Gould</h2></a>
+                <h3>March 2, 2013</h3>
+                <p>Claims involving Michael Jackson, Johnny Cash, George Harrison and Andrew Lloyd Webber included<a href="/press/article.cfm?newsid=3992">...more</a></p>
+                <br />
+            </div>
+        </li>
+
+        <li class="clearfix">
+        
+            <a href="/press/article.cfm?newsid=3983"><img src="/portal/news/images/news/news3983.jpg" width="100" height="100" alt="The Spirit of the Law" class="fleft" /></a>
+        
+        	<div class="descr">
+                  <a href="/press/article.cfm?newsid=3983"><h2>The Spirit of the Law</h2></a>
+                <h3>March 1, 2013</h3>
+                <p>Prof. inspires students through personal journey<a href="/press/article.cfm?newsid=3983">...more</a></p>
+                <br />
+            </div>
+        </li>
+
+        <li class="clearfix">
+        
+            <a href="/press/article.cfm?newsid=3982"><img src="/portal/news/images/news/news3982.jpg" width="100" height="100" alt="Prof. Garry to Advise International Court" class="fleft" /></a>
+        
+        	<div class="descr">
+                  <a href="/press/article.cfm?newsid=3982"><h2>Prof. Garry to Advise International Court</h2></a>
+                <h3>February 28, 2013</h3>
+                <p>She will tackle cases involving some of the world’s most egregious war criminals<a href="/press/article.cfm?newsid=3982">...more</a></p>
+                <br />
+            </div>
+        </li>
+
+        <li class="clearfix">
+        
+            <a href="/press/article.cfm?newsid=3981"><img src="/portal/news/images/news/news3981.jpg" width="100" height="100" alt="Alum’s Inspiring Story" class="fleft" /></a>
+        
+        	<div class="descr">
+                  <a href="/press/article.cfm?newsid=3981"><h2>Alum’s Inspiring Story</h2></a>
+                <h3>February 26, 2013</h3>
+                <p>“Lil Tokyo Reporter” film shared with students<a href="/press/article.cfm?newsid=3981">...more</a></p>
+                <br />
+            </div>
+        </li>
+
+        <li class="clearfix">
+        
+            <a href="/press/article.cfm?newsid=3984"><img src="/portal/news/images/news/news3984.jpg" width="100" height="100" alt="Constitutional Interpretation and Originalism" class="fleft" /></a>
+        
+        	<div class="descr">
+                  <a href="/press/article.cfm?newsid=3984"><h2>Constitutional Interpretation and Originalism</h2></a>
+                <h3>February 26, 2013</h3>
+                <p>Justice Blease counters Scalia’s take on language<a href="/press/article.cfm?newsid=3984">...more</a></p>
+                <br />
+            </div>
+        </li>
+
+        <li class="clearfix">
+        
+            <a href="/press/article.cfm?newsid=3980"><img src="/portal/news/images/news/news3980.jpg" width="100" height="100" alt="Alum Honored by State Bar" class="fleft" /></a>
+        
+        	<div class="descr">
+                  <a href="/press/article.cfm?newsid=3980"><h2>Alum Honored by State Bar</h2></a>
+                <h3>February 22, 2013</h3>
+                <p>Sorrell Trope '49 Receives Lifetime Achievement Award<a href="/press/article.cfm?newsid=3980">...more</a></p>
+                <br />
+            </div>
+        </li>
+
+        <li class="clearfix">
+        
+            <a href="/press/article.cfm?newsid=3979"><img src="/portal/news/images/news/news3979.jpg" width="100" height="100" alt="National Moot Court Team Reaches Semi-Finals" class="fleft" /></a>
+        
+        	<div class="descr">
+                  <a href="/press/article.cfm?newsid=3979"><h2>National Moot Court Team Reaches Semi-Finals</h2></a>
+                <h3>February 21, 2013</h3>
+                <p>30+ teams compete in two-day competition<a href="/press/article.cfm?newsid=3979">...more</a></p>
+                <br />
+            </div>
+        </li>
+
+        <li class="clearfix">
+        
+            <a href="/press/article.cfm?newsid=3977"><img src="/portal/news/images/news/news3977.jpg" width="100" height="100" alt="Simon Installed as Crutcher Professor" class="fleft" /></a>
+        
+        	<div class="descr">
+                  <a href="/press/article.cfm?newsid=3977"><h2>Simon Installed as Crutcher Professor</h2></a>
+                <h3>February 19, 2013</h3>
+                <p>Law and psychology expert details journey to current post<a href="/press/article.cfm?newsid=3977">...more</a></p>
+                <br />
+            </div>
+        </li>
+
+        <li class="clearfix">
+        
+            <a href="/press/article.cfm?newsid=3978"><img src="/portal/news/images/news/news3978.jpg" width="100" height="100" alt="The Mystery Behind the Robe" class="fleft" /></a>
+        
+        	<div class="descr">
+                  <a href="/press/article.cfm?newsid=3978"><h2>The Mystery Behind the Robe</h2></a>
+                <h3>February 19, 2013</h3>
+                <p>New book by Prof. Epstein finds judges' decisions are based on more than law<a href="/press/article.cfm?newsid=3978">...more</a></p>
+                <br />
+            </div>
+        </li>
+
+        <li class="clearfix">
+        
+            <a href="/press/article.cfm?newsid=3976"><img src="/portal/news/images/news/news3976.jpg" width="100" height="100" alt="Happy Anniversary to the Federal Income Tax" class="fleft" /></a>
+        
+        	<div class="descr">
+                  <a href="/press/article.cfm?newsid=3976"><h2>Happy Anniversary to the Federal Income Tax</h2></a>
+                <h3>February 15, 2013</h3>
+                <p>Larry Summers talks tax with students and faculty<a href="/press/article.cfm?newsid=3976">...more</a></p>
+                <br />
+            </div>
+        </li>
+
+        <li class="clearfix">
+        
+            <a href="/press/article.cfm?newsid=3975"><img src="/portal/news/images/news/news3975.jpg" width="100" height="100" alt="Transaction versus Litigation" class="fleft" /></a>
+        
+        	<div class="descr">
+                  <a href="/press/article.cfm?newsid=3975"><h2>Transaction versus Litigation</h2></a>
+                <h3>February 13, 2013</h3>
+                <p>Attorneys give students a glimpse into life as a lawyer<a href="/press/article.cfm?newsid=3975">...more</a></p>
+                <br />
+            </div>
+        </li>
+
+        <li class="clearfix">
+        
+            <a href="/press/article.cfm?newsid=3974"><img src="/portal/news/images/news/news3974.jpg" width="100" height="100" alt="Peer Career Fair" class="fleft" /></a>
+        
+        	<div class="descr">
+                  <a href="/press/article.cfm?newsid=3974"><h2>Peer Career Fair</h2></a>
+                <h3>February 11, 2013</h3>
+                <p>Upperclassmen pass down career and networking advice to 1Ls<a href="/press/article.cfm?newsid=3974">...more</a></p>
+                <br />
+            </div>
+        </li>
+
+        <li class="clearfix">
+        
+            <a href="/press/article.cfm?newsid=3971"><img src="/portal/news/images/news/news3971.jpg" width="100" height="100" alt="Rifkin '11 Offered Coveted Clerkship with Lebanon Tribunal" class="fleft" /></a>
+        
+        	<div class="descr">
+                  <a href="/press/article.cfm?newsid=3971"><h2>Rifkin '11 Offered Coveted Clerkship with Lebanon Tribunal</h2></a>
+                <h3>February 5, 2013</h3>
+                <p>USC and Harvard law grads are only Americans to receive fellowship<a href="/press/article.cfm?newsid=3971">...more</a></p>
+                <br />
+            </div>
+        </li>
+
+        <li class="clearfix">
+        
+            <a href="/press/article.cfm?newsid=3972"><img src="/portal/news/images/news/news3972.jpg" width="100" height="100" alt="Inside the LA Video Game Industry" class="fleft" /></a>
+        
+        	<div class="descr">
+                  <a href="/press/article.cfm?newsid=3972"><h2>Inside the LA Video Game Industry</h2></a>
+                <h3>February 5, 2013</h3>
+                <p>Top executives speak to J.D. and M.B.A. students<a href="/press/article.cfm?newsid=3972">...more</a></p>
+                <br />
+            </div>
+        </li>
+
+        <li class="clearfix">
+        
+            <a href="/press/article.cfm?newsid=3973"><img src="/portal/news/images/news/news3973.jpg" width="100" height="100" alt="3Ls secure judicial clerkships" class="fleft" /></a>
+        
+        	<div class="descr">
+                  <a href="/press/article.cfm?newsid=3973"><h2>3Ls secure judicial clerkships</h2></a>
+                <h3>February 5, 2013</h3>
+                <p>Dean Rasmussen announces clerks for 2013-14<a href="/press/article.cfm?newsid=3973">...more</a></p>
+                <br />
+            </div>
+        </li>
+
+        <li class="clearfix">
+        
+            <a href="/press/article.cfm?newsid=3970"><img src="/portal/news/images/news/news3970.jpg" width="100" height="100" alt="Ninth Circuit Bankruptcy Negotiation Competition" class="fleft" /></a>
+        
+        	<div class="descr">
+                  <a href="/press/article.cfm?newsid=3970"><h2>Ninth Circuit Bankruptcy Negotiation Competition</h2></a>
+                <h3>February 4, 2013</h3>
+                <p>USC Gould students place second out of twelve schools<a href="/press/article.cfm?newsid=3970">...more</a></p>
+                <br />
+            </div>
+        </li>
+
+        <li class="clearfix">
+        
+            <a href="/press/article.cfm?newsid=3968"><img src="/portal/news/images/news/news3968.jpg" width="100" height="100" alt="Doing Good While Doing Well" class="fleft" /></a>
+        
+        	<div class="descr">
+                  <a href="/press/article.cfm?newsid=3968"><h2>Doing Good While Doing Well</h2></a>
+                <h3>January 30, 2013</h3>
+                <p>Students learn about Akin Gump's Pro bono Scholar Program<a href="/press/article.cfm?newsid=3968">...more</a></p>
+                <br />
+            </div>
+        </li>
+
+        <li class="clearfix">
+        
+            <a href="/press/article.cfm?newsid=3967"><img src="/portal/news/images/news/news3967.jpg" width="100" height="100" alt="Careers in Foreign Service" class="fleft" /></a>
+        
+        	<div class="descr">
+                  <a href="/press/article.cfm?newsid=3967"><h2>Careers in Foreign Service</h2></a>
+                <h3>January 28, 2013</h3>
+                <p>Alum provides glimpse into legal life abroad<a href="/press/article.cfm?newsid=3967">...more</a></p>
+                <br />
+            </div>
+        </li>
+
+        <li class="clearfix">
+        
+            <a href="/press/article.cfm?newsid=3966"><img src="/portal/news/images/news/news3966.jpg" width="100" height="100" alt="Annual PILF Auction is January 25" class="fleft" /></a>
+        
+        	<div class="descr">
+                  <a href="/press/article.cfm?newsid=3966"><h2>Annual PILF Auction is January 25</h2></a>
+                <h3>January 17, 2013</h3>
+                <p>Proceeds support public interest endeavors<a href="/press/article.cfm?newsid=3966">...more</a></p>
+                <br />
+            </div>
+        </li>
+
+        <li class="clearfix">
+        
+            <a href="/press/article.cfm?newsid=3965"><img src="/portal/news/images/news/news3965.jpg" width="100" height="100" alt="Charting a New Path" class="fleft" /></a>
+        
+        	<div class="descr">
+                  <a href="/press/article.cfm?newsid=3965"><h2>Charting a New Path</h2></a>
+                <h3>January 14, 2013</h3>
+                <p>Irmas Fellow KeAndra Dodds '12 works to protect affordable housing in California<a href="/press/article.cfm?newsid=3965">...more</a></p>
+                <br />
+            </div>
+        </li>
+
+        <li class="clearfix">
+        
+            <a href="/press/article.cfm?newsid=3964"><img src="/portal/news/images/news/news3964.jpg" width="100" height="100" alt="Swearing in the Newest Members of the California Bar" class="fleft" /></a>
+        
+        	<div class="descr">
+                  <a href="/press/article.cfm?newsid=3964"><h2>Swearing in the Newest Members of the California Bar</h2></a>
+                <h3>December 11, 2012</h3>
+                <p>Starting their legal careers<a href="/press/article.cfm?newsid=3964">...more</a></p>
+                <br />
+            </div>
+        </li>
+
+        <li class="clearfix">
+        
+            <a href="/press/article.cfm?newsid=3959"><img src="/portal/news/images/news/news3959.jpg" width="100" height="100" alt="Public Interest Fair Provides Ideas, Access for Students" class="fleft" /></a>
+        
+        	<div class="descr">
+                  <a href="/press/article.cfm?newsid=3959"><h2>Public Interest Fair Provides Ideas, Access for Students</h2></a>
+                <h3>December 4, 2012</h3>
+                <p><a href="/press/article.cfm?newsid=3959">...more</a></p>
+                <br />
+            </div>
+        </li>
+
+        <li class="clearfix">
+        
+            <a href="/press/article.cfm?newsid=3956"><img src="/portal/news/images/news/news3956.jpg" width="100" height="100" alt="Spirit of the Law" class="fleft" /></a>
+        
+        	<div class="descr">
+                  <a href="/press/article.cfm?newsid=3956"><h2>Spirit of the Law</h2></a>
+                <h3>November 30, 2012</h3>
+                <p>Annette Wong '12 discusses law & identity<a href="/press/article.cfm?newsid=3956">...more</a></p>
+                <br />
+            </div>
+        </li>
+
+        <li class="clearfix">
+        
+            <a href="/press/article.cfm?newsid=3948"><img src="/portal/news/images/news/news3948.jpg" width="100" height="100" alt="IHRC Expands Legal Docket" class="fleft" /></a>
+        
+        	<div class="descr">
+                  <a href="/press/article.cfm?newsid=3948"><h2>IHRC Expands Legal Docket</h2></a>
+                <h3>November 26, 2012</h3>
+                <p>Students tackle new cases closer to home<a href="/press/article.cfm?newsid=3948">...more</a></p>
+                <br />
+            </div>
+        </li>
+
+        <li class="clearfix">
+        
+            <a href="/press/article.cfm?newsid=3953"><img src="/portal/news/images/news/news3953.jpg" width="100" height="100" alt="A Career of a Lifetime" class="fleft" /></a>
+        
+        	<div class="descr">
+                  <a href="/press/article.cfm?newsid=3953"><h2>A Career of a Lifetime</h2></a>
+                <h3>November 20, 2012</h3>
+                <p>Aulana Peters '73 discusses SEC appointment and partnership at Gibson, Dunn & Crutcher<a href="/press/article.cfm?newsid=3953">...more</a></p>
+                <br />
+            </div>
+        </li>
+
+        <li class="clearfix">
+        
+            <a href="/press/article.cfm?newsid=3954"><img src="/portal/news/images/news/news3954.jpg" width="100" height="100" alt="Sweet Spot" class="fleft" /></a>
+        
+        	<div class="descr">
+                  <a href="/press/article.cfm?newsid=3954"><h2>Sweet Spot</h2></a>
+                <h3>November 20, 2012</h3>
+                <p>PILF raises funds for student scholarships<a href="/press/article.cfm?newsid=3954">...more</a></p>
+                <br />
+            </div>
+        </li>
+
+        <li class="clearfix">
+        
+            <a href="/press/article.cfm?newsid=3952"><img src="/portal/news/images/news/news3952.jpg" width="100" height="100" alt="A Vision for the Future" class="fleft" /></a>
+        
+        	<div class="descr">
+                  <a href="/press/article.cfm?newsid=3952"><h2>A Vision for the Future</h2></a>
+                <h3>November 15, 2012</h3>
+                <p>Real Estate Law Society Hosts expert Kristina Raspe<a href="/press/article.cfm?newsid=3952">...more</a></p>
+                <br />
+            </div>
+        </li>
+
+        <li class="clearfix">
+        
+            <a href="/press/article.cfm?newsid=3951"><img src="/portal/news/images/news/news3951.jpg" width="100" height="100" alt="A Trojan for Life" class="fleft" /></a>
+        
+        	<div class="descr">
+                  <a href="/press/article.cfm?newsid=3951"><h2>A Trojan for Life</h2></a>
+                <h3>November 14, 2012</h3>
+                <p>Sorrell Trope '49 inducted to USC Hall of Fame<a href="/press/article.cfm?newsid=3951">...more</a></p>
+                <br />
+            </div>
+        </li>
+
+        <li class="clearfix">
+        
+            <a href="/press/article.cfm?newsid=3950"><img src="/portal/news/images/news/news3950.jpg" width="100" height="100" alt="Chance Encounters and Crossing Color Lines" class="fleft" /></a>
+        
+        	<div class="descr">
+                  <a href="/press/article.cfm?newsid=3950"><h2>Chance Encounters and Crossing Color Lines</h2></a>
+                <h3>November 13, 2012</h3>
+                <p>Government Law Organization Hosts André Birotte Jr.<a href="/press/article.cfm?newsid=3950">...more</a></p>
+                <br />
+            </div>
+        </li>
+
+        <li class="clearfix">
+        
+            <a href="/press/article.cfm?newsid=3947"><img src="/portal/news/images/news/news3947.jpg" width="100" height="100" alt="Clerking 101" class="fleft" /></a>
+        
+        	<div class="descr">
+                  <a href="/press/article.cfm?newsid=3947"><h2>Clerking 101</h2></a>
+                <h3>November 7, 2012</h3>
+                <p>Strategies for landing judicial clerkships<a href="/press/article.cfm?newsid=3947">...more</a></p>
+                <br />
+            </div>
+        </li>
+
+        <li class="clearfix">
+        
+            <a href="/press/article.cfm?newsid=3949"><img src="/portal/news/images/news/news3949.jpg" width="100" height="100" alt="Judge Who Ruled on Prop. 8 Speaks" class="fleft" /></a>
+        
+        	<div class="descr">
+                  <a href="/press/article.cfm?newsid=3949"><h2>Judge Who Ruled on Prop. 8 Speaks</h2></a>
+                <h3>November 7, 2012</h3>
+                <p>Legal history of same-sex marriage subject of Roth Lecture<a href="/press/article.cfm?newsid=3949">...more</a></p>
+                <br />
+            </div>
+        </li>
+
+        <li class="clearfix">
+        
+            <a href="/press/article.cfm?newsid=3945"><img src="/portal/news/images/news/news3945.jpg" width="100" height="100" alt="Women on the Bench" class="fleft" /></a>
+        
+        	<div class="descr">
+                  <a href="/press/article.cfm?newsid=3945"><h2>Women on the Bench</h2></a>
+                <h3>November 5, 2012</h3>
+                <p>State judges recount career paths and share advice<a href="/press/article.cfm?newsid=3945">...more</a></p>
+                <br />
+            </div>
+        </li>
+
+        <li class="clearfix">
+        
+            <a href="/press/article.cfm?newsid=3946"><img src="/portal/news/images/news/news3946.jpg" width="100" height="100" alt="Why Public Opinion Matters" class="fleft" /></a>
+        
+        	<div class="descr">
+                  <a href="/press/article.cfm?newsid=3946"><h2>Why Public Opinion Matters</h2></a>
+                <h3>November 5, 2012</h3>
+                <p>Prof. Lee Epstein says headlines tell only part of the story<a href="/press/article.cfm?newsid=3946">...more</a></p>
+                <br />
+            </div>
+        </li>
+
+        <li class="clearfix">
+        
+            <a href="/press/article.cfm?newsid=3944"><img src="/portal/news/images/news/news3944.jpg" width="100" height="100" alt="The High Cost of a Death Sentence" class="fleft" /></a>
+        
+        	<div class="descr">
+                  <a href="/press/article.cfm?newsid=3944"><h2>The High Cost of a Death Sentence</h2></a>
+                <h3>November 1, 2012</h3>
+                <p>Judge details billions spent on CA death penalty<a href="/press/article.cfm?newsid=3944">...more</a></p>
+                <br />
+            </div>
+        </li>
+
+        <li class="clearfix">
+        
+            <a href="/press/article.cfm?newsid=3943"><img src="/portal/news/images/news/news3943.jpg" width="100" height="100" alt="Doing Good While Doing Well" class="fleft" /></a>
+        
+        	<div class="descr">
+                  <a href="/press/article.cfm?newsid=3943"><h2>Doing Good While Doing Well</h2></a>
+                <h3>October 30, 2012</h3>
+                <p>Merging private practice with public interest<a href="/press/article.cfm?newsid=3943">...more</a></p>
+                <br />
+            </div>
+        </li>
+
+        <li class="clearfix">
+        
+            <a href="/press/article.cfm?newsid=3942"><img src="/portal/news/images/news/news3942.jpg" width="100" height="100" alt="Lawyer-Turned-Journalist Probes the American Justice System" class="fleft" /></a>
+        
+        	<div class="descr">
+                  <a href="/press/article.cfm?newsid=3942"><h2>Lawyer-Turned-Journalist Probes the American Justice System</h2></a>
+                <h3>October 29, 2012</h3>
+                <p>Ray Bonner discusses "Anatomy of Injustice"<a href="/press/article.cfm?newsid=3942">...more</a></p>
+                <br />
+            </div>
+        </li>
+
+        <li class="clearfix">
+        
+            <a href="/press/article.cfm?newsid=3941"><img src="/portal/news/images/news/news3941.jpg" width="100" height="100" alt="USC Gould’s IPTLC Wins Battle on Behalf of Filmmakers, E-book Authors" class="fleft" /></a>
+        
+        	<div class="descr">
+                  <a href="/press/article.cfm?newsid=3941"><h2>USC Gould’s IPTLC Wins Battle on Behalf of Filmmakers, E-book Authors</h2></a>
+                <h3>October 26, 2012</h3>
+                <p>Historic copyright exemption announced<a href="/press/article.cfm?newsid=3941">...more</a></p>
+                <br />
+            </div>
+        </li>
+
+        <li class="clearfix">
+        
+            <a href="/press/article.cfm?newsid=3940"><img src="/portal/news/images/news/news3940.jpg" width="100" height="100" alt="Open Discussion of Private Equity" class="fleft" /></a>
+        
+        	<div class="descr">
+                  <a href="/press/article.cfm?newsid=3940"><h2>Open Discussion of Private Equity</h2></a>
+                <h3>October 25, 2012</h3>
+                <p>Business Law event scours nuts and bolts of PE funds<a href="/press/article.cfm?newsid=3940">...more</a></p>
+                <br />
+            </div>
+        </li>
+
+        <li class="clearfix">
+        
+            <a href="/press/article.cfm?newsid=3938"><img src="/portal/news/images/news/news3938.jpg" width="100" height="100" alt="Freed from Death Row" class="fleft" /></a>
+        
+        	<div class="descr">
+                  <a href="/press/article.cfm?newsid=3938"><h2>Freed from Death Row</h2></a>
+                <h3>October 22, 2012</h3>
+                <p>Juan Roberto Melendez urges students to fight against capital punishment<a href="/press/article.cfm?newsid=3938">...more</a></p>
+                <br />
+            </div>
+        </li>
+
+        <li class="clearfix">
+        
+            <a href="/press/article.cfm?newsid=3933"><img src="/portal/news/images/news/news3933.JPG" width="100" height="100" alt="5th Annual J.D./LL.M. Partnership Program Commences" class="fleft" /></a>
+        
+        	<div class="descr">
+                  <a href="/press/article.cfm?newsid=3933"><h2>5th Annual J.D./LL.M. Partnership Program Commences</h2></a>
+                <h3>October 18, 2012</h3>
+                <p>Students build ties outside the classroom<a href="/press/article.cfm?newsid=3933">...more</a></p>
+                <br />
+            </div>
+        </li>
+
+        <li class="clearfix">
+        
+            <a href="/press/article.cfm?newsid=3937"><img src="/portal/news/images/news/news3937.jpg" width="100" height="100" alt="Health Care Ruling Debated at U.S. Supreme Court Event" class="fleft" /></a>
+        
+        	<div class="descr">
+                  <a href="/press/article.cfm?newsid=3937"><h2>Health Care Ruling Debated at U.S. Supreme Court Event</h2></a>
+                <h3>October 18, 2012</h3>
+                <p>Former U.S. Solicitor Generals Clement and Dellinger lead panel with USC Law Prof. Brown<a href="/press/article.cfm?newsid=3937">...more</a></p>
+                <br />
+            </div>
+        </li>
+
+        <li class="clearfix">
+        
+            <a href="/press/article.cfm?newsid=3930"><img src="/portal/news/images/news/news3930.jpg" width="100" height="100" alt="Stanley Cup Stories" class="fleft" /></a>
+        
+        	<div class="descr">
+                  <a href="/press/article.cfm?newsid=3930"><h2>Stanley Cup Stories</h2></a>
+                <h3>October 16, 2012</h3>
+                <p>Sports Law Society hosts LA Kings VP<a href="/press/article.cfm?newsid=3930">...more</a></p>
+                <br />
+            </div>
+        </li>
+
+        <li class="clearfix">
+        
+            <a href="/press/article.cfm?newsid=3931"><img src="/portal/news/images/news/news3931.jpg" width="100" height="100" alt="Full Disclosure: Character Counts" class="fleft" /></a>
+        
+        	<div class="descr">
+                  <a href="/press/article.cfm?newsid=3931"><h2>Full Disclosure: Character Counts</h2></a>
+                <h3>October 16, 2012</h3>
+                <p>3Ls get facts on bar exam, moral character determination<a href="/press/article.cfm?newsid=3931">...more</a></p>
+                <br />
+            </div>
+        </li>
+
+        <li class="clearfix">
+        
+            <a href="/press/article.cfm?newsid=3928"><img src="/portal/news/images/news/news3928.jpg" width="100" height="100" alt="Women’s Law Association Initiates Mentor Program" class="fleft" /></a>
+        
+        	<div class="descr">
+                  <a href="/press/article.cfm?newsid=3928"><h2>Women’s Law Association Initiates Mentor Program</h2></a>
+                <h3>October 11, 2012</h3>
+                <p>1Ls matched with 2Ls, 3Ls at picnic<a href="/press/article.cfm?newsid=3928">...more</a></p>
+                <br />
+            </div>
+        </li>
+
+        <li class="clearfix">
+        
+            <a href="/press/article.cfm?newsid=3929"><img src="/portal/news/images/news/news3929.jpg" width="100" height="100" alt="Untangling the Networking Web" class="fleft" /></a>
+        
+        	<div class="descr">
+                  <a href="/press/article.cfm?newsid=3929"><h2>Untangling the Networking Web</h2></a>
+                <h3>October 11, 2012</h3>
+                <p>Networking Advice from the Career Services Office<a href="/press/article.cfm?newsid=3929">...more</a></p>
+                <br />
+            </div>
+        </li>
+
+        <li class="clearfix">
+        
+            <a href="/press/article.cfm?newsid=3922"><img src="/portal/news/images/news/news3922.jpg" width="100" height="100" alt="Part litigator, part guru" class="fleft" /></a>
+        
+        	<div class="descr">
+                  <a href="/press/article.cfm?newsid=3922"><h2>Part litigator, part guru</h2></a>
+                <h3>October 9, 2012</h3>
+                <p>Alexandra Bodnar ’96 helps employers decode California’s labor laws<a href="/press/article.cfm?newsid=3922">...more</a></p>
+                <br />
+            </div>
+        </li>
+
+        <li class="clearfix">
+        
+            <a href="/press/article.cfm?newsid=3921"><img src="/portal/news/images/news/news3921.jpg" width="100" height="100" alt="Start Your Engines" class="fleft" /></a>
+        
+        	<div class="descr">
+                  <a href="/press/article.cfm?newsid=3921"><h2>Start Your Engines</h2></a>
+                <h3>October 5, 2012</h3>
+                <p>1Ls encouraged to pursue judicial clerkships<a href="/press/article.cfm?newsid=3921">...more</a></p>
+                <br />
+            </div>
+        </li>
+
+        <li class="clearfix">
+        
+            <a href="/press/article.cfm?newsid=3919"><img src="/portal/news/images/news/news3919.jpg" width="100" height="100" alt="Schwarzenegger Institute Convenes Innovators from Politics, Entertainment" class="fleft" /></a>
+        
+        	<div class="descr">
+                  <a href="/press/article.cfm?newsid=3919"><h2>Schwarzenegger Institute Convenes Innovators from Politics, Entertainment</h2></a>
+                <h3>October 4, 2012</h3>
+                <p><a href="/press/article.cfm?newsid=3919">...more</a></p>
+                <br />
+            </div>
+        </li>
+
+        <li class="clearfix">
+        
+            <a href="/press/article.cfm?newsid=3917"><img src="/portal/news/images/news/news3917.jpg" width="100" height="100" alt="USC's Post-Conviction Justice Project Expands Focus to Represent Youth Offenders" class="fleft" /></a>
+        
+        	<div class="descr">
+                  <a href="/press/article.cfm?newsid=3917"><h2>USC's Post-Conviction Justice Project Expands Focus to Represent Youth Offenders</h2></a>
+                <h3>October 3, 2012</h3>
+                <p>Fair Sentencing for Youth Act offers hope to juveniles serving life terms<a href="/press/article.cfm?newsid=3917">...more</a></p>
+                <br />
+            </div>
+        </li>
+
+        <li class="clearfix">
+        
+            <a href="/press/article.cfm?newsid=3918"><img src="/portal/news/images/news/news3918.jpg" width="100" height="100" alt="Former U.S. Solicitor Generals to Serve on U.S. Supreme Court Preview Panel" class="fleft" /></a>
+        
+        	<div class="descr">
+                  <a href="/press/article.cfm?newsid=3918"><h2>Former U.S. Solicitor Generals to Serve on U.S. Supreme Court Preview Panel</h2></a>
+                <h3>October 3, 2012</h3>
+                <p>Event Held Thursday at Town & Gown<a href="/press/article.cfm?newsid=3918">...more</a></p>
+                <br />
+            </div>
+        </li>
+
+        <li class="clearfix">
+        
+            <a href="/press/article.cfm?newsid=3914"><img src="/portal/news/images/news/news3914.jpg" width="100" height="100" alt="Making Justice Accessible to Everyone" class="fleft" /></a>
+        
+        	<div class="descr">
+                  <a href="/press/article.cfm?newsid=3914"><h2>Making Justice Accessible to Everyone</h2></a>
+                <h3>September 30, 2012</h3>
+                <p>Legal Trailblazer Gillian Hadfield Testifies Monday in New York<a href="/press/article.cfm?newsid=3914">...more</a></p>
+                <br />
+            </div>
+        </li>
+
+        <li class="clearfix">
+        
+            <a href="/press/article.cfm?newsid=3913"><img src="/portal/news/images/news/news3913.jpg" width="100" height="100" alt="An Adventure in Venture Capital" class="fleft" /></a>
+        
+        	<div class="descr">
+                  <a href="/press/article.cfm?newsid=3913"><h2>An Adventure in Venture Capital</h2></a>
+                <h3>September 26, 2012</h3>
+                <p>Business Law Society event explores lawyer’s role in industry<a href="/press/article.cfm?newsid=3913">...more</a></p>
+                <br />
+            </div>
+        </li>
+
+        <li class="clearfix">
+        
+            <a href="/press/article.cfm?newsid=3907"><img src="/portal/news/images/news/news3907.jpg" width="100" height="100" alt="Hocus Pocus" class="fleft" /></a>
+        
+        	<div class="descr">
+                  <a href="/press/article.cfm?newsid=3907"><h2>Hocus Pocus</h2></a>
+                <h3>September 25, 2012</h3>
+                <p>Litigator, magician, and Marine Randy Sinnott '82 saves the Magic Castle<a href="/press/article.cfm?newsid=3907">...more</a></p>
+                <br />
+            </div>
+        </li>
+
+        <li class="clearfix">
+        
+            <a href="/press/article.cfm?newsid=3906"><img src="/portal/news/images/news/news3906.jpg" width="100" height="100" alt="USC Gould Graduates Secure 18 Clerkship Positions" class="fleft" /></a>
+        
+        	<div class="descr">
+                  <a href="/press/article.cfm?newsid=3906"><h2>USC Gould Graduates Secure 18 Clerkship Positions</h2></a>
+                <h3>September 24, 2012</h3>
+                <p>Clerkships offer unique post-graduate opportunity<a href="/press/article.cfm?newsid=3906">...more</a></p>
+                <br />
+            </div>
+        </li>
+
+        <li class="clearfix">
+        
+            <a href="/press/article.cfm?newsid=3904"><img src="/portal/news/images/news/news3904.jpg" width="100" height="100" alt="Get Busy" class="fleft" /></a>
+        
+        	<div class="descr">
+                  <a href="/press/article.cfm?newsid=3904"><h2>Get Busy</h2></a>
+                <h3>September 17, 2012</h3>
+                <p>35 organizations make it tough to choose, fun to explore<a href="/press/article.cfm?newsid=3904">...more</a></p>
+                <br />
+            </div>
+        </li>
+
+        <li class="clearfix">
+        
+            <a href="/press/article.cfm?newsid=3905"><img src="/portal/news/images/news/news3905.jpg" width="100" height="100" alt="Remembering Thurgood Marshall" class="fleft" /></a>
+        
+        	<div class="descr">
+                  <a href="/press/article.cfm?newsid=3905"><h2>Remembering Thurgood Marshall</h2></a>
+                <h3>September 17, 2012</h3>
+                <p>Three USC law professors participate in Visions & Voices event<a href="/press/article.cfm?newsid=3905">...more</a></p>
+                <br />
+            </div>
+        </li>
+
+        <li class="clearfix">
+        
+            <a href="/press/article.cfm?newsid=3903"><img src="/portal/news/images/news/news3903.jpg" width="100" height="100" alt="USC Gould Ranked Top 10 Law School for Hispanics" class="fleft" /></a>
+        
+        	<div class="descr">
+                  <a href="/press/article.cfm?newsid=3903"><h2>USC Gould Ranked Top 10 Law School for Hispanics</h2></a>
+                <h3>September 11, 2012</h3>
+                <p><a href="/press/article.cfm?newsid=3903">...more</a></p>
+                <br />
+            </div>
+        </li>
+
+        <li class="clearfix">
+        
+            <a href="/press/article.cfm?newsid=3902"><img src="/portal/news/images/news/news3902.jpg" width="100" height="100" alt="British Politician Leads Discussion on International Law" class="fleft" /></a>
+        
+        	<div class="descr">
+                  <a href="/press/article.cfm?newsid=3902"><h2>British Politician Leads Discussion on International Law</h2></a>
+                <h3>September 10, 2012</h3>
+                <p>Baroness Shirley Williams visits law class<a href="/press/article.cfm?newsid=3902">...more</a></p>
+                <br />
+            </div>
+        </li>
+
+        <li class="clearfix">
+        
+            <a href="/press/article.cfm?newsid=3901"><img src="/portal/news/images/news/news3901.JPG" width="100" height="100" alt="Legal career begins for Class of 2015" class="fleft" /></a>
+        
+        	<div class="descr">
+                  <a href="/press/article.cfm?newsid=3901"><h2>Legal career begins for Class of 2015</h2></a>
+                <h3>August 23, 2012</h3>
+                <p>Orientation for the USC Law Class of 2015 kicked off Aug. 22<a href="/press/article.cfm?newsid=3901">...more</a></p>
+                <br />
+            </div>
+        </li>
+
+        <li class="clearfix">
+        
+            <a href="/press/article.cfm?newsid=3900"><img src="/portal/news/images/news/news3900.jpg" width="100" height="100" alt="Accuracy of the Criminal Justice System In Doubt" class="fleft" /></a>
+        
+        	<div class="descr">
+                  <a href="/press/article.cfm?newsid=3900"><h2>Accuracy of the Criminal Justice System In Doubt</h2></a>
+                <h3>August 16, 2012</h3>
+                <p>Dan Simon's "In Doubt" explores the accuracy of the criminal justice system<a href="/press/article.cfm?newsid=3900">...more</a></p>
+                <br />
+            </div>
+        </li>
+
+        <li class="clearfix">
+        
+            <a href="/press/article.cfm?newsid=3899"><img src="/portal/news/images/news/news3899.jpg" width="100" height="100" alt="USC Law Student Awarded Fellowship" class="fleft" /></a>
+        
+        	<div class="descr">
+                  <a href="/press/article.cfm?newsid=3899"><h2>USC Law Student Awarded Fellowship</h2></a>
+                <h3>August 14, 2012</h3>
+                <p>Melody Shekari ‘14 conducted scholarly field work in Burundi<a href="/press/article.cfm?newsid=3899">...more</a></p>
+                <br />
+            </div>
+        </li>
+
+        <li class="clearfix">
+        
+            <a href="/press/article.cfm?newsid=3898"><img src="/portal/news/images/news/news3898.JPG" width="100" height="100" alt="Summer Law and English Program an International Success" class="fleft" /></a>
+        
+        	<div class="descr">
+                  <a href="/press/article.cfm?newsid=3898"><h2>Summer Law and English Program an International Success</h2></a>
+                <h3>August 6, 2012</h3>
+                <p>116 students from 26 countries present<a href="/press/article.cfm?newsid=3898">...more</a></p>
+                <br />
+            </div>
+        </li>
+
+        <li class="clearfix">
+        
+            <a href="/press/article.cfm?newsid=3897"><img src="/portal/news/images/news/news3897.jpg" width="100" height="100" alt="USC, Schwarzenegger Establish New Institute Focused on State and Global Policy" class="fleft" /></a>
+        
+        	<div class="descr">
+                  <a href="/press/article.cfm?newsid=3897"><h2>USC, Schwarzenegger Establish New Institute Focused on State and Global Policy</h2></a>
+                <h3>August 2, 2012</h3>
+                <p>Staudt named co-director<a href="/press/article.cfm?newsid=3897">...more</a></p>
+                <br />
+            </div>
+        </li>
+
+        <li class="clearfix">
+        
+            <a href="/press/article.cfm?newsid=3896"><img src="/portal/news/images/news/news3896.jpg" width="100" height="100" alt="Lawrence Cisneros '14 is "Upward Bound"" class="fleft" /></a>
+        
+        	<div class="descr">
+                  <a href="/press/article.cfm?newsid=3896"><h2>Lawrence Cisneros '14 is "Upward Bound"</h2></a>
+                <h3>July 24, 2012</h3>
+                <p>Judicial extern by day; advisor to at-risk teens by night<a href="/press/article.cfm?newsid=3896">...more</a></p>
+                <br />
+            </div>
+        </li>
+
+        <li class="clearfix">
+        
+            <a href="/press/article.cfm?newsid=3894"><img src="/portal/news/images/news/news3894.jpg" width="100" height="100" alt="Justice for LGBT immigrants" class="fleft" /></a>
+        
+        	<div class="descr">
+                  <a href="/press/article.cfm?newsid=3894"><h2>Justice for LGBT immigrants</h2></a>
+                <h3>July 11, 2012</h3>
+                <p>Michael Santos '13 works with NIJC in Chicago<a href="/press/article.cfm?newsid=3894">...more</a></p>
+                <br />
+            </div>
+        </li>
+
+        <li class="clearfix">
+        
+            <a href="/press/article.cfm?newsid=3895"><img src="/portal/news/images/news/news3895.jpg" width="100" height="100" alt="Dealing with reality" class="fleft" /></a>
+        
+        	<div class="descr">
+                  <a href="/press/article.cfm?newsid=3895"><h2>Dealing with reality</h2></a>
+                <h3>July 11, 2012</h3>
+                <p>New class teaches law and business students to close deals—then face the original deal-makers<a href="/press/article.cfm?newsid=3895">...more</a></p>
+                <br />
+            </div>
+        </li>
+
+        <li class="clearfix">
+        
+            <a href="/press/article.cfm?newsid=3888"><img src="/portal/news/images/news/news3888.jpg" width="100" height="100" alt="Elyn Saks Speaks at TEDGlobal" class="fleft" /></a>
+        
+        	<div class="descr">
+                  <a href="/press/article.cfm?newsid=3888"><h2>Elyn Saks Speaks at TEDGlobal</h2></a>
+                <h3>July 9, 2012</h3>
+                <p>Addresses life with schizophrenia - video available online<a href="/press/article.cfm?newsid=3888">...more</a></p>
+                <br />
+            </div>
+        </li>
+
+        <li class="clearfix">
+        
+            <a href="/press/article.cfm?newsid=3892"><img src="/portal/news/images/news/news3892.jpg" width="100" height="100" alt="Student dedicates summer to homelessness prevention" class="fleft" /></a>
+        
+        	<div class="descr">
+                  <a href="/press/article.cfm?newsid=3892"><h2>Student dedicates summer to homelessness prevention</h2></a>
+                <h3>July 3, 2012</h3>
+                <p><a href="/press/article.cfm?newsid=3892">...more</a></p>
+                <br />
+            </div>
+        </li>
+	
+    </ul>
+               
+
+</div>
+
+<div id="equality"></div>
+
+</div>
+</div>
+
+
+
+<div id="footer_mobile">
+<div id="content">
+<ul class="social_networking">
+<li><a href="/press/social/facebook/"><img src="/images/bottom/facebook.png" alt="Facebook" height="42" width="42"></a></li>
+<li><a href="/press/social/twitter/"><img src="/images/bottom/twitter.png" alt="Twitter" height="42" width="42"></a></li>
+<li><a href="http://www.youtube.com/user/uscgould" target="_blank"><img src="/images/bottom/youtube.png" alt="YouTube" height="42" width="42"></a></li>
+<li><a href="https://instagram.com/uscgouldlaw" target="_blank"><img src="/images/bottom/instagram.png" alt="Instagram" height="42" width="42"></a></li>
+<li><a href="https://www.linkedin.com/edu/school?id=17973&trk=edu-cp-sa-sname" target="_blank"><img src="/images/bottom/linkedin.png" alt="LinkedIn" height="42" width="42"></a></li>
+<li><a href="https://www.flickr.com/photos/69930317@N08/albums" target="_blank"><img src="/images/bottom/flickr.png" alt="Flickr" height="42" width="42"></a></li>
+</ul>
+<ul class="buttons">
+<li><a href="/about/contact/" style="">Contact Us</a></li>
+<li><a href="/about/aba-required-disclosures/">ABA Required Disclosures</a></li>
+<li><a href="http://policy.usc.edu/" target="_blank" class="external_link">Privacy Policies</a></li>
+<li><a href="/site/?desktop" style="">Switch to Desktop Site</a></li>
+</ul>
+<p>&copy; 2016 USC Gould School of Law</p>
+</div>
+</div>
+
+
+
+<div id="footer">
+<div id="content">
+
+
+
+<div id="contact_us">
+<h3>CONTACT US</h3>
+<a href="/about/contact/"><img src="/images/bottom/building.jpg"></a>
+<address>
+<a href="/about/contact/">
+USC Gould School of Law
+<br>
+699 Exposition Boulevard
+<br>
+Los Angeles, California 90089
+<br>
+(213) 740-7331</a>
+</address>
+<a href="/about/aba-required-disclosures/"><img src="/images/bottom/aba-required-disclosures.png" alt="ABA Required Disclosures" height="20" width="160"/></a>
+</div>
+
+
+
+<div id="weather_and_follow_us">
+
+
+<h3>CURRENTLY 64&deg; <img src="/images/header/weather/26.png" alt="Cloudy"></h3>
+<p>As of 12:29 PM on Monday afternoon it is 64&deg; and cloudy in downtown Los Angeles.</p>
+
+
+<h3>FOLLOW US</h3>
+<ul>
+<li><a href="/press/social/facebook/"><img src="/images/bottom/facebook.png" alt="Facebook" height="42" width="42"></a></li>
+<li><a href="/press/social/twitter/"><img src="/images/bottom/twitter.png" alt="Twitter" height="42" width="42"></a></li>
+<li><a href="http://www.youtube.com/user/uscgould" target="_blank"><img src="/images/bottom/youtube.png" alt="YouTube" height="42" width="42"></a></li>
+<li><a href="https://instagram.com/uscgouldlaw" target="_blank"><img src="/images/bottom/instagram.png" alt="Instagram" height="42" width="42"></a></li>
+<li><a href="https://www.linkedin.com/edu/school?id=17973&trk=edu-cp-sa-sname" target="_blank"><img src="/images/bottom/linkedin.png" alt="LinkedIn" height="42" width="42"></a></li>
+<li><a href="https://www.flickr.com/photos/69930317@N08/" target="_blank"><img src="/images/bottom/flickr.png" alt="Flickr" height="42" width="42"></a></li>
+</ul>
+</div>
+
+
+
+
+<div id="latest_tweets">
+<h3>LATEST TWEETS</h3>
+<ul>
+
+
+
+
+<li><p><a href="http://twitter.com/uscgouldlaw" target="_blank">@uscgouldlaw:</a> America’s Divisions and Scalia’s Christian Visions by <a href="https://twitter.com/search?q=%23GouldExpert" rel="nofollow" target="_blank">#GouldExpert</a> Nomi Stolzenberg in <a href="http://twitter.com/ReligPolitics" rel="nofollow" target="_blank">@ReligPolitics</a> <a href="https://t.co/KLwSnmTZMs" target="_blank">https://t.co/KLwSnmTZMs</a>
+<br>
+March 10, 2016 @ 7:40 PM</p></li>
+
+
+
+
+<li><p><a href="http://twitter.com/uscgouldlaw" target="_blank">@uscgouldlaw:</a> MT <a href="http://twitter.com/USC" rel="nofollow" target="_blank">@USC</a> What do donors do when their candidate drops out? <a href="https://twitter.com/search?q=%23GouldLaw" rel="nofollow" target="_blank">#GouldLaw</a> Prof Abby Wood answers <a href="http://twitter.com/Marketplace" rel="nofollow" target="_blank">@Marketplace</a>: <a href="https://t.co/ys8q8rp60P" target="_blank">https://t.co/ys8q8rp60P</a>
+<br>
+March 10, 2016 @ 6:35 PM</p></li>
+
+</ul>
+</div>
+
+
+<div id="policies_and_copyright">
+<p><a href="/site/?mobile">Switch to Mobile Site</a> | <a href="http://policy.usc.edu/" target="_blank">Privacy Policies</a> | &copy; 2016 USC Gould School of Law</p>
+</div>
+
+</div>
+</div>
+
+
+
+<a href="#" class="back_to_top">Back to Top</a>
+
+
+
+<script src="/assets/javascripts/wow.js"></script>
+<script>
+	new WOW().init();
+</script>
+
+
+
+
+
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
+<script type="text/javascript">
+	_uacct = "UA-2821901-1";
+	urchinTracker();
+</script>
+</body>
+</html> 

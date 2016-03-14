@@ -1,0 +1,30 @@
+<html xmlns:mso="urn:schemas-microsoft-com:office:office" xmlns:msdt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882">
+<head>
+<title>USC Center for Law, History and Culture</title>
+<meta http-equiv="Content-Type" content="text/html;">
+
+
+<!--[if gte mso 9]><xml>
+<mso:CustomDocumentProperties>
+<mso:Assigned_x0020_To msdt:dt="string">CLHC</mso:Assigned_x0020_To>
+</mso:CustomDocumentProperties>
+</xml><![endif]-->
+</head>
+<!--THIS IS WHERE THE PAGE PROPERTIES GO -->
+<body bgcolor="#ffffff" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" text="#232323" link="#333300" alink="#333300" vlink="#996633">
+<!--THIS IS THE FLASH MOVIE -->
+<div align="center"> <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=5,0,0,0" width="750" height="500">
+    <param name=movie value="images/intro3.swf">
+      <param name=quality value=high>
+      <embed src="images/intro3.swf" quality=high pluginspage="http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash" type="application/x-shockwave-flash" width="750" height="500">
+      </embed> 
+    </object> <br>
+  <!--THIS ARE THE TWO BOTTOM LINKS -->
+  <font face="Geneva, Arial, Helvetica, san-serif" size="4"><a href="home.htm"><b><font size="2" face="Times New Roman, Times, serif">PLEASE 
+  CLICK HERE TO ENTER</font></b></a></font><br>
+  <font face="Geneva, Arial, Helvetica, san-serif" size="4"><a href="home.htm"><b><font size="2" face="Times New Roman, Times, serif">skip 
+  intro</font></b></a></font> 
+  <!--NEVER DELETE THESE TAGS BELOW: -->
+</div>
+</body>
+</html>

@@ -1,0 +1,24 @@
+
+BEGIN:VCARD
+VERSION:2.1
+N:Cowan;Geoffrey;
+FN:Geoffrey Cowan 
+ORG:USC Gould School of Law
+TITLE:University Professor of Journalism, Communication and Law 
+TEL;WORK;VOICE:(213) 740-4466 
+TEL;WORK;FAX:(213) 740-4609 
+
+ADR;WORK:;;699 Exposition Blvd, ASC 301B,;Los Angeles;CA;90089;United States of America
+LABEL;WORK;ENCODING=QUOTED-PRINTABLE:699 Exposition Blvd, ASC 301B,=0D=0ALos Angeles, CA 90089=0D=0AUnited States=
+	 of America
+URL;WORK:http://law.usc.edu/contact/contactInfo.cfm?detailID=207 
+EMAIL;PREF;INTERNET:gcowan@usc.edu 
+END:VCARD
+
+	
+
+
+
+
+</body>
+</html>

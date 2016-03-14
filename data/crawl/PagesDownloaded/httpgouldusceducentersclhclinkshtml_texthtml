@@ -1,0 +1,78 @@
+<html><!-- InstanceBegin template="/Templates/no-sub.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>USC Center for Law, History and Culture</title>
+<!-- InstanceEndEditable -->
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<!-- InstanceBeginEditable name="head" --><!-- InstanceEndEditable -->
+<link href="/centers/clhc/assets/css/default.css" rel="stylesheet" type="text/css">
+</head>
+<body bgcolor="#FFFFFF" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<table width="100%"  border="0" cellpadding="0" cellspacing="0" bgcolor="#ffcc00">
+  <tr>
+    <td><a href="http://www.usc.edu"><img src="/centers/clhc/assets/img/usc-logo.gif" alt="" width="400" height="27" border="0"></a></td>
+  </tr>
+</table>
+<table id="Table_01" width="100%" height="209" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td colspan="2"> <a href="/centers/clhc/home.htm"><img src="/centers/clhc/images/hdr-main.jpg" alt="" width="750" height="37" border="0"></a></td>
+    <td width="100%" height="37" bgcolor="#F4EBD9"> <img src="/centers/clhc/images/spacer.gif" width="1" height="37" alt=""></td>
+  </tr>
+  <tr>
+    <td colspan="2"> <img src="/centers/clhc/images/hdr-bar001.gif" width="750" height="1" alt=""></td>
+    <td width="1" height="1" bgcolor="#E8CA7A"> <img src="/centers/clhc/images/spacer.gif" width="1" height="1" alt=""></td>
+  </tr>
+  <tr>
+    <td colspan="2"> <img src="/centers/clhc/images/hdr-bar002.gif" width="750" height="12" alt=""></td>
+    <td width="1" height="12" bgcolor="#E6C469"> <img src="/centers/clhc/images/spacer.gif" width="1" height="12" alt=""></td>
+  </tr>
+  <tr>
+    <td colspan="2"> <img src="/centers/clhc/images/hdr-bar003.gif" width="750" height="4" alt=""></td>
+    <td width="1" height="4" bgcolor="#FFFFFF"> <img src="/centers/clhc/images/spacer.gif" width="1" height="4" alt=""></td>
+  </tr>
+  <tr>
+    <td rowspan="2" valign="top"> <p><img src="/centers/clhc/images/hdr-logo.gif" width="112" height="155" alt=""></p>
+      <!-- InstanceBeginEditable name="menu" -->
+      <p><img src="assets/img/mnu-links.gif" alt="Navigation" name="imgMenu" width="113" height="230" border="0" usemap="#mpMenuMapMap" id="imgMenu">
+          <map name="mpMenuMapMap">
+            <area shape="rect" coords="5,13,74,29" href="mission.htm" alt="Mission">
+            <area shape="rect" coords="4,38,67,54" href="events/feature/featured_workshops.htm" alt="Featured Events">
+            <area shape="rect" coords="5,205,54,222" href="links.html">
+            <area shape="rect" coords="5,61,111,77" href="news.html" alt="In the News">
+            <area shape="rect" coords="6,86,77,102" href="archives/workshops/workshops.htm" alt="Events Archive">
+            <area shape="rect" coords="5,109,74,125" href="faculty.htm" alt="Faculty">
+            <area shape="rect" coords="5,133,87,149" href="students/students.htm" alt="Students">
+            <area shape="rect" coords="5,158,106,175" href="contact.htm" alt="Contact Us">
+            <area shape="rect" coords="6,183,96,197" href="resources/resources.htm" alt="Resources">
+          </map>
+      </p>
+    <!-- InstanceEndEditable --></td>
+    <td width="638" height="17" bgcolor="#FFFFFF">&nbsp;</td>
+    <td width="1" height="17" bgcolor="#FFFFFF"> <img src="/centers/clhc/images/spacer.gif" width="1" height="17" alt=""></td>
+  </tr>
+  <tr>
+    <td valign="top"><table width="100%" height="100%"  border="0" cellpadding="5" cellspacing="25">
+      <tr>
+        <td align="left" valign="top"><!-- InstanceBeginEditable name="text-area" -->
+          <p align="center" class="headers-red">LINks</p>
+          <p align="left" class="text">&nbsp;</p>
+          <p align="left" class="text"><a href="http://www.usc.edu">University of Southern California</a></p>
+          <p align="left" class="text"><a href="http://lawweb.usc.edu">USC Law School</a></p>
+          <p align="left" class="text"><a href="http://www.usc.edu/schools/college/">USC College of Letters, Arts, and Sciences </a></p>
+          <p align="left" class="text"><span class="text" style="margin-top: 0; margin-bottom: 0;"><a href="http://dornsife.usc.edu/hist/law-history-culture/">LHC Major Page</a></span></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p style="margin-bottom: 0;">&nbsp;</p>
+<p align="left" class="text" style="margin-top: 0">&nbsp;</p>
+        <!-- InstanceEndEditable --></td>
+      </tr>
+    </table> </td>
+    <td width="1" height="138" bgcolor="#FFFFFF"> <img src="/centers/clhc/images/spacer.gif" width="1" height="138" alt=""></td>
+  </tr>
+</table>
+</body>
+<!-- InstanceEnd --></html>

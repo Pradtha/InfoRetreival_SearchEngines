@@ -1,0 +1,24 @@
+
+BEGIN:VCARD
+VERSION:2.1
+N:Beane;Tommy;
+FN:Tommy Beane 
+ORG:USC Gould School of Law
+TITLE:Cataloging/Serials Assistant 
+TEL;WORK;VOICE:(213) 821-1349 
+TEL;WORK;FAX:(213) 740-7179 
+
+ADR;WORK:;;699 Exposition Blvd, 206,;Los Angeles;CA;90089;United States of America
+LABEL;WORK;ENCODING=QUOTED-PRINTABLE:699 Exposition Blvd, 206,=0D=0ALos Angeles, CA 90089=0D=0AUnited States=
+	 of America
+URL;WORK:http://law.usc.edu/contact/contactInfo.cfm?detailID=250 
+EMAIL;PREF;INTERNET:tbeane@law.usc.edu 
+END:VCARD
+
+	
+
+
+
+
+</body>
+</html>

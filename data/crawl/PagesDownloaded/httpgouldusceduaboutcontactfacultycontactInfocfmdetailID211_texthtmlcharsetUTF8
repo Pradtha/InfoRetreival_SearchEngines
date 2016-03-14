@@ -1,0 +1,2165 @@
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head><script type="text/javascript">/* <![CDATA[ */_cf_loadingtexthtml="<img alt=' ' src='/CFIDE/scripts/ajax/resources/cf/images/loading.gif'/>";
+_cf_contextpath="";
+_cf_ajaxscriptsrc="/CFIDE/scripts/ajax";
+_cf_jsonprefix='//';
+_cf_clientid='77C3A80DF49164A018FA05851B5579F5';/* ]]> */</script><script type="text/javascript" src="/CFIDE/scripts/ajax/messages/cfmessage.js"></script>
+<script type="text/javascript" src="/CFIDE/scripts/ajax/package/cfajax.js"></script>
+<script type="text/javascript" src="/CFIDE/scripts/cfform.js"></script>
+<script type="text/javascript" src="/CFIDE/scripts/masks.js"></script>
+<script type="text/javascript" src="/CFIDE/scripts/cfformhistory.js"></script>
+<script type="text/javascript" src="/CFIDE/scripts/ajax/package/cfrichtexteditor.js"></script>
+<script type="text/javascript" src="/CFIDE/scripts/ajax/FCKeditor/fckeditor.js"></script>
+<script type="text/javascript" src="/CFIDE/scripts/ajax/yui/yahoo-dom-event/yahoo-dom-event.js"></script>
+<script type="text/javascript" src="/CFIDE/scripts/ajax/yui/animation/animation-min.js"></script>
+<script type="text/javascript" src="/CFIDE/scripts/ajax/ext/adapter/yui/ext-yui-adapter.js"></script>
+<script type="text/javascript" src="/CFIDE/scripts/ajax/ext/ext-all.js"></script>
+<script type="text/javascript" src="/CFIDE/scripts/ajax/package/cfwindow.js"></script>
+<link rel="stylesheet" type="text/css" href="/CFIDE/scripts/ajax/resources/ext/css/ext-all.css" />
+<link rel="stylesheet" type="text/css" href="/CFIDE/scripts/ajax/resources/cf/cf.css" />
+
+<title>Susan Estrich - USC Gould School of Law</title>
+<meta charset="UTF-8">
+<meta name="description" content="Stellar faculty, diverse students, and innovative programs have made the USC Gould School of Law one of the most prominent law schools in the country.">
+
+<link rel="shortcut icon" href="/favicon.ico">
+
+
+
+
+
+
+
+<link rel="stylesheet" type="text/css" href="/assets/css/accordion.css?last_updated=091515">
+<link rel="stylesheet" type="text/css" href="/assets/css/animate.css?last_updated=091515">
+<link rel="stylesheet" type="text/css" href="/assets/css/2015-unclean.css?last_updated=091515">
+<link rel="stylesheet" type="text/css" href="/assets/css/2015.css?last_updated=091515">
+
+
+
+
+
+<link rel="stylesheet" type="text/css" href="/assets/css/usccal.css?last_updated=091515">
+<link rel="stylesheet" type="text/css" href="/mockup/layerslider/css/layerslider.css?last_updated=091515">
+
+<link rel="stylesheet" type="text/css" href="/includes/flexinav/flexinav.css?last_updated=091515">
+
+<link rel="stylesheet" type="text/css" href="/assets/css/jquery.mmenu.all.css?last_updated=091515">
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js?last_updated=091515"></script>
+<script type="text/javascript" src="/assets/javascripts/default.js?last_updated=091515"></script>
+<script type="text/javascript" src="/mockup/layerslider/js/greensock.js?last_updated=091515"></script>
+<script type="text/javascript" src="/mockup/layerslider/js/layerslider.transitions.js?last_updated=091515"></script>
+<script type="text/javascript" src="/mockup/layerslider/js/layerslider.kreaturamedia.jquery.js?last_updated=091515"></script>
+<script type="text/javascript" src="/includes/flexinav/flexinav_plugins.js?last_updated=091515"></script>
+<script type="text/javascript" src="/includes/flexinav/flexinav.js?last_updated=091515"></script>
+<script type="text/javascript" src="/mockup/news/jquery.bxslider.min.js?last_updated=091515"></script>
+<script type="text/javascript" src="/assets/javascripts/jquery.mmenu.min.js?last_updated=091515"></script>
+
+
+
+
+
+
+
+<script type="text/javascript">/* <![CDATA[ */
+	ColdFusion.Ajax.importTag('CFAJAXPROXY');
+/* ]]> */</script>
+
+<script type="text/javascript">/* <![CDATA[ */
+	ColdFusion.Ajax.importTag('CFFORM');
+/* ]]> */</script>
+
+<script type="text/javascript">/* <![CDATA[ */
+	ColdFusion.Ajax.importTag('CFTEXTAREA');
+/* ]]> */</script>
+
+<script type="text/javascript">/* <![CDATA[ */
+	ColdFusion.Ajax.importTag('CFWINDOW');
+/* ]]> */</script>
+</head> 
+
+
+
+<body>
+
+
+
+
+
+<div id="search_area" class="wow fadeInDownBig">
+<img src="/mockup/images/homepage/close.png" onClick="toggle_visibility('search_area');">
+<div style="position: absolute; top: 50%; left: 5%; width: 100%;">
+<form method="get" action="/search/" name="gs">
+<input type="text" name="query" id="query" value="what can we help you find?" style="color: #999; height: 50px; width: 60%; margin: 0px; padding: 0px; float: left; border: none; padding-left: 10px; padding-right: 0px; font-size: 30px;" onFocus="clearText(this);" onBlur="checkText(this);" autocomplete="off">
+<input type="image" src="/mockup/images/homepage/search.png" alt="Search" style="height: 45px; width: 45px; margin-left: 20px;">
+<br class="clear">
+<br>
+<p style="width: 80%; color: #fff; font-size: 18px;"><strong><span style="color: #ffc324;">or try these popular searches:</span></strong> <a href="/search/?query=transfer+students" style="color: #fff; border-bottom: 1px #fff dotted;">transfer students</a>, <a href="/search/?query=application+status" style="color: #fff; border-bottom: 1px #fff dotted;">application status</a>, <a href="/search/?query=dual+degrees" style="color: #fff; border-bottom: 1px #fff dotted;">dual degrees</a>, <a href="/search/?query=academic+calendar" style="color: #fff; border-bottom: 1px #fff dotted;">academic calendar</a>, <a href="/search/?query=library+hours" style="color: #fff; border-bottom: 1px #fff dotted;">library hours</a></p>
+</form>
+</div>
+</div>
+
+
+
+<div id="quicklinks">
+<div id="content">
+
+
+
+<ul>
+<li><a href="/about/contact/">Contact Us</a></li>
+<li><a href="/why/academics/cle/">CLE</a></li>
+<li><a href="/giving/choices/donatenow.cfm">Give Back</a></li>
+<li><a href="/press/contact/">Press Room</a></li>
+<li><a href="/events/">Events</a></li>
+<li><a href="/press/">News</a></li>
+
+<li><a href="http://mylaw2.usc.edu/portal/" target="_blank">My Portal</a></li>
+</ul>
+</div>
+</div>
+
+
+
+<div id="header">
+<div id="content">
+<a href="/"><img src="/images/header/usc-gould-school-of-law.png" height="73" width="259" class="logo"></a>
+<a href="http://www.usc.edu/" target="_blank"><img src="/images/header/university-of-southern-california.png" height="38" width="176" class="usc_branding"></a>
+</div>
+</div>
+
+
+
+<div id="menubar">
+<div id="content">
+
+
+
+
+
+<div id="menubar_mobile" style="height: 50px;">
+<a href="#my-menu" style="float: left; height: 50px; width: 50%; display: block;"><h3 style="font-size: 18px; font-weight: normal; color: #fff; float: left; padding: 16px 0px 0px 45px;">MENU</h3></a>
+<nav id="my-menu">
+   <ul>
+  
+      <li><a href="/">Home</a></li>
+      <li><a href="/search/">Search</a></li>
+      <li class="Selected"><span>About</span>
+         <ul>
+            <li><a href="/about/introduction/">Introduction from the Dean</a></li>
+            <li><a href="/about/history/">History of USC Gould</a>
+            <ul>
+            <li><a href="/about/history/timeline/">Timeline</a></li>
+            <li><a href="/about/history/diversity/">Diversity Pioneers</a></li>
+            <li><a href="/about/history/alumni/">Alumni on the Bench</a></li>
+            <li><a href="/about/history/women/">Women in the Law</a></li>
+            <li><a href="/about/history/interdisciplinary/">Interdisciplinary Legal Studies</a></li>
+            <li><a href="/about/history/public-interest/">Public Interest</a></li>
+            </ul>
+            </li>
+            <li><a href="/about/los-angeles/">Explore Los Angeles</a>
+            <ul>
+            <li><a href="/about/los-angeles/living/">Living in Los Angeles</a></li>
+            <li><a href="/about/los-angeles/getting-around/">Getting Around</a></li>
+            <li><a href="/about/los-angeles/history/">Los Angeles/USC History</a></li>
+            <li><a href="/about/los-angeles/attractions/">Attractions</a></li>
+            <li><a href="/about/los-angeles/housing/">Housing</a></li>
+         </ul>
+            </li>
+            <li><a href="/about/class-profile/">Class Profile</a></li>
+            <li><a href="/about/board/">Board of Councilors</a></li>
+            <li><a href="/about/visit/">Visit USC Gould</a>
+            <ul>
+            <li><a href="/about/visit/classroom/">Classroom Visits</a></li>
+            <li><a href="/about/visit/tours/">Law School Tours</a></li>
+            <li><a href="/about/visit/information-sessions/">Information Sessions</a></li>
+            <li><a href="/about/visit/walking-tour/">Self-Guided Walking Tour</a></li>
+            <li><a href="/about/visit/directions/">Driving Directions</a></li>
+            <li><a href="/about/visit/map/">Building Map</a></li>
+            <li><a href="/about/visit/llm/">LL.M. Student Visits</a></li>
+         </ul>            
+            </li>
+            <li><a href="/about/aba-required-disclosures/">ABA Required Disclosures</a>
+            <ul>
+            <li><a href="/about/aba-required-disclosures/overview/">Overview</a></li>
+            <li><a href="/about/aba-required-disclosures/faculty-and-administrators/">Faculty & Administrators</a></li>
+            <li><a href="/about/aba-required-disclosures/curriculum/">Curriculum</a></li>
+            <li><a href="/about/aba-required-disclosures/jd-enrollment-and-ethnicity/">J.D. Enrollment & Ethnicity</a></li>
+            <li><a href="/about/aba-required-disclosures/transfer-policy-and-awarding-of-credit/">Transfer Policy and Awarding of Credit</a></li>
+            <li><a href="/about/aba-required-disclosures/transfer-student-data/">Transfer Student Data</a></li>
+            <li><a href="/about/aba-required-disclosures/tuition-and-fees/">Tuition & Fees</a></li>
+            <li><a href="/about/aba-required-disclosures/withdrawal-tuition-refund-policy/">Withdrawal/Tuition Refund Policy</a></li>
+            <li><a href="/about/aba-required-disclosures/living-expenses/">Living Expenses</a></li>
+            <li><a href="/about/aba-required-disclosures/gpa-and-lsat-scores/">GPA & LSAT Scores</a></li>
+            <li><a href="/about/aba-required-disclosures/grants-and-scholarships/">Grants & Scholarships</a></li>
+            <li><a href="/about/aba-required-disclosures/jd-attrition/">J.D. Attrition</a></li>
+            <li><a href="/about/aba-required-disclosures/bar-passage-rates/">Bar Passage Rates</a></li>
+            <li><a href="/about/aba-required-disclosures/employment-statistics/">Employment Statistics</a></li>
+            <li><a href="/about/aba-required-disclosures/class-profile/">2015 Entering Class Profile</a></li>
+            <li><a href="/about/aba-required-disclosures/qualifications-for-admission-to-the-bar/">Qualifications for Admission to the Bar</a></li>
+            </ul>
+            </li>
+            <li><a href="/about/community/">Meet our Community</a></li>
+            <li class="Selected"><a href="/about/contact/">Contact Us</a>
+            <ul>
+            <li><a href="/about/contact/faculty/">Faculty Directory</a></li>
+            <li><a href="/about/contact/lecturers/">Lecturers in Law Directory</a></li>
+            <li><a href="/about/contact/staff/">Staff Directory</a></li>
+            <li><a href="/about/contact/directions/">Driving Directions</a></li>
+            <li><a href="/about/contact/map/">Building Map</a></li>            
+            </ul>
+            </li>
+         </ul>
+      </li>
+      <li><span>Admissions</span>
+      
+      <ul>
+      <li><span>J.D. Programs</span>
+         <ul>
+            
+              <li><span>3 Year J.D. Program</span>
+                  <ul>
+                      <li><a href="/how/jd/admissionsInformation.cfm">Admissions Information</a></li>               
+                      <li><a href="/how/jd/jdApplication.cfm">Apply Now</a></li>
+                      <li><a href="/how/jd/onlineapplicationstatus.cfm">Application Status Check</a></li>
+                      <li><a href="/why/academics/bar/">Character & Fitness</a></li>
+                      <li><a href="/how/jd/faq.cfm">FAQ</a></li>
+                      <li><a href="/how/jd/international.cfm">International JD Applicants</a></li>
+                      <li><a href="/how/jd/waitlist_log_in.cfm">Waiting List Response Form</a></li>
+                      <li><a href="/assets/docs/how/jd/getting-into-law-school-guide.pdf" target="_blank">Getting into Law School Guide</a></li>
+                      <li><a href="/how/transfer/">Transfer/Visitor Applicants</a>
+                      
+                      <ul>
+                      			<li><a href="/how/transfer/index.cfm">General Information</a></li>
+			<li><a href="/how/transfer/transfer.cfm">Application Requirements</a></li>           
+			<li><a href="/how/transfer/earlydecision.cfm">Transfer Early Decision</a></li> 
+			<li><a href="/how/transfer/regulardecision.cfm">Regular Decision</a></li> 
+			<li><a href="/how/transfer/visitinfo.cfm">Visiting Student Information</a></li>
+            </ul>
+                      
+                      </li>
+                  </ul>
+              </li>
+
+
+              <li><a href="/how/jd/3-plus-3-program/">3+3 Accelerated Bachelor/JD Program</a></li>
+              
+              <li><a href="/how/jd/2-year-jd-program-for-international-lawyers/">2 Year JD Program for International Lawyers</a></li>
+              <li><span>Costs and Financial Assistance</span>
+                  <ul>
+                      <li><a href="/how/jd/finaid/">Financial Aid</a></li>               
+                      <li><a href="/how/jd/finaid/costs.cfm">Cost of Attendance</a></li>
+                      <li><a href="/how/jd/finaid/Aid.cfm">Types of Aid</a></li>
+                      <li><a href="/how/jd/finaid/apply.cfm">How to Apply</a></li>
+                      <li><a href="/how/jd/finaid/lrap.cfm">Loan Repayment Assistance Program (LRAP)</a></li>
+
+                  </ul>
+              </li>
+
+
+
+              <li><a href="/how/jd/earlydecision/">Early Decision Program</a>
+				  <ul>
+                  
+                      <li><a href="/how/jd/earlydecision/faq.cfm">FAQs for Early Decision Program</a></li>
+                      <li><a href="/assets/docs/how/jd/early-decision-agreement.pdf" target="_blank">Early Decision Agreement Form</a></li>
+                  </ul>
+              </li>
+
+
+              <li><a href="/how/jd/rothman/">Frank Rothman Scholarship</a>
+				  <ul>
+                      <li><a href="/how/jd/rothman/details.cfm">Scholarship Details</a></li>
+                      <li><a href="/how/jd/rothman/bio.cfm">About Frank Rothman</a></li>
+                      <li><a href="/how/jd/rothman/scholars.cfm">The Rothman Scholars</a> 
+                          
+                      </li>
+                  </ul>
+              </li>
+
+      
+              <li><span>Getting To Know USC Gould</span>
+                  <ul>
+                      <li><a href="/how/visit/">Visit USC Gould</a></li>               
+                      <li><a href="/how/jd/recruitingSchedule.cfm">2015-16 Recruitment Calendar</a></li>
+                      <li><a href="/how/jd/studentAmbassadors.cfm">Meet Our Student Ambassadors</a>
+						              
+                      </li>
+
+                      <li><a href="/how/jd/request.cfm">Request/Download Viewbook</a></li>
+                      <li><a href="/how/jd/viewbook/index.html" target="_blank">Browse Viewbook online</a></li>
+                      <li><a href="http://www.youtube.com/user/USCGould" target="_blank">Videos</a></li>
+                  </ul>
+              </li>
+     
+              <li><a href="/careers/statistics/">Employment Statistics</a></li>
+      
+              <li><span>LSAC</span>
+                  <ul>
+                      <li><a href="/how/jd/lsac/lsac.cfm">LSAC</a></li>
+                      <li><a href="/how/jd/lsac/lsacLawSchoolForums.cfm">LSAC Law School Forums</a></li>
+                      <li><a href="/how/jd/lsac/lsacDiversityInitiatives.cfm">LSAC Diversity Initiatives</a></li>
+                  </ul>
+              </li>
+ 
+         </ul>
+      </li>
+
+
+
+
+
+
+
+
+
+
+<li><span>Graduate Programs</span>
+
+
+    	<ul>
+
+			<li><a href="/how/gip/llm/">LL.M. Program</a> 
+				
+      		</li>
+         
+
+			<li><a href="/how/gip/2-year/">2 Year LL.M. Program</a>
+            
+            
+            
+            
+            </li>
+            
+			<li><a href="/how/gip/transfer/">LL.M. to J.D. Transfer Program</a></li>
+
+			<li><a href="http://onlinellm.usc.edu/?Access_Code=USC-LLM-SEO2&utm_campaign=USC-LLM-SEO2" target="_blank" class="external_link">Online LL.M. Program</a></li>
+			<li><a href="/how/gip/onlinemsl/">Online Master of Studies in Law (MSL) Program</a>
+				
+            </li>
+			<li><a href="/how/gip/mcl/">Master of Comparative Law</a>
+				
+            </li>            
+			<li><a href="/how/gip/vip/">Visiting International Law Program</a></li>
+			<li><a href="/how/gip/sle/">Summer Law &amp; English</a>
+				
+        </li>
+		<li><a href="/how/gip/studyabroad.cfm">J.D. Study Abroad</a>
+     
+</li>
+        
+        <li><a href="/assets/docs/admissions/graduate/brochure.pdf" target="_blank" class="external_link">View Our Brochure</a></li>
+        <li><a href="/how/gip/contact.cfm">Contact Us</a></li>
+    </ul>
+    
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <li><a href="http://onlinellm.usc.edu/?Access_Code=USC-LLM-SEO2&utm_campaign=USC-LLM-SEO2">Online Programs</a></li>
+      <li><a href="http://onlinellm.usc.edu/?Access_Code=USC-LLM-SEO2&utm_campaign=USC-LLM-SEO2">Online Business Law Certificate</a></li>
+      </ul>
+
+      <li><span>Academics</span>
+         <ul>
+            <li><a href="/academics/calendar/">Academic Calendar</a></li>
+            <li><a href="/academics/curriculum/">Curriculum</a>
+            <ul>
+            <li><a href="/academics/curriculum/juris-doctor-degree-requirements/">Juris Doctor Degree Requirements</a></li>
+            <li><a href="/academics/curriculum/first-year-curriculum/">First Year Curriculum</a></li>
+            <li><a href="/academics/curriculum/upper-division-course-offerings/">Upper Division Course Offerings</a></li>
+            <li><a href="/academics/curriculum/course-descriptions/">Course Descriptions</a></li>
+
+            <li><a href="/academics/curriculum/externships/">Externships</a></li>
+            <li><a href="/academics/curriculum/dual-degree-programs/">Dual Degree Programs</a></li>
+            <li><a href="/academics/curriculum/jd-study-abroad/">J.D. Study Abroad</a></li>
+            <li><a href="/academics/curriculum/academic-calendar/">Academic Calendar</a></li>
+            <li><a href="/academics/curriculum/grading-system/">Grading System</a></li>
+            <li><a href="/academics/curriculum/class-and-exam-schedules/">Class & Exam Schedules</a></li>
+            </ul>
+            </li>
+            <li><a href="/academics/faculty/">Faculty</a></li>
+            <li><a href="/academics/certificates/">Certificate Programs</a>
+            <ul>
+			<li><a href="/academics/certificates/adr/">Alternative Dispute Resolution (ADR)</a></li>
+			<li><a href="/academics/certificates/business/">Business Law</a></li>
+			<li><a href="/academics/certificates/entertainment/">Entertainment Law</a></li>
+			</ul>            
+            </li>
+            <li><a href="/academics/clinical-programs/">Clinical Programs</a></li>
+            <li><a href="/academics/alternative-dispute-resolution-program/">Alternative Dispute Resolution Program</a></li>
+            <li><a href="/academics/business-law-program/">Business Law Program</a>
+            
+            
+                        
+            
+            
+            </li>
+            <li><a href="/academics/media-entertainment-and-technology-law-program/">Media, Entertainment and Technology Law Program</a>
+            
+             <ul>
+        <li><a href="/academics/media-entertainment-and-technology-law-program/curriculum/">Our Approach and Curriculum</a></li>
+        <li><a href="/academics/media-entertainment-and-technology-law-program/courses/">Media and Entertainment Law Courses</a></li>
+        <li><a href="/academics/media-entertainment-and-technology-law-program/opportunities">Patent and Technology Law - Courses and Other Opportunities</a></li>
+        <li><a href="http://iptlc.usc.edu/" target="_blank" class="external_link">Intellectual Property and Technology Law Clinic</a></li>
+        <li><a href="/academics/media-entertainment-and-technology-law-program/faculty/">Affiliated Faculty</a></li>
+        <li><a href="/academics/media-entertainment-and-technology-law-program/research/">Research</a></li>
+        <li><a href="/academics/media-entertainment-and-technology-law-program/students/">Meet our Students and Alumni</a></li>
+        <li><a href="/academics/media-entertainment-and-technology-law-program/requirements/">Requirements for Media and Entertainment Law Certificate</a></li>
+        <li><a href="/why/students/orgs/entertainmentLaw.cfm">Entertainment Law Society</a></li>
+        <li><a href="http://mcir.usc.edu/" target="_blank" class="external_link">Music Copyright Infringement Database</a></li>
+        <li><a href="/academics/media-entertainment-and-technology-law-program/practicum/">Entertainment Practicum</a></li>
+        <li><a href="/academics/media-entertainment-and-technology-law-program/events/">Events</a></li>
+        <li><a href="/academics/media-entertainment-and-technology-law-program/news/">In the News</a></li>
+        <li><a href="/academics/media-entertainment-and-technology-law-program/contact/">Contact Us</a></li>
+    </ul>
+            
+            </li>
+            <li><a href="/academics/state-bar-examinations/">State Bar Examinations</a></li>
+            <li><a href="/why/academics/cle/">Continuing Legal Education</a></li>
+         </ul>
+      </li>
+
+      <li><span>Student Life</span>
+         <ul>
+            <li><a href="/students/student-services/">Student Services Office</a></li>
+            <li><a href="/students/class-and-exam-schedules/">Class &amp; Exam Schedules</a></li>
+            <li><a href="/students/peer-mentors/">Peer Mentors</a></li>
+            <li><a href="/students/student-organizations/">Student Organizations</a></li>
+            <li><a href="/students/academic-journals-and-honors-programs/">Academic Journals &amp; Honors Programs</a></li>
+            <li><a href="/students/disability-student-services/">Disability Student Services</a></li>
+            <li><a href="/students/public-service/">Public Service</a></li>
+
+
+<li><a href="/students/first-generation-professionals/">First Generation Professionals Program</a>
+
+</li>
+
+
+            <li><a href="/students/students-with-families/">Students with Families</a></li>
+            <li><a href="http://transnet.usc.edu/" target="_blank" class="external_link">Transportation</a></li>
+            <li><a href="/students/university-services/">University Services</a></li>
+         </ul>
+      </li>
+
+      <li><span>Faculty</span>
+         <ul>
+            <li><a href="/faculty/">Faculty Directory</a></li>
+            <li><a href="/faculty/lecturers/">Lecturers in Law Directory</a></li>
+            <li><a href="/faculty/experts/">Experts Directory</a></li>
+            <li><a href="/faculty/scholarship/">Scholarship</a></li>
+            <li><a href="/faculty/distinctions/">Distinctions &amp; Awards</a></li>
+            <li><a href="/faculty/news/">In the News</a></li>
+            <li><a href="/faculty/blogs/">Blogs</a></li>
+            <li><a href="/centers/">Centers</a></li>
+            <li><a href="/faculty/workshops/">Workshops &amp; Conferences</a>
+            
+            <ul>
+            <li><a href="/faculty/workshops/faculty/">Faculty Workshops</a></li>
+            </ul>
+            
+            </li>
+         </ul>
+      </li>
+
+      <li><span>Careers</span>
+         <ul>
+            <li><a href="/careers/">Career Services</a></li>
+            <li><a href="/careers/students/">Information for Students</a>
+            <ul>
+            <li><a href="/careers/students/counseling/">Career Counseling</a></li>
+            <li><a href="/careers/students/resources/">Career Resources</a></li>
+            <li><a href="/careers/students/employment/">Employment Opportunities</a></li>
+            <li><a href="/careers/students/statistics/">Employment Statistics</a></li>
+            <li><a href="/careers/students/programming/">Career Programming</a></li>
+            <li><a href="/careers/students/faqs/">Frequently Asked Questions</a></li>
+            </ul>
+            </li>
+            <li><a href="/careers/alumni">Information for Alumni</a></li>
+            <li><a href="/careers/employers/">Information for Employers</a>
+            <ul>
+            <li><a href="/careers/employers/recruitment/">On Campus Recruitment Opportunities</a></li>
+            <li><a href="/careers/employers/post/">Post a Job/Resume Collect</a></li>
+            <li><a href="/careers/employers/other/">Off Campus Recruitment Programs</a></li>
+            </ul>
+
+            </li>
+            <li><a href="/careers/reciprocity/">Reciprocity</a></li>
+            <li><a href="/careers/contact/">Contact Us</a></li>
+         </ul>
+      </li>
+
+      <li><span>Alumni</span>
+         <ul>
+            <li><a href="/alumni/getinvolved/committee.cfm">Alumni Association</a>
+
+            </li>
+            <li><a href="/giving/choices/annualfund.cfm">Annual Fund Programs</a></li>
+            <li><a href="/giving/counsel.cfm">Board of Councilors</a></li>
+            <li><a href="/alumni/events/receptions.cfm">Events</a></li>
+            <li><a href="/giving/choices/donatenow.cfm">Giving Back</a></li>
+            <li><a href="/alumni/class-notes/">Class Notes</a></li>
+            <li><a href="/alumni/contactinfo.cfm">Update Contact Info</a></li>
+            <li><a href="/alumni/contact.cfm">Contact Us</a></li>
+         </ul>
+      </li>
+      
+      <li><span>Library</span>
+         <ul>
+            <li><a href="/library/">Law Library</a></li>
+            <li><a href="/library/services/">Services &amp; Information</a>
+            
+            <ul>
+            <li><a href="/library/services/map/">Library Map</a></li>
+            <li><a href="/library/services/access.cfm">Access Policy</a></li>
+            <li><a href="/library/services/borrowing.cfm">Borrowing</a></li>
+            <li><a href="/library/services/interlibrary.cfm">Interlibrary Loan</a></li>
+            <li><a href="/library/services/staff.cfm">Law Library Staff</a></li>
+            </ul>
+            
+            </li>
+            <li><a href="/library/search/">Search Library Catalogs</a></li>
+            <li><a href="http://lawlibguides.usc.edu/content.php?pid=253364" target="_blank">Research Guides</a></li>
+            <li><a href="/library/resources.cfm">Online Resources</a></li>
+         </ul>
+      </li>
+
+ 
+
+         <li><a href="/press/">Press Room</a>
+         <ul>
+            <li><a href="/press/">Press Room</a>
+            <ul>
+               
+               <li ><a href="/press/?year=2016">Fall 2016 - Spring 2017</a></li>           
+               
+               <li ><a href="/press/?year=2015">Fall 2015 - Spring 2016</a></li>           
+               
+               <li ><a href="/press/?year=2014">Fall 2014 - Spring 2015</a></li>           
+               
+               <li ><a href="/press/?year=2013">Fall 2013 - Spring 2014</a></li>           
+               
+               <li ><a href="/press/?year=2012">Fall 2012 - Spring 2013</a></li>           
+               
+               <li ><a href="/press/?year=2011">Fall 2011 - Spring 2012</a></li>           
+               
+               <li ><a href="/press/?year=2010">Fall 2010 - Spring 2011</a></li>           
+               
+               <li ><a href="/press/?year=2009">Fall 2009 - Spring 2010</a></li>           
+               
+               <li ><a href="/press/?year=2008">Fall 2008 - Spring 2009</a></li>           
+               
+               <li ><a href="/press/?year=2007">Fall 2007 - Spring 2008</a></li>           
+               
+               <li ><a href="/press/?year=2006">Fall 2006 - Spring 2007</a></li>           
+               
+               <li ><a href="/press/?year=2005">Fall 2005 - Spring 2006</a></li>           
+            
+</ul>
+            </li>
+            <li><a href="/press/contact/">Contact Us</a></li>
+            <li><a href="/press/expert/">Find an Expert</a></li>
+          
+            <li><a href="/press/publications/">Publications</a>
+            <ul>
+            <li><a href="/press/publications/magazine/">USC Law Magazine</a></li>
+            <li><a href="/press/publications/enews/">eNews</a></li>
+            <li><a href="/press/publications/clinical/">Clinical Perspectives</a></li>
+            <li><a href="/press/publications/identity/">Identity Guidelines</a></li>
+            </ul>
+            </li>
+            <li><a href="/press/advisories/">Media Advisories</a></li>
+            <li><a href="/press/social/">Social Media</a>
+            <ul>
+            <li><a href="/press/social/facebook/">Facebook</a></li>
+            <li><a href="/press/social/twitter/">Twitter</a></li>
+            <li><a href="http://www.youtube.com/user/USCGould" target="_blank" class="external_link">YouTube</a></li>
+            <li><a href="https://instagram.com/uscgouldlaw/" target="_blank" class="external_link">Instagram</a></li>
+            <li><a href="https://www.linkedin.com/edu/school?id=17973&trk=edu-cp-sa-sname" target="_blank" class="external_link">LinkedIn</a></li>
+            <li><a href="https://www.flickr.com/photos/69930317@N08/" target="_blank" class="external_link">Flickr</a></li>
+            </ul>
+            </li>
+         </ul>
+
+<li><a href="/portal/">My Portal</a></li>
+<li><a href="/site/?desktop">Switch to Desktop Site</a></li>
+
+   </ul>
+</nav>
+     <script type="text/javascript">
+         jQuery(document).ready(function( $ ) {
+            $("#my-menu").mmenu({
+               "extensions": [
+                  "theme-dark"
+               ]
+            });
+         });
+      </script>
+</div>
+
+
+
+
+
+<div id="flexinav1" class="flexinav">
+<div class="flexinav_wrapper">
+<ul class="flexinav_menu">
+
+
+
+<li class="flexnav_mega"><span>About</span>
+<div class="flexinav_ddown flexinav_ddown_full">
+<div id="menubar_image">
+<img src="/mockup/images/admissions.jpg" height="370" width="300">
+</div>
+<div id="menubar_description">
+<h2>About</h2>
+<p>USC Gould is one of the nation's top-ranked law schools with a 115+ year history and reputation for academic excellence.  We are known for our diverse student body, interdisciplinary education and our tight-knit alumni network of over 10,000 professionals throughout the globe.  With entering J.D. class sizes of less than 200 the learning experience is intimate and collegial.  Our location in Los Angeles provides unlimited opportunities in one of world's top legal markets.  It is home to major entertainment, business and law firms, as well as a gateway to international markets.</p>
+</div>
+<div id="menubar_links">
+<ul>
+<li><a href="/about/introduction/">Introduction from the Dean</a></li>
+<li><a href="/about/history/">History of USC Gould</a></li>
+<li><a href="/about/los-angeles/">Explore Los Angeles</a></li>
+<li><a href="/about/class-profile/">Class Profile</a></li>
+<li><a href="/about/board/">Board of Councilors</a></li>
+<li><a href="/about/visit/">Visit USC Gould</a></li>
+<li><a href="/about/aba-required-disclosures/">ABA Required Disclosures</a></li>
+<li><a href="/about/community/">Meet our Community</a></li>
+<li><a href="/about/contact/">Contact Us</a></li>
+</ul>
+</div>   
+</div>
+</li>
+
+
+
+<li class="flexnav_mega"><span>Admissions</span>
+<div class="flexinav_ddown flexinav_ddown_full">
+<div id="flexinav_left" style="height: 100%; float: left; width: 300px;">
+<img src="/mockup/images/homepage/jd-programs.jpg" style="height: 100px; width: 300px;">
+<h2 style="color: #ffc324; font-family: National; font-weight: bold; margin: 0px; padding: 0px;">J.D. Programs</h2>
+<ul style="list-style: none; margin: 5px 0px 0px 0px; padding: 0px;">
+<li style="height: 30px; margin: 0px; padding: 0px; line-height: 30px; background-color: #000; color: #fff; float: none; border: 0px; border-top: 1px dotted #555555; border-bottom: 1px dotted #555555; font-size: 13px; background: url('/mockup/images/right-arrow.png') no-repeat; background-position: 0px 7px;"><a href="/how/jd/" style="color: #fff; display: block; margin-left: 25px;">3 Year J.D. Program</a></li>
+<li style="height: 30px; margin: 0px; padding: 0px; line-height: 30px; background-color: #000; color: #fff; float: none; border: 0px; border-bottom: 1px dotted #555555; font-size: 13px; background: url('/mockup/images/right-arrow.png') no-repeat; background-position: 0px 7px;"><a href="/how/jd/3-plus-3-program/" style="color: #fff; display: block; margin-left: 25px;">3+3 Accelerated Bachelor/J.D. Program</a></li>
+<li style="height: 30px; margin: 0px; padding: 0px; line-height: 30px; background-color: #000; color: #fff; float: none; border: 0px; border-bottom: 1px dotted #555555; font-size: 13px; background: url('/mockup/images/right-arrow.png') no-repeat; background-position: 0px 7px;"><a href="/how/jd/2-year-jd-program-for-international-lawyers/" style="color: #fff; display: block; margin-left: 25px;">2 Year JD Program for International Lawyers</a></li>
+<li style="height: 30px; margin: 0px; padding: 0px; line-height: 30px; background-color: #000; color: #fff; float: none; border: 0px; border-bottom: 1px dotted #555555; font-size: 13px; background: url('/mockup/images/right-arrow.png') no-repeat; background-position: 0px 7px;"><a href="/how/jd/earlydecision/" style="color: #fff; display: block; margin-left: 25px;">Early Decision Program</a></li>
+<li style="height: 30px; margin: 0px; padding: 0px; line-height: 30px; background-color: #000; color: #fff; float: none; border: 0px; border-bottom: 1px dotted #555555; font-size: 13px; background: url('/mockup/images/right-arrow.png') no-repeat; background-position: 0px 7px;"><a href="/how/transfer/" style="color: #fff; display: block; margin-left: 25px;">Transfer Student Program</a></li>
+<li style="height: 30px; margin: 0px; padding: 0px; line-height: 30px; background-color: #000; color: #fff; float: none; border: 0px; border-bottom: 1px dotted #555555; font-size: 13px;"></li>
+</ul>
+</div>
+<div id="flexinav_middle" style="height: 100%; float: left; width: 300px; margin-left: 20px; margin-right: 20px;">
+<img src="/mockup/images/homepage/graduate-programs.jpg" style="height: 100px; width: 300px;">
+<h2 style="color: #ffc324; font-family: National; font-weight: bold; margin: 0px; padding: 0px;"><a href="/admissions/graduate/" style="color: #ffc324;">Graduate Programs</a></h2>
+<ul style="list-style: none; margin: 5px 0px 0px 0px; padding: 0px;">
+<li style="height: 30px; margin: 0px; padding: 0px; line-height: 30px; background-color: #000; color: #fff; float: none; border: 0px; border-top: 1px dotted #555555; border-bottom: 1px dotted #555555; font-size: 13px; background: url('/mockup/images/right-arrow.png') no-repeat; background-position: 0px 7px;"><a href="/how/gip/llm/" style="color: #fff; display: block; margin-left: 25px;">LL.M. Program</a></li>
+<li style="height: 30px; margin: 0px; padding: 0px; line-height: 30px; background-color: #000; color: #fff; float: none; border: 0px; border-bottom: 1px dotted #555555; font-size: 13px; background: url('/mockup/images/right-arrow.png') no-repeat; background-position: 0px 7px;"><a href="/how/gip/2-year/" style="color: #fff; display: block; margin-left: 25px;">2 Year LL.M. Program</a></li>
+<li style="height: 30px; margin: 0px; padding: 0px; line-height: 30px; background-color: #000; color: #fff; float: none; border: 0px; border-bottom: 1px dotted #555555; font-size: 13px; background: url('/mockup/images/right-arrow.png') no-repeat; background-position: 0px 7px;"><a href="/how/gip/transfer/" style="color: #fff; display: block; margin-left: 25px;">LL.M. to J.D. Transfer Program</a></li>
+<li style="height: 30px; margin: 0px; padding: 0px; line-height: 30px; background-color: #000; color: #fff; float: none; border: 0px; border-bottom: 1px dotted #555555; font-size: 13px; background: url('/mockup/images/right-arrow.png') no-repeat; background-position: 0px 7px;"><a href="/how/gip/mcl/" style="color: #fff; display: block; margin-left: 25px;">Master of Comparative Law Program</a></li>
+<li style="height: 30px; margin: 0px; padding: 0px; line-height: 30px; background-color: #000; color: #fff; float: none; border: 0px; border-bottom: 1px dotted #555555; font-size: 13px; background: url('/mockup/images/right-arrow.png') no-repeat; background-position: 0px 7px;"><a href="/how/gip/vip/" style="color: #fff; display: block; margin-left: 25px;">Visiting International Law Program</a></li>
+<li style="height: 30px; margin: 0px; padding: 0px; line-height: 30px; background-color: #000; color: #fff; float: none; border: 0px; border-bottom: 1px dotted #555555; font-size: 13px; background: url('/mockup/images/right-arrow.png') no-repeat; background-position: 0px 7px;"><a href="/how/gip/sle/" style="color: #fff; display: block; margin-left: 25px;">Summer Law & English Program</a></li>
+
+<li style="height: 30px; margin: 0px; padding: 0px; line-height: 30px; background-color: #000; color: #fff; float: none; border: 0px; border-bottom: 1px dotted #555555; font-size: 13px;"></li>
+
+
+</ul>
+</div>
+<div id="flexinav_right" style="height: 100%; float: left; width: 300px;">
+<img src="/mockup/images/homepage/online-programs.jpg" style="height: 100px; width: 300px;">
+<h2 style="color: #ffc324; font-family: National; font-weight: bold; margin: 0px; padding: 0px;">Online Programs</h2>
+<ul style="list-style: none; margin: 5px 0px 0px 0px; padding: 0px;">
+<li style="height: 30px; margin: 0px; padding: 0px; line-height: 30px; background-color: #000; color: #fff; float: none; border: 0px; border-top: 1px dotted #555555; border-bottom: 1px dotted #555555; font-size: 13px; background: url('/mockup/images/right-arrow.png') no-repeat; background-position: 0px 7px;"><a href="http://onlinellm.usc.edu/?Access_Code=USC-LLM-SEO2&utm_campaign=USC-LLM-SEO2" target="_blank" class="external_link" style="color: #fff; display: block; margin-left: 25px;">Online LL.M. Program</a></li>
+<li style="height: 30px; margin: 0px; padding: 0px; line-height: 30px; background-color: #000; color: #fff; float: none; border: 0px; border-bottom: 1px dotted #555555; font-size: 13px; background: url('/mockup/images/right-arrow.png') no-repeat; background-position: 0px 7px;"><a href="http://onlinellm.usc.edu/?Access_Code=USC-LLM-SEO2&utm_campaign=USC-LLM-SEO2" target="_blank" class="external_link" style="color: #fff; display: block; margin-left: 25px;">Online Business Law Certificate</a></li>
+<li style="height: 30px; margin: 0px; padding: 0px; line-height: 30px; background-color: #000; color: #fff; float: none; border: 0px; border-bottom: 1px dotted #555555; font-size: 13px; background: url('/mockup/images/right-arrow.png') no-repeat; background-position: 0px 7px;"><a href="/how/gip/onlinemsl/" style="color: #fff; display: block; margin-left: 25px;">Online Master of Studies in Law (MSL) Program</a></li>
+
+
+<li style="height: 30px; margin: 0px; padding: 0px; line-height: 30px; background-color: #000; color: #fff; float: none; border: 0px; border-bottom: 1px dotted #555555; font-size: 13px;"></li>
+<li style="height: 30px; margin: 0px; padding: 0px; line-height: 30px; background-color: #000; color: #fff; float: none; border: 0px; border-bottom: 1px dotted #555555; font-size: 13px;"></li>
+<li style="height: 30px; margin: 0px; padding: 0px; line-height: 30px; background-color: #000; color: #fff; float: none; border: 0px; border-bottom: 1px dotted #555555; font-size: 13px;"></li>
+<li style="height: 30px; margin: 0px; padding: 0px; line-height: 30px; background-color: #000; color: #fff; float: none; border: 0px; border-bottom: 1px dotted #555555; font-size: 13px;"></li>
+
+</ul>
+</div>   
+</div>
+</li>
+
+
+
+<li class="flexnav_mega"><span>Academics</span>
+<div class="flexinav_ddown flexinav_ddown_full">
+<img src="http://weblaw.usc.edu/mockup/images/library-books.jpg" style="height: 100px; width: 940px;">
+
+<div id="flexinav_middle" style="height: 100%; float: left; width: 460px; margin-left: 10px; margin-right: 10px;">
+<h2 style="color: #ffc324; font-family: National; font-weight: bold; margin: 0px; padding: 0px;">Academics</h2>
+<ul style="list-style: none; margin: 5px 0px 0px 0px; padding: 0px;">
+<li style="height: 30px; margin: 0px; padding: 0px; line-height: 30px; background-color: #000; color: #fff; float: none; border: 0px; border-top: 1px dotted #555555; border-bottom: 1px dotted #555555; font-size: 13px; background: url('/mockup/images/right-arrow.png') no-repeat; background-position: 0px 7px;"><a href="/academics/calendar/" style="color: #fff; display: block; margin-left: 25px;">Academic Calendar</a></li>
+<li style="height: 30px; margin: 0px; padding: 0px; line-height: 30px; background-color: #000; color: #fff; float: none; border: 0px; border-bottom: 1px dotted #555555; font-size: 13px; background: url('/mockup/images/right-arrow.png') no-repeat; background-position: 0px 7px;"><a href="/academics/curriculum/" style="color: #fff; display: block; margin-left: 25px;">Curriculum</a></li>
+<li style="height: 30px; margin: 0px; padding: 0px; line-height: 30px; background-color: #000; color: #fff; float: none; border: 0px; border-bottom: 1px dotted #555555; font-size: 13px; background: url('/mockup/images/right-arrow.png') no-repeat; background-position: 0px 7px;"><a href="/academics/faculty/" style="color: #fff; display: block; margin-left: 25px;">Faculty</a></li>
+<li style="height: 30px; margin: 0px; padding: 0px; line-height: 30px; background-color: #000; color: #fff; float: none; border: 0px; border-bottom: 1px dotted #555555; font-size: 13px; background: url('/mockup/images/right-arrow.png') no-repeat; background-position: 0px 7px;"><a href="/academics/certificates/" style="color: #fff; display: block; margin-left: 25px;">Certificate Programs</a></li>
+<li style="height: 30px; margin: 0px; padding: 0px; line-height: 30px; background-color: #000; color: #fff; float: none; border: 0px; border-bottom: 1px dotted #555555; font-size: 13px; background: url('/mockup/images/right-arrow.png') no-repeat; background-position: 0px 7px;"><a href="/academics/clinical-programs/" style="color: #fff; display: block; margin-left: 25px;">Clinical Programs</a></li>
+<li style="height: 30px; margin: 0px; padding: 0px; line-height: 30px; background-color: #000; color: #fff; float: none; border: 0px; border-bottom: 1px dotted #555555; font-size: 13px; background: url('/mockup/images/right-arrow.png') no-repeat; background-position: 0px 7px;"><a href="/centers/" style="color: #fff; display: block; margin-left: 25px;">Centers &amp; Workshops</a></li>
+</ul>
+</div>
+<div id="flexinav_right" style="height: 100%; float: left; width: 460px;">
+<ul style="list-style: none; margin: 27px 0px 0px 0px; padding: 0px;">
+<li style="height: 30px; margin: 0px; padding: 0px; line-height: 30px; background-color: #000; color: #fff; float: none; border: 0px; border-top: 1px dotted #555555; border-bottom: 1px dotted #555555; font-size: 13px; background: url('/mockup/images/right-arrow.png') no-repeat; background-position: 0px 7px;"><a href="/academics/alternative-dispute-resolution-program/" style="color: #fff; display: block; margin-left: 25px;">Alternative Dispute Resolution Program</a></li>
+<li style="height: 30px; margin: 0px; padding: 0px; line-height: 30px; background-color: #000; color: #fff; float: none; border: 0px; border-bottom: 1px dotted #555555; font-size: 13px; background: url('/mockup/images/right-arrow.png') no-repeat; background-position: 0px 7px;"><a href="/academics/business-law-program/" style="color: #fff; display: block; margin-left: 25px;">Business Law Program</a></li>
+<li style="height: 30px; margin: 0px; padding: 0px; line-height: 30px; background-color: #000; color: #fff; float: none; border: 0px; border-bottom: 1px dotted #555555; font-size: 13px; background: url('/mockup/images/right-arrow.png') no-repeat; background-position: 0px 7px;"><a href="/academics/media-entertainment-and-technology-law-program/" style="color: #fff; display: block; margin-left: 25px;">Media, Entertainment & Technology Law Program</a></li>
+<li style="height: 30px; margin: 0px; padding: 0px; line-height: 30px; background-color: #000; color: #fff; float: none; border: 0px; border-bottom: 1px dotted #555555; font-size: 13px; background: url('/mockup/images/right-arrow.png') no-repeat; background-position: 0px 7px;"><a href="/academics/state-bar-examinations/" style="color: #fff; display: block; margin-left: 25px;">State Bar Examinations</a></li>
+<li style="height: 30px; margin: 0px; padding: 0px; line-height: 30px; background-color: #000; color: #fff; float: none; border: 0px; border-bottom: 1px dotted #555555; border-bottom: 1px dotted #555555; font-size: 13px; background: url('/mockup/images/right-arrow.png') no-repeat; background-position: 0px 7px;"><a href="/why/academics/cle/" style="color: #fff; display: block; margin-left: 25px;">Continuing Legal Education</a></li>
+<li style="height: 30px; margin: 0px; padding: 0px; line-height: 30px; background-color: #000; color: #fff; float: none; border: 0px; border-bottom: 1px dotted #555555; border-bottom: 1px dotted #555555; font-size: 13px;">&nbsp;</li>
+</ul>
+</div>   
+</div>
+</li>
+
+
+
+<li class="flexnav_mega"><span>Student Life</span>
+<div class="flexinav_ddown flexinav_ddown_full">
+<div id="menubar_image">
+<img src="/mockup/images/academics-and-programs.jpg" height="370" width="300">
+</div>
+<div id="menubar_description">
+<h2>Student Life</h2>
+<p>From your first day on campus you'll notice USC Gould is different. It's small enough to be a community in the real sense of the word even though USC is one the country's largest research universities, and located in the second largest city in the United States. People know your name here, faculty and administration are accessible, and your success is everyone's priority - all of which makes for an unparalleled student experience.</p>
+</div>
+<div id="menubar_links">
+<ul>
+<li><a href="/students/student-services/">Student Services Office</a></li>
+<li><a href="/students/class-and-exam-schedules/">Class &amp; Exam Schedules</a></li>
+<li><a href="/students/peer-mentors/">Peer Mentors</a></li>
+<li><a href="/students/student-organizations/">Student Organizations</a></li>
+<li><a href="/students/academic-journals-and-honors-programs/">Academic Journals &amp; Honors Programs</a></li>
+<li><a href="/students/disability-student-services/">Disability Student Services</a></li>
+<li><a href="/students/public-service/">Public Service</a></li>
+<li><a href="/students/first-generation-professionals/">First Generation Professionals Program</a></li>
+<li><a href="/students/students-with-families/">Students with Families</a></li>
+<li><a href="http://transnet.usc.edu/" target="_blank" class="external_link">Transportation</a></li>
+<li><a href="/students/university-services/">University Services</a></li>
+</ul>
+</div>   
+</div>
+</li>
+
+
+
+<li class="flexnav_mega"><span>Faculty</span>
+<div class="flexinav_ddown flexinav_ddown_full">
+<div id="menubar_image">
+
+<img src="/assets/images/menubar/faculty/1.jpg" alt="Faculty" height="370" width="300">
+</div>
+<div id="menubar_description">
+<h2>Faculty</h2>
+<p>The USC Gould School of Law faculty is nationally recognized for its scholarship in many fields including administrative law, constitutional law, bankruptcy and corporate law, intellectual property, law and race, and taxation. Interdisciplinary scholarship in law and economics, law and history, law and philosophy, law and politics, and law and psychology has long been a signature of the school.</p>
+</div>
+<div id="menubar_links">
+<ul>
+<li><a href="/faculty/">Faculty Directory</a></li>
+<li><a href="/faculty/lecturers/">Lecturers in Law Directory</a></li>
+<li><a href="/faculty/experts/">Experts Directory</a></li>
+<li><a href="/faculty/scholarship/">Scholarship</a></li>
+<li><a href="/faculty/distinctions/">Distinctions &amp; Awards</a></li>
+<li><a href="/faculty/news/">In the News</a></li>
+<li><a href="/faculty/blogs/">Blogs</a></li>
+<li><a href="/centers/">Centers</a></li>
+<li><a href="/faculty/workshops/">Workshops &amp; Conferences</a></li>
+</ul>
+</div>   
+</div>
+</li>
+
+
+
+<li class="flexnav_mega"><span>Careers</span>
+<div class="flexinav_ddown flexinav_ddown_full">
+<div id="menubar_image">
+<img src="/mockup/images/careers.jpg" height="370" width="300">
+</div>
+<div id="menubar_description">
+<h2>Careers</h2>
+<p>The USC Gould School of Law Career Services Office is dedicated to providing students and graduates the information and tools necessary for successful career development and advancement.</p>
+</div>
+<div id="menubar_links">
+<ul>
+<li><a href="/careers/">Career Services</a></li>
+<li><a href="/careers/students/">Information For Students</a></li>
+<li><a href="/careers/alumni/">Information For Alumni</a></li>
+<li><a href="/careers/employers/">Information For Employers</a></li>
+<li><a href="/careers/reciprocity/">Reciprocity</a></li>
+<li><a href="/careers/contact/">Contact Us</a></li>
+</ul>
+</div>   
+</div>
+</li>
+
+
+
+<li class="flexnav_mega"><span>Alumni</span>
+<div class="flexinav_ddown flexinav_ddown_full">
+<div id="menubar_image">
+<img src="/mockup/images/alumni.jpg" height="370" width="300">
+</div>
+<div id="menubar_description">
+<h2>Alumni</h2>
+<p>Alumni of the USC Gould School of Law constitute a network of over 10,000. Gould alumni are a diverse group of professionals that includes legal experts who are nationally and internationally recognized leaders in many fields of law, such as arbitration, business, entertainment, real estate, and government. Whether newly graduated or recently retired, all of USC Gould's alumni share a Trojan connection that is both lifelong and worldwide.</p>
+</div>
+<div id="menubar_links">
+<ul>
+<li><a href="/alumni/getInvolved/committee.cfm">Alumni Association</a></li>
+<li><a href="/giving/choices/annualFund.cfm">Annual Fund Programs</a></li>
+<li><a href="/giving/counsel.cfm">Board of Councilors</a></li>
+<li><a href="/alumni/events/receptions.cfm">Events</a></li>
+<li><a href="/giving/choices/donatenow.cfm">Giving Back</a></li>
+<li><a href="/alumni/class-notes/">Class Notes</a></li>
+<li><a href="/alumni/contactinfo.cfm">Update Contact Info</a></li>
+<li><a href="/alumni/contact.cfm">Contact Us</a></li>
+</ul>
+</div>   
+</div>
+</li>
+
+
+
+<li class="flexnav_mega"><span>Library</span>
+<div class="flexinav_ddown flexinav_ddown_full">
+<div id="menubar_image">
+<img src="/mockup/images/library.jpg" height="370" width="300">
+</div>
+<div id="menubar_description">
+<h2>Library</h2>
+<p>The Gabriel and Matilda Barnett Information Technology Center and The Asa V. Call Law Library supports the teaching and research activities of the USC Gould community.</p>
+</div>
+<div id="menubar_links">
+<ul>
+<li><a href="/library/">Law Library</a></li>
+<li><a href="/library/services/">Services &amp; Information</a></li>
+<li><a href="/library/search/">Search Library Catalogs</a></li>
+<li><a href="http://lawlibguides.usc.edu/" target="_blank" class="external_link">Research Guides</a></li>
+<li><a href="/library/resources.cfm">Online Resources</a></li>
+</ul>
+</div>   
+</div>
+</li>
+
+
+
+<li><a href="javascript:void(0);" onClick="toggle_visibility('search_area');"><img src="/mockup/images/search.png" alt="Search" height="18" width="18"></a></li>
+</ul>
+
+
+
+<ul class="flexinav_menu flexinav_menu_right">
+<img src="/images/header/weather/26.png" style="float: right; margin-top: 15px; margin-right: 20px;">
+<span style="font-size: 19px; color: #fff; float: right; margin-top: 15px;">64&deg;</span>
+</ul>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+
+<div id="header_image"><img src="/assets/images/header/longer/6.jpg" style="width: 100%;"></div>
+
+
+
+
+<div id="background_full">
+
+
+
+
+<div id="content">
+
+<div id="redesign_left_column">
+
+
+
+<div id="leftnav">
+
+
+
+
+<ul>
+<li><a href="/about/introduction/">Introduction from the Dean</a></li>
+<li><a href="/about/history/">History of USC Gould</a>
+
+</li>
+<li><a href="/about/los-angeles/">Explore Los Angeles</a>
+
+</li>
+<li><a href="/about/class-profile/">Class Profile</a></li>
+<li><a href="/about/board/">Board of Councilors</a></li>
+<li><a href="/about/visit/">Visit USC Gould</a>
+
+</li>
+<li><a href="/about/aba-required-disclosures/">ABA Required Disclosures</a>
+
+</li>
+<li><a href="/about/community/">Meet our Community</a></li>
+<li><a href="/about/contact/">Contact Us</a>
+
+<ul>
+<li class="active"><a href="/about/contact/faculty/">Faculty Directory</a></li>
+<li><a href="/about/contact/lecturers/">Lecturers in Law Directory</a></li>
+<li><a href="/about/contact/staff/">Staff Directory</a></li>
+<li><a href="/about/contact/directions/">Driving Directions</a></li>
+<li><a href="/about/contact/map/">Building Map</a></li>
+</ul>
+
+</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div></div>
+
+
+
+<div id="redesign_right_column_threecolumn">
+
+    
+
+    
+<div id="hcard-Susan-Estrich" class="vcard">
+    
+    <h1 class="fn n"><span class="given-name">Susan</span> <span class="family-name">Estrich</span></h1>
+    <h2 style="margin:-10px 0 10px 0;"><span class="title">Robert Kingsley Professor of Law and Political Science</span><span class="org"><span class="hide"><span class="organization-name">USC Gould School of Law</span></span>
+        
+        </span></h2>
+    
+        <img src="/portal/directory/photos/sestrich.jpg" alt="Susan Estrich" class="photo fleft" width="176" height="250" />
+        
+        <a class="email" href="mailto:sestrich@law.usc.edu">sestrich@law.usc.edu</a><br />
+    
+    <span class="tel">
+    
+        <strong><span class="type">Work</span>:</strong> <span class="value">(213) 740-7578</span><br />
+    
+        <strong><span class="type">Fax</span>:</strong> <span class="value">(213) 740-5502</span><br />
+    
+    </span>
+    <span class="adr">
+        <span class="hide"><span class="street-address">699 Exposition Blvd.</span> <span class="locality">Los Angeles</span>, <abbr title="California" class="region">CA</abbr> <span class="postal-code">90089-0074</span> <abbr title="United States of America" class="country-name">USA</abbr></span>
+        
+            <strong>Room: </strong><span class="extended-address">306A</span><br />
+        
+    </span>
+    
+    </p>
+
+
+<p>
+
+&bull; <a href="processVcard.cfm?detailID=211">Download vCard</a>
+<br/>
+
+&bull; <a target="_blank" href="/portal/directory/photos/Estrich_Susan_CV.pdf">Download Curriculum Vitae</a>
+
+</p>
+
+
+    <p class="extrafine">last updated <abbr class="rev" title="2015-02-12 14:53:08.19">Thu, Feb 12, 2015</abbr></p>
+</div>   
+
+
+    
+    <p>
+	Professor Estrich is an expert in law and politics, criminal law, and gender discrimination. She teaches Criminal Law, Gender Discrimination and Election Law.</p>
+<p>
+	Professor Estrich clerked for The Honorable John Paul Stevens, associate justice of the U.S. Supreme Court and the late Honorable J. Skelly Wright, judge of the United States Court of Appeals for the District of Columbia Circuit.</p>
+<p>
+	Professor Estrich was a special assistant to Senator Edward M. Kennedy, and staff counsel and special assistant to the chief counsel for the U.S. Senate Judiciary Committee. She has been actively involved in Democratic presidential politics, serving as national campaign manager of the Dukakis-Bentsen campaign in 1988.</p>
+<p>
+	Professor Estrich is a frequent commentator on law and politics for FOX News, and an occasional talk radio show host. Her scholarly publications include <em>Real Rape; Getting Away with Murder: Politics, Crime, and the Rule of Law</em>; <em>Dangerous Offenders</em> (with Moore, McGillis, &amp; Spellman); and &quot;Sex at Work.&quot; Her most recent book is The <em>Case for Hillary Clinton</em> (ReganBooks, 2005).</p>
+<p>
+	Professor Estrich received her B.A. from Wellesley College and her J.D. from Harvard Law School, where she was first woman President of the <em>Harvard Law Review</em>. She has also taught at Harvard Law School.</p> <p>
+	<strong>Books</strong></p>
+<ul>
+	<li>
+		<em>How to Get into Law School </em>(Riverhead Books, 2004).</li>
+	<li>
+		<em>Sex and Power</em> (Riverhead Books, 2000). [Excerpted in <em>Ms,</em> December 2000/January 2001,<em> </em>at 48 and in <em>Newsweek</em>, October 2, 2000, at 30.]</li>
+	<li>
+		<em>Getting Away with Murder: How Politics is Destroying the Criminal Justice System</em> (Harvard University Press, 1998).</li>
+	<li>
+		<em>Making the Case for Yourself: A Diet Book for Smart Women</em> (Riverhead Books, 1998). [Reprinted in part in 20 <em>Complete Woman</em>, April/May 2001, at 54.]</li>
+	<li>
+		<em>Real Rape</em> (Harvard University Press, 1987).</li>
+	<li>
+		<em>Dangerous Offenders: The Elusive Target of Justice</em> (with M. Moore, D. McGillis and W. Spelman) (Harvard University Press, 1985).</li>
+</ul>
+<p>
+	<strong>Contributions to Books</strong></p>
+<ul>
+	<li>
+		&ldquo;Reply. George Fletcher, Critical Feminist: Comment on Fletcher, The Individualization of Excusing Conditions.&rdquo; In <em>Fletcher&rsquo;s Essays on Criminal Law </em>(George P. Fletcher and Russell L. Christopher, eds.) (Oxford University Press, 2013).</li>
+	<li>
+		&ldquo;Revolution in Egypt Could Lead to Instability and Anti-Americanism.&rdquo; In <em>Developing Nations</em> (Debra Miller, ed.) (Greenhaven Press, 2012).</li>
+	<li>
+		&ldquo;A Tale of Two Worlds.&rdquo; In <em>Rethinking the Vote: The Politics and Prospects of American Election Reform </em>(Ann N. Crigler and others, eds.) (Oxford University Press, 2004).</li>
+	<li>
+		&quot;Politics of Abortion.&quot; In <em>The Rehnquist Court: Judicial Activism on the Right </em>(Herman Schwartz, ed) (Hill and Wang, 2002). [Reprinted in <em>American Constitution Society for Law and Policy Newsletter</em>.]</li>
+	<li>
+		&quot;Sex at Work.&quot; In <em>Representing Women: Law, Literature and Feminism</em> (Susan Sage Heinzelman and Zipporah Batshaw Wiseman, eds.) (Duke University Press, 1994).</li>
+	<li>
+		&quot;Crime and the Poor.&quot; In <em>The State and the Poor in the 1980s</em> (M. Carballo and M.J. Bane, eds.) (Auburn House, 1984).</li>
+	<li>
+		&quot;Sexual Justice&quot; (with V. Kerr). In <em>Our Endangered Rights</em> (N. Dorsen, ed.) (Pantheon Press, 1984).</li>
+</ul>
+<p>
+	<strong>Articles</strong></p>
+<ul>
+	<li>
+		&quot;Politics and the Limits of Law: A Musing for Dean Sullivan.&quot; 90 <em>California Law Review</em> 813 (2002).</li>
+	<li>
+		&quot;Reflection: Bridging the Gender Gap.&quot; 3 <em>The Scholar: St. Mary&#39;s Law Review on Minority Issues</em> 153 (Spring 2001).</li>
+	<li>
+		&quot;The Justice of Candor (Favorite Case Symposium).&quot; 74 <em>Texas Law Review</em> 1227 (1996).</li>
+	<li>
+		&quot;What Went Wrong&quot; (Gender, Race, and the Politics of Supreme Court Appointments: The Impact of the Anita Hill/Clarence Thomas Hearings). 65 <em>Southern California Law Review</em> 1393 (1992).</li>
+	<li>
+		&quot;Palm Beach Stories.&quot; 11<em> Law and Philosophy</em> 5 (1992).</li>
+	<li>
+		&quot;Teaching Rape Law.&quot; 102 <em>Yale Law Journal</em> 509 (1992).</li>
+	<li>
+		&quot;Sex at Work.&quot; 43 <em>Stanford Law Review</em> 813 (1991).</li>
+	<li>
+		&quot;Women, Politics, and the Nineties: The Abortion Debate.&quot; 6 <em>New England Journal of Public Policy</em> (1990).</li>
+	<li>
+		&quot;Abortion Politics: Writing for an Audience of One&quot; (with K.M. Sullivan). 138 <em>University of Pennsylvania Law Review</em> 119 (1989).</li>
+	<li>
+		&quot;In Memoriam: Judge J. Skelly Wright&quot; (with others). 57 <em>George Washington Law Review</em> 1029 (1989).</li>
+	<li>
+		&quot;Rape.&quot; 95 <em>Yale Law Journal</em> 1087 (1986).</li>
+</ul>
+<p>
+	<strong>Book Reviews</strong></p>
+<ul>
+	<li>
+		&quot;Fast-track Feminism; Terminatrix; The Morning After.&quot; Review of <em>Sex, Fear, and Feminism on Campus,</em> by Katie Roiphe and<em> Sexual Violence: Our War Against Rape,</em> by Linda A. Fairstein. <em>Los Angeles Times</em>, December 19, 1993, at 1.</li>
+	<li>
+		&quot;Defending Women.&quot; Review of <em>Justifiable Homicide: Battered Women, Self-Defense and the Law</em>, by Cynthia Gillespie. 88 <em>Michigan Law Review </em>1430 (1990).</li>
+	<li>
+		<em>Women in Law</em>, by Cynthia Epstein. 5 <em>Harvard Women&#39;s Law Journal</em> 165 (1982).</li>
+</ul>
+<p>
+	<strong>Other Works</strong></p>
+<ul>
+	<li>
+		&ldquo;Making It Easy on Enemies.&rdquo; Indystar.com, May 26, 2005.</li>
+	<li>
+		&ldquo;Season of Pies and Protests.&rdquo; Indystar.com, April 28, 2005.</li>
+	<li>
+		&ldquo;A Woman Contender Goes Down for Count.&rdquo; Indystar.com, March 10, 2005.</li>
+	<li>
+		&ldquo;Going after the Mom.&rdquo; Indystar.com, February 3, 2005.</li>
+	<li>
+		&ldquo;Harvard President&rsquo;s Speech Proves Ignorance.&rdquo; MyrtleBeachOnline.com, January 24, 2005.</li>
+	<li>
+		&ldquo;eBay&rsquo;s Purses Can&rsquo;t Help.&rdquo; Indystar.com, January 8, 2005.</li>
+	<li>
+		&ldquo;No Escape from Suffering.&rdquo; Indystar.com, December 30, 2004.</li>
+	<li>
+		&ldquo;Peterson Jurors Got It Right.&rdquo; Indystar.com, December 16, 2004.</li>
+	<li>
+		&ldquo;Schwarzenegger&rsquo;s California Formula: Bipartisanship + Civility = Progress.&rdquo; <em>USA Today</em>, May 27, 2004, at 13A.</li>
+	<li>
+		&ldquo;Girls Dying to Be Swans.&rdquo; <em>Indianapolis Star Tribune</em>, April 19, 2004.</li>
+	<li>
+		&ldquo;Raising McCain over VP Choice.&rdquo; <em>Indianapolis Star Tribune</em>, March 22, 2004.</li>
+	<li>
+		&ldquo;Bush Caves in on Gay Marriage.&rdquo; <em>Indianapolis Star Tribune</em>, March 1, 2004.</li>
+	<li>
+		&ldquo;Morality&rsquo;s Place in Politics.&rdquo; <em>Indianapolis Star Tribune</em>, February 23, 2004.</li>
+	<li>
+		&ldquo;Hillary Blew It: Blame the Two Johns.&rdquo; <em>Indianapolis Star Tribune,</em> February 11, 2004.</li>
+	<li>
+		&ldquo;Enough to Make Gray Davis Look Good.&rdquo; <em>Indianapolis Star Tribune</em>, August 17, 2003.</li>
+	<li>
+		&quot;Rape Shield Laws Aren&rsquo;t Foolproof.&quot; <em>USA Today</em>, July 28, 2003, at 13A.</li>
+	<li>
+		&quot; Laci Peterson&rsquo;s Unborn Child Becomes Pawn in Abortion Debate.&quot; <em>USA Today</em>, April 30, 2003, at 13A.</li>
+	<li>
+		&quot;America&rsquo;s Real Soldiers.&quot; <em>San Diego Union-Tribune</em>, March 27, 2003, at B13.</li>
+	<li>
+		&quot;September 11, 2002.&quot; <em>USA Today,</em> September 11, 2002, at 13A.</li>
+	<li>
+		&quot;Public Service Legal Work More Attractive Than Ever Crowded Dockets Elsewhere Help Make New York a More Popular Place to File Bankruptcy Petitions.&quot; <em>Broward Daily Business Review</em>, August 2, 2002, at 165. [Reprinted in <em>Palm Beach Daily Business Review</em>, August 2, 2002, at A10 and <em>Miami Daily Business Review</em>, August 2, 2002, at 38.]</li>
+	<li>
+		&quot; Intent Provides Key to Pipe-Bomb Suspect&rsquo;s Defense: Was He Trying to Injure or Send a Message?&quot; <em>USA Today</em>, May 13, 2002, at 13A.</li>
+	<li>
+		&quot;Fear Itself: In Times of Threat, Some Cures are Worse than the Disease.&quot; 23 <em>American Lawyer</em> 65 (December 2001).</li>
+	<li>
+		&quot;Stevens&#39; Opinions&quot; (Interview with Justice John Paul Stevens). <em>JD Jungle</em>, November 2001, at 64.</li>
+	<li>
+		&quot;The Thin, Thin Line Between Safe and Free.&quot; <em>USA Today</em>, September 13, 2001, at 13A.</li>
+	<li>
+		&quot;Listen Up Girls: Starting Law School Isn&#39;t Easy: Here&#39;s How to Deal.&quot; <em>JD Jungle</em>, September 2001, at 38.</li>
+	<li>
+		&quot;Should Internet Protect Against Defamation?&quot; <em>USA Today</em>, August 29, 2001, at 13A.</li>
+	<li>
+		&quot;Wooed by a Washington Wolf.&quot; <em>USA Today</em>, July 12, 2001, at 15A.</li>
+	<li>
+		&quot;Dialogues&quot; (with David Frum or Stuart Taylor, Jr.). Ongoing contributions to <em>Slate Magazine</em> <http: www.slate.com="">, from November 6, 1996 through present. </http:></li>
+	<li>
+		&quot;Girls, Interrupted: More Women Partners? It&#39;s Up to Us to Fight.&quot; 1 <em>JD Jungle</em>, May 2001, at 26.</li>
+	<li>
+		&quot;Chaleff Firing Sends a Message to Parks.&quot; <em>Los Angeles Times</em>, February 13, 2001, at B9.</li>
+	<li>
+		&quot;The Dangers of Ditching Your Job: The Rewards of Being a Career Woman.&quot; <em>Cosmopolitan</em>, December 2000, at 64.</li>
+	<li>
+		&quot;The Bitter End.&quot; <em>Newsweek</em> (web edition), November 6, 2000.</li>
+	<li>
+		&quot;The Breakfast Table&quot; (with Richard A. Epstein). <em>Slate Magazine</em> <http: www.slate.com=""> (October 17-19, 2000). </http:></li>
+	<li>
+		&quot;For Some, Choice Gets Harder: The Supreme Court and Reproductive Freedom.&quot; 271 <em>The Nation</em>, October 9, 2000, at 19.</li>
+	<li>
+		&quot;Crisis of Confidence.&quot; <em>American Lawyer</em>, October 2000, at 59.</li>
+	<li>
+		&quot;Happily Ever After.&quot; <em>George</em>, October 2000, at 26.</li>
+	<li>
+		&quot;The Trouble with Hillary.&quot; <em>Harper&#39;s Ba</em>zaar, August 2000, at 124.</li>
+	<li>
+		&quot;Gore in Good Hands with Daly.&quot; <em>The Denver Post</em>, July 13, 2000, at B11.</li>
+	<li>
+		&quot;Of Predators and Police.&quot; <em>The Denver Post</em>, June 24, 2000, at B9.</li>
+	<li>
+		&quot;Undeserving Target in Gore Campaign.&quot; <em>The Houston Chronicle</em>, June 23, 2000, at A36.</li>
+	<li>
+		&quot;What $70 Billion Won&#39;t Buy on TV News.&quot; <em>The Houston Chronicle</em>, June 16, 2000, at A42.</li>
+	<li>
+		&quot;Scooters Look Cute - Until the Accident.&quot; <em>The Dallas Morning News</em>, June 15, 2000, at A29.</li>
+	<li>
+		&quot;Running Mate Isn&#39;t Really That Important.&quot; <em>The Dallas Morning News</em>, June 6, 2000, at A23.</li>
+	<li>
+		&quot;Special Meaning of Politics.&quot; <em>The Denver Post</em>, May 27, 2000, at B7.</li>
+	<li>
+		&quot;Bush and Gore Will Ebb and Flow.&quot; <em>The Dallas Morning News</em>, May 25, 2000, at A29.</li>
+	<li>
+		&quot;Rape Victims Losers in Federalism Game.&quot; <em>The Houston Chronicle</em>, May 18, 2000, at A26.</li>
+	<li>
+		&quot;Mega-Merger Leaves One Big Void.&quot; <em>The Dallas Morning News</em>, May 11, 2000, at A29.</li>
+	<li>
+		&quot;Seller Beware: E-Tales of Horror Still Lurk.&quot; <em>The Houston Chronicle</em>, May 8, 2000, at A24.</li>
+	<li>
+		&quot;What It Means to Be a Boy Scout.&quot; <em>The Denver Post</em>, May 2, 2000, at B9.</li>
+	<li>
+		&quot;Abortion Case Hinges on One Woman.&quot; <em>The Dallas Morning News</em>, April 29, 2000, at 29A.</li>
+	<li>
+		&quot;Partial Logic on Abortion.&quot; <em>The Denver Post</em>, April 27, 2000, at B11.</li>
+	<li>
+		&quot;Everyone Can Live With Miranda.&quot; <em>The Denver Post</em>, April 24, 2000, at B8.</li>
+	<li>
+		&quot;Finger Pointing.&quot; <em>The Denver Post</em>, April 23, 2000, at H3.</li>
+	<li>
+		&quot;Army Harassment Case Painfully Typical.&quot; <em>The Houston Chronicle</em>, April 13, 2000, at A36.</li>
+	<li>
+		&quot;Moving Beyond Affirmative Action.&quot; <em>The Denver Post</em>, April 10, 2000, at B6.</li>
+	<li>
+		&quot;Relative Absolutism.&quot; <em>The American Lawyer </em>87 (March 2000).</li>
+	<li>
+		&quot;States Now Best Hope for Liberals.&quot; <em>The Denver Post</em>, March 26, 2000, at I3</li>
+	<li>
+		&quot;Three Cheers for the American Bar.&quot; <em>The Denver Post</em>, March 24, 2000, at B11.</li>
+	<li>
+		&quot;Fewer Hands Dipping Into News Pie.&quot; <em>The Denver Post</em>, March 17, 2000 at B11.</li>
+	<li>
+		&quot;Judy Didn&#39;t Lose Her Fight With Cancer.&quot; <em>The Dallas Morning News</em>, March 14, 2000, at 13A.</li>
+	<li>
+		&quot;What Did We Learn From Impeachment?&quot; <em>Legal Times</em>, March 6, 2000, at 58.</li>
+	<li>
+		&quot;Hot Buttons Clog Ballot in California.&quot; <em>The Denver Post</em>, March 5, 2000, at G3.</li>
+	<li>
+		&quot;Democrats Cheer GOP Implosion.&quot; <em>The Denver Post</em>, March 2, 2000, at B9.</li>
+	<li>
+		&quot;Outrage in L.A.? Been There, Done That.&quot; <em>USA Today</em>, March 2, 2000, at 15A.</li>
+	<li>
+		&quot;Face It, Negative Campaigns Work.&quot; <em>The Denver Post</em>, February 27, 2000, at K3.</li>
+	<li>
+		&quot;Who Wants to Marry a Frog?&quot; <em>The Denver Post</em>, February 25, 2000, at B7.</li>
+	<li>
+		&quot;Entering a New World of Reproduction.&quot; <em>The Houston Chronicle</em>, February 19, 2000, at A40.</li>
+	<li>
+		&quot;California Dreams On.&quot; <em>The Denver Post</em>, February 10, 2000, at B7.</li>
+	<li>
+		&quot;Campaign Boils Down to Candidate.&quot; <em>The Dallas Morning News</em>, February 7, 2000, at 11A.</li>
+	<li>
+		&quot;Women Voters Watching the Candidates Closely.&quot; <em>The Houston Chronicle</em>, January 30, 2000, at 3.</li>
+	<li>
+		&quot;Bradley Made Gore a Better Candidate.&quot; <em>The Houston Chronicle</em>, January 22, 2000, at A38.</li>
+	<li>
+		&quot;Now It&#39;s the GOP With a Flag Problem.&quot; <em>The Houston Chronicle</em>, January 20, 2000, at A32.</li>
+	<li>
+		&quot;Running While Minority Now a Crime?&quot; <em>The Houston Chronicle</em>, January 14. 2000. at A34.</li>
+	<li>
+		&quot;He Knew How Hatred Can Destroy.&quot; <em>The Dallas Morning News</em>, January 8, 2000, at 27A.</li>
+	<li>
+		&quot;Breaking Out of the Mold.&quot; <em>The Denver Post</em>, January 3, 2000, at B8.</li>
+	<li>
+		&quot;Help Wanted: Democratic Party Lacking in Viable Female and Minority Candidates.&quot; <em>The Dallas Morning News</em>, January 3, 2000, at 13A.</li>
+	<li>
+		&quot;Scoundrel Time in Jeffco.&quot; <em>The Denver Post</em>, December 29, 1999, at B9.</li>
+	<li>
+		&quot;Gore&#39;s Negative Campaigning Could Backfire.&quot; <em>The Houston Chronicle</em>, December 18, 1999, at A46.</li>
+	<li>
+		&quot;George W. Misses the Boat.&quot; <em>The Denver Post</em>, December 17, 1999, at B11.</li>
+	<li>
+		&quot;Raising the Ante on Retail Politics.&quot; <em>The Denver Post</em>, December 13, 1999, at B10.</li>
+	<li>
+		&quot;Why a Challenge to Miranda Warning?&quot; <em>The Dallas Morning News</em>, December 13, 1999, at 17A.</li>
+	<li>
+		&quot;Student Customers Being Sold Bad Product.&quot; <em>The Houston Chronicle,</em> December 6, 1999, at A24.</li>
+	<li>
+		&quot;Private Counsel, Public Duty.&quot; <em>The American Lawyer</em> 53 (November 1999).</li>
+	<li>
+		&quot;Keeping the Glass Half Full.&quot; <em>The Denver Post</em>, November 26, 1999, at B15.</li>
+	<li>
+		&quot;Banks are Begging for Backlash.&quot; <em>The Denver Post</em>, November 16, 1999, at B11.</li>
+	<li>
+		&quot;First Shot in Health-Care Fight for Good Will.&quot; <em>The Houston Chronicle</em>, November 11, 1999, at A32.</li>
+	<li>
+		&quot;Eventually, Gore Has to Decide.&quot; <em>The Denver Post</em>, November 7, 1999, at H3.</li>
+	<li>
+		&quot;Homophobia Never Was a Legitimate Defense.&quot; <em>The Dallas Morning News</em>, November 7, 1999, at 7J.</li>
+	<li>
+		&quot;Brave New World: Online DNA Marketing.&quot; <em>The Houston Chronicle</em>, October 30, 1999, at A40.</li>
+	<li>
+		&quot;Reform Message Strong.&quot; <em>The Denver Post</em>, October 28, 1999, at B7.</li>
+	<li>
+		&quot;Catching Up? Despite Perceptions, Women Haven&#39;t Gained Electoral Equality.&quot; <em>The Dallas Morning News</em>, October 25, 1999, at 13A.</li>
+	<li>
+		&quot;Show the Primary Colors.&quot; <em>The Denver Post</em>, October 15, 1999, at B7.</li>
+	<li>
+		&quot;Hard Returns on Contributions.&quot; <em>The Denver Post</em>, October 12, 1999, at B11.</li>
+	<li>
+		&quot;Lawyers Gambling More Than Pokeman Buyers Are.&quot; <em>The Dallas Morning News</em>, October 10, 1999, at 7J.</li>
+	<li>
+		&quot;A New Wardrobe for Monica?&quot; <em>The Denver Post</em>, October 10, 1999, at I2.</li>
+	<li>
+		&quot;Campaign and Candidate Both Must Change.&quot; <em>The Houston Chronicle</em>, October 2, 1999, at A40.</li>
+	<li>
+		&quot;How About a Hybrid Ticket?&quot; <em>The Denver Post</em>, September 30, 1999, at B11.</li>
+	<li>
+		&quot;Challenge: Bradley Speaking Up on Nomination That Gore Appeared to Have Locked Up.&quot; The <em>Dallas Morning News</em>, September 24, 1999, at 25A.</li>
+	<li>
+		&quot;Justice For Sale.&quot; <em>The Denver Post</em>, September 19, 1999, at H2.</li>
+	<li>
+		&quot;Gun Proponents Fight Back in Court.&quot; <em>The Dallas Morning News</em>, September 14, 1999, at 13A.</li>
+	<li>
+		&quot;Abuse Policy Creates Its Own Problem.&quot; <em>The Denver Post</em>, September 10, 1999, at B11.</li>
+	<li>
+		&quot;Misplaced Investigations.&quot; <em>The Denver Post</em>, September 9, 1999, at B11.</li>
+	<li>
+		&quot;Seek Lung-Cancer Cure, Not Villains.&quot; <em>USA Today</em>, September 9, 1999, at 15A.</li>
+	<li>
+		&quot;Pioneer Pariahs Litigation Now Attacks Social Ills Like Guns and Tobacco: Gender Discrimination</li>
+	<li>
+		Could Be Next.&quot; 157 <em>New Jersey Law Journal</em> 996 (September 6, 1999).</li>
+	<li>
+		&quot;The Danger in Beatty&#39;s Candidacy.&quot; <em>The Dallas Morning News</em>, September 4, 1999, at 27A.</li>
+	<li>
+		&quot;Real Question: It Isn&#39;t Whether Bush Used Drugs, But What He Thinks About Drug War.&quot; <em>The</em> <em>Dallas Morning News</em>, August 27, 1999, at 29A.</li>
+	<li>
+		&quot;Willie Horton, R.I.P.&quot; <em>The Denver Post</em>, August 26, 1999, at B11.</li>
+	<li>
+		&quot;Better Health Through Litigation.&quot; 157 <em>New Jersey Law Journal</em> 747 (August 23, 1999).</li>
+	<li>
+		&quot;Iowa Straw Poll Punctures &#39;Inevitability&#39; of George W. Bush.&quot; <em>The Denver Post</em>, August 20, 1999, at B7.</li>
+	<li>
+		&quot;Much To Be Learned From Abortion Study.&quot; <em>The Houston Chronicle</em>, August 13, 1999, at A34.</li>
+	<li>
+		&quot;Now, Really, Is TV All That Bad For Kids?&quot; <em>The Denver Post</em>, August 7, 1999, at B7.</li>
+	<li>
+		&quot;After All, It&#39;s Only Talk.&quot; <em>The Denver Post</em>, August 5, 1999, at B9.</li>
+	<li>
+		&quot;Now There Are Three.&quot; <em>The Denver Post</em>, July 26, 1999, at B10.</li>
+	<li>
+		&quot;One Doctor Fights the System and Earns a Legal Education.&quot; <em>The Connecticut Law Tribune</em> (July 26, 1999).</li>
+	<li>
+		&quot;Primary-Care Physicians: The 90&#39;s Question of Choice.&quot; <em>The Denver Post</em>, July 25, 1999, at H2.</li>
+	<li>
+		&quot;What It Takes For Woman to Reach Top in Corporate America.&quot; <em>The Dallas Morning News</em>, July 25, 1999, at 5J.</li>
+	<li>
+		&quot;The Twilight of Idealism.&quot; <em>The Denver Post</em>, July 22, 1999, at B11.</li>
+	<li>
+		&quot;With Liberty and Justice for All: Despite Setbacks, Doctor Who Fled Iran in Youth Believes</li>
+	<li>
+		Baby-Care Law Can Become Fair in California.&quot; <em>The Daily News of Los Angeles</em>, July 15, 1999, at N13.</li>
+	<li>
+		&quot;Custody Fights Trample on Child&#39;s Interest.&quot;<em> The Denver Post</em>, July 12, 1999, at B11.</li>
+	<li>
+		&quot;Women&#39;s Turn, and First Lady&#39;s Leading Them.&quot; <em>The Houston Chronicle</em>, July 8, 1999, at A24.</li>
+	<li>
+		&quot;Gore Can&#39;t Afford To Distance Self From Clinton.&quot; <em>The Dallas Morning News</em>, July 6, 1999, at 9A.</li>
+	<li>
+		&quot;Casting Call: Hollywood Searching for Alternatives to Gore.&quot; <em>The Dallas Morning News</em>, June 25, 1999, at 27A.</li>
+	<li>
+		&quot;Cross-Pollinating in Hollywood.&quot; <em>The Denver Post</em>, June 25, 1999, at B7.</li>
+	<li>
+		&quot;Hollywood Bash for Bush Bad Sign for Gore.&quot; <em>The Houston Chronicle</em>, June 24, 1999, at A26.</li>
+	<li>
+		&quot;Custody Battle Fatigue.&quot; 156 <em>New Jersey Law Journal</em>, June 21, 1999, at 1127.</li>
+	<li>
+		&quot;Inhofe&#39;s Own X-Rated Office Politics.&quot; <em>The Denver Post</em> , June 20, 1999, at<em> </em>I2.</li>
+	<li>
+		&quot;George W. Bush on a Roll, but Dangers Lurk.&quot; <em>The Houston Chronicle</em>, June 12,1999, at A42.</li>
+	<li>
+		&quot;Don&#39;t Skip Your Mammogram.&quot; <em>The Dallas Morning News</em>, June 8, 1999, at 11A.</li>
+	<li>
+		&quot;Turning Special Interests into Inclusion.&quot; <em>The Denver Post</em>, June 2, 1999, at B11.</li>
+	<li>
+		&quot;Store Tailors Its Business to Right-to-Lifers.&quot; <em>The Dallas Morning News</em>, May 29, 1999, at 35A.</li>
+	<li>
+		&quot;Lessons for Americans in Israeli Election.&quot; <em>The Houston Chronicle,</em>, May 19, 1999, at A26.</li>
+	<li>
+		&quot;Juries Not Always Best Source for Reforms.&quot; <em>The Houston Chronicle</em>, May 13, 1999, at A26.</li>
+	<li>
+		&quot;Kosovo Is No TV Special - It&#39;s Good vs. Evil.&quot; <em>The Houston Chronicle</em>, May 6, 1999, at A44.</li>
+	<li>
+		&quot;No-Fault News.&quot; 156 <em>New Jersey Law Journal</em>, April 26, 1999, at 295.</li>
+	<li>
+		&quot;Others Besides Gunmen Bear Responsibility.&quot; <em>The Houston Chronicle</em>, April 24, 1999, at A44.</li>
+	<li>
+		&quot;Case Against the Prosecution.&quot; <em>The Denver Post</em>, April 15, 1999, at B11.</li>
+	<li>
+		&quot;Kosovo: A Valuable Lesson for Our Children.&quot; <em>The Houston Chronicle</em>, April 8, 1999, at 24.</li>
+	<li>
+		&quot;Kosovo Will Redefine NATO. <em>The Denver Post</em>, April 8, 1999, at B11.</li>
+	<li>
+		&quot;Bush&#39;s Slogan Just a Fig Leaf for Intolerance?&quot; <em>The Houston Chronicle</em>, April 5, 1999, at 18.</li>
+	<li>
+		&quot;Time to Free the Hostages: Independent Counsel&#39;s Pursuit of Henry Cisneros Has Gone Too Far.&quot; <em>Fulton County Daily Report</em>, April 5, 1999.</li>
+	<li>
+		&quot;Unhand Counsels&#39; Hostages.&quot; <em>The Denver Post</em>, March 22, 1999, at B11.</li>
+	<li>
+		&quot;Cisneros Case Shows Flaws of Counsel Law.&quot; <em>The Houston Chronicle</em>, March 20, 1999, at 36.</li>
+	<li>
+		&quot;A Breath of Fresh Oxygen.&quot; <em>The Denver Post</em>, March 18, 1999, at B07.</li>
+	<li>
+		&quot;Step Up to the Plate, Girls.&quot; <em>The Denver Post</em>, March 15, 1999, at B09.</li>
+	<li>
+		&quot;Egg Money.&quot; <em>The Denver Post</em>, March 8, 1999, at B07.</li>
+	<li>
+		&quot;Single-Sex Education Can Work.&quot; <em>The Denver Post</em>, March 4, 1999, at B11.</li>
+	<li>
+		&quot;Motives Blur Rape Boundaries.&quot; <em>The Denver Post</em>, March 2, 1999, at B07.</li>
+	<li>
+		&quot;Feminists Join Jane Doe Skeptics.&quot; <em>USA Today</em> , February 25, 1999, at 15A.</li>
+	<li>
+		&quot;The Perils Ahead for Hillary.&quot; <em>The Denver Post</em>, February 19, 1999, at B07.</li>
+	<li>
+		&quot;Bad For First Lady To Seek Senate Seat Now.&quot; <em>The Houston Chronicle</em>, February 18, 1999, at 30.</li>
+	<li>
+		&quot;Want Political Help? Look to the Courts.&quot; <em>The Baltimore Sun,</em> February 17, 1999 (also, <em>Los Angeles Times</em>, February 7, 1999, at 2).</li>
+	<li>
+		&quot;Bad to the Bone.&quot; <em>The Denver Post</em>, February 8, 1999, at B07.</li>
+	<li>
+		&quot;Blumenthal As Witness Proof That This Not a Real Trial.&quot; <em>The Houston Chronicle, </em>January 31, 1999, at 3.</li>
+	<li>
+		&quot;Into the Gutter With Blumenthal.&quot; <em>The Denver Post</em>, January 28, 1999, at E07.</li>
+	<li>
+		&quot;Pundette Envy: Clinton Critic Defends Her Credentials.&quot; <em>Legal Times, </em>January 25, 1999, at 64.</li>
+	<li>
+		&quot;Dance &#39;Til We Drop.&quot; <em>The Denver Post</em>, January 24, 1999, at 03.</li>
+	<li>
+		&quot;Job For Senate is Judgment in Clinton Trial.&quot; <em>The Houston Chronicle</em>, January 20, 1999, at 32.</li>
+	<li>
+		&quot;The GOP&#39;s Gender Problem.&quot; <em>The Denver Post</em>, January 17, 1999, at G03.</li>
+	<li>
+		&quot;Perspective on the City Charger: Mayor Needs Full Firing Power: Compromise Reached by Commissions Drafting Reform Would Open the Door to Factionalism.&quot; <em>Los Angeles Times</em>, January 5, 1999, at 7.</li>
+	<li>
+		&quot;Babes in Impeachland.&quot; <em>The Denver Post</em>, January 3, 1999, at I01.</li>
+	<li>
+		&quot;Feminist Revolt Barely Visible in Washington.&quot; <em>The Houston Chronicle</em>, January 2, 1999, at 30.</li>
+	<li>
+		&quot;The Breakfast Table&quot; (with David Brooks). <em>Slate Magazine</em> <http:www.slate.com>, 1998. </http:www.slate.com></li>
+	<li>
+		&quot;The Outrage Disconnect Grows.&quot; <em>The Denver Post</em>, December 24, 1998, at B11.</li>
+	<li>
+		&quot;Dissing the Distaff Side.&quot; <em>New Jersey Law Journal</em>, December 21, 1998, at 19.</li>
+	<li>
+		&quot;To Dye For: Sex Scandal Spawns Clinton-Bashing Peroxide Pundettes.&quot; <em>Legal Times</em>, December 21, 1998, at 41.</li>
+	<li>
+		&quot;Looking Through the Glass Ceiling (Darkly).&quot; <em>The Recorder</em>, December 16, 1998, at 5.</li>
+	<li>
+		&quot;Flogging Lawyers by Proxy.&quot; <em>The Denver Post</em>, December 11, 1998, at B07.</li>
+	<li>
+		&quot;Women at Top Are Getting Shortchanged.&quot; <em>The Houston Chronicle, </em>December 5, 1998, at 40.</li>
+	<li>
+		&quot;Tracing the GOP Learning Curve.&quot; <em>The Denver Post</em>, December 4, 1998, at B11.</li>
+	<li>
+		&quot;Constitution Says: Impeachment or Nothing.&quot; <em>The Houston Chronicle</em>, December 1, 1998, at 22.</li>
+	<li>
+		&quot;Ruling Without Women (or Shame).&quot; <em>The Denver Post</em>, November 29, 1998, at G03.</li>
+	<li>
+		&quot;Starr Gives Prosecutors a Bad Name.&quot; <em>The Denver Post</em> , November 22, 1998, at I03.</li>
+	<li>
+		&quot;Troubling Health-Care Issues Are Still on the Table.&quot; <em>The Houston Chronicle,</em> November 22, 1998, at 3.</li>
+	<li>
+		&quot;Education Does Matter in Future &#39;Kid Vote&#39;.&quot; <em>The Houston Chronicle</em>, November 12, 1998, at 36.</li>
+	<li>
+		&quot;Hollywood Ignores Diversity.&quot; <em>The Denver Post</em>, November 8, 1998, at H03.</li>
+	<li>
+		&quot;Words, Women, Minorities Still Shut Out.&quot; <em>The Denver Post</em>, October 22, 1998, at B11.</li>
+	<li>
+		&quot;Few Women, Minorities in Circles of Power.&quot; <em>The Houston Chronicle</em>, October 3, 1998, at 38.</li>
+	<li>
+		&quot;Will Women Wake Up?&quot; <em>The Denver Post</em>, September 30, 1998, at B11.</li>
+	<li>
+		&quot;Flap Over Art Lands Restaurant in a Stew.&quot; <em>USA Today</em>, September 28, 1998, at 17A.</li>
+	<li>
+		&quot;Clinging to Power: Why Clinton Will Survive.&quot; <em>The Denver Post</em>, September 17, 1998, at B11.</li>
+	<li>
+		&quot;Female Voters: Stand By Your Man.&quot; <em>USA Today</em>, September 16, 1998, at 25A.</li>
+	<li>
+		&quot;Bottom-Line, Scandal is Only Lies About Sex.&quot; <em>The Houston Chronicle</em>, September 12, 1998, at 46.</li>
+	<li>
+		&quot;Fairness Takes a Holiday.&quot; <em>The Denver Post</em>, September 12, 1998, at B19.</li>
+	<li>
+		&quot;It&#39;s Not Impossible for You to Live to 100.&quot; <em>The Houston Chronicle</em>, September 8, 1998, at 18.</li>
+	<li>
+		&quot;Not Too Wellesley, Just Right.&quot; <em>The Denver Post</em>, September 8, 1998, at B07.</li>
+	<li>
+		&quot;America Isn&#39;t Hysterical About Lewinsky.&quot; <em>The Houston Chronicle</em>, August 29, 1998, at 34.</li>
+	<li>
+		&quot;Clinton No Role Model for Feminists.&quot; <em>The Denver Post</em>, August 28, 1998, at B11.</li>
+	<li>
+		&quot;First Amendment Victim in Lewinsky Crisis.&quot; <em>The Houston Chronicle</em>, August 8, 1998, at 32.</li>
+	<li>
+		&quot;What Kind of Women Keep Stained Dresses?&quot; <em>The Houston Chronicle</em>, August 6, 1998, at 26.</li>
+	<li>
+		&quot;A Question for Congress.&quot; <em>The Denver Post</em>, July 30, 1998, at B11.</li>
+	<li>
+		&quot;Woman Crashes All-Male Corporate Board.&quot; <em>USA Today</em>, July 29, 1998, at 11A.</li>
+	<li>
+		&quot;A Trip Inside Starr&#39;s Head.&quot; <em>The Denver Post</em>, July 12, 1998, at H04.</li>
+	<li>
+		&quot;Enjoy Safe Fourth Thanks to Government.&quot; <em>The Houston Chronicle</em>, July 4, 1998, at 34.</li>
+	<li>
+		&quot;Staring Up Close at Eyeball Surgery.&quot; <em>USA Today</em>, June 25, 1998, at 15A.</li>
+	<li>
+		&quot;Denver Won&#39;t Host Democrats.&quot; <em>The Denver Post</em>, June 21, 1998, at F03.</li>
+	<li>
+		&quot;Women Don&#39;t Expect President to Change His Ways.&quot; <em>The Houston Chronicle, </em>June 21, 1998, at 3.</li>
+	<li>
+		&quot;Finding a Way to Face Father&#39;s Day.&quot; <em>The Denver Post</em>, June 20, 1998, at B07.</li>
+	<li>
+		&quot;Starr Abuses His Power.&quot; <em>The Denver Post</em>, June 18, 1998, at B11.</li>
+	<li>
+		&quot;&#39;Driving While Black&#39; Can Still Get People Arrested.&quot; <em>The Houston Chronicle</em>, June 14, 1998, at 3.</li>
+	<li>
+		&quot;This Boxer Packs a Punch.&quot; <em>The Denver Post</em>, June 4, 1998, at B11.</li>
+	<li>
+		&quot;The Old Politics of Race is Not Playing in California.&quot; <em>The Houston Chronicle</em>, May 31, 1998, at 3.</li>
+	<li>
+		&quot;Race Fades as an Issue in California.&quot; <em>The Denver Post</em>, May 31, 1998, at F03.</li>
+	<li>
+		&quot;Ideologues Decry Single-Sex Education, But Girls Benefit.&quot; <em>The Denver Post</em>, May 22, 1998, at B11.</li>
+	<li>
+		&quot;Time to Give Single-Sex Education a Chance.&quot; <em>The Houston Chronicle</em>, May 21, 1998, at 46.</li>
+	<li>
+		&quot;It&#39;s Not Who Goes to College; It&#39;s Who Can Stay There.&quot; <em>USA Today</em>, May 12, 1998, at 13A.</li>
+	<li>
+		&quot;Starr&#39;s Squeeze Play.&quot; <em>The Denver Post</em>, May 8, 1998, at B11.</li>
+	<li>
+		&quot;The Politics of School Choice.&quot; <em>The Denver Post</em>, May 3, 1998, at G03.</li>
+	<li>
+		&quot;Mired in a Losing Cause: Kenneth Starr Hires a Spin Doctor.&quot; <em>The Denver Post</em>, April 24, 1998, at B07.</li>
+	<li>
+		&quot;Affirmative Action Numbers Game.&quot; <em>The Denver Post</em>, April 19, 1998, at G03.</li>
+	<li>
+		&quot;College Numbers Game Slights Real Problem.&quot; <em>The Houston Chronicle</em>, April 17, 1998, at 40.</li>
+	<li>
+		&quot;Why Federal Judges are Insulated from Politics.&quot; <em>The Denver Post</em>, April 6, 1998, at B09.</li>
+	<li>
+		&quot;Crime Prevention Finally Gets a Chance to be Heard.&quot; <em>The Denver Post</em>, April 2, 1998, at B11.</li>
+	<li>
+		&quot;Are They Criminals or Would-Be NBA Stars?&quot; <em>The Houston Chronicle</em>, April 2, 1998, at 28.</li>
+	<li>
+		&quot;Beyond &#39;Nuts and Sluts&#39;.&quot; <em>The Denver Post</em>, March 20, 1998, at B11.</li>
+	<li>
+		&quot;Monica Should Fire Ginsburg.&quot; <em>The Denver Post</em>, March 16, 1998, at B07.</li>
+	<li>
+		&quot;Pop Goes the Weasel.&quot; <em>The Denver Post</em>, March 15, 1998, at J02.</li>
+	<li>
+		&quot;Fertility Methods Let Women Control Clock.&quot; <em>USA Today</em>, March 9, 1998, at 19A.</li>
+	<li>
+		&quot;Lewinsky Leaves Starr in the Cold.&quot; <em>The Denver Post</em>, March 5, 1998, at B11.</li>
+	<li>
+		&quot;Starr Stooped to Blumenthal&#39;s Level.&quot; <em>The Denver Post</em>, March 2, 1998, at B07.</li>
+	<li>
+		&quot;Starr, White House, Politics and Courts.&quot; <em>The Baton Rouge Advocate</em>, February 27, 1998, at 8B.</li>
+	<li>
+		&quot;Alleged Clinton Scandal May Make Bad Law.&quot; <em>The Houston Chronicle</em>, February 23, 1998, at 22.</li>
+	<li>
+		&quot;Sky Not Falling Without Affirmative Action.&quot; <em>The Houston Chronicle</em>, February 19, 1998, at 28.</li>
+	<li>
+		&quot;People Responsible for What They Do, Eat.&quot; <em>The Houston Chronicle</em>, February 14, 1998, at 38.</li>
+	<li>
+		&quot;Public Has Lost Faith in Starr.&quot; <em>The Denver Post</em>, February 13, 1998, at B11.</li>
+	<li>
+		&quot;Starr Should Have Taken the Law School Job.&quot; <em>The Houston Chronicle</em>, February 12, 1998, at 36.</li>
+	<li>
+		&quot;The White House Builds Up Matt Drudge.&quot; <em>The Denver Post</em>, February 9, 1998, at B11.</li>
+	<li>
+		&quot;You, Monica, Are No Anita Hill.&quot; <em>The Denver Post</em>, February 8, 1998, at I02.</li>
+	<li>
+		&quot;Big Question is Why Women Still Like Clinton.&quot; <em>The Houston Chronicle</em>, January 29, 1998, at 26.</li>
+	<li>
+		&quot;Why Women Like Clinton.&quot; <em>The Denver Post</em>, January 29, 1998, at B07.</li>
+	<li>
+		&quot;Unimpeachable Evidence.&quot; <em>The Denver Post</em>, January 27, 1998, at B11.</li>
+	<li>
+		&quot;HMO Cost of Denying Care Also Can Be High.&quot; <em>The Houston Chronicle</em>, January 19, 1998, at 18.</li>
+	<li>
+		&quot;Pressure Grows in Congress to Mandate More HMO Benefits.&quot; <em>The Denver Post</em>, January 18, 1998, at E03.</li>
+	<li>
+		&quot;Let Kaczynski Off With Life.&quot; <em>The Denver Post</em>, January 16, 1998, at B07.</li>
+	<li>
+		&quot;Goodbye to &#39;If it Bleeds, it Leads&#39;.&quot; <em>The Denver Post</em>, January 12, 1998, at B09.</li>
+	<li>
+		&quot;The Insanity Defense.&quot; <em>The Denver Post</em>, January 8, 1998, at B07.</li>
+	<li>
+		&quot;Pass Up Peanuts, and the Rest Will Follow.&quot; <em>USA Today</em>, January 8, 1998, at 13A.</li>
+	<li>
+		&quot;Schizophrenia of Insanity Defense Laid Bare.&quot; <em>The Houston Chronicle</em>, January 8, 1998, at 28.</li>
+	<li>
+		&quot;Jury Nullification in Denver.&quot; <em>The Denver Post</em>, December 30, 1997, at B07.</li>
+	<li>
+		&quot;Clinton Can&#39;t Mend, Won&#39;t End.&quot; <em>The Denver Post</em>, December 28, 1997, at G03.</li>
+	<li>
+		&quot;When Juries Fail to do Their Job Logically, Sensibly . . .&quot; <em>The Houston Chronicle</em>, December 28, 1997, at 3.</li>
+	<li>
+		&quot;Learning to Cope with &#39;December Dilemma&#39;.&quot; <em>The Houston Chronicle</em>, December 20, 1997, at 42.</li>
+	<li>
+		&quot;Keep Our Eyes on the Prize.&quot; <em>The Denver Post</em>, December 19, 1997, at B07.</li>
+	<li>
+		&quot;The &#39;December Dilemma&#39;: Non-Christians and Christmas.&quot; <em>The Denver Post</em>, December 17, 1997, at B07.</li>
+	<li>
+		&quot;Paula Jones&#39; Case is Weak in Law, Strong in Politics.&quot; <em>The Denver Post</em>, December 12, 1997, at B07.</li>
+	<li>
+		&quot;Affirmative Follies.&quot; <em>The Denver Post</em>, November 30, 1997, at G03.</li>
+	<li>
+		&quot;Rumors Ruined Careers Before Internet Existed.&quot; <em>USA Today</em>, November 26, 1997, at 27A.</li>
+	<li>
+		&quot;The Campaign Reform Dilemma.&quot; <em>The Denver Post</em>, November 23, 1997, at H02.</li>
+	<li>
+		&quot;Judge Did His Job, Jury Theirs in Au Pair Case.&quot; <em>The Houston Chronicle</em>, November 13, 1997, at 46.</li>
+	<li>
+		&quot;The Law and the Awful Au Pair.&quot; <em>The Denver Post</em>, November 6, 1997, at B07.</li>
+	<li>
+		&quot;Calling Canard: So Much for Due Process&quot; (with Kathleen M. Sullivan). <em>The New Republic</em>, November 3, 1997, at 18.</li>
+	<li>
+		&quot;What Everyone&#39;s Doing is Legal.&quot; <em>The Denver Post</em>, November 2, 1997, at I02.</li>
+	<li>
+		&quot;Mammograms: The Meter is Running.&quot; <em>The Denver Post, </em>November 1, 1997, at B07.</li>
+	<li>
+		&quot;Support Mounts in California to End Bilingual Education.&quot; <em>The Denver Post</em>, October 29, 1997, at B07.</li>
+	<li>
+		&quot;Jones Suit &#39;Not Political?&#39; Get Real!&quot; <em>The Denver Post</em>, October 24, 1997, at B07.</li>
+	<li>
+		&quot;Good Lawyers, Bad Client.&quot; <em>The Denver Post</em>, October 19, 1997, at F03.</li>
+	<li>
+		&quot;Lawyers Too Often Put Themselves First.&quot; <em>USA Today</em>, October 14, 1997, at 15A.</li>
+	<li>
+		&quot;Haley Barbour Broke No Laws.&quot; <em>The Denver Post</em>, October 9, 1997, at B07.</li>
+	<li>
+		&quot;One Step Closer to an Independent Counsel.&quot; <em>Los Angeles Times</em>, October 5, 1997, at M1.</li>
+	<li>
+		&quot;Seymour Hersh-gate Scandal Highlights Media&#39;s Credulity.&quot; <em>The Denver Post</em>, October 3, 1997, at B07.</li>
+	<li>
+		&quot;Albert Case Wasn&#39;t Rape.&quot; <em>The Denver Post</em>, September 26, 1997, at B09.</li>
+	<li>
+		&quot;Pressure on Reno Mounts.&quot; <em>The Denver Post</em>, September 25, 1997, at B07.</li>
+	<li>
+		&quot;Sometimes, Single-Sex Schools Educate Best.&quot; <em>The Denver Post</em>, September 24, 1997, at B07.</li>
+	<li>
+		&quot;Case Overwhelming: Gore&#39;s Acts Not Crimes.&quot; <em>The Houston Chronicle</em>, September 18, 1997, at 34.</li>
+	<li>
+		&quot;Politics Aside, There is No Legal Case Against Al Gore.&quot; <em>The Denver Post</em>, September 18, 1997, at B07.</li>
+	<li>
+		&quot;Left and Right Scrambled in National Testing Debate.&quot; <em>The Houston Chronicle</em>, September 14, 1997, at 3.</li>
+	<li>
+		&quot;The Egg Business.&quot; <em>The Denver Post</em>, August 24, 1997, at J03.</li>
+	<li>
+		&quot;Hasidic Jews Again Post Difficult First Amendment Issue.&quot; <em>The Denver Post</em>, August 15, 1997, at B07.</li>
+	<li>
+		&quot;What is Women&#39;s &#39;Gift of Life&#39; Really Worth?&quot; <em>The Houston Chronicle</em>, August 15, 1997, at 38.</li>
+	<li>
+		&quot;One Size Doesn&#39;t Fit All.&quot; <em>The Denver Post</em>, August 3, 1997, at D02.</li>
+	<li>
+		&quot;U.S. Astronaut a Victim of Shortsightedness.&quot; <em>The Houston Chronicle</em>, August 2, 1997, at 38.</li>
+	<li>
+		&quot;Megan&#39;s Law Shows Failings, Solves Nothing.&quot; <em>The Houston Chronicle</em>, July 18, 1997, at 30.</li>
+	<li>
+		&quot;Strange Turn in Celebrity Lawyering.&quot; <em>The Denver Post</em>, July 11, 1997, at B07.</li>
+	<li>
+		&quot;Reject the Tobacco Sellout.&quot; <em>The Denver Post, </em>June 27, 1997, at B09.</li>
+	<li>
+		&quot;Will Clinton Stoop to Conquer?&quot; <em>The Denver Post</em>, June 5, 1997, at B11.</li>
+	<li>
+		&quot;Score One for Paula Jones and the Judiciary.&quot; <em>The Houston Chronicle</em>, May 29, 1997, at 30.</li>
+	<li>
+		&quot;Ignoring the Causes of Crime.&quot; <em>The Denver Post</em>, May 25, 1997, at D03.</li>
+	<li>
+		&quot;Politicians&#39; Goofy Crime Schemes Defy Logic.&quot; <em>The Houston Chronicle</em>, May 23, 1997, at 42.</li>
+	<li>
+		&quot;Legal Rights Carry Political Prices.&quot; <em>The Denver Post</em>, May 22, 1997, at B07.</li>
+	<li>
+		&quot;Army Marches on for Rights.&quot; <em>The Denver Post</em>, May 18, 1997, at F03.</li>
+	<li>
+		&quot;Women&#39;s Virtues, Issues in Political Demand.&quot; <em>The Houston Chronicle</em>, May 10, 1997, at 36.</li>
+	<li>
+		&quot;Morris: The Ultimate Betrayer.&quot; <em>The Denver Post</em>, May 6, 1997, at B09.</li>
+	<li>
+		&quot;College Mom Has Right to Her Baby.&quot; <em>The Denver Post</em>, May 2, 1997, at B07.</li>
+	<li>
+		&quot;Leave States Alone on Medicinal Marijuana.&quot; <em>The Houston Chronicle</em>, April 25, 1997, at 36.</li>
+	<li>
+		&quot;Dieters Hope Fads Can Provide Cabbage Soup for Their Soul.&quot; <em>The Boston Herald</em>, April 20, 1997, at O28.</li>
+	<li>
+		&quot;When Gods and Laws Collide.&quot; <em>The Denver Post</em>, April 2, 1997, at B09.</li>
+	<li>
+		&quot;Preventing Crime Saves Lives.&quot; <em>The Denver Post</em>, March 30, 1997, at E03.</li>
+	<li>
+		&quot;Xena Slaughters the Entertainment Stereotypes.&quot; <em>The Denver Post</em>, March 23, 1997, at F02.</li>
+	<li>
+		&quot;Was Racism a Part of Army Sex Scandal?&quot; <em>The Houston Chronicle</em>, March 14, 1997, at 36.</li>
+	<li>
+		&quot;Belated Justice for a Would-Be Mom.&quot; <em>The Denver Post,</em> March 8, 1997, at B07.</li>
+	<li>
+		&quot;Lifting the Shadow of Doubt.&quot; <em>The Denver Post</em>, March 7, 1997, at B11.</li>
+	<li>
+		&quot;Starr and Foster: The Increasingly High Price of Public Service for the Record.&quot; <em>Los Angeles Times</em>, March 2, 1997, at 1.</li>
+	<li>
+		&quot;Mixed Results from Mixed Marriages.&quot; <em>The Denver Post</em>, February 28, 1997, at B07.</li>
+	<li>
+		&quot;Racial Divide Bigger than O.J. Simpson.&quot; <em>The Houston Chronicle</em>, February 12, 1997, at 38.</li>
+	<li>
+		&quot;Courts Are Not Stages for Political Games.&quot; <em>The Houston Chronicle</em>, January 11, 1997, at 34.</li>
+	<li>
+		&quot;The Law and the Simpson Children.&quot; <em>The Washington Post</em>, December 28, 1996, at A23.</li>
+	<li>
+		&quot;In California&#39;s Family Court, Even Killers Get Their Kids.&quot; <em>The Denver Post</em>, December 27, 1996, at B07.</li>
+	<li>
+		&quot;Law Protects O.J. at Expense of His Kids.&quot; <em>The Houston Chronicle</em>, December 26, 1996, at 36.</li>
+	<li>
+		&quot;Will the Citadel Obey the Law?&quot; <em>The Denver Post, </em>December 22, 1996, at G04.</li>
+	<li>
+		&quot;Morris Version Omits Saying You&#39;re Sorry.&quot; <em>The Houston Chronicle</em>, December 18, 1996, at 40.</li>
+	<li>
+		&quot;Playing &#39;Comeback Kid&#39; for Real.&quot; <em>Los Angeles Times</em>, December 15, 1996, at 2.</li>
+	<li>
+		&quot;Secondary Boycotts Disrupt America&#39;s Marketplace of Ideas.&quot; <em>The Denver Post</em>, December 13, 1996, at B07.</li>
+	<li>
+		&quot;Tell People Who You Are: Buy $12,000 Purse.&quot; <em>USA Today, </em>December 5, 1996, at 15A.</li>
+	<li>
+		&quot;Different Rules Apply When Police do Wrong.&quot; <em>USA Today</em>, November 21, 1996, at 15A.</li>
+	<li>
+		&quot;Jackson and Sharpton Leading Backward.&quot; <em>The Houston Chronicle</em>, November 20, 1996, at 26.</li>
+	<li>
+		&quot;Viewer Beware of O.J. Lawyers on TV.&quot; <em>USA Today</em>, November 14, 1996, at 15A.</li>
+	<li>
+		&quot;Army Should Do More Than Look and See.&quot; <em>The Houston Chronicle</em>, November 13, 1996, at 30.</li>
+	<li>
+		&quot;Why Do We Really Need Government? Apple Juice.&quot; <em>USA Today</em>, November 7, 1996, at 19A.</li>
+	<li>
+		&quot;Dole&#39;s Campaign Chief Too Young to Tell Him No.&quot; <em>USA Today, </em>October 31, 1996, at 12A.</li>
+	<li>
+		&quot;Dole&#39;s California Strategy Won&#39;t Work.&quot; <em>USA Today</em>, October 24, 1996, at 13A.</li>
+	<li>
+		&quot;Put Children First in Custody Battles.&quot; <em>USA Today</em>, October 17, 1996, at 15A.</li>
+	<li>
+		&quot;A Gift of Life, Tasteless or Not.&quot; <em>USA Today</em>, October 10, 1996, at 15A.</li>
+	<li>
+		&quot;Adoption is About Kids, Not Politics.&quot; <em>USA Today</em>, October 3, 1996, at 13A.</li>
+	<li>
+		&quot;Clinton has Chance to Rebuild his Party.&quot; <em>The Houston Chronicle</em>, September 27, 1996, at 34.</li>
+	<li>
+		&quot;Give O.J. the First 12 Breathing Jurors.&quot; <em>USA Today</em>, September 26, 1996, at 19A.</li>
+	<li>
+		&quot;Not Jury&#39;s Job to Fix Wrong of O.J. Part I.&quot; <em>The Houston Chronicle</em>, September 14, 1996, at 36.</li>
+	<li>
+		&quot;Prison Cells Won&#39;t Stop Teen Pregnancy.&quot; <em>USA Today</em>, September 12, 1996, at 15A.</li>
+	<li>
+		&quot;Chemical Castration Sends Wrong Message.&quot; <em>USA Today</em>, September 5, 1996, at 13A.</li>
+	<li>
+		&quot;No Threat to Clinton.&quot; <em>The New York Times</em>, August 30, 1996, at A27.</li>
+	<li>
+		&quot;President Deserved Better Than Morris.&quot; <em>The Houston Chronicle</em>, August 30, 1996, at 42.</li>
+	<li>
+		&quot;All Hail the Citadel for Going Coed.&quot; <em>USA Today</em>, August 29, 1996, at 15A.</li>
+	<li>
+		&quot;Erasing the Line Between Truth, Fiction.&quot; <em>The Houston Chronicle</em>, August 28, 1996, at 28.</li>
+	<li>
+		&quot;An O.J. Judge You&#39;ll Love.&quot; <em>USA Today</em>, August 22, 1996, at 13A.</li>
+	<li>
+		&quot;You Pay for Conventioneers&#39; Play.&quot; <em>USA Today</em>, August 15, 1996, at 17A.</li>
+	<li>
+		&quot;Violent Kids Can&#39;t be Reformed.&quot; <em>USA Today</em>, August 8, 1996, at 14A.</li>
+	<li>
+		&quot;Hollywood Money Reels in Democrats.&quot; <em>USA Today</em>, August 1, 1996, at 15A.</li>
+	<li>
+		&quot;Laws Stand in Way of Single-Sex Schools.&quot; <em>USA Today</em>, July 25, 1996, at 15A.</li>
+	<li>
+		&quot;Hard Time Can&#39;t Fit All Crime.&quot; <em>USA Today</em>, July 18, 1996, at 15A.</li>
+	<li>
+		&quot;A Natural Mom: &#39;I&#39;ll Take All Three&#39;.&quot; <em>USA Today</em>, July 11, 1996, at 11A.</li>
+	<li>
+		&quot;Three Strikes: Judges&#39; Discretion Advised.&quot; <em>USA Today</em>, June 27, 1996, at 13A.</li>
+	<li>
+		&quot;Too Much of a Good Thing: Multiple Valedictorians Miss Value of Top Honors.&quot; <em>USA Today</em>, June 20, 1996, at 15A.</li>
+	<li>
+		&quot;Politicians Still on Sale.&quot; <em>USA Today</em>, June 13, 1996, at 13A.</li>
+	<li>
+		&quot;Media Agitators Take in All Dirty Laundry; Perpetual Political Spin Cycle Washes Away Right and Wrong.&quot; <em>The Arizona Republic</em>, June 6, 1996, at B5.</li>
+	<li>
+		&quot;Set Aside Politics; Let&#39;s Really Talk about Rape.&quot; <em>USA Today</em>, June 6, 1996, at 13A.</li>
+	<li>
+		&quot;The Stench of Whitewater Extends to Press.&quot; <em>The Record</em>, June 5, 1996, at N07.</li>
+	<li>
+		&quot;Politics; The Spin on Whitewater: Deciding on What Matters.&quot; <em>Los Angeles Times</em>, June 2, 1996, at 1.</li>
+	<li>
+		&quot;Gay Marriage Battle About Who We Are.&quot; <em>USA Today</em>, May 30, 1996, at 13A.</li>
+	<li>
+		&quot;Citizens Patrol Not Airport Vigilantes.&quot; <em>USA Today</em>, May 23, 1996, at 15A.</li>
+	<li>
+		&quot;Are We Exporting Political Cynicism?&quot; <em>USA Today</em>, May 16, 1996, at 13A.</li>
+	<li>
+		&quot;&#39;Immunize&#39; Kids Against Life of Crime.&quot; <em>USA Today</em>, May 9, 1996, at 15A.</li>
+	<li>
+		&quot;Bosnia Relief: What About the Women?&quot; <em>USA Today</em>, May 2, 1996, at 13A.</li>
+	<li>
+		&quot;When Tobacco, Abortion Converge.&quot; <em>USA Today</em>, April 25, 1996, at 13A.</li>
+	<li>
+		&quot;Patronage Bad, But Find Something Better.&quot; <em>USA Today</em>, April 18, 1996, at 13A.</li>
+	<li>
+		&quot;Prosecutor Power!&quot; <em>USA Today</em>, April 11, 1996, at 13A.</li>
+	<li>
+		&quot;Ron Brown: A Man Beyond Race.&quot; <em>Los Angeles Times</em>, April 7, 1996, at 2.</li>
+	<li>
+		&quot;Brown&#39;s Life a Shining Symbol of Hope.&quot; <em>USA Today</em>, April 4, 1996, at 13A.</li>
+	<li>
+		&quot;Divide-and-Conquer Wrong Move for Dole.&quot; <em>USA Today</em>, March 28, 1996, at 13A.</li>
+	<li>
+		&quot;Hate Has No Place in America&#39;s Politics.&quot; <em>USA Today</em>, March 21, 1996, at 11A.</li>
+	<li>
+		&quot;Women Drop Out; Why Can&#39;t Men, Too?&quot; <em>USA Today</em>, March 14, 1996, at 12A.</li>
+	<li>
+		&quot;Jury Box No Place for Politics.&quot; <em>USA Today</em>, March 7, 1996, at 12A.</li>
+	<li>
+		&quot;Censoring Internet the Wrong Priority.&quot; <em>USA Today</em>, February 29, 1996, at 12A.</li>
+	<li>
+		&quot;Alexander&#39;s Wife Could Teach Hillary Some Lessons.&quot; <em>USA Today</em>, February 22, 1996, at 13A.</li>
+	<li>
+		&quot;Buchanan Effect Is Born. <em>The Moscow Times</em>, February 22, 1996.</li>
+	<li>
+		&quot;Will Buchanan Be the Jackson of the Right? GOP Prays Answer Is &#39;No&#39;.&quot; <em>Los Angeles Times</em>, February 18, 1996, at 1.</li>
+	<li>
+		&quot;Cries of Racism Miss Point on Prison Rates.&quot; <em>USA Today</em>, February 15, 1996, at 12A.</li>
+	<li>
+		&quot;Some Cases Go Too Far on Exclusionary Rule.&quot; <em>USA Today</em>, February 8, 1996, at 11A.</li>
+	<li>
+		&quot;Right Plays Politics With Breast Cancer.&quot; <em>USA Today</em>, February 1, 1996, at 11A.</li>
+	<li>
+		&quot;Nasty Congress Stymies Progress.&quot; <em>The Times Union</em>, January 28, 1996, at E1.</li>
+	<li>
+		&quot;Clinton&#39;s Challenge: Make Us Feel Better.&quot; <em>USA Today</em>, January 25, 1996, at 11A.</li>
+	<li>
+		&quot;Politics: The Great Congressional Exodus: When the Center Does Not Hold.&quot; <em>Los Angeles Times</em>, January 21, 1996, at 2.</li>
+	<li>
+		&quot;Hillary Inquisition: Just One Big Game.&quot; <em>USA Today</em>, January 18, 1996, at 11A.</li>
+	<li>
+		&quot;Wilson&#39;s New, Moderate Views a Model for Future Debate.&quot; <em>USA Today</em>, January 11, 1996, at 11A.</li>
+	<li>
+		&quot;Do Police Deserve Renewed Discretion?&quot; <em>USA Today</em>, January 4, 1996, at 9A.</li>
+	<li>
+		&quot;Politics&#39; Nasty Streak Drives Away Voters.&quot; <em>The Arizona Republic</em>, December 28, 1995, at B5.</li>
+	<li>
+		&quot;Surely It Doesn&#39;t Have to Be This Mean-Spirited.&quot; <em>The Houston Chronicle</em>, December 28, 1995, at 31.</li>
+	<li>
+		&quot;What Family-Friendly Place?&quot; <em>USA Today</em>, December 28, 1995, at 11A.</li>
+	<li>
+		&quot;Mean-Spiritedness Driving Away Voters.&quot; <em>The Record</em>, December 27, 1995, at N07.</li>
+	<li>
+		&quot;Whatever Happened to &#39;Good Will Toward Men&#39;?: A Mean-Spiritedness in Politics.&quot; <em>Los Angeles Times</em>, December 24, 1995.</li>
+	<li>
+		&quot;Politics as Usual With All the Investigations.&quot; <em>USA Today</em>, December 21, 1995, at 11A.</li>
+	<li>
+		&quot;Justice Stevens, a Hero to Me.&quot; <em>USA Today</em>, December 14, 1995, at 11A.</li>
+	<li>
+		&quot;New Lessons in Case of Snoop Doggy Dogg.&quot; <em>USA Today</em>, December 7, 1995, at 11A.</li>
+	<li>
+		&quot;Diana Proves to Be a Princess In Her Own Right.&quot; <em>USA Today</em>, November 30, 1995, at 11A.</li>
+	<li>
+		&quot;Newt Needs to Compromise on Budget.&quot; <em>USA Today</em>, November 16, 1995, at 15A.</li>
+	<li>
+		&quot;Birth? Abortion? It&#39;s a Choice Without Joy.&quot; <em>USA Today</em>, November 9, 1995, at 13A.</li>
+	<li>
+		&quot;GOP &#39;Film Noir&#39; Will End Unhappily.&quot; <em>USA Today</em>, November 2, 1995, at 11A.</li>
+	<li>
+		&quot;A Deadly Decision: Why Did the Supreme Court Strike Down a Law That Keeps Guns Out of Our Schools?&quot; 9 <em>Parenting</em> 55 (October 1995).</li>
+	<li>
+		&quot;Let&#39;s Clear the Air on Regulations.&quot; <em>USA Today,</em> October 26, 1995, at 13A.</li>
+	<li>
+		&quot;Hey, There&#39;s a Middle Ground, Too.&quot; <em>USA Today, </em>October 19, 1995, at 13A.</li>
+	<li>
+		&quot;One March-a-Million Purposes; Politics; Deepening Fault Line of Race.&quot; <em>Los Angeles Times, </em>October 15, 1995, at M1.</li>
+	<li>
+		&quot;Thin Feminists Drive Me Crazy.&quot; <em>USA Today, </em>October 12, 1995, at 11A.</li>
+	<li>
+		&quot;Break the Race-Crime Link.&quot; <em>USA Today, </em>October 5, 1995, at 11A.</li>
+	<li>
+		&quot;Playing Up Race Helps O.J., But Not the Rest of Us.&quot; <em>The Detroit News</em>, October 4, 1995.</li>
+	<li>
+		&quot;Hijacked: Correct Verdict Pushed Aside for Sideshow on Racism.&quot; <em>The Arizona Republic</em>, October 3, 1995, at B5.</li>
+	<li>
+		&quot;The Simpson Case; Not the Facts: Having a Jury Rule on Social Problems.&quot; <em>Los Angeles Times, </em>October 1, 1995, at M1.</li>
+	<li>
+		&quot;Cochran Using Racism As an Excuse.&quot; <em>USA Today,</em> September 28, 1995, at 11A.</li>
+	<li>
+		&quot;A Novel School Plan: Back to Basics.&quot; <em>USA Today, </em>September 21, 1995, at 15A.</li>
+	<li>
+		&quot;The Wrong Way to Diversify.&quot; <em>USA Today, </em>September 14, 1995, at 11A.</li>
+	<li>
+		&quot;The Law; Special Prosecutor: A Search With No Limits.&quot; <em>Los Angeles Times</em>, September 10, 1995, at M2. (Also published in <em>Arizona Republic</em>, September 17, 1995, at F5.)</li>
+	<li>
+		&quot;When Politics Hurts Good Men.&quot; <em>USA Today, </em>September 7, 1995, at 13A.</li>
+	<li>
+		&quot;The Next First Lady.&quot; 93 <em>Glamour</em> 236 (August 1995).</li>
+	<li>
+		&quot;Menendez &#39;Boys&#39; Try Abuse Excuse Again.&quot; <em>USA Today,</em> August 31, 1995, at 13A.</li>
+	<li>
+		&quot;Single-Sex Schools Work Despite Citadel.&quot; <em>USA Today</em>, August 24, 1995, at 17A.</li>
+	<li>
+		&quot;Cyberspace Cruise Finds Bad News for Women.&quot; <em>USA Today, </em>August 17, 1995<em>, </em>at 11A.</li>
+	<li>
+		&quot;Race Beside the Point in the Simpson Case.&quot; <em>USA Today</em>, August 10, 1995, at 13A.</li>
+	<li>
+		&quot;A Just Sentence for Susan Smith.&quot; <em>USA Today, </em>August 3, 1995, at 11A.</li>
+	<li>
+		&quot;When Politics Make Strange Bedfellows.&quot; <em>The Arizona Republic</em>, July 23, 1995, at D5.</li>
+	<li>
+		&quot;Does Anyone Care about Bosnia?&quot; <em>USA Today</em>, July 20, 1995, at 11A.</li>
+	<li>
+		&quot;Ethics; Packwood: Should Politics Make Strange Bedfellows?&quot; <em>Los Angeles Times,</em> July 16, 1995, at M1.</li>
+	<li>
+		&quot;Indian Rights Win, Two Children Lose.&quot; <em>USA Today, </em>July 13, 1995, at 9A.</li>
+	<li>
+		&quot;Special Prosecutors Not Special Anymore.&quot; <em>USA Today</em>, July 6, 1995, at 9A.</li>
+	<li>
+		&quot;Abortion: Losing Side Tries to &#39;Nibble Around the Edges&#39;.&quot; <em>The Arizona Republic</em>, July 2, 1995, at E2.</li>
+	<li>
+		&quot;President Pete&quot; (Pete Wilson). 40 <em>Los Angeles Magazine</em> 76 (June 1995).</li>
+	<li>
+		&quot;Timothy McVeigh, Cover Boy.&quot; <em>USA Today</em>, June 29, 1995, at 11A.</li>
+	<li>
+		&quot;Politics; Fueled by Moral Certainty, Abortion Fight Goes On.&quot;<em> Los Angeles Times</em>, June 29, 1995, at M1.</li>
+	<li>
+		&quot;Let Clinton Be the Centrist Clinton.&quot; <em>USA Today</em>, June 22, 1995, at 11A.</li>
+	<li>
+		&quot;An Apt Compromise on Affirmative Action.&quot; <em>USA Today</em>, June 15, 1995, at 13A.</li>
+	<li>
+		&quot;Dole, Meet the &#39;Princess&#39;.&quot; <em>USA Today</em>, June 8, 1995, at 13A.</li>
+	<li>
+		&quot;Playing to the Cameras.&quot; <em>The New York Times</em>, June 3, 1995, at 1/19.</li>
+	<li>
+		&quot;Women, Beware of NRA.&quot; <em>USA Today</em>, May 25, 1995, at 13A.</li>
+	<li>
+		&quot;Watch Out for Pollsters.&quot; <em>USA Today</em>, May 18, 1995, at 15A.</li>
+	<li>
+		&quot;Two Cases of &#39;Trivial Pursuit&#39;.&quot; <em>USA Today</em>, May 11, 1995, at 11A.</li>
+	<li>
+		&quot;The Nation; Politics; GOP Cite &#39;Credibility&#39; to Mask Abortion Issue.&quot;<em> Los Angeles Times</em>, May 7, 1995, at M2.</li>
+	<li>
+		&quot;Fair Trial for McVeigh?&quot; <em>USA Today</em>, April 27, 1995, at 13A.</li>
+	<li>
+		&quot;Compromise Key to Leadership.&quot; <em>USA Today</em> April 13, 1995, at 1A.</li>
+	<li>
+		&quot;Why&#39;s Kato Getting All This Ink?&quot; <em>USA Today</em>, April 6, 1995, at 13A.</li>
+	<li>
+		&quot;Why Protect Doctors?&quot; <em>USA Today</em>, March 30, 1995, at 13A.</li>
+	<li>
+		&quot;The Racial Blame Game.&quot; <em>USA Today, </em>March 23, 1995, at 13A.</li>
+	<li>
+		&quot;Why Protect Doctors?&quot; <em>USA Today</em>, March 20, 1995, at 13A.</li>
+	<li>
+		&quot;Sick of &#39;Sick&#39; TV? Turn it Off.&quot; <em>USA Today,</em> March 16, 1995, at 11A.</li>
+	<li>
+		&quot;Marcia Clark Deserves Better.&quot; <em>USA Today, </em>March 9, 1995, at 11A.</li>
+	<li>
+		&quot;Call Off Ethics &#39;Inquisitions&#39;, Wielding Unproven Ethics Charges as Political Weapon Is Scaring Potential Leaders from Government Service.&quot; <em>USA Today, </em>March 2, 1995, at 11A.</li>
+	<li>
+		&quot;Affirmative Action: Politics of Race.&quot; <em>USA Today,</em> February 23, 1995,<em> </em>at 11A.</li>
+	<li>
+		&quot;&#39;Roe vs. Wade&#39; Dead? Foster Debate Says So.&quot; <em>USA Today, </em>February 16, 1995, at 11A.</li>
+	<li>
+		&quot;Witch Hunt Targets Rights of Women.&quot; <em>The Arizona Republic</em>, February 16, 1995, at B7.</li>
+	<li>
+		&quot;Foster Debate a Disgrace: He Is a Gynecologist - and Abortion Is Legal.&quot; <em>The Phoenix Gazette</em>, February 14, 1995, at B13.</li>
+	<li>
+		&quot;The Nation; Politics; Surgeon General Fight Opens Front in Continuing War Over Abortion.&quot; <em>Los Angeles Times,</em> February 12, 1995, at M2.</li>
+	<li>
+		&quot;Public Cheers Killer as Justice Fails.&quot; <em>USA Today, </em>February 9, 1995, at 11A.</li>
+	<li>
+		&quot;Media, Public Out of Sync.&quot; <em>USA Today, </em>February 2, 1995, at 11A.</li>
+	<li>
+		&quot;O.J. Is Crying Wolf on Race. He&#39;s No Victim of Racism; He&#39;s Profiting from It.&quot; <em>USA Today, </em>January 26, 1995, at 13A.</li>
+	<li>
+		&quot;&#39;Dream Team&#39; a Nightmare: Public Feuding by O.J.&#39;s Lawyers Is Bad News for Everyone.&quot; <em>USA Today,</em> January 19, 1995, at 11A.</li>
+	<li>
+		&quot;Clinton Should Start Listening to Himself Again.&quot; <em>The Times Union</em> (Albany, NY), January 18, 1995, at A11.</li>
+	<li>
+		&quot;Clinton Still Hasn&#39;t Told His Side of November 8 Story.&quot; <em>The Houston Chronicle</em>, January 18, 1995, at 17.</li>
+	<li>
+		&quot;Communication Problem: Clinton Must Apologize, Be a New Democrat.&quot; <em>The Ledger</em> (Lakeland, FL), January 18, 1995.</li>
+	<li>
+		&quot;Hillary Needs a New Fight.&quot; <em>USA Today, </em>January 12, 1995,<em> </em>at<em> </em>9A.</li>
+	<li>
+		&quot;Call Off the Abortion War: Time to Speak Out Against Clinic Killings.&quot; <em>USA Today, </em>January 5, 1995<em>, </em>at 11A.</li>
+	<li>
+		&quot;Less Government, More Problems.&quot; <em>USA Today, </em>December 29, 1994,<em> </em>at 9A.</li>
+	<li>
+		&quot;The Angry White Male: Let&#39;s All Play the Victimization Game.&quot; <em>Star Tribune</em>, December 26, 1994, at 12A.</li>
+	<li>
+		&quot;Breakfast Plan Out to Lunch.&quot; <em>USA Today</em>, December 22, 1994, at 11A.</li>
+	<li>
+		&quot;The Last Victim.&quot; <em>The New York Times Magazine</em>, December 18, 1994, at 54.</li>
+	<li>
+		&quot;Clinton&#39;s &#39;Free at Last&#39;.&quot; <em>USA Today, </em>December 15, 1994, at 11A.</li>
+	<li>
+		&quot;It&#39;s Sex Bias (Giggle, Giggle).&quot; <em>USA Today, </em>December 8, 1994, at 13A.</li>
+	<li>
+		&quot;A Hidden GOP Agenda?&quot; <em>USA Today, </em>December 1, 1994,<em> </em>at 11A.</li>
+	<li>
+		&quot;Less Government, More Problems.&quot; <em>USA Today</em>, November 29, 1994, at 9A.</li>
+	<li>
+		&quot;Fewer Problems, Same Old Government.&quot; <em>The Arizona Republic</em>, November 17, 1994, at B5.</li>
+	<li>
+		&quot;Newt&#39;s Mean-Spirited Edge.&quot; <em>USA Today, </em>November 17, 1994, at 15A.</li>
+	<li>
+		&quot;Less Government, But the Same Problems.&quot; <em>Los Angeles Times, </em>November 13, 1994, at 1. [Also published in <em>Times Union</em>, November 15, 1994, at A15.]</li>
+	<li>
+		&quot;Fear Sells, and We&#39;re to Blame.&quot; <em>USA Today,</em> November 10, 1994, at 15A.</li>
+	<li>
+		&quot;Let&#39;s Put Partisan Politics Aside for Good.&quot; <em>The Arizona Republic</em>, November 8, 1994, at B5.</li>
+	<li>
+		&quot;The Search for a New Political Center; Voters&#39; Answer: Ticket-Splitting.&quot; <em>Los Angeles Times, </em>November 6, 1994, at 1.</li>
+	<li>
+		&quot;I&#39;m No Racist; I Support the Law.&quot; <em>USA Today, </em>November 3, 1994, at 13A.</li>
+	<li>
+		&quot;Ito Misjudges Media.&quot; <em>USA Today, </em>October 27, 1994, at 13A.</li>
+	<li>
+		&quot;Revealing a Daughter&#39;s Rape.&quot; <em>USA Today, </em>October 20, 1994, at 13A.</li>
+	<li>
+		&quot;Rush Isn&#39;t the Real Problem.&quot; <em>USA Today</em>, October 13, 1994, at 13A.</li>
+	<li>
+		&quot;What Does Hair Have to Do With the O.J. Case?&quot; <em>USA Today, </em>October 6, 1994, at 9A.</li>
+	<li>
+		&quot;Equal Justice Under the Law; Ruth Bader Ginsberg: The Return of a Different Kind of Feminism.&quot; <em>Los Angeles Times</em>, October 3, 1994, at M1.</li>
+	<li>
+		&quot;Beware: Voter Anger Could Backfire.&quot; <em>USA Today, </em>September 29, 1994, at 13A.</li>
+	<li>
+		&quot;Who&#39;s on Trial, O.J. or Cops?&quot; <em>USA Today, </em>September 22, 1994, at 13A.</li>
+	<li>
+		&quot;Single-Sex Education Deserves a Real Change.&quot; <em>USA Today</em>, September 15, 1994, at 11A.</li>
+	<li>
+		&quot;Save Kids from Troubled Homes.&quot; <em>USA Today, </em>September 8, 1994,<em> </em>at 13A.</li>
+	<li>
+		&quot;Clinton Suffering Hard Times.&quot; <em>The Fresno Bee</em>, September 4, 1994, at B15.</li>
+	<li>
+		&quot;O.J. Case Not About Race.&quot; <em>USA Today, </em>September 1, 1994, at 9A.</li>
+	<li>
+		&quot;Crime Fighters: Congress&#39; Struggle Against Change the President -- and the Public -- Wants.&quot; <em>Los Angeles Times, </em>August 28, 1994, at M1.</li>
+	<li>
+		&quot;The Public Trial of O.J. Simpson.&quot; <em>USA Today, </em>August 25, 1994, at 11A.</li>
+	<li>
+		&quot;Congress&#39; Gutless Wonders.&quot; <em>USA Today, </em>August 18, 1994, at 11A.</li>
+	<li>
+		&quot;Rape: A Question of Force.&quot; <em>USA Today, </em>August 11, 1994, at 13A.</li>
+	<li>
+		&quot;Defense Lawyers and Truth: Just Where Do They Meet?&quot; <em>Los Angeles Times, </em>August 7, 1994, at M1.</li>
+	<li>
+		&quot;All the News That&#39;s Fit to Spin.&quot; <em>USA Today</em>, August 4, 1994, at 9A.</li>
+	<li>
+		&quot;Politics of Pettiness Hurts the Country.&quot; <em>USA Today,</em> July 28, 1994, at 13A.</li>
+	<li>
+		&quot;What About Child&#39;s Interests?&quot; <em>USA Today</em>, July 21, 1994, at 9A.</li>
+</ul> 
+</div>
+
+
+
+
+<div id="rightnav">
+
+
+
+
+
+
+</div>
+
+<div id="equality"></div>
+
+</div>
+</div>
+
+
+
+<div id="footer_mobile">
+<div id="content">
+<ul class="social_networking">
+<li><a href="/press/social/facebook/"><img src="/images/bottom/facebook.png" alt="Facebook" height="42" width="42"></a></li>
+<li><a href="/press/social/twitter/"><img src="/images/bottom/twitter.png" alt="Twitter" height="42" width="42"></a></li>
+<li><a href="http://www.youtube.com/user/uscgould" target="_blank"><img src="/images/bottom/youtube.png" alt="YouTube" height="42" width="42"></a></li>
+<li><a href="https://instagram.com/uscgouldlaw" target="_blank"><img src="/images/bottom/instagram.png" alt="Instagram" height="42" width="42"></a></li>
+<li><a href="https://www.linkedin.com/edu/school?id=17973&trk=edu-cp-sa-sname" target="_blank"><img src="/images/bottom/linkedin.png" alt="LinkedIn" height="42" width="42"></a></li>
+<li><a href="https://www.flickr.com/photos/69930317@N08/albums" target="_blank"><img src="/images/bottom/flickr.png" alt="Flickr" height="42" width="42"></a></li>
+</ul>
+<ul class="buttons">
+<li><a href="/about/contact/" style="">Contact Us</a></li>
+<li><a href="/about/aba-required-disclosures/">ABA Required Disclosures</a></li>
+<li><a href="http://policy.usc.edu/" target="_blank" class="external_link">Privacy Policies</a></li>
+<li><a href="/site/?desktop" style="">Switch to Desktop Site</a></li>
+</ul>
+<p>&copy; 2016 USC Gould School of Law</p>
+</div>
+</div>
+
+
+
+<div id="footer">
+<div id="content">
+
+
+
+<div id="contact_us">
+<h3>CONTACT US</h3>
+<a href="/about/contact/"><img src="/images/bottom/building.jpg"></a>
+<address>
+<a href="/about/contact/">
+USC Gould School of Law
+<br>
+699 Exposition Boulevard
+<br>
+Los Angeles, California 90089
+<br>
+(213) 740-7331</a>
+</address>
+<a href="/about/aba-required-disclosures/"><img src="/images/bottom/aba-required-disclosures.png" alt="ABA Required Disclosures" height="20" width="160"/></a>
+</div>
+
+
+
+<div id="weather_and_follow_us">
+
+
+<h3>CURRENTLY 64&deg; <img src="/images/header/weather/26.png" alt="Cloudy"></h3>
+<p>As of 12:32 PM on Monday afternoon it is 64&deg; and cloudy in downtown Los Angeles.</p>
+
+
+<h3>FOLLOW US</h3>
+<ul>
+<li><a href="/press/social/facebook/"><img src="/images/bottom/facebook.png" alt="Facebook" height="42" width="42"></a></li>
+<li><a href="/press/social/twitter/"><img src="/images/bottom/twitter.png" alt="Twitter" height="42" width="42"></a></li>
+<li><a href="http://www.youtube.com/user/uscgould" target="_blank"><img src="/images/bottom/youtube.png" alt="YouTube" height="42" width="42"></a></li>
+<li><a href="https://instagram.com/uscgouldlaw" target="_blank"><img src="/images/bottom/instagram.png" alt="Instagram" height="42" width="42"></a></li>
+<li><a href="https://www.linkedin.com/edu/school?id=17973&trk=edu-cp-sa-sname" target="_blank"><img src="/images/bottom/linkedin.png" alt="LinkedIn" height="42" width="42"></a></li>
+<li><a href="https://www.flickr.com/photos/69930317@N08/" target="_blank"><img src="/images/bottom/flickr.png" alt="Flickr" height="42" width="42"></a></li>
+</ul>
+</div>
+
+
+
+
+<div id="latest_tweets">
+<h3>LATEST TWEETS</h3>
+<ul>
+
+
+
+
+<li><p><a href="http://twitter.com/uscgouldlaw" target="_blank">@uscgouldlaw:</a> America’s Divisions and Scalia’s Christian Visions by <a href="https://twitter.com/search?q=%23GouldExpert" rel="nofollow" target="_blank">#GouldExpert</a> Nomi Stolzenberg in <a href="http://twitter.com/ReligPolitics" rel="nofollow" target="_blank">@ReligPolitics</a> <a href="https://t.co/KLwSnmTZMs" target="_blank">https://t.co/KLwSnmTZMs</a>
+<br>
+March 10, 2016 @ 7:40 PM</p></li>
+
+
+
+
+<li><p><a href="http://twitter.com/uscgouldlaw" target="_blank">@uscgouldlaw:</a> MT <a href="http://twitter.com/USC" rel="nofollow" target="_blank">@USC</a> What do donors do when their candidate drops out? <a href="https://twitter.com/search?q=%23GouldLaw" rel="nofollow" target="_blank">#GouldLaw</a> Prof Abby Wood answers <a href="http://twitter.com/Marketplace" rel="nofollow" target="_blank">@Marketplace</a>: <a href="https://t.co/ys8q8rp60P" target="_blank">https://t.co/ys8q8rp60P</a>
+<br>
+March 10, 2016 @ 6:35 PM</p></li>
+
+</ul>
+</div>
+
+
+<div id="policies_and_copyright">
+<p><a href="/site/?mobile">Switch to Mobile Site</a> | <a href="http://policy.usc.edu/" target="_blank">Privacy Policies</a> | &copy; 2016 USC Gould School of Law</p>
+</div>
+
+</div>
+</div>
+
+
+
+<a href="#" class="back_to_top">Back to Top</a>
+
+
+
+<script src="/assets/javascripts/wow.js"></script>
+<script>
+	new WOW().init();
+</script>
+
+
+
+
+
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
+<script type="text/javascript">
+	_uacct = "UA-2821901-1";
+	urchinTracker();
+</script>
+</body>
+</html> 

@@ -1,0 +1,1812 @@
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head><script type="text/javascript">/* <![CDATA[ */_cf_loadingtexthtml="<img alt=' ' src='/CFIDE/scripts/ajax/resources/cf/images/loading.gif'/>";
+_cf_contextpath="";
+_cf_ajaxscriptsrc="/CFIDE/scripts/ajax";
+_cf_jsonprefix='//';
+_cf_clientid='77C3A80DF49164A018FA05851B5579F5';/* ]]> */</script><script type="text/javascript" src="/CFIDE/scripts/ajax/messages/cfmessage.js"></script>
+<script type="text/javascript" src="/CFIDE/scripts/ajax/package/cfajax.js"></script>
+<script type="text/javascript" src="/CFIDE/scripts/cfform.js"></script>
+<script type="text/javascript" src="/CFIDE/scripts/masks.js"></script>
+<script type="text/javascript" src="/CFIDE/scripts/cfformhistory.js"></script>
+<script type="text/javascript" src="/CFIDE/scripts/ajax/package/cfrichtexteditor.js"></script>
+<script type="text/javascript" src="/CFIDE/scripts/ajax/FCKeditor/fckeditor.js"></script>
+<script type="text/javascript" src="/CFIDE/scripts/ajax/yui/yahoo-dom-event/yahoo-dom-event.js"></script>
+<script type="text/javascript" src="/CFIDE/scripts/ajax/yui/animation/animation-min.js"></script>
+<script type="text/javascript" src="/CFIDE/scripts/ajax/ext/adapter/yui/ext-yui-adapter.js"></script>
+<script type="text/javascript" src="/CFIDE/scripts/ajax/ext/ext-all.js"></script>
+<script type="text/javascript" src="/CFIDE/scripts/ajax/package/cfwindow.js"></script>
+<link rel="stylesheet" type="text/css" href="/CFIDE/scripts/ajax/resources/ext/css/ext-all.css" />
+<link rel="stylesheet" type="text/css" href="/CFIDE/scripts/ajax/resources/cf/cf.css" />
+
+<title>Timeline - USC Gould School of Law</title>
+<meta charset="UTF-8">
+<meta name="description" content="Stellar faculty, diverse students, and innovative programs have made the USC Gould School of Law one of the most prominent law schools in the country.">
+
+<link rel="shortcut icon" href="/favicon.ico">
+
+
+
+
+
+
+
+<link rel="stylesheet" type="text/css" href="/assets/css/accordion.css?last_updated=091515">
+<link rel="stylesheet" type="text/css" href="/assets/css/animate.css?last_updated=091515">
+<link rel="stylesheet" type="text/css" href="/assets/css/2015-unclean.css?last_updated=091515">
+<link rel="stylesheet" type="text/css" href="/assets/css/2015.css?last_updated=091515">
+
+
+
+
+
+<link rel="stylesheet" type="text/css" href="/assets/css/usccal.css?last_updated=091515">
+<link rel="stylesheet" type="text/css" href="/mockup/layerslider/css/layerslider.css?last_updated=091515">
+
+<link rel="stylesheet" type="text/css" href="/includes/flexinav/flexinav.css?last_updated=091515">
+
+<link rel="stylesheet" type="text/css" href="/assets/css/jquery.mmenu.all.css?last_updated=091515">
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js?last_updated=091515"></script>
+<script type="text/javascript" src="/assets/javascripts/default.js?last_updated=091515"></script>
+<script type="text/javascript" src="/mockup/layerslider/js/greensock.js?last_updated=091515"></script>
+<script type="text/javascript" src="/mockup/layerslider/js/layerslider.transitions.js?last_updated=091515"></script>
+<script type="text/javascript" src="/mockup/layerslider/js/layerslider.kreaturamedia.jquery.js?last_updated=091515"></script>
+<script type="text/javascript" src="/includes/flexinav/flexinav_plugins.js?last_updated=091515"></script>
+<script type="text/javascript" src="/includes/flexinav/flexinav.js?last_updated=091515"></script>
+<script type="text/javascript" src="/mockup/news/jquery.bxslider.min.js?last_updated=091515"></script>
+<script type="text/javascript" src="/assets/javascripts/jquery.mmenu.min.js?last_updated=091515"></script>
+
+
+
+
+
+
+<link rel="stylesheet" href="/assets/css/timeline.css?031416122901">
+<script>
+function hide_all_divs(){
+	document.getElementById('timeline_page_1800s').style.display='none';
+	document.getElementById('timeline_page_1900s').style.display='none';
+	document.getElementById('timeline_page_1910s').style.display='none';
+	document.getElementById('timeline_page_1920s').style.display='none';
+	document.getElementById('timeline_page_1930s').style.display='none';
+	document.getElementById('timeline_page_1940s').style.display='none';
+	document.getElementById('timeline_page_1950s').style.display='none';
+	document.getElementById('timeline_page_1960s').style.display='none';
+	document.getElementById('timeline_page_1970s').style.display='none';
+	document.getElementById('timeline_page_1980s').style.display='none';
+	document.getElementById('timeline_page_1990s').style.display='none';
+	document.getElementById('timeline_page_2000s').style.display='none';
+	document.getElementById('timeline_page_2000s_1').style.display='none';
+	document.getElementById('timeline_page_2010s').style.display='none';
+	document.getElementById('timeline_page_2010s_1').style.display='none';
+	document.getElementById('timeline_page_2010s_2').style.display='none';
+	}
+</script>
+
+
+<script type="text/javascript">/* <![CDATA[ */
+	ColdFusion.Ajax.importTag('CFAJAXPROXY');
+/* ]]> */</script>
+
+<script type="text/javascript">/* <![CDATA[ */
+	ColdFusion.Ajax.importTag('CFFORM');
+/* ]]> */</script>
+
+<script type="text/javascript">/* <![CDATA[ */
+	ColdFusion.Ajax.importTag('CFTEXTAREA');
+/* ]]> */</script>
+
+<script type="text/javascript">/* <![CDATA[ */
+	ColdFusion.Ajax.importTag('CFWINDOW');
+/* ]]> */</script>
+</head> 
+
+
+
+<body>
+
+
+
+
+
+<div id="search_area" class="wow fadeInDownBig">
+<img src="/mockup/images/homepage/close.png" onClick="toggle_visibility('search_area');">
+<div style="position: absolute; top: 50%; left: 5%; width: 100%;">
+<form method="get" action="/search/" name="gs">
+<input type="text" name="query" id="query" value="what can we help you find?" style="color: #999; height: 50px; width: 60%; margin: 0px; padding: 0px; float: left; border: none; padding-left: 10px; padding-right: 0px; font-size: 30px;" onFocus="clearText(this);" onBlur="checkText(this);" autocomplete="off">
+<input type="image" src="/mockup/images/homepage/search.png" alt="Search" style="height: 45px; width: 45px; margin-left: 20px;">
+<br class="clear">
+<br>
+<p style="width: 80%; color: #fff; font-size: 18px;"><strong><span style="color: #ffc324;">or try these popular searches:</span></strong> <a href="/search/?query=application+status" style="color: #fff; border-bottom: 1px #fff dotted;">application status</a>, <a href="/search/?query=dual+degrees" style="color: #fff; border-bottom: 1px #fff dotted;">dual degrees</a>, <a href="/search/?query=saks+institute" style="color: #fff; border-bottom: 1px #fff dotted;">saks institute</a>, <a href="/search/?query=events" style="color: #fff; border-bottom: 1px #fff dotted;">events</a>, <a href="/search/?query=class+profile" style="color: #fff; border-bottom: 1px #fff dotted;">class profile</a></p>
+</form>
+</div>
+</div>
+
+
+
+<div id="quicklinks">
+<div id="content">
+
+
+
+<ul>
+<li><a href="/about/contact/">Contact Us</a></li>
+<li><a href="/why/academics/cle/">CLE</a></li>
+<li><a href="/giving/choices/donatenow.cfm">Give Back</a></li>
+<li><a href="/press/contact/">Press Room</a></li>
+<li><a href="/events/">Events</a></li>
+<li><a href="/press/">News</a></li>
+
+<li><a href="http://mylaw2.usc.edu/portal/" target="_blank">My Portal</a></li>
+</ul>
+</div>
+</div>
+
+
+
+<div id="header">
+<div id="content">
+<a href="/"><img src="/images/header/usc-gould-school-of-law.png" height="73" width="259" class="logo"></a>
+<a href="http://www.usc.edu/" target="_blank"><img src="/images/header/university-of-southern-california.png" height="38" width="176" class="usc_branding"></a>
+</div>
+</div>
+
+
+
+<div id="menubar">
+<div id="content">
+
+
+
+
+
+<div id="menubar_mobile" style="height: 50px;">
+<a href="#my-menu" style="float: left; height: 50px; width: 50%; display: block;"><h3 style="font-size: 18px; font-weight: normal; color: #fff; float: left; padding: 16px 0px 0px 45px;">MENU</h3></a>
+<nav id="my-menu">
+   <ul>
+  
+      <li><a href="/">Home</a></li>
+      <li><a href="/search/">Search</a></li>
+      <li class="Selected"><span>About</span>
+         <ul>
+            <li><a href="/about/introduction/">Introduction from the Dean</a></li>
+            <li class="Selected"><a href="/about/history/">History of USC Gould</a>
+            <ul>
+            <li><a href="/about/history/timeline/">Timeline</a></li>
+            <li><a href="/about/history/diversity/">Diversity Pioneers</a></li>
+            <li><a href="/about/history/alumni/">Alumni on the Bench</a></li>
+            <li><a href="/about/history/women/">Women in the Law</a></li>
+            <li><a href="/about/history/interdisciplinary/">Interdisciplinary Legal Studies</a></li>
+            <li><a href="/about/history/public-interest/">Public Interest</a></li>
+            </ul>
+            </li>
+            <li><a href="/about/los-angeles/">Explore Los Angeles</a>
+            <ul>
+            <li><a href="/about/los-angeles/living/">Living in Los Angeles</a></li>
+            <li><a href="/about/los-angeles/getting-around/">Getting Around</a></li>
+            <li><a href="/about/los-angeles/history/">Los Angeles/USC History</a></li>
+            <li><a href="/about/los-angeles/attractions/">Attractions</a></li>
+            <li><a href="/about/los-angeles/housing/">Housing</a></li>
+         </ul>
+            </li>
+            <li><a href="/about/class-profile/">Class Profile</a></li>
+            <li><a href="/about/board/">Board of Councilors</a></li>
+            <li><a href="/about/visit/">Visit USC Gould</a>
+            <ul>
+            <li><a href="/about/visit/classroom/">Classroom Visits</a></li>
+            <li><a href="/about/visit/tours/">Law School Tours</a></li>
+            <li><a href="/about/visit/information-sessions/">Information Sessions</a></li>
+            <li><a href="/about/visit/walking-tour/">Self-Guided Walking Tour</a></li>
+            <li><a href="/about/visit/directions/">Driving Directions</a></li>
+            <li><a href="/about/visit/map/">Building Map</a></li>
+            <li><a href="/about/visit/llm/">LL.M. Student Visits</a></li>
+         </ul>            
+            </li>
+            <li><a href="/about/aba-required-disclosures/">ABA Required Disclosures</a>
+            <ul>
+            <li><a href="/about/aba-required-disclosures/overview/">Overview</a></li>
+            <li><a href="/about/aba-required-disclosures/faculty-and-administrators/">Faculty & Administrators</a></li>
+            <li><a href="/about/aba-required-disclosures/curriculum/">Curriculum</a></li>
+            <li><a href="/about/aba-required-disclosures/jd-enrollment-and-ethnicity/">J.D. Enrollment & Ethnicity</a></li>
+            <li><a href="/about/aba-required-disclosures/transfer-policy-and-awarding-of-credit/">Transfer Policy and Awarding of Credit</a></li>
+            <li><a href="/about/aba-required-disclosures/transfer-student-data/">Transfer Student Data</a></li>
+            <li><a href="/about/aba-required-disclosures/tuition-and-fees/">Tuition & Fees</a></li>
+            <li><a href="/about/aba-required-disclosures/withdrawal-tuition-refund-policy/">Withdrawal/Tuition Refund Policy</a></li>
+            <li><a href="/about/aba-required-disclosures/living-expenses/">Living Expenses</a></li>
+            <li><a href="/about/aba-required-disclosures/gpa-and-lsat-scores/">GPA & LSAT Scores</a></li>
+            <li><a href="/about/aba-required-disclosures/grants-and-scholarships/">Grants & Scholarships</a></li>
+            <li><a href="/about/aba-required-disclosures/jd-attrition/">J.D. Attrition</a></li>
+            <li><a href="/about/aba-required-disclosures/bar-passage-rates/">Bar Passage Rates</a></li>
+            <li><a href="/about/aba-required-disclosures/employment-statistics/">Employment Statistics</a></li>
+            <li><a href="/about/aba-required-disclosures/class-profile/">2015 Entering Class Profile</a></li>
+            <li><a href="/about/aba-required-disclosures/qualifications-for-admission-to-the-bar/">Qualifications for Admission to the Bar</a></li>
+            </ul>
+            </li>
+            <li><a href="/about/community/">Meet our Community</a></li>
+            <li><a href="/about/contact/">Contact Us</a>
+            <ul>
+            <li><a href="/about/contact/faculty/">Faculty Directory</a></li>
+            <li><a href="/about/contact/lecturers/">Lecturers in Law Directory</a></li>
+            <li><a href="/about/contact/staff/">Staff Directory</a></li>
+            <li><a href="/about/contact/directions/">Driving Directions</a></li>
+            <li><a href="/about/contact/map/">Building Map</a></li>            
+            </ul>
+            </li>
+         </ul>
+      </li>
+      <li><span>Admissions</span>
+      
+      <ul>
+      <li><span>J.D. Programs</span>
+         <ul>
+            
+              <li><span>3 Year J.D. Program</span>
+                  <ul>
+                      <li><a href="/how/jd/admissionsInformation.cfm">Admissions Information</a></li>               
+                      <li><a href="/how/jd/jdApplication.cfm">Apply Now</a></li>
+                      <li><a href="/how/jd/onlineapplicationstatus.cfm">Application Status Check</a></li>
+                      <li><a href="/why/academics/bar/">Character & Fitness</a></li>
+                      <li><a href="/how/jd/faq.cfm">FAQ</a></li>
+                      <li><a href="/how/jd/international.cfm">International JD Applicants</a></li>
+                      <li><a href="/how/jd/waitlist_log_in.cfm">Waiting List Response Form</a></li>
+                      <li><a href="/assets/docs/how/jd/getting-into-law-school-guide.pdf" target="_blank">Getting into Law School Guide</a></li>
+                      <li><a href="/how/transfer/">Transfer/Visitor Applicants</a>
+                      
+                      <ul>
+                      			<li><a href="/how/transfer/index.cfm">General Information</a></li>
+			<li><a href="/how/transfer/transfer.cfm">Application Requirements</a></li>           
+			<li><a href="/how/transfer/earlydecision.cfm">Transfer Early Decision</a></li> 
+			<li><a href="/how/transfer/regulardecision.cfm">Regular Decision</a></li> 
+			<li><a href="/how/transfer/visitinfo.cfm">Visiting Student Information</a></li>
+            </ul>
+                      
+                      </li>
+                  </ul>
+              </li>
+
+
+              <li><a href="/how/jd/3-plus-3-program/">3+3 Accelerated Bachelor/JD Program</a></li>
+              
+              <li><a href="/how/jd/2-year-jd-program-for-international-lawyers/">2 Year JD Program for International Lawyers</a></li>
+              <li><span>Costs and Financial Assistance</span>
+                  <ul>
+                      <li><a href="/how/jd/finaid/">Financial Aid</a></li>               
+                      <li><a href="/how/jd/finaid/costs.cfm">Cost of Attendance</a></li>
+                      <li><a href="/how/jd/finaid/Aid.cfm">Types of Aid</a></li>
+                      <li><a href="/how/jd/finaid/apply.cfm">How to Apply</a></li>
+                      <li><a href="/how/jd/finaid/lrap.cfm">Loan Repayment Assistance Program (LRAP)</a></li>
+
+                  </ul>
+              </li>
+
+
+
+              <li><a href="/how/jd/earlydecision/">Early Decision Program</a>
+				  <ul>
+                  
+                      <li><a href="/how/jd/earlydecision/faq.cfm">FAQs for Early Decision Program</a></li>
+                      <li><a href="/assets/docs/how/jd/early-decision-agreement.pdf" target="_blank">Early Decision Agreement Form</a></li>
+                  </ul>
+              </li>
+
+
+              <li><a href="/how/jd/rothman/">Frank Rothman Scholarship</a>
+				  <ul>
+                      <li><a href="/how/jd/rothman/details.cfm">Scholarship Details</a></li>
+                      <li><a href="/how/jd/rothman/bio.cfm">About Frank Rothman</a></li>
+                      <li><a href="/how/jd/rothman/scholars.cfm">The Rothman Scholars</a> 
+                          
+                      </li>
+                  </ul>
+              </li>
+
+      
+              <li><span>Getting To Know USC Gould</span>
+                  <ul>
+                      <li><a href="/how/visit/">Visit USC Gould</a></li>               
+                      <li><a href="/how/jd/recruitingSchedule.cfm">2015-16 Recruitment Calendar</a></li>
+                      <li><a href="/how/jd/studentAmbassadors.cfm">Meet Our Student Ambassadors</a>
+						              
+                      </li>
+
+                      <li><a href="/how/jd/request.cfm">Request/Download Viewbook</a></li>
+                      <li><a href="/how/jd/viewbook/index.html" target="_blank">Browse Viewbook online</a></li>
+                      <li><a href="http://www.youtube.com/user/USCGould" target="_blank">Videos</a></li>
+                  </ul>
+              </li>
+     
+              <li><a href="/careers/statistics/">Employment Statistics</a></li>
+      
+              <li><span>LSAC</span>
+                  <ul>
+                      <li><a href="/how/jd/lsac/lsac.cfm">LSAC</a></li>
+                      <li><a href="/how/jd/lsac/lsacLawSchoolForums.cfm">LSAC Law School Forums</a></li>
+                      <li><a href="/how/jd/lsac/lsacDiversityInitiatives.cfm">LSAC Diversity Initiatives</a></li>
+                  </ul>
+              </li>
+ 
+         </ul>
+      </li>
+
+
+
+
+
+
+
+
+
+
+<li><span>Graduate Programs</span>
+
+
+    	<ul>
+
+			<li><a href="/how/gip/llm/">LL.M. Program</a> 
+				
+      		</li>
+         
+
+			<li><a href="/how/gip/2-year/">2 Year LL.M. Program</a>
+            
+            
+            
+            
+            </li>
+            
+			<li><a href="/how/gip/transfer/">LL.M. to J.D. Transfer Program</a></li>
+
+			<li><a href="http://onlinellm.usc.edu/?Access_Code=USC-LLM-SEO2&utm_campaign=USC-LLM-SEO2" target="_blank" class="external_link">Online LL.M. Program</a></li>
+			<li><a href="/how/gip/onlinemsl/">Online Master of Studies in Law (MSL) Program</a>
+				
+            </li>
+			<li><a href="/how/gip/mcl/">Master of Comparative Law</a>
+				
+            </li>            
+			<li><a href="/how/gip/vip/">Visiting International Law Program</a></li>
+			<li><a href="/how/gip/sle/">Summer Law &amp; English</a>
+				
+        </li>
+		<li><a href="/how/gip/studyabroad.cfm">J.D. Study Abroad</a>
+     
+</li>
+        
+        <li><a href="/assets/docs/admissions/graduate/brochure.pdf" target="_blank" class="external_link">View Our Brochure</a></li>
+        <li><a href="/how/gip/contact.cfm">Contact Us</a></li>
+    </ul>
+    
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <li><a href="http://onlinellm.usc.edu/?Access_Code=USC-LLM-SEO2&utm_campaign=USC-LLM-SEO2">Online Programs</a></li>
+      <li><a href="http://onlinellm.usc.edu/?Access_Code=USC-LLM-SEO2&utm_campaign=USC-LLM-SEO2">Online Business Law Certificate</a></li>
+      </ul>
+
+      <li><span>Academics</span>
+         <ul>
+            <li><a href="/academics/calendar/">Academic Calendar</a></li>
+            <li><a href="/academics/curriculum/">Curriculum</a>
+            <ul>
+            <li><a href="/academics/curriculum/juris-doctor-degree-requirements/">Juris Doctor Degree Requirements</a></li>
+            <li><a href="/academics/curriculum/first-year-curriculum/">First Year Curriculum</a></li>
+            <li><a href="/academics/curriculum/upper-division-course-offerings/">Upper Division Course Offerings</a></li>
+            <li><a href="/academics/curriculum/course-descriptions/">Course Descriptions</a></li>
+
+            <li><a href="/academics/curriculum/externships/">Externships</a></li>
+            <li><a href="/academics/curriculum/dual-degree-programs/">Dual Degree Programs</a></li>
+            <li><a href="/academics/curriculum/jd-study-abroad/">J.D. Study Abroad</a></li>
+            <li><a href="/academics/curriculum/academic-calendar/">Academic Calendar</a></li>
+            <li><a href="/academics/curriculum/grading-system/">Grading System</a></li>
+            <li><a href="/academics/curriculum/class-and-exam-schedules/">Class & Exam Schedules</a></li>
+            </ul>
+            </li>
+            <li><a href="/academics/faculty/">Faculty</a></li>
+            <li><a href="/academics/certificates/">Certificate Programs</a>
+            <ul>
+			<li><a href="/academics/certificates/adr/">Alternative Dispute Resolution (ADR)</a></li>
+			<li><a href="/academics/certificates/business/">Business Law</a></li>
+			<li><a href="/academics/certificates/entertainment/">Entertainment Law</a></li>
+			</ul>            
+            </li>
+            <li><a href="/academics/clinical-programs/">Clinical Programs</a></li>
+            <li><a href="/academics/alternative-dispute-resolution-program/">Alternative Dispute Resolution Program</a></li>
+            <li><a href="/academics/business-law-program/">Business Law Program</a>
+            
+            
+                        
+            
+            
+            </li>
+            <li><a href="/academics/media-entertainment-and-technology-law-program/">Media, Entertainment and Technology Law Program</a>
+            
+             <ul>
+        <li><a href="/academics/media-entertainment-and-technology-law-program/curriculum/">Our Approach and Curriculum</a></li>
+        <li><a href="/academics/media-entertainment-and-technology-law-program/courses/">Media and Entertainment Law Courses</a></li>
+        <li><a href="/academics/media-entertainment-and-technology-law-program/opportunities">Patent and Technology Law - Courses and Other Opportunities</a></li>
+        <li><a href="http://iptlc.usc.edu/" target="_blank" class="external_link">Intellectual Property and Technology Law Clinic</a></li>
+        <li><a href="/academics/media-entertainment-and-technology-law-program/faculty/">Affiliated Faculty</a></li>
+        <li><a href="/academics/media-entertainment-and-technology-law-program/research/">Research</a></li>
+        <li><a href="/academics/media-entertainment-and-technology-law-program/students/">Meet our Students and Alumni</a></li>
+        <li><a href="/academics/media-entertainment-and-technology-law-program/requirements/">Requirements for Media and Entertainment Law Certificate</a></li>
+        <li><a href="/why/students/orgs/entertainmentLaw.cfm">Entertainment Law Society</a></li>
+        <li><a href="http://mcir.usc.edu/" target="_blank" class="external_link">Music Copyright Infringement Database</a></li>
+        <li><a href="/academics/media-entertainment-and-technology-law-program/practicum/">Entertainment Practicum</a></li>
+        <li><a href="/academics/media-entertainment-and-technology-law-program/events/">Events</a></li>
+        <li><a href="/academics/media-entertainment-and-technology-law-program/news/">In the News</a></li>
+        <li><a href="/academics/media-entertainment-and-technology-law-program/contact/">Contact Us</a></li>
+    </ul>
+            
+            </li>
+            <li><a href="/academics/state-bar-examinations/">State Bar Examinations</a></li>
+            <li><a href="/why/academics/cle/">Continuing Legal Education</a></li>
+         </ul>
+      </li>
+
+      <li><span>Student Life</span>
+         <ul>
+            <li><a href="/students/student-services/">Student Services Office</a></li>
+            <li><a href="/students/class-and-exam-schedules/">Class &amp; Exam Schedules</a></li>
+            <li><a href="/students/peer-mentors/">Peer Mentors</a></li>
+            <li><a href="/students/student-organizations/">Student Organizations</a></li>
+            <li><a href="/students/academic-journals-and-honors-programs/">Academic Journals &amp; Honors Programs</a></li>
+            <li><a href="/students/disability-student-services/">Disability Student Services</a></li>
+            <li><a href="/students/public-service/">Public Service</a></li>
+
+
+<li><a href="/students/first-generation-professionals/">First Generation Professionals Program</a>
+
+</li>
+
+
+            <li><a href="/students/students-with-families/">Students with Families</a></li>
+            <li><a href="http://transnet.usc.edu/" target="_blank" class="external_link">Transportation</a></li>
+            <li><a href="/students/university-services/">University Services</a></li>
+         </ul>
+      </li>
+
+      <li><span>Faculty</span>
+         <ul>
+            <li><a href="/faculty/">Faculty Directory</a></li>
+            <li><a href="/faculty/lecturers/">Lecturers in Law Directory</a></li>
+            <li><a href="/faculty/experts/">Experts Directory</a></li>
+            <li><a href="/faculty/scholarship/">Scholarship</a></li>
+            <li><a href="/faculty/distinctions/">Distinctions &amp; Awards</a></li>
+            <li><a href="/faculty/news/">In the News</a></li>
+            <li><a href="/faculty/blogs/">Blogs</a></li>
+            <li><a href="/centers/">Centers</a></li>
+            <li><a href="/faculty/workshops/">Workshops &amp; Conferences</a>
+            
+            <ul>
+            <li><a href="/faculty/workshops/faculty/">Faculty Workshops</a></li>
+            </ul>
+            
+            </li>
+         </ul>
+      </li>
+
+      <li><span>Careers</span>
+         <ul>
+            <li><a href="/careers/">Career Services</a></li>
+            <li><a href="/careers/students/">Information for Students</a>
+            <ul>
+            <li><a href="/careers/students/counseling/">Career Counseling</a></li>
+            <li><a href="/careers/students/resources/">Career Resources</a></li>
+            <li><a href="/careers/students/employment/">Employment Opportunities</a></li>
+            <li><a href="/careers/students/statistics/">Employment Statistics</a></li>
+            <li><a href="/careers/students/programming/">Career Programming</a></li>
+            <li><a href="/careers/students/faqs/">Frequently Asked Questions</a></li>
+            </ul>
+            </li>
+            <li><a href="/careers/alumni">Information for Alumni</a></li>
+            <li><a href="/careers/employers/">Information for Employers</a>
+            <ul>
+            <li><a href="/careers/employers/recruitment/">On Campus Recruitment Opportunities</a></li>
+            <li><a href="/careers/employers/post/">Post a Job/Resume Collect</a></li>
+            <li><a href="/careers/employers/other/">Off Campus Recruitment Programs</a></li>
+            </ul>
+
+            </li>
+            <li><a href="/careers/reciprocity/">Reciprocity</a></li>
+            <li><a href="/careers/contact/">Contact Us</a></li>
+         </ul>
+      </li>
+
+      <li><span>Alumni</span>
+         <ul>
+            <li><a href="/alumni/getinvolved/committee.cfm">Alumni Association</a>
+
+            </li>
+            <li><a href="/giving/choices/annualfund.cfm">Annual Fund Programs</a></li>
+            <li><a href="/giving/counsel.cfm">Board of Councilors</a></li>
+            <li><a href="/alumni/events/receptions.cfm">Events</a></li>
+            <li><a href="/giving/choices/donatenow.cfm">Giving Back</a></li>
+            <li><a href="/alumni/class-notes/">Class Notes</a></li>
+            <li><a href="/alumni/contactinfo.cfm">Update Contact Info</a></li>
+            <li><a href="/alumni/contact.cfm">Contact Us</a></li>
+         </ul>
+      </li>
+      
+      <li><span>Library</span>
+         <ul>
+            <li><a href="/library/">Law Library</a></li>
+            <li><a href="/library/services/">Services &amp; Information</a>
+            
+            <ul>
+            <li><a href="/library/services/map/">Library Map</a></li>
+            <li><a href="/library/services/access.cfm">Access Policy</a></li>
+            <li><a href="/library/services/borrowing.cfm">Borrowing</a></li>
+            <li><a href="/library/services/interlibrary.cfm">Interlibrary Loan</a></li>
+            <li><a href="/library/services/staff.cfm">Law Library Staff</a></li>
+            </ul>
+            
+            </li>
+            <li><a href="/library/search/">Search Library Catalogs</a></li>
+            <li><a href="http://lawlibguides.usc.edu/content.php?pid=253364" target="_blank">Research Guides</a></li>
+            <li><a href="/library/resources.cfm">Online Resources</a></li>
+         </ul>
+      </li>
+
+ 
+
+         <li><a href="/press/">Press Room</a>
+         <ul>
+            <li><a href="/press/">Press Room</a>
+            <ul>
+               
+               <li ><a href="/press/?year=2016">Fall 2016 - Spring 2017</a></li>           
+               
+               <li ><a href="/press/?year=2015">Fall 2015 - Spring 2016</a></li>           
+               
+               <li ><a href="/press/?year=2014">Fall 2014 - Spring 2015</a></li>           
+               
+               <li ><a href="/press/?year=2013">Fall 2013 - Spring 2014</a></li>           
+               
+               <li ><a href="/press/?year=2012">Fall 2012 - Spring 2013</a></li>           
+               
+               <li ><a href="/press/?year=2011">Fall 2011 - Spring 2012</a></li>           
+               
+               <li ><a href="/press/?year=2010">Fall 2010 - Spring 2011</a></li>           
+               
+               <li ><a href="/press/?year=2009">Fall 2009 - Spring 2010</a></li>           
+               
+               <li ><a href="/press/?year=2008">Fall 2008 - Spring 2009</a></li>           
+               
+               <li ><a href="/press/?year=2007">Fall 2007 - Spring 2008</a></li>           
+               
+               <li ><a href="/press/?year=2006">Fall 2006 - Spring 2007</a></li>           
+               
+               <li ><a href="/press/?year=2005">Fall 2005 - Spring 2006</a></li>           
+            
+</ul>
+            </li>
+            <li><a href="/press/contact/">Contact Us</a></li>
+            <li><a href="/press/expert/">Find an Expert</a></li>
+          
+            <li><a href="/press/publications/">Publications</a>
+            <ul>
+            <li><a href="/press/publications/magazine/">USC Law Magazine</a></li>
+            <li><a href="/press/publications/enews/">eNews</a></li>
+            <li><a href="/press/publications/clinical/">Clinical Perspectives</a></li>
+            <li><a href="/press/publications/identity/">Identity Guidelines</a></li>
+            </ul>
+            </li>
+            <li><a href="/press/advisories/">Media Advisories</a></li>
+            <li><a href="/press/social/">Social Media</a>
+            <ul>
+            <li><a href="/press/social/facebook/">Facebook</a></li>
+            <li><a href="/press/social/twitter/">Twitter</a></li>
+            <li><a href="http://www.youtube.com/user/USCGould" target="_blank" class="external_link">YouTube</a></li>
+            <li><a href="https://instagram.com/uscgouldlaw/" target="_blank" class="external_link">Instagram</a></li>
+            <li><a href="https://www.linkedin.com/edu/school?id=17973&trk=edu-cp-sa-sname" target="_blank" class="external_link">LinkedIn</a></li>
+            <li><a href="https://www.flickr.com/photos/69930317@N08/" target="_blank" class="external_link">Flickr</a></li>
+            </ul>
+            </li>
+         </ul>
+
+<li><a href="/portal/">My Portal</a></li>
+<li><a href="/site/?desktop">Switch to Desktop Site</a></li>
+
+   </ul>
+</nav>
+     <script type="text/javascript">
+         jQuery(document).ready(function( $ ) {
+            $("#my-menu").mmenu({
+               "extensions": [
+                  "theme-dark"
+               ]
+            });
+         });
+      </script>
+</div>
+
+
+
+
+
+<div id="flexinav1" class="flexinav">
+<div class="flexinav_wrapper">
+<ul class="flexinav_menu">
+
+
+
+<li class="flexnav_mega"><span>About</span>
+<div class="flexinav_ddown flexinav_ddown_full">
+<div id="menubar_image">
+<img src="/mockup/images/admissions.jpg" height="370" width="300">
+</div>
+<div id="menubar_description">
+<h2>About</h2>
+<p>USC Gould is one of the nation's top-ranked law schools with a 115+ year history and reputation for academic excellence.  We are known for our diverse student body, interdisciplinary education and our tight-knit alumni network of over 10,000 professionals throughout the globe.  With entering J.D. class sizes of less than 200 the learning experience is intimate and collegial.  Our location in Los Angeles provides unlimited opportunities in one of world's top legal markets.  It is home to major entertainment, business and law firms, as well as a gateway to international markets.</p>
+</div>
+<div id="menubar_links">
+<ul>
+<li><a href="/about/introduction/">Introduction from the Dean</a></li>
+<li><a href="/about/history/">History of USC Gould</a></li>
+<li><a href="/about/los-angeles/">Explore Los Angeles</a></li>
+<li><a href="/about/class-profile/">Class Profile</a></li>
+<li><a href="/about/board/">Board of Councilors</a></li>
+<li><a href="/about/visit/">Visit USC Gould</a></li>
+<li><a href="/about/aba-required-disclosures/">ABA Required Disclosures</a></li>
+<li><a href="/about/community/">Meet our Community</a></li>
+<li><a href="/about/contact/">Contact Us</a></li>
+</ul>
+</div>   
+</div>
+</li>
+
+
+
+<li class="flexnav_mega"><span>Admissions</span>
+<div class="flexinav_ddown flexinav_ddown_full">
+<div id="flexinav_left" style="height: 100%; float: left; width: 300px;">
+<img src="/mockup/images/homepage/jd-programs.jpg" style="height: 100px; width: 300px;">
+<h2 style="color: #ffc324; font-family: National; font-weight: bold; margin: 0px; padding: 0px;">J.D. Programs</h2>
+<ul style="list-style: none; margin: 5px 0px 0px 0px; padding: 0px;">
+<li style="height: 30px; margin: 0px; padding: 0px; line-height: 30px; background-color: #000; color: #fff; float: none; border: 0px; border-top: 1px dotted #555555; border-bottom: 1px dotted #555555; font-size: 13px; background: url('/mockup/images/right-arrow.png') no-repeat; background-position: 0px 7px;"><a href="/how/jd/" style="color: #fff; display: block; margin-left: 25px;">3 Year J.D. Program</a></li>
+<li style="height: 30px; margin: 0px; padding: 0px; line-height: 30px; background-color: #000; color: #fff; float: none; border: 0px; border-bottom: 1px dotted #555555; font-size: 13px; background: url('/mockup/images/right-arrow.png') no-repeat; background-position: 0px 7px;"><a href="/how/jd/3-plus-3-program/" style="color: #fff; display: block; margin-left: 25px;">3+3 Accelerated Bachelor/J.D. Program</a></li>
+<li style="height: 30px; margin: 0px; padding: 0px; line-height: 30px; background-color: #000; color: #fff; float: none; border: 0px; border-bottom: 1px dotted #555555; font-size: 13px; background: url('/mockup/images/right-arrow.png') no-repeat; background-position: 0px 7px;"><a href="/how/jd/2-year-jd-program-for-international-lawyers/" style="color: #fff; display: block; margin-left: 25px;">2 Year JD Program for International Lawyers</a></li>
+<li style="height: 30px; margin: 0px; padding: 0px; line-height: 30px; background-color: #000; color: #fff; float: none; border: 0px; border-bottom: 1px dotted #555555; font-size: 13px; background: url('/mockup/images/right-arrow.png') no-repeat; background-position: 0px 7px;"><a href="/how/jd/earlydecision/" style="color: #fff; display: block; margin-left: 25px;">Early Decision Program</a></li>
+<li style="height: 30px; margin: 0px; padding: 0px; line-height: 30px; background-color: #000; color: #fff; float: none; border: 0px; border-bottom: 1px dotted #555555; font-size: 13px; background: url('/mockup/images/right-arrow.png') no-repeat; background-position: 0px 7px;"><a href="/how/transfer/" style="color: #fff; display: block; margin-left: 25px;">Transfer Student Program</a></li>
+<li style="height: 30px; margin: 0px; padding: 0px; line-height: 30px; background-color: #000; color: #fff; float: none; border: 0px; border-bottom: 1px dotted #555555; font-size: 13px;"></li>
+</ul>
+</div>
+<div id="flexinav_middle" style="height: 100%; float: left; width: 300px; margin-left: 20px; margin-right: 20px;">
+<img src="/mockup/images/homepage/graduate-programs.jpg" style="height: 100px; width: 300px;">
+<h2 style="color: #ffc324; font-family: National; font-weight: bold; margin: 0px; padding: 0px;"><a href="/admissions/graduate/" style="color: #ffc324;">Graduate Programs</a></h2>
+<ul style="list-style: none; margin: 5px 0px 0px 0px; padding: 0px;">
+<li style="height: 30px; margin: 0px; padding: 0px; line-height: 30px; background-color: #000; color: #fff; float: none; border: 0px; border-top: 1px dotted #555555; border-bottom: 1px dotted #555555; font-size: 13px; background: url('/mockup/images/right-arrow.png') no-repeat; background-position: 0px 7px;"><a href="/how/gip/llm/" style="color: #fff; display: block; margin-left: 25px;">LL.M. Program</a></li>
+<li style="height: 30px; margin: 0px; padding: 0px; line-height: 30px; background-color: #000; color: #fff; float: none; border: 0px; border-bottom: 1px dotted #555555; font-size: 13px; background: url('/mockup/images/right-arrow.png') no-repeat; background-position: 0px 7px;"><a href="/how/gip/2-year/" style="color: #fff; display: block; margin-left: 25px;">2 Year LL.M. Program</a></li>
+<li style="height: 30px; margin: 0px; padding: 0px; line-height: 30px; background-color: #000; color: #fff; float: none; border: 0px; border-bottom: 1px dotted #555555; font-size: 13px; background: url('/mockup/images/right-arrow.png') no-repeat; background-position: 0px 7px;"><a href="/how/gip/transfer/" style="color: #fff; display: block; margin-left: 25px;">LL.M. to J.D. Transfer Program</a></li>
+<li style="height: 30px; margin: 0px; padding: 0px; line-height: 30px; background-color: #000; color: #fff; float: none; border: 0px; border-bottom: 1px dotted #555555; font-size: 13px; background: url('/mockup/images/right-arrow.png') no-repeat; background-position: 0px 7px;"><a href="/how/gip/mcl/" style="color: #fff; display: block; margin-left: 25px;">Master of Comparative Law Program</a></li>
+<li style="height: 30px; margin: 0px; padding: 0px; line-height: 30px; background-color: #000; color: #fff; float: none; border: 0px; border-bottom: 1px dotted #555555; font-size: 13px; background: url('/mockup/images/right-arrow.png') no-repeat; background-position: 0px 7px;"><a href="/how/gip/vip/" style="color: #fff; display: block; margin-left: 25px;">Visiting International Law Program</a></li>
+<li style="height: 30px; margin: 0px; padding: 0px; line-height: 30px; background-color: #000; color: #fff; float: none; border: 0px; border-bottom: 1px dotted #555555; font-size: 13px; background: url('/mockup/images/right-arrow.png') no-repeat; background-position: 0px 7px;"><a href="/how/gip/sle/" style="color: #fff; display: block; margin-left: 25px;">Summer Law & English Program</a></li>
+
+<li style="height: 30px; margin: 0px; padding: 0px; line-height: 30px; background-color: #000; color: #fff; float: none; border: 0px; border-bottom: 1px dotted #555555; font-size: 13px;"></li>
+
+
+</ul>
+</div>
+<div id="flexinav_right" style="height: 100%; float: left; width: 300px;">
+<img src="/mockup/images/homepage/online-programs.jpg" style="height: 100px; width: 300px;">
+<h2 style="color: #ffc324; font-family: National; font-weight: bold; margin: 0px; padding: 0px;">Online Programs</h2>
+<ul style="list-style: none; margin: 5px 0px 0px 0px; padding: 0px;">
+<li style="height: 30px; margin: 0px; padding: 0px; line-height: 30px; background-color: #000; color: #fff; float: none; border: 0px; border-top: 1px dotted #555555; border-bottom: 1px dotted #555555; font-size: 13px; background: url('/mockup/images/right-arrow.png') no-repeat; background-position: 0px 7px;"><a href="http://onlinellm.usc.edu/?Access_Code=USC-LLM-SEO2&utm_campaign=USC-LLM-SEO2" target="_blank" class="external_link" style="color: #fff; display: block; margin-left: 25px;">Online LL.M. Program</a></li>
+<li style="height: 30px; margin: 0px; padding: 0px; line-height: 30px; background-color: #000; color: #fff; float: none; border: 0px; border-bottom: 1px dotted #555555; font-size: 13px; background: url('/mockup/images/right-arrow.png') no-repeat; background-position: 0px 7px;"><a href="http://onlinellm.usc.edu/?Access_Code=USC-LLM-SEO2&utm_campaign=USC-LLM-SEO2" target="_blank" class="external_link" style="color: #fff; display: block; margin-left: 25px;">Online Business Law Certificate</a></li>
+<li style="height: 30px; margin: 0px; padding: 0px; line-height: 30px; background-color: #000; color: #fff; float: none; border: 0px; border-bottom: 1px dotted #555555; font-size: 13px; background: url('/mockup/images/right-arrow.png') no-repeat; background-position: 0px 7px;"><a href="/how/gip/onlinemsl/" style="color: #fff; display: block; margin-left: 25px;">Online Master of Studies in Law (MSL) Program</a></li>
+
+
+<li style="height: 30px; margin: 0px; padding: 0px; line-height: 30px; background-color: #000; color: #fff; float: none; border: 0px; border-bottom: 1px dotted #555555; font-size: 13px;"></li>
+<li style="height: 30px; margin: 0px; padding: 0px; line-height: 30px; background-color: #000; color: #fff; float: none; border: 0px; border-bottom: 1px dotted #555555; font-size: 13px;"></li>
+<li style="height: 30px; margin: 0px; padding: 0px; line-height: 30px; background-color: #000; color: #fff; float: none; border: 0px; border-bottom: 1px dotted #555555; font-size: 13px;"></li>
+<li style="height: 30px; margin: 0px; padding: 0px; line-height: 30px; background-color: #000; color: #fff; float: none; border: 0px; border-bottom: 1px dotted #555555; font-size: 13px;"></li>
+
+</ul>
+</div>   
+</div>
+</li>
+
+
+
+<li class="flexnav_mega"><span>Academics</span>
+<div class="flexinav_ddown flexinav_ddown_full">
+<img src="http://weblaw.usc.edu/mockup/images/library-books.jpg" style="height: 100px; width: 940px;">
+
+<div id="flexinav_middle" style="height: 100%; float: left; width: 460px; margin-left: 10px; margin-right: 10px;">
+<h2 style="color: #ffc324; font-family: National; font-weight: bold; margin: 0px; padding: 0px;">Academics</h2>
+<ul style="list-style: none; margin: 5px 0px 0px 0px; padding: 0px;">
+<li style="height: 30px; margin: 0px; padding: 0px; line-height: 30px; background-color: #000; color: #fff; float: none; border: 0px; border-top: 1px dotted #555555; border-bottom: 1px dotted #555555; font-size: 13px; background: url('/mockup/images/right-arrow.png') no-repeat; background-position: 0px 7px;"><a href="/academics/calendar/" style="color: #fff; display: block; margin-left: 25px;">Academic Calendar</a></li>
+<li style="height: 30px; margin: 0px; padding: 0px; line-height: 30px; background-color: #000; color: #fff; float: none; border: 0px; border-bottom: 1px dotted #555555; font-size: 13px; background: url('/mockup/images/right-arrow.png') no-repeat; background-position: 0px 7px;"><a href="/academics/curriculum/" style="color: #fff; display: block; margin-left: 25px;">Curriculum</a></li>
+<li style="height: 30px; margin: 0px; padding: 0px; line-height: 30px; background-color: #000; color: #fff; float: none; border: 0px; border-bottom: 1px dotted #555555; font-size: 13px; background: url('/mockup/images/right-arrow.png') no-repeat; background-position: 0px 7px;"><a href="/academics/faculty/" style="color: #fff; display: block; margin-left: 25px;">Faculty</a></li>
+<li style="height: 30px; margin: 0px; padding: 0px; line-height: 30px; background-color: #000; color: #fff; float: none; border: 0px; border-bottom: 1px dotted #555555; font-size: 13px; background: url('/mockup/images/right-arrow.png') no-repeat; background-position: 0px 7px;"><a href="/academics/certificates/" style="color: #fff; display: block; margin-left: 25px;">Certificate Programs</a></li>
+<li style="height: 30px; margin: 0px; padding: 0px; line-height: 30px; background-color: #000; color: #fff; float: none; border: 0px; border-bottom: 1px dotted #555555; font-size: 13px; background: url('/mockup/images/right-arrow.png') no-repeat; background-position: 0px 7px;"><a href="/academics/clinical-programs/" style="color: #fff; display: block; margin-left: 25px;">Clinical Programs</a></li>
+<li style="height: 30px; margin: 0px; padding: 0px; line-height: 30px; background-color: #000; color: #fff; float: none; border: 0px; border-bottom: 1px dotted #555555; font-size: 13px; background: url('/mockup/images/right-arrow.png') no-repeat; background-position: 0px 7px;"><a href="/centers/" style="color: #fff; display: block; margin-left: 25px;">Centers &amp; Workshops</a></li>
+</ul>
+</div>
+<div id="flexinav_right" style="height: 100%; float: left; width: 460px;">
+<ul style="list-style: none; margin: 27px 0px 0px 0px; padding: 0px;">
+<li style="height: 30px; margin: 0px; padding: 0px; line-height: 30px; background-color: #000; color: #fff; float: none; border: 0px; border-top: 1px dotted #555555; border-bottom: 1px dotted #555555; font-size: 13px; background: url('/mockup/images/right-arrow.png') no-repeat; background-position: 0px 7px;"><a href="/academics/alternative-dispute-resolution-program/" style="color: #fff; display: block; margin-left: 25px;">Alternative Dispute Resolution Program</a></li>
+<li style="height: 30px; margin: 0px; padding: 0px; line-height: 30px; background-color: #000; color: #fff; float: none; border: 0px; border-bottom: 1px dotted #555555; font-size: 13px; background: url('/mockup/images/right-arrow.png') no-repeat; background-position: 0px 7px;"><a href="/academics/business-law-program/" style="color: #fff; display: block; margin-left: 25px;">Business Law Program</a></li>
+<li style="height: 30px; margin: 0px; padding: 0px; line-height: 30px; background-color: #000; color: #fff; float: none; border: 0px; border-bottom: 1px dotted #555555; font-size: 13px; background: url('/mockup/images/right-arrow.png') no-repeat; background-position: 0px 7px;"><a href="/academics/media-entertainment-and-technology-law-program/" style="color: #fff; display: block; margin-left: 25px;">Media, Entertainment & Technology Law Program</a></li>
+<li style="height: 30px; margin: 0px; padding: 0px; line-height: 30px; background-color: #000; color: #fff; float: none; border: 0px; border-bottom: 1px dotted #555555; font-size: 13px; background: url('/mockup/images/right-arrow.png') no-repeat; background-position: 0px 7px;"><a href="/academics/state-bar-examinations/" style="color: #fff; display: block; margin-left: 25px;">State Bar Examinations</a></li>
+<li style="height: 30px; margin: 0px; padding: 0px; line-height: 30px; background-color: #000; color: #fff; float: none; border: 0px; border-bottom: 1px dotted #555555; border-bottom: 1px dotted #555555; font-size: 13px; background: url('/mockup/images/right-arrow.png') no-repeat; background-position: 0px 7px;"><a href="/why/academics/cle/" style="color: #fff; display: block; margin-left: 25px;">Continuing Legal Education</a></li>
+<li style="height: 30px; margin: 0px; padding: 0px; line-height: 30px; background-color: #000; color: #fff; float: none; border: 0px; border-bottom: 1px dotted #555555; border-bottom: 1px dotted #555555; font-size: 13px;">&nbsp;</li>
+</ul>
+</div>   
+</div>
+</li>
+
+
+
+<li class="flexnav_mega"><span>Student Life</span>
+<div class="flexinav_ddown flexinav_ddown_full">
+<div id="menubar_image">
+<img src="/mockup/images/academics-and-programs.jpg" height="370" width="300">
+</div>
+<div id="menubar_description">
+<h2>Student Life</h2>
+<p>From your first day on campus you'll notice USC Gould is different. It's small enough to be a community in the real sense of the word even though USC is one the country's largest research universities, and located in the second largest city in the United States. People know your name here, faculty and administration are accessible, and your success is everyone's priority - all of which makes for an unparalleled student experience.</p>
+</div>
+<div id="menubar_links">
+<ul>
+<li><a href="/students/student-services/">Student Services Office</a></li>
+<li><a href="/students/class-and-exam-schedules/">Class &amp; Exam Schedules</a></li>
+<li><a href="/students/peer-mentors/">Peer Mentors</a></li>
+<li><a href="/students/student-organizations/">Student Organizations</a></li>
+<li><a href="/students/academic-journals-and-honors-programs/">Academic Journals &amp; Honors Programs</a></li>
+<li><a href="/students/disability-student-services/">Disability Student Services</a></li>
+<li><a href="/students/public-service/">Public Service</a></li>
+<li><a href="/students/first-generation-professionals/">First Generation Professionals Program</a></li>
+<li><a href="/students/students-with-families/">Students with Families</a></li>
+<li><a href="http://transnet.usc.edu/" target="_blank" class="external_link">Transportation</a></li>
+<li><a href="/students/university-services/">University Services</a></li>
+</ul>
+</div>   
+</div>
+</li>
+
+
+
+<li class="flexnav_mega"><span>Faculty</span>
+<div class="flexinav_ddown flexinav_ddown_full">
+<div id="menubar_image">
+
+<img src="/assets/images/menubar/faculty/3.jpg" alt="Faculty" height="370" width="300">
+</div>
+<div id="menubar_description">
+<h2>Faculty</h2>
+<p>The USC Gould School of Law faculty is nationally recognized for its scholarship in many fields including administrative law, constitutional law, bankruptcy and corporate law, intellectual property, law and race, and taxation. Interdisciplinary scholarship in law and economics, law and history, law and philosophy, law and politics, and law and psychology has long been a signature of the school.</p>
+</div>
+<div id="menubar_links">
+<ul>
+<li><a href="/faculty/">Faculty Directory</a></li>
+<li><a href="/faculty/lecturers/">Lecturers in Law Directory</a></li>
+<li><a href="/faculty/experts/">Experts Directory</a></li>
+<li><a href="/faculty/scholarship/">Scholarship</a></li>
+<li><a href="/faculty/distinctions/">Distinctions &amp; Awards</a></li>
+<li><a href="/faculty/news/">In the News</a></li>
+<li><a href="/faculty/blogs/">Blogs</a></li>
+<li><a href="/centers/">Centers</a></li>
+<li><a href="/faculty/workshops/">Workshops &amp; Conferences</a></li>
+</ul>
+</div>   
+</div>
+</li>
+
+
+
+<li class="flexnav_mega"><span>Careers</span>
+<div class="flexinav_ddown flexinav_ddown_full">
+<div id="menubar_image">
+<img src="/mockup/images/careers.jpg" height="370" width="300">
+</div>
+<div id="menubar_description">
+<h2>Careers</h2>
+<p>The USC Gould School of Law Career Services Office is dedicated to providing students and graduates the information and tools necessary for successful career development and advancement.</p>
+</div>
+<div id="menubar_links">
+<ul>
+<li><a href="/careers/">Career Services</a></li>
+<li><a href="/careers/students/">Information For Students</a></li>
+<li><a href="/careers/alumni/">Information For Alumni</a></li>
+<li><a href="/careers/employers/">Information For Employers</a></li>
+<li><a href="/careers/reciprocity/">Reciprocity</a></li>
+<li><a href="/careers/contact/">Contact Us</a></li>
+</ul>
+</div>   
+</div>
+</li>
+
+
+
+<li class="flexnav_mega"><span>Alumni</span>
+<div class="flexinav_ddown flexinav_ddown_full">
+<div id="menubar_image">
+<img src="/mockup/images/alumni.jpg" height="370" width="300">
+</div>
+<div id="menubar_description">
+<h2>Alumni</h2>
+<p>Alumni of the USC Gould School of Law constitute a network of over 10,000. Gould alumni are a diverse group of professionals that includes legal experts who are nationally and internationally recognized leaders in many fields of law, such as arbitration, business, entertainment, real estate, and government. Whether newly graduated or recently retired, all of USC Gould's alumni share a Trojan connection that is both lifelong and worldwide.</p>
+</div>
+<div id="menubar_links">
+<ul>
+<li><a href="/alumni/getInvolved/committee.cfm">Alumni Association</a></li>
+<li><a href="/giving/choices/annualFund.cfm">Annual Fund Programs</a></li>
+<li><a href="/giving/counsel.cfm">Board of Councilors</a></li>
+<li><a href="/alumni/events/receptions.cfm">Events</a></li>
+<li><a href="/giving/choices/donatenow.cfm">Giving Back</a></li>
+<li><a href="/alumni/class-notes/">Class Notes</a></li>
+<li><a href="/alumni/contactinfo.cfm">Update Contact Info</a></li>
+<li><a href="/alumni/contact.cfm">Contact Us</a></li>
+</ul>
+</div>   
+</div>
+</li>
+
+
+
+<li class="flexnav_mega"><span>Library</span>
+<div class="flexinav_ddown flexinav_ddown_full">
+<div id="menubar_image">
+<img src="/mockup/images/library.jpg" height="370" width="300">
+</div>
+<div id="menubar_description">
+<h2>Library</h2>
+<p>The Gabriel and Matilda Barnett Information Technology Center and The Asa V. Call Law Library supports the teaching and research activities of the USC Gould community.</p>
+</div>
+<div id="menubar_links">
+<ul>
+<li><a href="/library/">Law Library</a></li>
+<li><a href="/library/services/">Services &amp; Information</a></li>
+<li><a href="/library/search/">Search Library Catalogs</a></li>
+<li><a href="http://lawlibguides.usc.edu/" target="_blank" class="external_link">Research Guides</a></li>
+<li><a href="/library/resources.cfm">Online Resources</a></li>
+</ul>
+</div>   
+</div>
+</li>
+
+
+
+<li><a href="javascript:void(0);" onClick="toggle_visibility('search_area');"><img src="/mockup/images/search.png" alt="Search" height="18" width="18"></a></li>
+</ul>
+
+
+
+<ul class="flexinav_menu flexinav_menu_right">
+<img src="/images/header/weather/26.png" style="float: right; margin-top: 15px; margin-right: 20px;">
+<span style="font-size: 19px; color: #fff; float: right; margin-top: 15px;">64&deg;</span>
+</ul>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+
+<div id="header_image"><img src="/assets/images/header/longer/4.jpg" style="width: 100%;"></div>
+
+
+
+
+<div id="background_full">
+
+
+
+
+<div id="content">
+
+<div id="redesign_left_column">
+
+
+
+<div id="leftnav">
+
+
+
+
+<ul>
+<li><a href="/about/introduction/">Introduction from the Dean</a></li>
+<li><a href="/about/history/" class="active">History of USC Gould</a>
+
+<ul>
+<li class="active"><a href="/about/history/timeline/">Timeline</a></li>
+<li><a href="/about/history/diversity/">Diversity Pioneers</a></li>
+<li><a href="/about/history/alumni/">Alumni on the Bench</a></li>
+<li><a href="/about/history/women/">Women in the Law</a></li>
+<li><a href="/about/history/interdisciplinary/">Interdisciplinary Legal Studies</a></li>
+<li><a href="/about/history/public-interest/">Public Interest</a></li>
+</ul>
+
+</li>
+<li><a href="/about/los-angeles/">Explore Los Angeles</a>
+
+</li>
+<li><a href="/about/class-profile/">Class Profile</a></li>
+<li><a href="/about/board/">Board of Councilors</a></li>
+<li><a href="/about/visit/">Visit USC Gould</a>
+
+</li>
+<li><a href="/about/aba-required-disclosures/">ABA Required Disclosures</a>
+
+</li>
+<li><a href="/about/community/">Meet our Community</a></li>
+<li><a href="/about/contact/">Contact Us</a>
+
+</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div></div>
+
+
+
+<div id="redesign_right_column_twocolumn">
+
+
+
+
+<h1>Timeline</h1>
+
+
+
+<div id="timeline_navigation">
+<ul>
+<li><a href="javascript:void(0);" onclick="hide_all_divs(); document.getElementById('timeline_page_1800s').style.display='block';">1800s</a></li>
+<li><a href="javascript:void(0);" onclick="hide_all_divs(); document.getElementById('timeline_page_1900s').style.display='block';">1900s</a></li>
+<li><a href="javascript:void(0);" onclick="hide_all_divs(); document.getElementById('timeline_page_1910s').style.display='block';">1910s</a></li>
+<li><a href="javascript:void(0);" onclick="hide_all_divs(); document.getElementById('timeline_page_1920s').style.display='block';">1920s</a></li>
+<li><a href="javascript:void(0);" onclick="hide_all_divs(); document.getElementById('timeline_page_1930s').style.display='block';">1930s</a></li>
+<li><a href="javascript:void(0);" onclick="hide_all_divs(); document.getElementById('timeline_page_1940s').style.display='block';">1940s</a></li>
+<li><a href="javascript:void(0);" onclick="hide_all_divs(); document.getElementById('timeline_page_1950s').style.display='block';">1950s</a></li>
+<li><a href="javascript:void(0);" onclick="hide_all_divs(); document.getElementById('timeline_page_1960s').style.display='block';">1960s</a></li>
+<li><a href="javascript:void(0);" onclick="hide_all_divs(); document.getElementById('timeline_page_1970s').style.display='block';">1970s</a></li>
+<li><a href="javascript:void(0);" onclick="hide_all_divs(); document.getElementById('timeline_page_1980s').style.display='block';">1980s</a></li>
+<li><a href="javascript:void(0);" onclick="hide_all_divs(); document.getElementById('timeline_page_1990s').style.display='block';">1990s</a></li>
+<li><a href="javascript:void(0);" onclick="hide_all_divs(); document.getElementById('timeline_page_2000s').style.display='block';">2000s</a></li>
+<li><a href="javascript:void(0);" onclick="hide_all_divs(); document.getElementById('timeline_page_2010s').style.display='block';">2010s</a></li>
+</ul>
+</div>
+
+
+
+<br style="clear: both;"/>
+
+
+
+<div id="timeline_content">
+
+
+
+<div id="timeline_page_1800s">
+<div id="timeline_column_1">
+<div id="timeline_header">
+<span class="timeline_title">1800s</span>
+<span class="timeline_subtitle">Beginnings</span>
+</div>
+<img src="/assets/images/who/history/timeline/1869.jpg" alt="" height="100" width="100" class="timeline_image"/>
+<p><span class="timeline_year">1869</span>
+<br/>
+Los Angeles Law Students Association is formed. Eager law apprentices took the lead in promoting "organized" legal education in Los Angeles. In 1896, Judge David C. Morrison (above) "threw open the doors of his courtroom" for 36 law apprentices - five of them women - to hear prominent local attorneys praise the concept of a formal law school. James Brown Scott (above), who was to head the nascent institution, exhorted the students to create a "law school of permanent character."</p>
+<p><span class="timeline_year">1898</span>
+<br/>
+The Los Angeles Law School is incorporated. Its 11-member board of trustees included a woman, self-made agricultural magnate Harriett W.R. Strong.</p>
+</div>
+<div id="timeline_column_2">
+<div id="timeline_header">
+<span class="timeline_title">1900s</span>
+<span class="timeline_subtitle">Building Permanence</span>
+</div>
+<img src="/assets/images/who/history/timeline/1990.jpg" alt="" height="100" width="100" class="timeline_image"/>
+<p><span class="timeline_year">1900</span>
+<br/>
+Program becomes affiliated with USC; the university awards degrees for study completed at the Los Angeles Law School. As early as 1885, USC officials had contemplated forming a law school. This affiliation realized the dream of early advocates Robert Widney (above) and George I. Cochran, both Los Angeles attorneys and USC trustees.</p>
+<p>James Brown Scott's premature resignation put the new law school's "permanent character" to the test. There followed a succession of "annual deans": Lewis A. Groff (1900-01), George L. Sanders (1901-02) and Daniel M. Hammack (1902-04). Starting in 1900, the school moved six times in as many years.</p>
+<p><span class="timeline_year">1901</span>
+<br/>
+USC begins awarding law degrees. Gavin W. Craig receives the first diploma.</p>
+</div>
+<div id="timeline_column_3">
+<div id="timeline_header"></div>
+<img src="/assets/images/who/history/timeline/1904.jpg" alt="" height="100" width="100" class="timeline_image"/>
+<p><span class="timeline_year">1904</span>
+<br/>
+University of Wisconsin-educated contracts expert Frank M. Porter LLM '10 (left) is appointed dean. In his 23 years at the helm, Porter struggled to bring permanence to all aspects of law school life. He stabilized the faculty, strengthened academic standards and promoted a diverse student body.</p>
+<p><span class="timeline_year">1906</span>
+<br/>
+Frederick W. Houser '00, one of the school's first graduates, becomes the first alumnus to serve on the bench. After graduating, he spent a term in the California Assembly before his election to the Los Angeles County Superior Court in 1906; he later rose to the appellate court and the state supreme court.</p>
+<p><span class="timeline_year">1907</span>
+<br/>
+The USC Law gains approval by the American Bar Association and membership in American Association of Law Schools.</p>
+</div>
+</div>
+
+
+
+
+<div id="timeline_page_1900s" style="display: none;">
+<div id="timeline_column_1">
+<div id="timeline_header">
+<span class="timeline_title">1900s</span>
+<span class="timeline_subtitle">Building Permanence</span>
+</div>
+<img src="/assets/images/who/history/timeline/1990.jpg" alt="" height="100" width="100" class="timeline_image"/>
+<p><span class="timeline_year">1900</span>
+<br/>
+Program becomes affiliated with USC; the university awards degrees for study completed at the Los Angeles Law School. As early as 1885, USC officials had contemplated forming a law school. This affiliation realized the dream of early advocates Robert Widney (above) and George I. Cochran, both Los Angeles attorneys and USC trustees.</p>
+<p>James Brown Scott's premature resignation put the new law school's "permanent character" to the test. There followed a succession of "annual deans": Lewis A. Groff (1900-01), George L. Sanders (1901-02) and Daniel M. Hammack (1902-04). Starting in 1900, the school moved six times in as many years.</p>
+<p><span class="timeline_year">1901</span>
+<br/>
+USC begins awarding law degrees. Gavin W. Craig receives the first diploma.</p>
+</div>
+<div id="timeline_column_2">
+<div id="timeline_header"></div>
+<img src="/assets/images/who/history/timeline/1904.jpg" alt="" height="100" width="100" class="timeline_image"/>
+<p><span class="timeline_year">1904</span>
+<br/>
+University of Wisconsin-educated contracts expert Frank M. Porter LLM '10 (left) is appointed dean. In his 23 years at the helm, Porter struggled to bring permanence to all aspects of law school life. He stabilized the faculty, strengthened academic standards and promoted a diverse student body.</p>
+
+<p><span class="timeline_year">1906</span>
+<br/>
+Frederick W. Houser '00, one of the school's first graduates, becomes the first alumnus to serve on the bench. After graduating, he spent a term in the California Assembly before his election to the Los Angeles County Superior Court in 1906; he later rose to the appellate court and the state supreme court.</p>
+
+<p><span class="timeline_year">1907</span>
+<br/>
+The USC Law gains approval by the American Bar Association and membership in American Association of Law Schools.</p>
+</div>
+<div id="timeline_column_3">
+<div id="timeline_header">
+<span class="timeline_title">1910s</span>
+</div>
+<img src="/assets/images/who/history/timeline/1911.jpg" alt="" height="100" width="100" class="timeline_image"/>
+<p><span class="timeline_year">1911</span>
+<br/>
+Law school moves to Tajo Building (left). After 15 years of changing head- quarters, USC Law found stability in this downtown building, at the corner of First Street and Broadway. The school remained at this site until 1925.</p>
+
+<p><span class="timeline_year">1912</span>
+<br/>
+Stare Decisis-the school's yearbook-reflects an increasingly diverse and international student body. Japanese, Filipino, Armenian and Russian Jewish students are represented in photographs, along with women and the school's second black student. The yearbook includes a section devoted exclusively to "co-education." A year earlier, students had founded Phi Delta Delta, the nation's first women's law student sorority.</p>
+</div>
+</div>
+
+
+
+
+<div id="timeline_page_1910s" style="display: none;">
+<div id="timeline_column_1">
+<div id="timeline_header">
+<span class="timeline_title">1910s</span>
+</div>
+<img src="/assets/images/who/history/timeline/1911.jpg" alt="" height="100" width="100" class="timeline_image"/>
+<p><span class="timeline_year">1911</span>
+<br/>
+Law school moves to Tajo Building (left). After 15 years of changing head- quarters, USC Law found stability in this downtown building, at the corner of First Street and Broadway. The school remained at this site until 1925.</p>
+
+<p><span class="timeline_year">1912</span>
+<br/>
+Stare Decisis-the school's yearbook-reflects an increasingly diverse and international student body. Japanese, Filipino, Armenian and Russian Jewish students are represented in photographs, along with women and the school's second black student. The yearbook includes a section devoted exclusively to "co-education." A year earlier, students had founded Phi Delta Delta, the nation's first women's law student sorority.</p>
+</div>
+<div id="timeline_column_2">
+<div id="timeline_header"></div>
+<img src="/assets/images/who/history/timeline/1916.jpg" alt="" height="100" width="100" class="timeline_image"/>
+<p><span class="timeline_year">1916</span>
+<br/>
+Mabel Walker Willebrandt '16, LLM '17 (left), graduates. Arguably the most prominent American woman attorney from the 1920s through the '40s, Willebrandt was Assistant Attorney General during the Harding administration.</p>
+<img src="/assets/images/who/history/timeline/1917.jpg" alt="" height="100" width="100" class="timeline_image"/>
+<p><span class="timeline_year">1917</span>
+<br/>
+In less than two decades, USC Law student enrollment climbs to the top five in America. The student boom reflects the explosive growth of Los Angeles itself, a city of nearly 1 million inhabitants.</p>
+</div>
+
+<div id="timeline_column_3">
+<div id="timeline_header">
+<span class="timeline_title">1920s</span>
+<span class="timeline_subtitle">Seeds of Excellence</span>
+</div>
+<img src="/assets/images/who/history/timeline/1924.jpg" alt="" height="100" width="100" class="timeline_image"/>
+<p><span class="timeline_year">1924</span>
+<br/>
+You Chung Hong '24, LLM '25 (left) graduates. Hong was the first Chinese American admitted to practice in California and went on to become the nation's foremost Chinese civil rights attorney over the next four decades.</p>
+<img src="/assets/images/who/history/timeline/1925.jpg" alt="" height="100" width="100" class="timeline_image"/>
+<p><span class="timeline_year">1925</span>
+<br/>
+Permanent USC Law building opens for classes on the University Park campus.</p>
+</div>
+</div>
+
+
+
+
+<div id="timeline_page_1920s" style="display: none;">
+<div id="timeline_column_1">
+<div id="timeline_header">
+<span class="timeline_title">1920s</span>
+<span class="timeline_subtitle">Seeds of Excellence</span>
+</div>
+<img src="/assets/images/who/history/timeline/1924.jpg" alt="" height="100" width="100" class="timeline_image"/>
+<p><span class="timeline_year">1924</span>
+<br/>
+You Chung Hong '24, LLM '25 (left) graduates. Hong was the first Chinese American admitted to practice in California and went on to become the nation's foremost Chinese civil rights attorney over the next four decades.</p>
+<img src="/assets/images/who/history/timeline/1925.jpg" alt="" height="100" width="100" class="timeline_image"/>
+<p><span class="timeline_year">1925</span>
+<br/>
+Permanent USC Law building opens for classes on the University Park campus.</p>
+</div>
+
+<div id="timeline_column_2">
+<div id="timeline_header"></div>
+<img src="/assets/images/who/history/timeline/1926.jpg" alt="" height="100" width="100" class="timeline_image"/>
+<p><span class="timeline_year">1926</span>
+<br/>
+Property law expert William Burby (left) joins USC Law faculty. The University of Michigan-trained lawyer set the tone for legal education for the next 35 years. Employing the Socratic and case methods, Professor Burby's courses prepared three generations of USC Law students for real-world practice. His scholarly publications were mandatory reading for students and practitioners alike.</p>
+<p><span class="timeline_year">1927</span>
+<br/>
+Criminal law expert Justin Miller is appointed dean. During his three years in the position, the Stanford-educated dean recruited several important faculty members and advanced the school's scholarly reputation.</p>
+</div>
+
+<div id="timeline_column_3">
+<div id="timeline_header"></div>
+<p>
+In the same year, Southern California Law Review is first published. Edited and managed by law students, this flagship USC Law journal is known for publishing high quality, cutting-edge scholarship by nationally known academics. Today, the Review's circulation is among the largest in the nation, and its articles among the most frequently cited. Also founded in 1927 was USC's chapter of the Order of the Coif. Inclusion in this national legal honorary society testified to USC Law's maturation in academic stature. The following year, students pioneered the practice of providing pro bono legal advice to the poor through the USC Legal Clinic.</p>
+<p><span class="timeline_year">1929</span>
+<br/>
+The predecessor to the Legal Aid Foundation of Los Angeles is incorporated and USC Law houses its clinic. In its first year, 72 students, composing the entire third-year class, participated in the work.</p>
+</div>
+</div>
+
+
+
+
+<div id="timeline_page_1930s" style="display: none;">
+<div id="timeline_column_1">
+<div id="timeline_header">
+<span class="timeline_title">1930s</span>
+</div>
+<p><span class="timeline_year">1930</span>
+<br/>
+Washington University law school dean and criminal law expert William G. Hale is appointed dean. Despite the upheavals of the Depression and World War II, Hale's deanship was one of remarkable stability. The core of his faculty-William Burby, Paul Jones, Robert Kingsley, Stanley Howell and Shelden Elliott-were in place throughout Hale's 18-year tenure.</p>
+<p>In the same year, Manuel Ruiz Jr. '30, USC Law's first known Latino alumnus, graduates. Ruiz was considered the "California dean of Mexican American lawyers." He was appointed by President Nixon to the U.S. Commission of Civil Rights, and he authored numerous works, including the seminal Mexican American Legal Heritage in the Southwest.</p>
+</div>
+
+<div id="timeline_column_2">
+<div id="timeline_header"></div>
+<img src="/assets/images/who/history/timeline/1931.jpg" alt="" height="100" width="100" class="timeline_image"/>
+<img src="/assets/images/who/history/timeline/1931_1.jpg" alt="" height="100" width="100" class="timeline_image"/>
+<p><span class="timeline_year">1931</span>
+<br/>
+Edwin Jefferson '31 (left) graduates. Jefferson is representative of a group of black graduates who rose to leadership positions in Los Angeles during the first half of the 20th century. He was appointed to the bench in 1940. Other early outstanding African-American alumni include David Williams '37, who became a federal judge; Bert McDonald '23 (with mother, bottom), the first black lawyer in the Los Angeles City Attorney's office; and Crispus Attucks Wright '38, who together with McDonald, Williams and others founded the John M. Langston Bar Association in 1943 (other bar associations had racial restrictions).</p>
+</div>
+
+<div id="timeline_column_3">
+<div id="timeline_header">
+<span class="timeline_title">1940s</span>
+</div>
+<p><span class="timeline_year">1940</span>
+<br/>
+Col. John W. Barnes '27, descendant of Connecticut Supreme Court Justice James Gould (1770 - 1838), bequeaths the Gould family estate in trust to USC Law. When the full gift is realized two decades later, the law school is renamed the USC Gould School of Law. Judge Gould served as administrator and teacher for Litchfield Law School, the nation's first law school.</p>
+<img src="/assets/images/who/history/timeline/1948.jpg" alt="" height="100" width="100" class="timeline_image"/>
+<p><span class="timeline_year">1948</span>
+<br/>
+USC Law graduate Shelden Elliott '31, LLM '32 (left) is appointed dean.</p>
+<p>In the same year, Manuel Ruiz Jr. '30, USC Law's first known Latino alumnus, graduates. Ruiz was considered the "California dean of Mexican American lawyers." He was appointed by President Nixon to the U.S. Commission of Civil</p>
+</div>
+</div>
+
+
+
+
+<div id="timeline_page_1940s" style="display: none;">
+<div id="timeline_column_1">
+<div id="timeline_header">
+<span class="timeline_title">1940s</span>
+</div>
+<p><span class="timeline_year">1940</span>
+<br/>
+Col. John W. Barnes '27, descendant of Connecticut Supreme Court Justice James Gould (1770 - 1838), bequeaths the Gould family estate in trust to USC Law. When the full gift is realized two decades later, the law school is renamed the USC Gould School of Law. Judge Gould served as administrator and teacher for Litchfield Law School, the nation's first law school.</p>
+<img src="/assets/images/who/history/timeline/1948.jpg" alt="" height="100" width="100" class="timeline_image"/>
+<p><span class="timeline_year">1948</span>
+<br/>
+USC Law graduate Shelden Elliott '31, LLM '32 (left) is appointed dean.</p>
+<p>In the same year, Manuel Ruiz Jr. '30, USC Law's first known Latino alumnus, graduates. Ruiz was considered the "California dean of Mexican American lawyers." He was appointed by President Nixon to the U.S. Commission of Civil</p>
+</div>
+
+<div id="timeline_column_2">
+<div id="timeline_header"></div>
+<p>Rights, and he authored numerous works, including the seminal Mexican American Legal Heritage in the Southwest.</p>
+<p>In the same year, the USC Institute on Federal Taxation is first held. The flagship of USC Law's fleet of continuing legal education programs, the Institute on Federal Taxation is one of only three such law school-sponsored institutes in the country today.</p>
+<p><span class="timeline_year">1949</span>
+<br/>
+First William Green Hale Moot Court competition. Named after the retired dean, this inaugural forensic competition pitted student-advocates on either side of a custody decree dispute and a full faith and credit matter. Arguing before five California justices, Philip Jones '49 took the first prize. Jones himself later advanced to the bench. The competition was founded by William P. Hogoboom '49, another future judge, and Jerome L. Doff '49.</p>
+</div>
+
+<div id="timeline_column_3">
+<div id="timeline_header">
+<span class="timeline_title">1950s</span>
+</div>
+<img src="/assets/images/who/history/timeline/1952.jpg" alt="" height="100" width="100" class="timeline_image"/>
+<p><span class="timeline_year">1952</span>
+<br/>
+USC Law professor Robert Kingsley (left) is named dean. Educated at Harvard and the University of Minnesota, the criminal law and domestic relations expert had been on USC Law's faculty since 1928. His 11-year tenure in the dean's office witnessed the first stirrings of active philanthropy. Kingsley later became a judge of the California Court of Appeal.</p>
+<p><span class="timeline_year">1955</span>
+<br/>
+Legion Lex is founded. This active and successful volunteer fund-raising support group for USC Law has, over the past 45 years, generated millions of dollars in annual contributions. Legion Lex has helped erect buildings, supported faculty research and teaching, and provided student scholarships.</p>
+</div>
+</div>
+
+
+
+
+<div id="timeline_page_1950s" style="display: none;">
+<div id="timeline_column_1">
+<div id="timeline_header">
+<span class="timeline_title">1950s</span>
+</div>
+<img src="/assets/images/who/history/timeline/1952.jpg" alt="" height="100" width="100" class="timeline_image"/>
+<p><span class="timeline_year">1952</span>
+<br/>
+USC Law professor Robert Kingsley (left) is named dean. Educated at Harvard and the University of Minnesota, the criminal law and domestic relations expert had been on USC Law's faculty since 1928. His 11-year tenure in the dean's office witnessed the first stirrings of active philanthropy. Kingsley later became a judge of the California Court of Appeal.</p>
+<p><span class="timeline_year">1955</span>
+<br/>
+Legion Lex is founded. This active and successful volunteer fund-raising support group for USC Law has, over the past 45 years, generated millions of dollars in annual contributions. Legion Lex has helped erect buildings, supported faculty research and teaching, and provided student scholarships.</p>
+</div>
+
+<div id="timeline_column_2">
+<div id="timeline_header">
+<span class="timeline_title">1960s</span>
+<span class="timeline_subtitle">Rise to National Prominence</span>
+</div>
+<p><span class="timeline_year">1963</span>
+<br/>
+USC Law professor Orrin B. Evans is appointed dean. The former University of Missouri professor and university counsel joined USC's faculty in 1947 as an expert on real estate and insurance law. During his five years as dean, Evans helped usher in USC Law's signature emphasis on interdisciplinary study.</p>
+<p>In the same year, the Western Center on Law and Poverty is established in the law school building. As part of the War on Poverty, it supported local legal services programs, law reform litigation, and representation for organizations. Early leaders included professors Martin Levine, founding executive director, Michael Shapiro, Gary Bellow, Derrick Bell, and Earl Johnson.</p>
+</div>
+
+<div id="timeline_column_3">
+<div id="timeline_header"></div>
+<p><span class="timeline_year">1965</span>
+<br/>
+"Law, Language, and Ethics" first offered. This signature course, required of all first-year law students, transformed the way law is taught at USC. Drawing on fields such as philosophy, psychology and economics, the course encourages students to examine legal issues in a comprehensive context. Its introduction in 1965 anticipated the school's current faculty, many of whom have interdisciplinary interests and expertise.</p>
+<img src="/assets/images/who/history/timeline/1968.jpg" alt="" height="100" width="100" class="timeline_image"/>
+<p><span class="timeline_year">1968</span>
+<br/>
+Judicial administration expert Dorothy W. Nelson LLM '56 (left) becomes the first woman dean of a leading American law school. In 1957, a year after completing her advanced legal degree at USC, Nelson joined the faculty. A decade later, she succeeded Orrin B. Evans as dean, leading the school until 1980, when she was</p>
+</div>
+</div>
+
+
+
+
+<div id="timeline_page_1960s" style="display: none;">
+<div id="timeline_column_1">
+<div id="timeline_header">
+<span class="timeline_title">1960s</span>
+<span class="timeline_subtitle">Rise to National Prominence</span>
+</div>
+<p><span class="timeline_year">1963</span>
+<br/>
+USC Law professor Orrin B. Evans is appointed dean. The former University of Missouri professor and university counsel joined USC's faculty in 1947 as an expert on real estate and insurance law. During his five years as dean, Evans helped usher in USC Law's signature emphasis on interdisciplinary study.</p>
+<p>In the same year, the Western Center on Law and Poverty is established in the law school building. As part of the War on Poverty, it supported local legal services programs, law reform litigation, and representation for organizations. Early leaders included professors Martin Levine, founding executive director, Michael Shapiro, Gary Bellow, Derrick Bell, and Earl Johnson.</p>
+</div>
+
+<div id="timeline_column_2">
+<div id="timeline_header"></div>
+<p><span class="timeline_year">1965</span>
+<br/>
+"Law, Language, and Ethics" first offered. This signature course, required of all first-year law students, transformed the way law is taught at USC. Drawing on fields such as philosophy, psychology and economics, the course encourages students to examine legal issues in a comprehensive context. Its introduction in 1965 anticipated the school's current faculty, many of whom have interdisciplinary interests and expertise.</p>
+<img src="/assets/images/who/history/timeline/1968.jpg" alt="" height="100" width="100" class="timeline_image"/>
+<p><span class="timeline_year">1968</span>
+<br/>
+Judicial administration expert Dorothy W. Nelson LLM '56 (left) becomes the first woman dean of a leading American law school. In 1957, a year after completing her advanced legal degree at USC, Nelson joined the faculty. A decade later, she succeeded Orrin B. Evans as dean, leading the school until 1980, when she was</p>
+</div>
+<div id="timeline_column_3">
+<div id="timeline_header"></div>
+<p>appointed to the bench. Nelson remains a judge on the U.S. Ninth Circuit Court of Appeals.</p>
+
+<p>In the same year, the Board of Councilors is first convened. Culled from a distinguished list of lawyers specializing in a wide variety of legal areas, this board provides crucial insight and advice to both the USC Law dean and the university president.</p>
+<p><span class="timeline_year">1969</span>
+<br/>
+The Black Law Students Association is founded.</p>
+</div>
+</div>
+
+
+
+
+<div id="timeline_page_1970s" style="display: none;">
+<div id="timeline_column_1">
+<div id="timeline_header">
+<span class="timeline_title">1970s</span>
+</div>
+<p><span class="timeline_year">1970</span>
+<br/>
+Chicano Law Students Association is founded. In the same year, USC Law moves into its current headquarters, the Elvon and Mabel Musick Building. Named in honor of Elvon Musick, the five-level, 88,000-square-foot facility provided state-of-the-art resources, including a computerized library.</p>
+<p><span class="timeline_year">1971</span>
+<br/>
+Asian Law Students Association is founded.</p>
+<p><span class="timeline_year">1973</span>
+<br/>
+Exchange program with Caltech begins, enabling professors at both institutions to co-teach and co-author works in law, economics and political science. The partnership evolved into the Program in Law and Rational Choice in 1992, allowing for enhanced interaction between the schools, joint faculty workshops, and a joint-degree program.</p>
+</div>
+
+<div id="timeline_column_2">
+<div id="timeline_header">
+<span class="timeline_title">1980s</span>
+</div>
+<img src="/assets/images/who/history/timeline/1980.jpg" alt="" height="100" width="100" class="timeline_image"/>
+<p><span class="timeline_year">1980</span>
+<br/>
+USC-educated constitutional law expert Scott H. Bice '68 is named dean. The second-longest serving dean in the school's history, Bice returned to teaching after his 20-year tenure ended on June 30, 2000, becoming the Robert C. Packard Professor of Law. On his watch, USC Law became international in its scope, nearly doubled in physical size and completed three major capital campaigns.</p>
+<p><span class="timeline_year">1981</span>
+<br/>
+Post-Conviction Justice Project is founded. The program gives students real-world training as advocates for prison inmates.</p>
+</div>
+
+<div id="timeline_column_3">
+<div id="timeline_header"></div>
+<p><span class="timeline_year">1987</span>
+<br/>
+The Public Interest Law Foundation is founded. Concerned about insufficient funds for public interest legal services, a group of law students levied a self-imposed $30 annual tax. With nearly 100 percent student participation and broad support from staff, faculty and graduates, the foundation subsidizes hundreds of student-advocates serving the elderly, abused and neglected children, homeless families and other vulnerable populations.</p>
+<p><span class="timeline_year">1989</span>
+<br/>
+Children's Legal Issues Clinic founded. For a decade, students have represented minors in legal proceedings dealing with dependency and neglect, abuse, guardianship and school administrative matters.</p>
+</div>
+</div>
+
+
+
+
+<div id="timeline_page_1980s" style="display: none;">
+<div id="timeline_column_1">
+<div id="timeline_header">
+<span class="timeline_title">1980s</span>
+</div>
+<img src="/assets/images/who/history/timeline/1980.jpg" alt="" height="100" width="100" class="timeline_image"/>
+<p><span class="timeline_year">1980</span>
+<br/>
+USC-educated constitutional law expert Scott H. Bice '68 is named dean. The second-longest serving dean in the school's history, Bice returned to teaching after his 20-year tenure ended on June 30, 2000, becoming the Robert C. Packard Professor of Law. On his watch, USC Law became international in its scope, nearly doubled in physical size and completed three major capital campaigns.</p>
+<p><span class="timeline_year">1981</span>
+<br/>
+Post-Conviction Justice Project is founded. The program gives students real-world training as advocates for prison inmates.</p>
+</div>
+<div id="timeline_column_2">
+<div id="timeline_header"></div>
+<p><span class="timeline_year">1987</span>
+<br/>
+The Public Interest Law Foundation is founded. Concerned about insufficient funds for public interest legal services, a group of law students levied a self-imposed $30 annual tax. With nearly 100 percent student participation and broad support from staff, faculty and graduates, the foundation subsidizes hundreds of student-advocates serving the elderly, abused and neglected children, homeless families and other vulnerable populations.</p>
+<p><span class="timeline_year">1989</span>
+<br/>
+Children's Legal Issues Clinic founded. For a decade, students have represented minors in legal proceedings dealing with dependency and neglect, abuse, guardianship and school administrative matters.</p>
+</div>
+
+<div id="timeline_column_3">
+<div id="timeline_header">
+<span class="timeline_title">1990s</span>
+</div>
+<img src="/assets/images/who/history/timeline/1990.jpg" alt="" height="100" width="100" class="timeline_image"/>
+<p><span class="timeline_year">1990</span>
+<br/>
+The Musick Building's new wing opens. Adding 62,000 square feet to the 1970 facility, this expansion yielded the Ackerman Moot Courtroom, new seminar classrooms, offices for student organizations and clinical programs, lounges and a cafeteria, computer and video labs and a greatly enlarged law library.</p>
+<p><span class="timeline_year">1991</span>
+<br/>
+Pacific Center for Health Policy and Ethics is founded. Sponsored jointly with the Keck School of Medicine of USC, the Pacific Center brings together international scholars and public dignitaries in teaching and research concerning social, ethical and legal issues in health care.</p>
+</div>
+</div>
+
+
+
+
+<div id="timeline_page_1990s" style="display: none;">
+<div id="timeline_column_1">
+<div id="timeline_header">
+<span class="timeline_title">1990s</span>
+</div>
+<img src="/assets/images/who/history/timeline/1990.jpg" alt="" height="100" width="100" class="timeline_image"/>
+<p><span class="timeline_year">1990</span>
+<br/>
+The Musick Building's new wing opens. Adding 62,000 square feet to the 1970 facility, this expansion yielded the Ackerman Moot Courtroom, new seminar classrooms, offices for student organizations and clinical programs, lounges and a cafeteria, computer and video labs and a greatly enlarged law library.</p>
+<p><span class="timeline_year">1991</span>
+<br/>
+Pacific Center for Health Policy and Ethics is founded. Sponsored jointly with the Keck School of Medicine of USC, the Pacific Center brings together international scholars and public dignitaries in teaching and research concerning social, ethical and legal issues in health care.</p>
+</div>
+
+<div id="timeline_column_2">
+<div id="timeline_header"></div>
+<img src="/assets/images/who/history/timeline/1992.jpg" alt="" height="100" width="100" class="timeline_image"/>
+<p><span class="timeline_year">1992</span>
+<br/>
+Southern California Interdisciplinary Law Journal is founded. This student-managed publication focuses on the scholarly work of legal academics, economists, physicians, anthropologists and experts in other fields who analyze law from their particular perspectives. The Southern California Review of Law and Social Justice, inaugurated in 1991, explores legal issues relating to gender and society. It is later re-named Southern California Review of Law and Social Justice.</p>
+<p><span class="timeline_year">1994</span>
+<br/>
+Law Library embraces information technology: its card catalog goes online. The following year, USC Law publicly launches its Website.</p>
+</div>
+
+<div id="timeline_column_3">
+<div id="timeline_header"></div>
+<p><span class="timeline_year">1997</span>
+<br/>
+USC Law unveils its first multi-media classrooms. One-third of library carrels are now wired to accommodate personal laptop computers.</p>
+<p><span class="timeline_year">1998</span>
+<br/>
+Small Business Clinic is founded. Law students offer consultation services on employment issues to small businesses and nonprofits.</p>
+<p>In the same year, the USC Center for Communications Law and Policy opens. The interdisciplinary program is jointly sponsored by USC Annenberg School for Communication, USC Annenberg Center for Communication and USC Law.</p>
+<p><span class="timeline_year">1999</span>
+<br/>
+New law student services go online, including class registration, grade notification and on-campus employer interview sign-ups. Email discussion lists supplement classroom teaching in many courses.</p>
+</div>
+</div>
+
+
+
+
+<div id="timeline_page_2000s" style="display: none;">
+<div id="timeline_column_1">
+<div id="timeline_header">
+<span class="timeline_title">2000s</span>
+<span class="timeline_subtitle">Law in the New Millennium</span>
+</div>
+<img src="/assets/images/who/history/timeline/2000.jpg" alt="" height="100" width="100" class="timeline_image"/>
+<p><span class="timeline_year">2000</span>
+<br/>
+May 15, Matthew L. Spitzer '77 (left) is named dean, effective July 1, 2000. June 10, USC Law celebrates its centennial. The Center for the Study of Law and Politics is created: A unique network of inter-connected scholars, drawn from diverse disciplines such as law, political science, economics, public administration, psychology, and communications.</p>
+<p><span class="timeline_year">2001</span>
+<br/>
+Two new interdisciplinary institutes formed. The Center in Law, Economics and Organization works to improve understanding of how economics, law and organizations interact; and draws upon the resources of USC Law, the Marshall School of Business and the College of Letters, Arts and Science's department of economics. The Center in Law, History and Culture,</p>
+</div>
+
+<div id="timeline_column_2">
+<div id="timeline_header"></div>
+<p>
+another partnership with the College, is devoted to encouraging the study of law as an historical and cultural institution.</p>
+<p><span class="timeline_year">2002</span>
+<br/>
+Graduate and International Programs are launched with an inaugural class of 12 students. Now the Master of Laws and Master of Comparative Law programs include 65 international students from dozens of countries on five continents.</p>
+<p><span class="timeline_year">2004</span>
+<br/>
+The Initiative and Referendum Institute - the nation's most prominent educational and research organization focused on direct democracy - moves to USC Law and joins the Center for the Study of Law and Politics.</p>
+<p><span class="timeline_year">2005</span>
+<br/>
+A joint project of USC Law and the College, the Center in Law and Philosophy is formed to promote interdisciplinary scholarship in legal, moral, and political philosophy.</p>
+</div>
+
+<div id="timeline_column_3">
+<div id="timeline_header"></div>
+<p>
+Intellectual Property and Technology Law Clinic is founded. The clinic is a joint project of USC Law, USC Annenberg Center for Communication and USC Information Services Division.</p>
+<p>In the same year, a new cafe and refurbished law library open to students for the fall semester. The library features a new multimedia room and computer lab; roomy study tables with Internet plug-ins; and new carpeting, lighting, wood and glass paneling, and furniture, which are both beautiful and functional.</p>
+<p><span class="timeline_year">2006</span>
+<br/>
+USC Law Professor Edward J. McCaffery, renowned tax expert, is named interim dean. The Robert C. Packard Trustee Chair in Law and Professor of Law, Economics and Political Science, McCaffery has served on USC Law's faculty since 1989.</p>
+
+<p class="timeline_subnavigation"><a href="javascript:void(0);" onclick="hide_all_divs(); document.getElementById('timeline_page_2000s_1').style.display='block';"><strong>Next</strong><img src="/assets/images/who/history/timeline/right-arrow.png" alt="Next" height="7" width="9"/></a></p>
+</div>
+</div>
+
+
+
+
+<div id="timeline_page_2000s_1" style="display: none;">
+<div id="timeline_column_1">
+<div id="timeline_header">
+<span class="timeline_title">2000s</span>
+<span class="timeline_subtitle">(Continued)</span>
+</div>
+<p><span class="timeline_year">2006 continued</span>
+<br/>
+The Legal Aid Alternative Breaks (LAAB) Project is founded by students with the aid of OPS. The student group has coordinated trips during spring and winter breaks, allowing students, staff, alumni and faculty to provide legal services to vulnerable communities in the Gulf Coast, California's Coachella Valley and Mexico.</p>
+<p><span class="timeline_year">2007</span>
+<br/>
+Bankruptcy and corporate reorganization expert Dean Robert K. Rasmussen is appointed dean. He previously was a celebrated professor and administrator at Vanderbilt University Law School for nearly 20 years</p>
+<p>The Southern California Innovation Project is founded. The cross-campus research center draws leading academics from law, business, economics, sociology, engineering and other sciences at USC,</p>
+</div>
+
+<div id="timeline_column_2">
+<div id="timeline_header"></div>
+<p>
+Caltech and the University of California system, who study the processes by which businesses and legal firms generate and sustain productive creativity.</p>
+<p>Two new clinical programs are launched, bringing the number of non-litigation clinical training programs at USC Law to seven. Students in the Mediation Clinic learn dispute resolution skills and mediate Los Angeles Superior Court small claims and civil harassment cases. In the Small Business Clinic, students provide basic corporate legal assistance to small businesses, entrepreneurs and nonprofit organizations.</p>
+<p><span class="timeline_year">2008</span>
+<br/>
+Public Interest Law Foundation celebrates 20 years of developing a service ethic among law students, facilitating careers in public interest and subsidizing students' service work.</p>
+</div>
+
+<div id="timeline_column_3">
+<div id="timeline_header"></div>
+<p><span class="timeline_year">2009</span>
+<br/>
+Prof. Elyn Saks is awarded a John D. and Catherine T. MacArthur Foundation Fellowship, better known as the "genius grant." Saks is the first USC faculty member to become a MacArthur fellow.</p>
+
+<p>Dean Rasmussen and the Board of Councilors formulate a vision statement for the law school. It reads: "The University Of Southern California Gould School Of Law cultivates analytical ability, ethical values, and a spirit of collegiality that prepare our students for meaningful careers benefitting society. We enrich human knowledge and the principles of justice through superior scholarship."</p>
+
+<p>USC Law becomes the fourth school to host the Conference on Empirical Legal Studies (CELS), the annual gathering of the Society for Empirical Legal Studies. The conference draws scholars who focus on analyzing real-world data and experimental evidence to explore complex legal issues.</p>
+<p class="timeline_subnavigation"><a href="javascript:void(0);" onclick="hide_all_divs(); document.getElementById('timeline_page_2000s').style.display='block';"><img src="/assets/images/who/history/timeline/left-arrow.png" alt="Previous" height="7" width="9"/><strong>Previous</strong></a></p>
+</div>
+</div>
+
+
+
+
+<div id="timeline_page_2010s" style="display: none;">
+<div id="timeline_column_1">
+<div id="timeline_header">
+<span class="timeline_title">2010s</span>
+</div>
+
+<p><span class="timeline_year">2010</span>
+<br/>
+Two new practice-focused programs are launched: the Business Law certificate program and the Media, Entertainment and Technology Law certificate program. The former is designed to help prepare students for working with business clients and the business-related legal issues they will encounter in both litigation and transactional law. In the latter, top talent from the entertainment industry introduce law students to the many issues unique to practicing law in entertainment and media-related businesses. Enrollment in both programs is high.</p>
+
+<img src="/assets/images/who/history/timeline/2010.jpg" alt="" height="100" width="100" class="timeline_image"/>
+<p>The Saks Institute for Mental Health Law, Policy, and Ethics launches at USC. Created by Prof. Saks with her MacArthur Foundation award, the institute is a cross-disciplinary effort that focuses on one significant mental health issue per academic year.</p>
+
+
+</div>
+
+<div id="timeline_column_2">
+<div id="timeline_header"></div>
+<img src="/assets/images/who/history/timeline/2011.jpg" alt="" height="100" width="100" class="timeline_image"/>
+
+<p><span class="timeline_year">2011</span>
+<br/>
+The International Human Rights Clinic opens. The clinic gives students the opportunity to work on cases, both local and international, that address war crimes and human rights abuses.</p>
+<p>United States Supreme Court Justice Anthony M. Kennedy visits USC Law. In just over 24 hours, the native Californian presided over a mock trial of Hamlet, taught a Constitutional law class, and participated in a wide-ranging conversation with Dean Rasmussen before hundreds of law students.</p>
+<p>USC Law expands its popular study-abroad program to Bond University in Queensland, Australia; Bocconi University in Milan, Italy; and Jean Moulin University in Lyon, France. The program continues to offer the semester program at the University of Hong Kong and a year-long dual degree program at the London School of Economics.</p>
+</div>
+
+<div id="timeline_column_3">
+<div id="timeline_header"></div>
+<p>The National Institutes of Health (NIH) awards Prof. Tom Lyon a $2 million grant to test a protocol he developed for interviewing maltreated children about their abuse. Combined with a previous grant of $1.7 million, it is the largest NIH grant received in USC Law's history.</p>
+<img src="/assets/images/who/history/timeline/2011-2.jpg" alt="" height="100" width="100" class="timeline_image"/>
+<p>The Graduate and International Program celebrates its 10th year with more than 150 students from around the world earning LL.M. or M.C.L. degrees.</p>
+<p>The Post-Conviction Justice Project celebrates its 30th anniversary. Over the years, clinic students have collectively represented more than 5,000 state prisoners serving life sentences for murder convictions.</p>
+<p class="timeline_subnavigation"><a href="javascript:void(0);" onclick="hide_all_divs(); document.getElementById('timeline_page_2010s_1').style.display='block';"><strong>Next</strong><img src="/assets/images/who/history/timeline/right-arrow.png" alt="Next" height="7" width="9"/></a></p>
+</div>
+</div>
+
+
+
+
+<div id="timeline_page_2010s_1" style="display: none;">
+<div id="timeline_column_1">
+<div id="timeline_header">
+<span class="timeline_title">2010s</span>
+<span class="timeline_subtitle">(Continued)</span>
+</div>
+
+<img src="/assets/images/who/history/timeline/2012.jpg" alt="" height="100" width="100" class="timeline_image"/>
+
+<p><span class="timeline_year">2012</span>
+<br/>
+U.S. Supreme Court Justice Antonin Scalia delivers the annual Roth Lecture. During his visit he also taught a Constitutional Law class and met with students and faculty.</p>
+
+<p>Donald Scotten is appointed associate academic director and adjunct assistant professor of law for Graduate and International Programs.</p>
+
+<p>USC Gould student group OUTLaw makes history by becoming the first on-campus organization to launch an effort to endow a scholarship to the school. The scholarship benefits lesbian, gay, bisexual and transgender students and those working toward legal equality for LGBT individuals.</p>
+
+<p><span class="timeline_year">2013</span>
+<br/>
+The Hollywood Reporter ranks USC Gould No. 1 for entertainment law.</p>
+</div>
+<div id="timeline_column_2">
+<div id="timeline_header"></div>
+<p>Justice Albert Sachs delivers the Allen Neiman and Alan Sieroty Lecture in Civil Liberties. Sachs was a Freedom Fighter in South Africa and was later a judge on South Africa's Constitutional Court, appointed by Nelson Mandela.</p>
+<p>Prof. Elyn Saks is appointed to a three-year term on the Center for Mental Health Services National Advisory Council by the U.S. Secretary of Health and Human Services.</p>
+<p>The J.D. study abroad program expands to include Fundacao Getulio Vargas University in Sao Paulo, Brazil.</p>
+
+<p><span class="timeline_year">2014</span>
+<br/>
+USC Gould launches a historic $150 million fundraising initiative to advance the school's role as a leader in legal education by providing scholarship support for students, attracting additional stellar faculty, and creating a physical space that fosters collaborative and inter-professional learning. The initiative is part of The</p>
+</div>
+
+<div id="timeline_column_3">
+<div id="timeline_header"></div>
+<p>Campaign for the University of Southern California, a multiyear effort to secure $6 billion or more in private philanthropy to advance USC's academic priorities and expand its positive impact on the community and the world.</p>
+<p><img src="/assets/images/who/history/timeline/2014.jpg" alt="" height="100" width="100" class="timeline_image"/>Graduate and International Programs launches fully online LL.M. degree program for foreign students in the fall. The new program allows foreign attorneys to study the U.S. legal system from anywhere in the world.</p>
+<p>USC Gould launches the 3+3 accelerated bachelor's to J.D. program.  This allows USC's best and brightest undergraduates to forgo the LSAT and earn both their bachelor's and law degrees in a total of six years. The students apply for law school as juniors and, if accepted, enroll at USC Gould the following year.</p>
+<p class="timeline_subnavigation"><a href="javascript:void(0);" onclick="hide_all_divs(); document.getElementById('timeline_page_2010s').style.display='block';"><img src="/assets/images/who/history/timeline/left-arrow.png" alt="Previous" height="7" width="9"/><strong>Previous</strong></a> | <a href="javascript:void(0);" onclick="hide_all_divs(); document.getElementById('timeline_page_2010s_2').style.display='block';"><strong>Next</strong><img src="/assets/images/who/history/timeline/right-arrow.png" alt="Next" height="7" width="9"/></a></p>
+</div>
+</div>
+
+
+
+
+
+
+<div id="timeline_page_2010s_2" style="display: none;">
+<div id="timeline_column_1">
+<div id="timeline_header">
+<span class="timeline_title">2010s</span>
+<span class="timeline_subtitle">(Continued)</span>
+</div>
+
+<img src="/assets/images/who/history/timeline/2015.jpg" alt="" height="100" width="100" class="timeline_image"/>
+
+<p><span class="timeline_year">2015</span>
+<br/>
+USC Gould welcomes Andrew T. Guzman as its 14th dean of the law school.</p>
+
+<p>USC Gould receives a $5 million gift from Judge Judith O. Hollinger '61 to launch the Alternative Dispute Resolution (ADR) program, one of the few in the nation teaching students the important skills of arbitration and mediation.</p>
+</div>
+<div id="timeline_column_2">
+<div id="timeline_header"></div>
+<p>The Post-Conviction Justice Project represents the first juvenile client in California to be released from prison under the California Fair Sentencing for Youth Act.</p> 
+</div>
+
+<div id="timeline_column_3">
+<div id="timeline_header"></div>
+<p>Alumnus Randol Schoenberg '91 and his landmark case to reclaim stolen art seized during World War II was turned into a major motion picture, "Woman in Gold," featuring Helen Mirren and Ryan Reynolds. 
+</p>
+
+<p class="timeline_subnavigation"><a href="javascript:void(0);" onclick="hide_all_divs(); document.getElementById('timeline_page_2010s_1').style.display='block';"><img src="/assets/images/who/history/timeline/left-arrow.png" alt="Previews" height="7" width="9"/><strong>Previous</strong></a></p>
+</div>
+</div>
+
+
+
+</div>
+
+
+
+
+
+</div>
+
+<div id="equality"></div>
+
+</div>
+</div>
+
+
+
+<div id="footer_mobile">
+<div id="content">
+<ul class="social_networking">
+<li><a href="/press/social/facebook/"><img src="/images/bottom/facebook.png" alt="Facebook" height="42" width="42"></a></li>
+<li><a href="/press/social/twitter/"><img src="/images/bottom/twitter.png" alt="Twitter" height="42" width="42"></a></li>
+<li><a href="http://www.youtube.com/user/uscgould" target="_blank"><img src="/images/bottom/youtube.png" alt="YouTube" height="42" width="42"></a></li>
+<li><a href="https://instagram.com/uscgouldlaw" target="_blank"><img src="/images/bottom/instagram.png" alt="Instagram" height="42" width="42"></a></li>
+<li><a href="https://www.linkedin.com/edu/school?id=17973&trk=edu-cp-sa-sname" target="_blank"><img src="/images/bottom/linkedin.png" alt="LinkedIn" height="42" width="42"></a></li>
+<li><a href="https://www.flickr.com/photos/69930317@N08/albums" target="_blank"><img src="/images/bottom/flickr.png" alt="Flickr" height="42" width="42"></a></li>
+</ul>
+<ul class="buttons">
+<li><a href="/about/contact/" style="">Contact Us</a></li>
+<li><a href="/about/aba-required-disclosures/">ABA Required Disclosures</a></li>
+<li><a href="http://policy.usc.edu/" target="_blank" class="external_link">Privacy Policies</a></li>
+<li><a href="/site/?desktop" style="">Switch to Desktop Site</a></li>
+</ul>
+<p>&copy; 2016 USC Gould School of Law</p>
+</div>
+</div>
+
+
+
+<div id="footer">
+<div id="content">
+
+
+
+<div id="contact_us">
+<h3>CONTACT US</h3>
+<a href="/about/contact/"><img src="/images/bottom/building.jpg"></a>
+<address>
+<a href="/about/contact/">
+USC Gould School of Law
+<br>
+699 Exposition Boulevard
+<br>
+Los Angeles, California 90089
+<br>
+(213) 740-7331</a>
+</address>
+<a href="/about/aba-required-disclosures/"><img src="/images/bottom/aba-required-disclosures.png" alt="ABA Required Disclosures" height="20" width="160"/></a>
+</div>
+
+
+
+<div id="weather_and_follow_us">
+
+
+<h3>CURRENTLY 64&deg; <img src="/images/header/weather/26.png" alt="Cloudy"></h3>
+<p>As of 12:29 PM on Monday afternoon it is 64&deg; and cloudy in downtown Los Angeles.</p>
+
+
+<h3>FOLLOW US</h3>
+<ul>
+<li><a href="/press/social/facebook/"><img src="/images/bottom/facebook.png" alt="Facebook" height="42" width="42"></a></li>
+<li><a href="/press/social/twitter/"><img src="/images/bottom/twitter.png" alt="Twitter" height="42" width="42"></a></li>
+<li><a href="http://www.youtube.com/user/uscgould" target="_blank"><img src="/images/bottom/youtube.png" alt="YouTube" height="42" width="42"></a></li>
+<li><a href="https://instagram.com/uscgouldlaw" target="_blank"><img src="/images/bottom/instagram.png" alt="Instagram" height="42" width="42"></a></li>
+<li><a href="https://www.linkedin.com/edu/school?id=17973&trk=edu-cp-sa-sname" target="_blank"><img src="/images/bottom/linkedin.png" alt="LinkedIn" height="42" width="42"></a></li>
+<li><a href="https://www.flickr.com/photos/69930317@N08/" target="_blank"><img src="/images/bottom/flickr.png" alt="Flickr" height="42" width="42"></a></li>
+</ul>
+</div>
+
+
+
+
+<div id="latest_tweets">
+<h3>LATEST TWEETS</h3>
+<ul>
+
+
+
+
+<li><p><a href="http://twitter.com/uscgouldlaw" target="_blank">@uscgouldlaw:</a> America’s Divisions and Scalia’s Christian Visions by <a href="https://twitter.com/search?q=%23GouldExpert" rel="nofollow" target="_blank">#GouldExpert</a> Nomi Stolzenberg in <a href="http://twitter.com/ReligPolitics" rel="nofollow" target="_blank">@ReligPolitics</a> <a href="https://t.co/KLwSnmTZMs" target="_blank">https://t.co/KLwSnmTZMs</a>
+<br>
+March 10, 2016 @ 7:40 PM</p></li>
+
+
+
+
+<li><p><a href="http://twitter.com/uscgouldlaw" target="_blank">@uscgouldlaw:</a> MT <a href="http://twitter.com/USC" rel="nofollow" target="_blank">@USC</a> What do donors do when their candidate drops out? <a href="https://twitter.com/search?q=%23GouldLaw" rel="nofollow" target="_blank">#GouldLaw</a> Prof Abby Wood answers <a href="http://twitter.com/Marketplace" rel="nofollow" target="_blank">@Marketplace</a>: <a href="https://t.co/ys8q8rp60P" target="_blank">https://t.co/ys8q8rp60P</a>
+<br>
+March 10, 2016 @ 6:35 PM</p></li>
+
+</ul>
+</div>
+
+
+<div id="policies_and_copyright">
+<p><a href="/site/?mobile">Switch to Mobile Site</a> | <a href="http://policy.usc.edu/" target="_blank">Privacy Policies</a> | &copy; 2016 USC Gould School of Law</p>
+</div>
+
+</div>
+</div>
+
+
+
+<a href="#" class="back_to_top">Back to Top</a>
+
+
+
+<script src="/assets/javascripts/wow.js"></script>
+<script>
+	new WOW().init();
+</script>
+
+
+
+
+
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
+<script type="text/javascript">
+	_uacct = "UA-2821901-1";
+	urchinTracker();
+</script>
+</body>
+</html> 
