@@ -1,0 +1,1711 @@
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head><script type="text/javascript">/* <![CDATA[ */_cf_loadingtexthtml="<img alt=' ' src='/CFIDE/scripts/ajax/resources/cf/images/loading.gif'/>";
+_cf_contextpath="";
+_cf_ajaxscriptsrc="/CFIDE/scripts/ajax";
+_cf_jsonprefix='//';
+_cf_clientid='5B90ACE75EDFE9575023BFB412D58CBB';/* ]]> */</script><script type="text/javascript" src="/CFIDE/scripts/ajax/messages/cfmessage.js"></script>
+<script type="text/javascript" src="/CFIDE/scripts/ajax/package/cfajax.js"></script>
+<script type="text/javascript" src="/CFIDE/scripts/cfform.js"></script>
+<script type="text/javascript" src="/CFIDE/scripts/masks.js"></script>
+<script type="text/javascript" src="/CFIDE/scripts/cfformhistory.js"></script>
+<script type="text/javascript" src="/CFIDE/scripts/ajax/package/cfrichtexteditor.js"></script>
+<script type="text/javascript" src="/CFIDE/scripts/ajax/FCKeditor/fckeditor.js"></script>
+<script type="text/javascript" src="/CFIDE/scripts/ajax/yui/yahoo-dom-event/yahoo-dom-event.js"></script>
+<script type="text/javascript" src="/CFIDE/scripts/ajax/yui/animation/animation-min.js"></script>
+<script type="text/javascript" src="/CFIDE/scripts/ajax/ext/adapter/yui/ext-yui-adapter.js"></script>
+<script type="text/javascript" src="/CFIDE/scripts/ajax/ext/ext-all.js"></script>
+<script type="text/javascript" src="/CFIDE/scripts/ajax/package/cfwindow.js"></script>
+<link rel="stylesheet" type="text/css" href="/CFIDE/scripts/ajax/resources/ext/css/ext-all.css" />
+<link rel="stylesheet" type="text/css" href="/CFIDE/scripts/ajax/resources/cf/cf.css" />
+
+<title>Curriculum - USC Gould School of Law</title>
+<meta charset="UTF-8">
+<meta name="description" content="Stellar faculty, diverse students, and innovative programs have made the USC Gould School of Law one of the most prominent law schools in the country.">
+
+<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no, width=device-width">
+
+<link rel="shortcut icon" href="/favicon.ico">
+
+
+
+
+
+
+
+<link rel="stylesheet" type="text/css" href="/assets/css/accordion.css?last_updated=091515">
+<link rel="stylesheet" type="text/css" href="/assets/css/animate.css?last_updated=091515">
+<link rel="stylesheet" type="text/css" href="/assets/css/2015-unclean.css?last_updated=091515">
+<link rel="stylesheet" type="text/css" href="/assets/css/2015.css?last_updated=091515">
+
+<link rel="stylesheet" type="text/css" href="/assets/css/2015-mobile.css?last_updated=091515">
+
+
+
+
+
+<link rel="stylesheet" type="text/css" href="/assets/css/usccal.css?last_updated=091515">
+<link rel="stylesheet" type="text/css" href="/mockup/layerslider/css/layerslider.css?last_updated=091515">
+
+<link rel="stylesheet" type="text/css" href="/includes/flexinav/flexinav.css?last_updated=091515">
+
+<link rel="stylesheet" type="text/css" href="/assets/css/jquery.mmenu.all.css?last_updated=091515">
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js?last_updated=091515"></script>
+<script type="text/javascript" src="/assets/javascripts/default.js?last_updated=091515"></script>
+<script type="text/javascript" src="/mockup/layerslider/js/greensock.js?last_updated=091515"></script>
+<script type="text/javascript" src="/mockup/layerslider/js/layerslider.transitions.js?last_updated=091515"></script>
+<script type="text/javascript" src="/mockup/layerslider/js/layerslider.kreaturamedia.jquery.js?last_updated=091515"></script>
+<script type="text/javascript" src="/includes/flexinav/flexinav_plugins.js?last_updated=091515"></script>
+<script type="text/javascript" src="/includes/flexinav/flexinav.js?last_updated=091515"></script>
+<script type="text/javascript" src="/mockup/news/jquery.bxslider.min.js?last_updated=091515"></script>
+<script type="text/javascript" src="/assets/javascripts/jquery.mmenu.min.js?last_updated=091515"></script>
+
+
+
+
+
+
+	<script type="text/javascript">
+	function semjump(classsemester) {
+		if (classsemester !== '---'){
+		var splitvar = classsemester.split(" ");
+		location.href = "/why/academics/curriculum/CourseDescription.cfm?sem=" + splitvar[0] + "&cy=" + splitvar[1];
+		return true;
+		}
+	}
+	function ajaxSearch(courseid)
+	{						
+		var xmlHttp; 
+		try
+		  {
+		  // Firefox, Opera 8.0+, Safari
+		  xmlHttp=new XMLHttpRequest();
+		  }
+		catch (e)
+		  {
+		  // Internet Explorer
+		  try
+			{
+			xmlHttp=new ActiveXObject("Msxml2.XMLHTTP");
+			}
+		  catch (e)
+			{
+			try
+			  {
+			  xmlHttp=new ActiveXObject("Microsoft.XMLHTTP");
+			  }
+			catch (e)
+			  {
+			  alert("Your browser does not support AJAX!");
+			  return false;
+			  }
+			}
+		  }
+	  xmlHttp.onreadystatechange=function()
+		{
+		if(xmlHttp.readyState==4)
+		  {
+			var str = xmlHttp.responseText;
+			document.getElementById('coursedescription').innerHTML = str;
+		  }
+		}
+		var mainurl = "/portal/academics/registration/reg/processCourseDescription.cfm";
+		var newurl = mainurl + "?courseid="+courseid;
+		 xmlHttp.open("GET",newurl,true);
+		 xmlHttp.send(null);
+	}
+	</script>
+	<script type="text/javascript" src="/assets/js/SpryAccordion.js"></script>
+    <style type="text/css">
+		.accordioncontent p { margin-bottom:0!important; }
+	</style>
+
+
+<script type="text/javascript">/* <![CDATA[ */
+	ColdFusion.Ajax.importTag('CFAJAXPROXY');
+/* ]]> */</script>
+
+<script type="text/javascript">/* <![CDATA[ */
+	ColdFusion.Ajax.importTag('CFFORM');
+/* ]]> */</script>
+
+<script type="text/javascript">/* <![CDATA[ */
+	ColdFusion.Ajax.importTag('CFTEXTAREA');
+/* ]]> */</script>
+
+<script type="text/javascript">/* <![CDATA[ */
+	ColdFusion.Ajax.importTag('CFWINDOW');
+/* ]]> */</script>
+<script type="text/javascript">
+<!--
+    _CF_checkcourseDescription_form = function(_CF_this)
+    {
+        //reset on submit
+        _CF_error_exists = false;
+        _CF_error_messages = new Array();
+        _CF_error_fields = new Object();
+        _CF_FirstErrorField = null;
+
+
+        //display error messages and return success
+        if( _CF_error_exists )
+        {
+            if( _CF_error_messages.length > 0 )
+            {
+                // show alert() message
+                _CF_onErrorAlert(_CF_error_messages);
+                // set focus to first form error, if the field supports js focus().
+                if( _CF_this[_CF_FirstErrorField].type == "text" )
+                { _CF_this[_CF_FirstErrorField].focus(); }
+
+            }
+            return false;
+        }else {
+            return true;
+        }
+    }
+//-->
+</script>
+</head> 
+
+
+
+<body>
+
+
+
+
+
+<div id="search_area" class="wow fadeInDownBig">
+<img src="/mockup/images/homepage/close.png" onClick="toggle_visibility('search_area');">
+<div style="position: absolute; top: 50%; left: 5%; width: 100%;">
+<form method="get" action="/search/" name="gs">
+<input type="text" name="query" id="query" value="what can we help you find?" style="color: #999; height: 50px; width: 60%; margin: 0px; padding: 0px; float: left; border: none; padding-left: 10px; padding-right: 0px; font-size: 30px;" onFocus="clearText(this);" onBlur="checkText(this);" autocomplete="off">
+<input type="image" src="/mockup/images/homepage/search.png" alt="Search" style="height: 45px; width: 45px; margin-left: 20px;">
+<br class="clear">
+<br>
+<p style="width: 80%; color: #fff; font-size: 18px;"><strong><span style="color: #ffc324;">or try these popular searches:</span></strong> <a href="/search/?query=course+descriptions" style="color: #fff; border-bottom: 1px #fff dotted;">course descriptions</a>, <a href="/search/?query=dual+degrees" style="color: #fff; border-bottom: 1px #fff dotted;">dual degrees</a>, <a href="/search/?query=transfer+students" style="color: #fff; border-bottom: 1px #fff dotted;">transfer students</a>, <a href="/search/?query=library+hours" style="color: #fff; border-bottom: 1px #fff dotted;">library hours</a>, <a href="/search/?query=application+status" style="color: #fff; border-bottom: 1px #fff dotted;">application status</a></p>
+</form>
+</div>
+</div>
+
+
+
+<div id="quicklinks">
+<div id="content">
+
+
+
+<ul>
+<li><a href="/about/contact/">Contact Us</a></li>
+<li><a href="/why/academics/cle/">CLE</a></li>
+<li><a href="/giving/choices/donatenow.cfm">Give Back</a></li>
+<li><a href="/press/contact/">Press Room</a></li>
+<li><a href="/events/">Events</a></li>
+<li><a href="/press/">News</a></li>
+
+<li><a href="http://mylaw2.usc.edu/portal/" target="_blank">My Portal</a></li>
+</ul>
+</div>
+</div>
+
+
+
+<div id="header">
+<div id="content">
+<a href="/"><img src="/images/header/usc-gould-school-of-law.png" height="73" width="259" class="logo"></a>
+<a href="http://www.usc.edu/" target="_blank"><img src="/images/header/university-of-southern-california.png" height="38" width="176" class="usc_branding"></a>
+</div>
+</div>
+
+
+
+<div id="menubar">
+<div id="content">
+
+
+
+
+
+<div id="menubar_mobile" style="height: 50px;">
+<a href="#my-menu" style="float: left; height: 50px; width: 50%; display: block;"><h3 style="font-size: 18px; font-weight: normal; color: #fff; float: left; padding: 16px 0px 0px 45px;">MENU</h3></a>
+<nav id="my-menu">
+   <ul>
+  
+      <li><a href="/">Home</a></li>
+      <li><a href="/search/">Search</a></li>
+      <li><span>About</span>
+         <ul>
+            <li><a href="/about/introduction/">Introduction from the Dean</a></li>
+            <li><a href="/about/history/">History of USC Gould</a>
+            <ul>
+            <li><a href="/about/history/timeline/">Timeline</a></li>
+            <li><a href="/about/history/diversity/">Diversity Pioneers</a></li>
+            <li><a href="/about/history/alumni/">Alumni on the Bench</a></li>
+            <li><a href="/about/history/women/">Women in the Law</a></li>
+            <li><a href="/about/history/interdisciplinary/">Interdisciplinary Legal Studies</a></li>
+            <li><a href="/about/history/public-interest/">Public Interest</a></li>
+            </ul>
+            </li>
+            <li><a href="/about/los-angeles/">Explore Los Angeles</a>
+            <ul>
+            <li><a href="/about/los-angeles/living/">Living in Los Angeles</a></li>
+            <li><a href="/about/los-angeles/getting-around/">Getting Around</a></li>
+            <li><a href="/about/los-angeles/history/">Los Angeles/USC History</a></li>
+            <li><a href="/about/los-angeles/attractions/">Attractions</a></li>
+            <li><a href="/about/los-angeles/housing/">Housing</a></li>
+         </ul>
+            </li>
+            <li><a href="/about/class-profile/">Class Profile</a></li>
+            <li><a href="/about/board/">Board of Councilors</a></li>
+            <li><a href="/about/visit/">Visit USC Gould</a>
+            <ul>
+            <li><a href="/about/visit/classroom/">Classroom Visits</a></li>
+            <li><a href="/about/visit/tours/">Law School Tours</a></li>
+            <li><a href="/about/visit/information-sessions/">Information Sessions</a></li>
+            <li><a href="/about/visit/walking-tour/">Self-Guided Walking Tour</a></li>
+            <li><a href="/about/visit/directions/">Driving Directions</a></li>
+            <li><a href="/about/visit/map/">Building Map</a></li>
+            <li><a href="/about/visit/llm/">LL.M. Student Visits</a></li>
+         </ul>            
+            </li>
+            <li><a href="/about/aba-required-disclosures/">ABA Required Disclosures</a>
+            <ul>
+            <li><a href="/about/aba-required-disclosures/overview/">Overview</a></li>
+            <li><a href="/about/aba-required-disclosures/faculty-and-administrators/">Faculty & Administrators</a></li>
+            <li><a href="/about/aba-required-disclosures/curriculum/">Curriculum</a></li>
+            <li><a href="/about/aba-required-disclosures/jd-enrollment-and-ethnicity/">J.D. Enrollment & Ethnicity</a></li>
+            <li><a href="/about/aba-required-disclosures/transfer-policy-and-awarding-of-credit/">Transfer Policy and Awarding of Credit</a></li>
+            <li><a href="/about/aba-required-disclosures/transfer-student-data/">Transfer Student Data</a></li>
+            <li><a href="/about/aba-required-disclosures/tuition-and-fees/">Tuition & Fees</a></li>
+            <li><a href="/about/aba-required-disclosures/withdrawal-tuition-refund-policy/">Withdrawal/Tuition Refund Policy</a></li>
+            <li><a href="/about/aba-required-disclosures/living-expenses/">Living Expenses</a></li>
+            <li><a href="/about/aba-required-disclosures/gpa-and-lsat-scores/">GPA & LSAT Scores</a></li>
+            <li><a href="/about/aba-required-disclosures/grants-and-scholarships/">Grants & Scholarships</a></li>
+            <li><a href="/about/aba-required-disclosures/jd-attrition/">J.D. Attrition</a></li>
+            <li><a href="/about/aba-required-disclosures/bar-passage-rates/">Bar Passage Rates</a></li>
+            <li><a href="/about/aba-required-disclosures/employment-statistics/">Employment Statistics</a></li>
+            <li><a href="/about/aba-required-disclosures/class-profile/">2015 Entering Class Profile</a></li>
+            <li><a href="/about/aba-required-disclosures/qualifications-for-admission-to-the-bar/">Qualifications for Admission to the Bar</a></li>
+            </ul>
+            </li>
+            <li><a href="/about/community/">Meet our Community</a></li>
+            <li><a href="/about/contact/">Contact Us</a>
+            <ul>
+            <li><a href="/about/contact/faculty/">Faculty Directory</a></li>
+            <li><a href="/about/contact/lecturers/">Lecturers in Law Directory</a></li>
+            <li><a href="/about/contact/staff/">Staff Directory</a></li>
+            <li><a href="/about/contact/directions/">Driving Directions</a></li>
+            <li><a href="/about/contact/map/">Building Map</a></li>            
+            </ul>
+            </li>
+         </ul>
+      </li>
+      <li><span>Admissions</span>
+      
+      <ul>
+      <li><span>J.D. Programs</span>
+         <ul>
+            
+              <li><span>3 Year J.D. Program</span>
+                  <ul>
+                      <li><a href="/how/jd/admissionsInformation.cfm">Admissions Information</a></li>               
+                      <li><a href="/how/jd/jdApplication.cfm">Apply Now</a></li>
+                      <li><a href="/how/jd/onlineapplicationstatus.cfm">Application Status Check</a></li>
+                      <li><a href="/why/academics/bar/">Character & Fitness</a></li>
+                      <li><a href="/how/jd/faq.cfm">FAQ</a></li>
+                      <li><a href="/how/jd/international.cfm">International JD Applicants</a></li>
+                      <li><a href="/how/jd/waitlist_log_in.cfm">Waiting List Response Form</a></li>
+                      <li><a href="/assets/docs/how/jd/getting-into-law-school-guide.pdf" target="_blank">Getting into Law School Guide</a></li>
+                      <li><a href="/how/transfer/">Transfer/Visitor Applicants</a>
+                      
+                      <ul>
+                      			<li><a href="/how/transfer/index.cfm">General Information</a></li>
+			<li><a href="/how/transfer/transfer.cfm">Application Requirements</a></li>           
+			<li><a href="/how/transfer/earlydecision.cfm">Transfer Early Decision</a></li> 
+			<li><a href="/how/transfer/regulardecision.cfm">Regular Decision</a></li> 
+			<li><a href="/how/transfer/visitinfo.cfm">Visiting Student Information</a></li>
+            </ul>
+                      
+                      </li>
+                  </ul>
+              </li>
+
+
+              <li><a href="/how/jd/3-plus-3-program/">3+3 Accelerated Bachelor/JD Program</a></li>
+              
+              <li><a href="/how/jd/2-year-jd-program-for-international-lawyers/">2 Year JD Program for International Lawyers</a></li>
+              <li><span>Costs and Financial Assistance</span>
+                  <ul>
+                      <li><a href="/how/jd/finaid/">Financial Aid</a></li>               
+                      <li><a href="/how/jd/finaid/costs.cfm">Cost of Attendance</a></li>
+                      <li><a href="/how/jd/finaid/Aid.cfm">Types of Aid</a></li>
+                      <li><a href="/how/jd/finaid/apply.cfm">How to Apply</a></li>
+                      <li><a href="/how/jd/finaid/lrap.cfm">Loan Repayment Assistance Program (LRAP)</a></li>
+
+                  </ul>
+              </li>
+
+
+
+              <li><a href="/how/jd/earlydecision/">Early Decision Program</a>
+				  <ul>
+                  
+                      <li><a href="/how/jd/earlydecision/faq.cfm">FAQs for Early Decision Program</a></li>
+                      <li><a href="/assets/docs/how/jd/early-decision-agreement.pdf" target="_blank">Early Decision Agreement Form</a></li>
+                  </ul>
+              </li>
+
+
+              <li><a href="/how/jd/rothman/">Frank Rothman Scholarship</a>
+				  <ul>
+                      <li><a href="/how/jd/rothman/details.cfm">Scholarship Details</a></li>
+                      <li><a href="/how/jd/rothman/bio.cfm">About Frank Rothman</a></li>
+                      <li><a href="/how/jd/rothman/scholars.cfm">The Rothman Scholars</a> 
+                          
+                      </li>
+                  </ul>
+              </li>
+
+      
+              <li><span>Getting To Know USC Gould</span>
+                  <ul>
+                      <li><a href="/how/visit/">Visit USC Gould</a></li>               
+                      <li><a href="/how/jd/recruitingSchedule.cfm">2015-16 Recruitment Calendar</a></li>
+                      <li><a href="/how/jd/studentAmbassadors.cfm">Meet Our Student Ambassadors</a>
+						              
+                      </li>
+
+                      <li><a href="/how/jd/request.cfm">Request/Download Viewbook</a></li>
+                      <li><a href="/how/jd/viewbook/index.html" target="_blank">Browse Viewbook online</a></li>
+                      <li><a href="http://www.youtube.com/user/USCGould" target="_blank">Videos</a></li>
+                  </ul>
+              </li>
+     
+              <li><a href="/careers/statistics/">Employment Statistics</a></li>
+      
+              <li><span>LSAC</span>
+                  <ul>
+                      <li><a href="/how/jd/lsac/lsac.cfm">LSAC</a></li>
+                      <li><a href="/how/jd/lsac/lsacLawSchoolForums.cfm">LSAC Law School Forums</a></li>
+                      <li><a href="/how/jd/lsac/lsacDiversityInitiatives.cfm">LSAC Diversity Initiatives</a></li>
+                  </ul>
+              </li>
+ 
+         </ul>
+      </li>
+
+
+
+
+
+
+
+
+
+
+<li><span>Graduate Programs</span>
+
+
+    	<ul>
+
+			<li><a href="/how/gip/llm/">LL.M. Program</a> 
+				
+      		</li>
+         
+
+			<li><a href="/how/gip/2-year/">2 Year LL.M. Program</a>
+            
+            
+            
+            
+            </li>
+            
+			<li><a href="/how/gip/transfer/">LL.M. to J.D. Transfer Program</a></li>
+
+			<li><a href="http://onlinellm.usc.edu/?Access_Code=USC-LLM-SEO2&utm_campaign=USC-LLM-SEO2" target="_blank" class="external_link">Online LL.M. Program</a></li>
+			<li><a href="/how/gip/onlinemsl/">Online Master of Studies in Law (MSL) Program</a>
+				
+            </li>
+			<li class="Selected"><a href="/how/gip/mcl/">Master of Comparative Law</a>
+				
+                <ul>            
+                    <li><a href="/how/gip/mcl/admissions.cfm">Admissions Information</a></li>
+                    <li><a href="/how/gip/mcl/appinfo.cfm">Apply Now</a></li>
+                    <li><a href="/how/gip/mcl/onlineapplicationstatus.cfm">Application Status Check</a></li>
+                    <li><a href="/how/gip/mcl/degree.cfm">Degree Requirements</a></li>
+                    <li class="active"><a href="/how/gip/mcl/curriculum.cfm">Curriculum</a></li>
+                    <li><a href="/how/gip/mcl/careers.cfm">Career Development</a></li>
+                    <li><a href="/how/gip/mcl/fees.cfm">Tuition and Financial Aid</a></li>
+                    <li><a href="/how/gip/mcl/housing.cfm">Campus Housing</a></li>
+                    <li><a href="/how/gip/mcl/profiles.cfm">Student Profiles</a></li>
+                    <li><a href="http://lawweb.usc.edu/how/gip/admissionEvents.cfm"> Recruiting & Visits </a></li>
+                    <li><a href="/how/gip/mcl/contact.cfm">Contact</a></li>
+                 </ul>
+              
+            </li>            
+			<li><a href="/how/gip/vip/">Visiting International Law Program</a></li>
+			<li><a href="/how/gip/sle/">Summer Law &amp; English</a>
+				
+        </li>
+		<li><a href="/how/gip/studyabroad.cfm">J.D. Study Abroad</a>
+     
+</li>
+        
+        <li><a href="/assets/docs/admissions/graduate/brochure.pdf" target="_blank" class="external_link">View Our Brochure</a></li>
+        <li><a href="/how/gip/contact.cfm">Contact Us</a></li>
+    </ul>
+    
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <li><a href="http://onlinellm.usc.edu/?Access_Code=USC-LLM-SEO2&utm_campaign=USC-LLM-SEO2">Online Programs</a></li>
+      <li><a href="http://onlinellm.usc.edu/?Access_Code=USC-LLM-SEO2&utm_campaign=USC-LLM-SEO2">Online Business Law Certificate</a></li>
+      </ul>
+
+      <li><span>Academics</span>
+         <ul>
+            <li><a href="/academics/calendar/">Academic Calendar</a></li>
+            <li><a href="/academics/curriculum/">Curriculum</a>
+            <ul>
+            <li><a href="/academics/curriculum/juris-doctor-degree-requirements/">Juris Doctor Degree Requirements</a></li>
+            <li><a href="/academics/curriculum/first-year-curriculum/">First Year Curriculum</a></li>
+            <li><a href="/academics/curriculum/upper-division-course-offerings/">Upper Division Course Offerings</a></li>
+            <li><a href="/academics/curriculum/course-descriptions/">Course Descriptions</a></li>
+
+            <li><a href="/academics/curriculum/externships/">Externships</a></li>
+            <li><a href="/academics/curriculum/dual-degree-programs/">Dual Degree Programs</a></li>
+            <li><a href="/academics/curriculum/jd-study-abroad/">J.D. Study Abroad</a></li>
+            <li><a href="/academics/curriculum/academic-calendar/">Academic Calendar</a></li>
+            <li><a href="/academics/curriculum/grading-system/">Grading System</a></li>
+            <li><a href="/academics/curriculum/class-and-exam-schedules/">Class & Exam Schedules</a></li>
+            </ul>
+            </li>
+            <li><a href="/academics/faculty/">Faculty</a></li>
+            <li><a href="/academics/certificates/">Certificate Programs</a>
+            <ul>
+			<li><a href="/academics/certificates/adr/">Alternative Dispute Resolution (ADR)</a></li>
+			<li><a href="/academics/certificates/business/">Business Law</a></li>
+			<li><a href="/academics/certificates/entertainment/">Entertainment Law</a></li>
+			</ul>            
+            </li>
+            <li><a href="/academics/clinical-programs/">Clinical Programs</a></li>
+            <li><a href="/academics/alternative-dispute-resolution-program/">Alternative Dispute Resolution Program</a></li>
+            <li><a href="/academics/business-law-program/">Business Law Program</a>
+            
+            
+                        
+            
+            
+            </li>
+            <li><a href="/academics/media-entertainment-and-technology-law-program/">Media, Entertainment and Technology Law Program</a>
+            
+             <ul>
+        <li><a href="/academics/media-entertainment-and-technology-law-program/curriculum/">Our Approach and Curriculum</a></li>
+        <li><a href="/academics/media-entertainment-and-technology-law-program/courses/">Media and Entertainment Law Courses</a></li>
+        <li><a href="/academics/media-entertainment-and-technology-law-program/opportunities">Patent and Technology Law - Courses and Other Opportunities</a></li>
+        <li><a href="http://iptlc.usc.edu/" target="_blank" class="external_link">Intellectual Property and Technology Law Clinic</a></li>
+        <li><a href="/academics/media-entertainment-and-technology-law-program/faculty/">Affiliated Faculty</a></li>
+        <li><a href="/academics/media-entertainment-and-technology-law-program/research/">Research</a></li>
+        <li><a href="/academics/media-entertainment-and-technology-law-program/students/">Meet our Students and Alumni</a></li>
+        <li><a href="/academics/media-entertainment-and-technology-law-program/requirements/">Requirements for Media and Entertainment Law Certificate</a></li>
+        <li><a href="/academics/media-entertainment-and-technology-law-program/technology-requirements/">Requirements for Technology and Entrepreneurship Law Certificate</a></li>
+        <li><a href="/why/students/orgs/entertainmentLaw.cfm">Entertainment Law Society</a></li>
+        <li><a href="http://mcir.usc.edu/" target="_blank" class="external_link">Music Copyright Infringement Database</a></li>
+        <li><a href="/academics/media-entertainment-and-technology-law-program/practicum/">Entertainment Practicum</a></li>
+        <li><a href="/academics/media-entertainment-and-technology-law-program/events/">Events</a></li>
+        <li><a href="/academics/media-entertainment-and-technology-law-program/news/">In the News</a></li>
+        <li><a href="/academics/media-entertainment-and-technology-law-program/contact/">Contact Us</a></li>
+    </ul>
+            
+            </li>
+            <li><a href="/academics/state-bar-examinations/">State Bar Examinations</a></li>
+            <li><a href="/why/academics/cle/">Continuing Legal Education</a></li>
+         </ul>
+      </li>
+
+      <li><span>Student Life</span>
+         <ul>
+            <li><a href="/students/student-services/">Student Services Office</a></li>
+            <li><a href="/students/class-and-exam-schedules/">Class &amp; Exam Schedules</a></li>
+            <li><a href="/students/peer-mentors/">Peer Mentors</a></li>
+            <li><a href="/students/student-organizations/">Student Organizations</a></li>
+            <li><a href="/students/academic-journals-and-honors-programs/">Academic Journals &amp; Honors Programs</a></li>
+            <li><a href="/students/disability-student-services/">Disability Student Services</a></li>
+            <li><a href="/students/public-service/">Public Service</a></li>
+
+
+<li><a href="/students/first-generation-professionals/">First Generation Professionals Program</a>
+
+</li>
+
+
+            <li><a href="/students/students-with-families/">Students with Families</a></li>
+            <li><a href="http://transnet.usc.edu/" target="_blank" class="external_link">Transportation</a></li>
+            <li><a href="/students/university-services/">University Services</a></li>
+         </ul>
+      </li>
+
+      <li><span>Faculty</span>
+         <ul>
+            <li><a href="/faculty/">Faculty Directory</a></li>
+            <li><a href="/faculty/lecturers/">Lecturers in Law Directory</a></li>
+            <li><a href="/faculty/experts/">Experts Directory</a></li>
+            <li><a href="/faculty/scholarship/">Scholarship</a></li>
+            <li><a href="/faculty/distinctions/">Distinctions &amp; Awards</a></li>
+            <li><a href="/faculty/news/">In the News</a></li>
+            <li><a href="/faculty/blogs/">Blogs</a></li>
+            <li><a href="/centers/">Centers</a></li>
+            <li><a href="/faculty/workshops/">Workshops &amp; Conferences</a>
+            
+            <ul>
+            <li><a href="/faculty/workshops/faculty/">Faculty Workshops</a></li>
+            </ul>
+            
+            </li>
+         </ul>
+      </li>
+
+      <li><span>Careers</span>
+         <ul>
+            <li><a href="/careers/">Career Services</a></li>
+            <li><a href="/careers/students/">Information for Students</a>
+            <ul>
+            <li><a href="/careers/students/counseling/">Career Counseling</a></li>
+            <li><a href="/careers/students/resources/">Career Resources</a></li>
+            <li><a href="/careers/students/employment/">Employment Opportunities</a></li>
+            <li><a href="/careers/students/statistics/">Employment Statistics</a></li>
+            <li><a href="/careers/students/programming/">Career Programming</a></li>
+            <li><a href="/careers/students/faqs/">Frequently Asked Questions</a></li>
+            </ul>
+            </li>
+            <li><a href="/careers/alumni">Information for Alumni</a></li>
+            <li><a href="/careers/employers/">Information for Employers</a>
+            <ul>
+            <li><a href="/careers/employers/recruitment/">On Campus Recruitment Opportunities</a></li>
+            <li><a href="/careers/employers/post/">Post a Job/Resume Collect</a></li>
+            <li><a href="/careers/employers/other/">Off Campus Recruitment Programs</a></li>
+            </ul>
+
+            </li>
+            <li><a href="/careers/reciprocity/">Reciprocity</a></li>
+            <li><a href="/careers/contact/">Contact Us</a></li>
+         </ul>
+      </li>
+
+      <li><span>Alumni</span>
+         <ul>
+            <li><a href="/alumni/getinvolved/committee.cfm">Alumni Association</a>
+
+            </li>
+            <li><a href="/giving/choices/annualfund.cfm">Annual Fund Programs</a></li>
+            <li><a href="/giving/counsel.cfm">Board of Councilors</a></li>
+            <li><a href="/alumni/events/receptions.cfm">Events</a></li>
+            <li><a href="/giving/choices/donatenow.cfm">Giving Back</a></li>
+            <li><a href="/alumni/class-notes/">Class Notes</a></li>
+            <li><a href="/alumni/contactinfo.cfm">Update Contact Info</a></li>
+            <li><a href="/alumni/contact.cfm">Contact Us</a></li>
+         </ul>
+      </li>
+      
+      <li><span>Library</span>
+         <ul>
+            <li><a href="/library/">Law Library</a></li>
+            <li><a href="/library/services/">Services &amp; Information</a>
+            
+            <ul>
+            <li><a href="/library/services/map/">Library Map</a></li>
+            <li><a href="/library/services/access.cfm">Access Policy</a></li>
+            <li><a href="/library/services/borrowing.cfm">Borrowing</a></li>
+            <li><a href="/library/services/interlibrary.cfm">Interlibrary Loan</a></li>
+            <li><a href="/library/services/staff.cfm">Law Library Staff</a></li>
+            </ul>
+            
+            </li>
+            <li><a href="/library/search/">Search Library Catalogs</a></li>
+            <li><a href="http://lawlibguides.usc.edu/content.php?pid=253364" target="_blank">Research Guides</a></li>
+            <li><a href="/library/resources.cfm">Online Resources</a></li>
+         </ul>
+      </li>
+
+ 
+
+         <li><a href="/press/">Press Room</a>
+         <ul>
+            <li><a href="/press/">Press Room</a>
+            <ul>
+               
+               <li ><a href="/press/?year=2016">Fall 2016 - Spring 2017</a></li>           
+               
+               <li ><a href="/press/?year=2015">Fall 2015 - Spring 2016</a></li>           
+               
+               <li ><a href="/press/?year=2014">Fall 2014 - Spring 2015</a></li>           
+               
+               <li ><a href="/press/?year=2013">Fall 2013 - Spring 2014</a></li>           
+               
+               <li ><a href="/press/?year=2012">Fall 2012 - Spring 2013</a></li>           
+               
+               <li ><a href="/press/?year=2011">Fall 2011 - Spring 2012</a></li>           
+               
+               <li ><a href="/press/?year=2010">Fall 2010 - Spring 2011</a></li>           
+               
+               <li ><a href="/press/?year=2009">Fall 2009 - Spring 2010</a></li>           
+               
+               <li ><a href="/press/?year=2008">Fall 2008 - Spring 2009</a></li>           
+               
+               <li ><a href="/press/?year=2007">Fall 2007 - Spring 2008</a></li>           
+               
+               <li ><a href="/press/?year=2006">Fall 2006 - Spring 2007</a></li>           
+               
+               <li ><a href="/press/?year=2005">Fall 2005 - Spring 2006</a></li>           
+            
+</ul>
+            </li>
+            <li><a href="/press/contact/">Contact Us</a></li>
+            <li><a href="/press/expert/">Find an Expert</a></li>
+          
+            <li><a href="/press/publications/">Publications</a>
+            <ul>
+            <li><a href="/press/publications/magazine/">USC Law Magazine</a></li>
+            <li><a href="/press/publications/enews/">eNews</a></li>
+            <li><a href="/press/publications/clinical/">Clinical Perspectives</a></li>
+            <li><a href="/press/publications/identity/">Identity Guidelines</a></li>
+            </ul>
+            </li>
+            <li><a href="/press/advisories/">Media Advisories</a></li>
+            <li><a href="/press/social/">Social Media</a>
+            <ul>
+            <li><a href="/press/social/facebook/">Facebook</a></li>
+            <li><a href="/press/social/twitter/">Twitter</a></li>
+            <li><a href="http://www.youtube.com/user/USCGould" target="_blank" class="external_link">YouTube</a></li>
+            <li><a href="https://instagram.com/uscgouldlaw/" target="_blank" class="external_link">Instagram</a></li>
+            <li><a href="https://www.linkedin.com/edu/school?id=17973&trk=edu-cp-sa-sname" target="_blank" class="external_link">LinkedIn</a></li>
+            <li><a href="https://www.flickr.com/photos/69930317@N08/" target="_blank" class="external_link">Flickr</a></li>
+            </ul>
+            </li>
+         </ul>
+
+<li><a href="/portal/">My Portal</a></li>
+<li><a href="/site/?desktop">Switch to Desktop Site</a></li>
+
+   </ul>
+</nav>
+     <script type="text/javascript">
+         jQuery(document).ready(function( $ ) {
+            $("#my-menu").mmenu({
+               "extensions": [
+                  "theme-dark"
+               ]
+            });
+         });
+      </script>
+</div>
+
+
+
+
+
+<div id="flexinav1" class="flexinav">
+<div class="flexinav_wrapper">
+<ul class="flexinav_menu">
+
+
+
+<li class="flexnav_mega"><span>About</span>
+<div class="flexinav_ddown flexinav_ddown_full">
+<div id="menubar_image">
+<img src="/mockup/images/admissions.jpg" height="370" width="300">
+</div>
+<div id="menubar_description">
+<h2>About</h2>
+<p>USC Gould is one of the nation's top-ranked law schools with a 115+ year history and reputation for academic excellence.  We are known for our diverse student body, interdisciplinary education and our tight-knit alumni network of over 10,000 professionals throughout the globe.  With entering J.D. class sizes of less than 200 the learning experience is intimate and collegial.  Our location in Los Angeles provides unlimited opportunities in one of world's top legal markets.  It is home to major entertainment, business and law firms, as well as a gateway to international markets.</p>
+</div>
+<div id="menubar_links">
+<ul>
+<li><a href="/about/introduction/">Introduction from the Dean</a></li>
+<li><a href="/about/history/">History of USC Gould</a></li>
+<li><a href="/about/los-angeles/">Explore Los Angeles</a></li>
+<li><a href="/about/class-profile/">Class Profile</a></li>
+<li><a href="/about/board/">Board of Councilors</a></li>
+<li><a href="/about/visit/">Visit USC Gould</a></li>
+<li><a href="/about/aba-required-disclosures/">ABA Required Disclosures</a></li>
+<li><a href="/about/community/">Meet our Community</a></li>
+<li><a href="/about/contact/">Contact Us</a></li>
+</ul>
+</div>   
+</div>
+</li>
+
+
+
+<li class="flexnav_mega"><span>Admissions</span>
+<div class="flexinav_ddown flexinav_ddown_full">
+<div id="flexinav_left" style="height: 100%; float: left; width: 300px;">
+<img src="/mockup/images/homepage/jd-programs.jpg" style="height: 100px; width: 300px;">
+<h2 style="color: #ffc324; font-family: National; font-weight: bold; margin: 0px; padding: 0px;">J.D. Programs</h2>
+<ul style="list-style: none; margin: 5px 0px 0px 0px; padding: 0px;">
+<li style="height: 30px; margin: 0px; padding: 0px; line-height: 30px; background-color: #000; color: #fff; float: none; border: 0px; border-top: 1px dotted #555555; border-bottom: 1px dotted #555555; font-size: 13px; background: url('/mockup/images/right-arrow.png') no-repeat; background-position: 0px 7px;"><a href="/how/jd/" style="color: #fff; display: block; margin-left: 25px;">3 Year J.D. Program</a></li>
+<li style="height: 30px; margin: 0px; padding: 0px; line-height: 30px; background-color: #000; color: #fff; float: none; border: 0px; border-bottom: 1px dotted #555555; font-size: 13px; background: url('/mockup/images/right-arrow.png') no-repeat; background-position: 0px 7px;"><a href="/how/jd/3-plus-3-program/" style="color: #fff; display: block; margin-left: 25px;">3+3 Accelerated Bachelor/J.D. Program</a></li>
+<li style="height: 30px; margin: 0px; padding: 0px; line-height: 30px; background-color: #000; color: #fff; float: none; border: 0px; border-bottom: 1px dotted #555555; font-size: 13px; background: url('/mockup/images/right-arrow.png') no-repeat; background-position: 0px 7px;"><a href="/how/jd/2-year-jd-program-for-international-lawyers/" style="color: #fff; display: block; margin-left: 25px;">2 Year JD Program for International Lawyers</a></li>
+<li style="height: 30px; margin: 0px; padding: 0px; line-height: 30px; background-color: #000; color: #fff; float: none; border: 0px; border-bottom: 1px dotted #555555; font-size: 13px; background: url('/mockup/images/right-arrow.png') no-repeat; background-position: 0px 7px;"><a href="/how/jd/earlydecision/" style="color: #fff; display: block; margin-left: 25px;">Early Decision Program</a></li>
+<li style="height: 30px; margin: 0px; padding: 0px; line-height: 30px; background-color: #000; color: #fff; float: none; border: 0px; border-bottom: 1px dotted #555555; font-size: 13px; background: url('/mockup/images/right-arrow.png') no-repeat; background-position: 0px 7px;"><a href="/how/transfer/" style="color: #fff; display: block; margin-left: 25px;">Transfer Student Program</a></li>
+<li style="height: 30px; margin: 0px; padding: 0px; line-height: 30px; background-color: #000; color: #fff; float: none; border: 0px; border-bottom: 1px dotted #555555; font-size: 13px;"></li>
+</ul>
+</div>
+<div id="flexinav_middle" style="height: 100%; float: left; width: 300px; margin-left: 20px; margin-right: 20px;">
+<img src="/mockup/images/homepage/graduate-programs.jpg" style="height: 100px; width: 300px;">
+<h2 style="color: #ffc324; font-family: National; font-weight: bold; margin: 0px; padding: 0px;"><a href="/admissions/graduate/" style="color: #ffc324;">Graduate Programs</a></h2>
+<ul style="list-style: none; margin: 5px 0px 0px 0px; padding: 0px;">
+<li style="height: 30px; margin: 0px; padding: 0px; line-height: 30px; background-color: #000; color: #fff; float: none; border: 0px; border-top: 1px dotted #555555; border-bottom: 1px dotted #555555; font-size: 13px; background: url('/mockup/images/right-arrow.png') no-repeat; background-position: 0px 7px;"><a href="/how/gip/llm/" style="color: #fff; display: block; margin-left: 25px;">LL.M. Program</a></li>
+<li style="height: 30px; margin: 0px; padding: 0px; line-height: 30px; background-color: #000; color: #fff; float: none; border: 0px; border-bottom: 1px dotted #555555; font-size: 13px; background: url('/mockup/images/right-arrow.png') no-repeat; background-position: 0px 7px;"><a href="/how/gip/2-year/" style="color: #fff; display: block; margin-left: 25px;">2 Year LL.M. Program</a></li>
+<li style="height: 30px; margin: 0px; padding: 0px; line-height: 30px; background-color: #000; color: #fff; float: none; border: 0px; border-bottom: 1px dotted #555555; font-size: 13px; background: url('/mockup/images/right-arrow.png') no-repeat; background-position: 0px 7px;"><a href="/how/gip/transfer/" style="color: #fff; display: block; margin-left: 25px;">LL.M. to J.D. Transfer Program</a></li>
+<li style="height: 30px; margin: 0px; padding: 0px; line-height: 30px; background-color: #000; color: #fff; float: none; border: 0px; border-bottom: 1px dotted #555555; font-size: 13px; background: url('/mockup/images/right-arrow.png') no-repeat; background-position: 0px 7px;"><a href="/how/gip/mcl/" style="color: #fff; display: block; margin-left: 25px;">Master of Comparative Law Program</a></li>
+<li style="height: 30px; margin: 0px; padding: 0px; line-height: 30px; background-color: #000; color: #fff; float: none; border: 0px; border-bottom: 1px dotted #555555; font-size: 13px; background: url('/mockup/images/right-arrow.png') no-repeat; background-position: 0px 7px;"><a href="/how/gip/vip/" style="color: #fff; display: block; margin-left: 25px;">Visiting International Law Program</a></li>
+<li style="height: 30px; margin: 0px; padding: 0px; line-height: 30px; background-color: #000; color: #fff; float: none; border: 0px; border-bottom: 1px dotted #555555; font-size: 13px; background: url('/mockup/images/right-arrow.png') no-repeat; background-position: 0px 7px;"><a href="/how/gip/sle/" style="color: #fff; display: block; margin-left: 25px;">Summer Law & English Program</a></li>
+
+<li style="height: 30px; margin: 0px; padding: 0px; line-height: 30px; background-color: #000; color: #fff; float: none; border: 0px; border-bottom: 1px dotted #555555; font-size: 13px;"></li>
+
+
+</ul>
+</div>
+<div id="flexinav_right" style="height: 100%; float: left; width: 300px;">
+<img src="/mockup/images/homepage/online-programs.jpg" style="height: 100px; width: 300px;">
+<h2 style="color: #ffc324; font-family: National; font-weight: bold; margin: 0px; padding: 0px;"><a href="/admissions/online-programs/" style="color: #ffc324;">Online Programs</a></h2>
+<ul style="list-style: none; margin: 5px 0px 0px 0px; padding: 0px;">
+<li style="height: 30px; margin: 0px; padding: 0px; line-height: 30px; background-color: #000; color: #fff; float: none; border: 0px; border-top: 1px dotted #555555; border-bottom: 1px dotted #555555; font-size: 13px; background: url('/mockup/images/right-arrow.png') no-repeat; background-position: 0px 7px;"><a href="http://onlinellm.usc.edu/?Access_Code=USC-LLM-SEO2&utm_campaign=USC-LLM-SEO2" target="_blank" class="external_link" style="color: #fff; display: block; margin-left: 25px;">Online LL.M. Program</a></li>
+<li style="height: 30px; margin: 0px; padding: 0px; line-height: 30px; background-color: #000; color: #fff; float: none; border: 0px; border-bottom: 1px dotted #555555; font-size: 13px; background: url('/mockup/images/right-arrow.png') no-repeat; background-position: 0px 7px;"><a href="http://onlinellm.usc.edu/?Access_Code=USC-LLM-SEO2&utm_campaign=USC-LLM-SEO2" target="_blank" class="external_link" style="color: #fff; display: block; margin-left: 25px;">Online Business Law Certificate</a></li>
+<li style="height: 30px; margin: 0px; padding: 0px; line-height: 30px; background-color: #000; color: #fff; float: none; border: 0px; border-bottom: 1px dotted #555555; font-size: 13px; background: url('/mockup/images/right-arrow.png') no-repeat; background-position: 0px 7px;"><a href="/how/gip/onlinemsl/" style="color: #fff; display: block; margin-left: 25px;">Online Master of Studies in Law (MSL) Program</a></li>
+
+
+<li style="height: 30px; margin: 0px; padding: 0px; line-height: 30px; background-color: #000; color: #fff; float: none; border: 0px; border-bottom: 1px dotted #555555; font-size: 13px;"></li>
+<li style="height: 30px; margin: 0px; padding: 0px; line-height: 30px; background-color: #000; color: #fff; float: none; border: 0px; border-bottom: 1px dotted #555555; font-size: 13px;"></li>
+<li style="height: 30px; margin: 0px; padding: 0px; line-height: 30px; background-color: #000; color: #fff; float: none; border: 0px; border-bottom: 1px dotted #555555; font-size: 13px;"></li>
+<li style="height: 30px; margin: 0px; padding: 0px; line-height: 30px; background-color: #000; color: #fff; float: none; border: 0px; border-bottom: 1px dotted #555555; font-size: 13px;"></li>
+
+</ul>
+</div>   
+</div>
+</li>
+
+
+
+<li class="flexnav_mega"><span>Academics</span>
+<div class="flexinav_ddown flexinav_ddown_full">
+<img src="http://weblaw.usc.edu/mockup/images/library-books.jpg" style="height: 100px; width: 940px;">
+
+<div id="flexinav_middle" style="height: 100%; float: left; width: 460px; margin-left: 10px; margin-right: 10px;">
+<h2 style="color: #ffc324; font-family: National; font-weight: bold; margin: 0px; padding: 0px;">Academics</h2>
+<ul style="list-style: none; margin: 5px 0px 0px 0px; padding: 0px;">
+<li style="height: 30px; margin: 0px; padding: 0px; line-height: 30px; background-color: #000; color: #fff; float: none; border: 0px; border-top: 1px dotted #555555; border-bottom: 1px dotted #555555; font-size: 13px; background: url('/mockup/images/right-arrow.png') no-repeat; background-position: 0px 7px;"><a href="/academics/calendar/" style="color: #fff; display: block; margin-left: 25px;">Academic Calendar</a></li>
+<li style="height: 30px; margin: 0px; padding: 0px; line-height: 30px; background-color: #000; color: #fff; float: none; border: 0px; border-bottom: 1px dotted #555555; font-size: 13px; background: url('/mockup/images/right-arrow.png') no-repeat; background-position: 0px 7px;"><a href="/academics/curriculum/" style="color: #fff; display: block; margin-left: 25px;">Curriculum</a></li>
+<li style="height: 30px; margin: 0px; padding: 0px; line-height: 30px; background-color: #000; color: #fff; float: none; border: 0px; border-bottom: 1px dotted #555555; font-size: 13px; background: url('/mockup/images/right-arrow.png') no-repeat; background-position: 0px 7px;"><a href="/academics/faculty/" style="color: #fff; display: block; margin-left: 25px;">Faculty</a></li>
+<li style="height: 30px; margin: 0px; padding: 0px; line-height: 30px; background-color: #000; color: #fff; float: none; border: 0px; border-bottom: 1px dotted #555555; font-size: 13px; background: url('/mockup/images/right-arrow.png') no-repeat; background-position: 0px 7px;"><a href="/academics/certificates/" style="color: #fff; display: block; margin-left: 25px;">Certificate Programs</a></li>
+<li style="height: 30px; margin: 0px; padding: 0px; line-height: 30px; background-color: #000; color: #fff; float: none; border: 0px; border-bottom: 1px dotted #555555; font-size: 13px; background: url('/mockup/images/right-arrow.png') no-repeat; background-position: 0px 7px;"><a href="/academics/clinical-programs/" style="color: #fff; display: block; margin-left: 25px;">Clinical Programs</a></li>
+<li style="height: 30px; margin: 0px; padding: 0px; line-height: 30px; background-color: #000; color: #fff; float: none; border: 0px; border-bottom: 1px dotted #555555; font-size: 13px; background: url('/mockup/images/right-arrow.png') no-repeat; background-position: 0px 7px;"><a href="/centers/" style="color: #fff; display: block; margin-left: 25px;">Centers &amp; Workshops</a></li>
+</ul>
+</div>
+<div id="flexinav_right" style="height: 100%; float: left; width: 460px;">
+<ul style="list-style: none; margin: 27px 0px 0px 0px; padding: 0px;">
+<li style="height: 30px; margin: 0px; padding: 0px; line-height: 30px; background-color: #000; color: #fff; float: none; border: 0px; border-top: 1px dotted #555555; border-bottom: 1px dotted #555555; font-size: 13px; background: url('/mockup/images/right-arrow.png') no-repeat; background-position: 0px 7px;"><a href="/academics/alternative-dispute-resolution-program/" style="color: #fff; display: block; margin-left: 25px;">Alternative Dispute Resolution Program</a></li>
+<li style="height: 30px; margin: 0px; padding: 0px; line-height: 30px; background-color: #000; color: #fff; float: none; border: 0px; border-bottom: 1px dotted #555555; font-size: 13px; background: url('/mockup/images/right-arrow.png') no-repeat; background-position: 0px 7px;"><a href="/academics/business-law-program/" style="color: #fff; display: block; margin-left: 25px;">Business Law Program</a></li>
+<li style="height: 30px; margin: 0px; padding: 0px; line-height: 30px; background-color: #000; color: #fff; float: none; border: 0px; border-bottom: 1px dotted #555555; font-size: 13px; background: url('/mockup/images/right-arrow.png') no-repeat; background-position: 0px 7px;"><a href="/academics/media-entertainment-and-technology-law-program/" style="color: #fff; display: block; margin-left: 25px;">Media, Entertainment & Technology Law Program</a></li>
+<li style="height: 30px; margin: 0px; padding: 0px; line-height: 30px; background-color: #000; color: #fff; float: none; border: 0px; border-bottom: 1px dotted #555555; font-size: 13px; background: url('/mockup/images/right-arrow.png') no-repeat; background-position: 0px 7px;"><a href="/academics/state-bar-examinations/" style="color: #fff; display: block; margin-left: 25px;">State Bar Examinations</a></li>
+<li style="height: 30px; margin: 0px; padding: 0px; line-height: 30px; background-color: #000; color: #fff; float: none; border: 0px; border-bottom: 1px dotted #555555; border-bottom: 1px dotted #555555; font-size: 13px; background: url('/mockup/images/right-arrow.png') no-repeat; background-position: 0px 7px;"><a href="/why/academics/cle/" style="color: #fff; display: block; margin-left: 25px;">Continuing Legal Education</a></li>
+<li style="height: 30px; margin: 0px; padding: 0px; line-height: 30px; background-color: #000; color: #fff; float: none; border: 0px; border-bottom: 1px dotted #555555; border-bottom: 1px dotted #555555; font-size: 13px;">&nbsp;</li>
+</ul>
+</div>   
+</div>
+</li>
+
+
+
+<li class="flexnav_mega"><span>Student Life</span>
+<div class="flexinav_ddown flexinav_ddown_full">
+<div id="menubar_image">
+<img src="/mockup/images/academics-and-programs.jpg" height="370" width="300">
+</div>
+<div id="menubar_description">
+<h2>Student Life</h2>
+<p>From your first day on campus you'll notice USC Gould is different. It's small enough to be a community in the real sense of the word even though USC is one the country's largest research universities, and located in the second largest city in the United States. People know your name here, faculty and administration are accessible, and your success is everyone's priority - all of which makes for an unparalleled student experience.</p>
+</div>
+<div id="menubar_links">
+<ul>
+<li><a href="/students/student-services/">Student Services Office</a></li>
+<li><a href="/students/class-and-exam-schedules/">Class &amp; Exam Schedules</a></li>
+<li><a href="/students/peer-mentors/">Peer Mentors</a></li>
+<li><a href="/students/student-organizations/">Student Organizations</a></li>
+<li><a href="/students/academic-journals-and-honors-programs/">Academic Journals &amp; Honors Programs</a></li>
+<li><a href="/students/disability-student-services/">Disability Student Services</a></li>
+<li><a href="/students/public-service/">Public Service</a></li>
+<li><a href="/students/first-generation-professionals/">First Generation Professionals Program</a></li>
+<li><a href="/students/students-with-families/">Students with Families</a></li>
+<li><a href="http://transnet.usc.edu/" target="_blank" class="external_link">Transportation</a></li>
+<li><a href="/students/university-services/">University Services</a></li>
+</ul>
+</div>   
+</div>
+</li>
+
+
+
+<li class="flexnav_mega"><span>Faculty</span>
+<div class="flexinav_ddown flexinav_ddown_full">
+<div id="menubar_image">
+
+<img src="/assets/images/menubar/faculty/7.jpg" alt="Faculty" height="370" width="300">
+</div>
+<div id="menubar_description">
+<h2>Faculty</h2>
+<p>The USC Gould School of Law faculty is nationally recognized for its scholarship in many fields including administrative law, constitutional law, bankruptcy and corporate law, intellectual property, law and race, and taxation. Interdisciplinary scholarship in law and economics, law and history, law and philosophy, law and politics, and law and psychology has long been a signature of the school.</p>
+</div>
+<div id="menubar_links">
+<ul>
+<li><a href="/faculty/">Faculty Directory</a></li>
+<li><a href="/faculty/lecturers/">Lecturers in Law Directory</a></li>
+<li><a href="/faculty/experts/">Experts Directory</a></li>
+<li><a href="/faculty/scholarship/">Scholarship</a></li>
+<li><a href="/faculty/distinctions/">Distinctions &amp; Awards</a></li>
+<li><a href="/faculty/news/">In the News</a></li>
+<li><a href="/faculty/blogs/">Blogs</a></li>
+<li><a href="/centers/">Centers</a></li>
+<li><a href="/faculty/workshops/">Workshops &amp; Conferences</a></li>
+</ul>
+</div>   
+</div>
+</li>
+
+
+
+<li class="flexnav_mega"><span>Careers</span>
+<div class="flexinav_ddown flexinav_ddown_full">
+<div id="menubar_image">
+<img src="/mockup/images/careers.jpg" height="370" width="300">
+</div>
+<div id="menubar_description">
+<h2>Careers</h2>
+<p>The USC Gould School of Law Career Services Office is dedicated to providing students and graduates the information and tools necessary for successful career development and advancement.</p>
+</div>
+<div id="menubar_links">
+<ul>
+<li><a href="/careers/">Career Services</a></li>
+<li><a href="/careers/students/">Information For Students</a></li>
+<li><a href="/careers/alumni/">Information For Alumni</a></li>
+<li><a href="/careers/employers/">Information For Employers</a></li>
+<li><a href="/careers/reciprocity/">Reciprocity</a></li>
+<li><a href="/careers/contact/">Contact Us</a></li>
+</ul>
+</div>   
+</div>
+</li>
+
+
+
+<li class="flexnav_mega"><span>Alumni</span>
+<div class="flexinav_ddown flexinav_ddown_full">
+<div id="menubar_image">
+<img src="/mockup/images/alumni.jpg" height="370" width="300">
+</div>
+<div id="menubar_description">
+<h2>Alumni</h2>
+<p>Alumni of the USC Gould School of Law constitute a network of over 10,000. Gould alumni are a diverse group of professionals that includes legal experts who are nationally and internationally recognized leaders in many fields of law, such as arbitration, business, entertainment, real estate, and government. Whether newly graduated or recently retired, all of USC Gould's alumni share a Trojan connection that is both lifelong and worldwide.</p>
+</div>
+<div id="menubar_links">
+<ul>
+<li><a href="/alumni/getInvolved/committee.cfm">Alumni Association</a></li>
+<li><a href="/giving/choices/annualFund.cfm">Annual Fund Programs</a></li>
+<li><a href="/giving/counsel.cfm">Board of Councilors</a></li>
+<li><a href="/alumni/events/receptions.cfm">Events</a></li>
+<li><a href="/giving/choices/donatenow.cfm">Giving Back</a></li>
+<li><a href="/alumni/class-notes/">Class Notes</a></li>
+<li><a href="/alumni/contactinfo.cfm">Update Contact Info</a></li>
+<li><a href="/alumni/contact.cfm">Contact Us</a></li>
+</ul>
+</div>   
+</div>
+</li>
+
+
+
+<li class="flexnav_mega"><span>Library</span>
+<div class="flexinav_ddown flexinav_ddown_full">
+<div id="menubar_image">
+<img src="/mockup/images/library.jpg" height="370" width="300">
+</div>
+<div id="menubar_description">
+<h2>Library</h2>
+<p>The Gabriel and Matilda Barnett Information Technology Center and The Asa V. Call Law Library supports the teaching and research activities of the USC Gould community.</p>
+</div>
+<div id="menubar_links">
+<ul>
+<li><a href="/library/">Law Library</a></li>
+<li><a href="/library/services/">Services &amp; Information</a></li>
+<li><a href="/library/search/">Search Library Catalogs</a></li>
+<li><a href="http://lawlibguides.usc.edu/" target="_blank" class="external_link">Research Guides</a></li>
+<li><a href="/library/resources.cfm">Online Resources</a></li>
+</ul>
+</div>   
+</div>
+</li>
+
+
+
+<li><a href="javascript:void(0);" onClick="toggle_visibility('search_area');"><img src="/mockup/images/search.png" alt="Search" height="18" width="18"></a></li>
+</ul>
+
+
+
+<ul class="flexinav_menu flexinav_menu_right">
+<img src="/images/header/weather/34.png" style="float: right; margin-top: 15px; margin-right: 20px;">
+<span style="font-size: 19px; color: #fff; float: right; margin-top: 15px;">83&deg;</span>
+</ul>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+
+<div id="header_image"><img src="/assets/images/header/longer/10.jpg" style="width: 100%;"></div>
+
+
+
+
+<div id="background_full">
+
+
+
+
+<div id="content">
+
+<div id="redesign_left_column">
+
+
+
+<div id="leftnav">
+
+
+
+
+    	<ul>
+		
+        
+        
+        
+			<li><a href="/how/gip/llm/">LL.M. Program</a> 
+				
+      		</li>
+
+			<li><a href="/how/gip/2-year/">2 Year LL.M. Program</a>
+				            
+            </li>
+            
+			<li><a href="/how/gip/transfer/">LL.M. to J.D. Transfer Program</a></li>
+
+			<li><a href="http://onlinellm.usc.edu/?Access_Code=USC-LLM-SEO2&utm_campaign=USC-LLM-SEO2" target="_blank" class="external_link">Online LL.M. Program</a></li>
+
+            <li><a href="/how/gip/onlinemsl/">Online Master of Studies in Law (MSL) Program</a>
+				
+            </li>
+
+			<li class="active"><a href="/how/gip/mcl/">Master of Comparative Law</a>
+				
+                <ul>            
+                    <li><a href="/how/gip/mcl/admissions.cfm">Admissions Information</a></li>
+                    <li><a href="/how/gip/mcl/appinfo.cfm">Apply Now</a></li>
+                    <li><a href="/how/gip/mcl/onlineapplicationstatus.cfm">Application Status Check</a></li>
+                    <li><a href="/how/gip/mcl/degree.cfm">Degree Requirements</a></li>
+                    <li class="active"><a href="/how/gip/mcl/curriculum.cfm">Curriculum</a></li>
+                    <li><a href="/how/gip/mcl/careers.cfm">Career Development</a></li>
+                    <li><a href="/how/gip/mcl/fees.cfm">Tuition and Financial Aid</a></li>
+                    <li><a href="/how/gip/mcl/housing.cfm">Campus Housing</a></li>
+                    <li><a href="/how/gip/mcl/profiles.cfm">Student Profiles</a></li>
+                    <li><a href="/how/gip/mcl/admissionEvents.cfm"> Recruiting & Visits </a></li>
+                    <li><a href="/how/gip/mcl/contact.cfm">Contact</a></li>
+                 </ul>
+              
+            </li>
+			<li><a href="/how/gip/vip/">Visiting International Law Program</a></li>
+			<li><a href="/how/gip/sle/">Summer Law &amp; English</a>
+				
+        </li>
+		<li><a href="/how/gip/studyabroad.cfm">J.D. Study Abroad</a>
+     
+</li>
+        
+        <li><a href="/assets/docs/admissions/graduate/brochure.pdf" target="_blank" class="external_link">View Our Brochure</a></li>
+        <li><a href="/how/gip/contact.cfm">Contact Us</a></li>
+    </ul>
+    <br/>
+    <center>
+    <a href="/how/gip/llm/appinfo.cfm"><img src="/assets/images/how/click-to-apply.gif" alt="Click To Apply" height="100" width="160" border="0"/></a>
+    <br/>
+    <br/>
+    <a href="http://onlinellm.usc.edu/?Access_Code=USC-LLM-SEO2&utm_campaign=USC-LLM-SEO2" target="_blank"><img src="/assets/images/how/llm-online-click-here-to-learn-more.gif" alt="LLM Online Applicants: Click Here To Learn More" height="100" width="160" border="0"/></a>
+    <br/>
+    <br/>
+    <a href="http://www.facebook.com/home.php#/pages/Los-Angeles-CA/USC-LLM-Program/210529860551?ref=ts" target="_blank"><img src="/assets/images/how/facebook_small.gif" width="160" height="34" alt="Visit G&amp;IP on Facebook" /></a>
+    <br/>
+    <br/>
+    <a href="/logingip.cfm"><img src="/assets/images/how/admitted-students-portal-login.gif" width="160" height="50" alt="Admitted Students Portal Login"/></a>
+    </center>
+	
+
+
+
+
+
+
+
+
+
+
+
+
+</div></div>
+
+
+
+<div id="redesign_right_column_threecolumn">
+
+
+<h1>Curriculum</h1>
+
+<p>USC Law's curriculum is comprehensive and designed to challenge&mdash;qualities that have earned us a reputation for offering the finest legal education available.  Our scholarly yet practical approach ensures that you gain the skills and perspective every lawyer needs to practice, teach, enter public service or work in business.</p> 
+
+<p>Our M.C.L. students may select from a wide variety of classes during their studies.  You will attend classes and events with our LL.M. and J.D. students. This promotes an environment that offers refreshing and diverse perspectives in and out of the classroom.</p>
+
+<p>Students must consult with the Faculty Advisor for the program about the student's educational objectives and to seek advice about the curriculum selections. </p>
+
+<h1>Upper Division Courses</h1>
+<p><a href="/assets/docs/how/gip/coursedescriptions.pdf" class="pdf">Click here for a complete list of law school course descriptions</a></p>
+
+<h1 style="text-transform:capitalize;">Past Semester Course Descriptions</h1>
+<p>Select a course from the menu below to see its description. If a course does not appear in the menu it is because the instructor has not yet submitted a description to the Registrar's office.</p>
+<form name="courseDescription_form" id="courseDescription_form" method="post" onsubmit="return _CF_checkcourseDescription_form(this)">
+<fieldset>
+    <legend>Select a course title</legend>
+                
+
+
+
+    <label for="yrsem" class="snap">Semester Archive:</label>
+    <select name="yrsem" id="yrsem" class="snap" onchange="semjump(this.value);">
+        <option value="---">Select</option>
+    
+        <option value="Spring 2016">Spring 2016</option>
+    
+        <option value="Fall 2015">Fall 2015</option>
+    
+        <option value="Spring 2015">Spring 2015</option>
+    
+        <option value="Fall 2014">Fall 2014</option>
+    
+        <option value="Spring 2014">Spring 2014</option>
+    
+        <option value="Fall 2013">Fall 2013</option>
+    
+        <option value="Spring 2013">Spring 2013</option>
+    
+        <option value="Fall 2012">Fall 2012</option>
+    
+        <option value="Spring 2012">Spring 2012</option>
+    
+        <option value="Fall 2011">Fall 2011</option>
+    
+        <option value="Spring 2011" selected="selected">Spring 2011</option>
+    
+        <option value="Fall 2010">Fall 2010</option>
+    
+        <option value="Spring 2010">Spring 2010</option>
+    
+        <option value=" 0"> 0</option>
+    
+        <option value=" "> </option>
+    
+        <option value="Entertainment ">Entertainment </option>
+    
+    </select>
+    <br />
+    
+    <label for="courseid" class="snap">Class:</label>
+    
+    <select name="courseid" id="courseid" class="snap" onchange="ajaxSearch(this.value);">
+        <option value="select">---</option>
+        
+        <option value="291">Access to Justice Practicum</option>
+        
+        <option value="267">Administratve Law and Regulatory Policy</option>
+        
+        <option value="226">Advanced Legal Writing and Advocacy: Advanced Appellate Writing</option>
+        
+        <option value="296">Advanced Legal Writing Practicum</option>
+        
+        <option value="233">Advanced Mediation Clinic</option>
+        
+        <option value="302">Advanced Topics in Employment Discrimination</option>
+        
+        <option value="234">Antitrust</option>
+        
+        <option value="287">Art Law</option>
+        
+        <option value="227">Bankruptcy</option>
+        
+        <option value="269">Bioethics and Law</option>
+        
+        <option value="235">Business for Lawyers</option>
+        
+        <option value="236">Business Organizations</option>
+        
+        <option value="304">Child Interviewing Seminar</option>
+        
+        <option value="305">Child Interviewing Seminar</option>
+        
+        <option value="281">Children's Legal Issues Practicum</option>
+        
+        <option value="230">Client Interviewing and Counseling</option>
+        
+        <option value="240">Comparative Islamic Law</option>
+        
+        <option value="231">Contract Drafting and Negotiation</option>
+        
+        <option value="241">Contract Drafting and Negotiation</option>
+        
+        <option value="242">Contract Drafting and Strategy</option>
+        
+        <option value="293">Corporate Fraud</option>
+        
+        <option value="229">Corporate Taxation</option>
+        
+        <option value="243">Counseling the Startup Company</option>
+        
+        <option value="268">Critical Race Theory</option>
+        
+        <option value="300">Current Challenges in US Foreign Policy and International Law</option>
+        
+        <option value="306">Deals</option>
+        
+        <option value="232">Deposition Strategies and Techniques</option>
+        
+        <option value="285">Entertainment Law</option>
+        
+        <option value="244">Environmental Law</option>
+        
+        <option value="270">Equality and Liberty</option>
+        
+        <option value="288">Estate Planning</option>
+        
+        <option value="275">Evidence</option>
+        
+        <option value="280">Evolutionary Game Theory and the Law</option>
+        
+        <option value="239">First Amendment</option>
+        
+        <option value="266">Gender Discrimination</option>
+        
+        <option value="238">Gifts, Wills and Trusts</option>
+        
+        <option value="245">Hero or Villain: The Lawyer in Fiction, Film and Television</option>
+        
+        <option value="271">Immigration Law</option>
+        
+        <option value="307">Intellectual Property and Technology Law Clinic I</option>
+        
+        <option value="246">International Arbitration</option>
+        
+        <option value="237">International Environmental Law</option>
+        
+        <option value="277">International Human Rights</option>
+        
+        <option value="284">International Human Rights Clinic</option>
+        
+        <option value="247">International Trade Policy</option>
+        
+        <option value="228">Justice and the Foundations of Liberalism</option>
+        
+        <option value="278">Law and Economics</option>
+        
+        <option value="248">Law and Religion in American Law and Culture</option>
+        
+        <option value="279">Law and War in 20th Century America</option>
+        
+        <option value="249">Legal Anthropology Seminar</option>
+        
+        <option value="253">Legal Issues in Television</option>
+        
+        <option value="292">Legal Issues in the Motion Picture Industry</option>
+        
+        <option value="254">Legal Issues in the Music Industry</option>
+        
+        <option value="255">Major Trends in Legal Academic Thought</option>
+        
+        <option value="301">Media Law in the Digital Age</option>
+        
+        <option value="252">Mediation Clinic</option>
+        
+        <option value="251">Mergers and Acquisitions</option>
+        
+        <option value="309">Mergers and Acquisitions</option>
+        
+        <option value="256">National Security Law</option>
+        
+        <option value="250">Negotiation and Mediation Advocacy</option>
+        
+        <option value="258">Partnership Taxation</option>
+        
+        <option value="259">Patent Law</option>
+        
+        <option value="260">Pretrial Advocacy</option>
+        
+        <option value="289">Pretrial Advocacy</option>
+        
+        <option value="257">Public Health Law</option>
+        
+        <option value="276">Public International Law</option>
+        
+        <option value="297">Real Estate Finance</option>
+        
+        <option value="298">Real Estate Finance</option>
+        
+        <option value="286">Remedies</option>
+        
+        <option value="261">Sales</option>
+        
+        <option value="308">Secured Transactions</option>
+        
+        <option value="282">Small Business Clinic</option>
+        
+        <option value="299">Sports Law</option>
+        
+        <option value="262">Taxation</option>
+        
+        <option value="264">Topics in Admiralty and Maritime Law</option>
+        
+        <option value="263">Topics in Amateur Sports Law</option>
+        
+        <option value="303">Topics in Entertainment Law</option>
+        
+        <option value="283">Topics in Intellectual Property</option>
+        
+        <option value="265">Trademark</option>
+        
+        <option value="294">Trial Advocacy</option>
+        
+        <option value="290">Water Law</option>
+        
+    </select>
+    
+    <br />
+    
+
+</fieldset>
+        
+</form>
+
+<br />
+
+<div id="coursedescription"></div>
+
+<div id="accordion">
+<div class="accordionpanel">
+        <h1 class="accordiontab"><a href="javascript:void(0);">Courses for International Students</a></h1>
+<div class="accordioncontent">
+<h3>Exclusive classes offered to Graduate and International Program students</h3>
+<ul>
+	<li><a href="/how/assets/docs/Course_Descriptions/Courses for International Students/Legal Profession.doc">Legal Profession</a></li>
+   <li><a href="/how/assets/docs/Course_Descriptions/Courses for International Students/IntrotoUSLegalSystem.doc">Introduction to the U.S. Legal System</a></li>
+    <li><a href="/how/assets/docs/Course_Descriptions/Courses for International Students/Reviewing and Negotiating Business Contracts.doc">Reviewing &amp; Negotiating Business Contracts</a></li>
+    <li><a href="/how/assets/docs/Course_Descriptions/Courses for International Students/Topics in American Law.pdf" target="_blank">Topics in American Law</a></li>
+    <li><a href="/how/assets/docs/Course_Descriptions/Courses for International Students/Legal Writing.doc">Legal Writing A &amp; B</a></li>
+    <li><a href="/how/assets/docs/Course_Descriptions/Courses for International Students/Legal Research.doc">Legal Research</a></li>
+    <li>Specialized Academic Support Sessions</li>
+</ul>
+</div>
+</div>
+
+<div class="accordionpanel">
+        <h1 class="accordiontab"><a href="javascript:void(0);">Corporate and Business Law</a></h1>
+<div class="accordioncontent">
+<h3>Laws that govern corporations, business organizations, and commercial transactions.</h3> 
+<ul>
+    <li><a href="/how/assets/docs/Course_Descriptions/Corporate Business Law/Accounting for Lawyers (Fa 08).doc">Accounting for Lawyers</a></li>
+    <li><a href="/how/assets/docs/Course_Descriptions/Corporate Business Law/Advanced Contracts.doc">Advanced Contracts</a></li>
+    <li><a href="/how/assets/docs/Course_Descriptions/Corporate Business Law/Bankruptcy (Fa 2008).doc">Bankruptcy: Debtors and Creditors</a></li>
+    <li><a href="/how/assets/docs/Course_Descriptions/Corporate Business Law/Business for Lawyers (Fa 08).doc">Business for Lawyers</a></li>
+    <li><a href="/how/assets/docs/Course_Descriptions/Corporate Business Law/Business Organizations (Fa 08).doc">Business Organizations: Corporations and Partnerships</a></li>
+    <li><a href="/how/assets/docs/Course_Descriptions/Corporate Business Law/Commercial Paper (Fa 08).doc">Commercial Paper and Banking Regulation</a></li>
+    <li><a href="/how/assets/docs/Course_Descriptions/Corporate Business Law/Contract Drafting and Negotiation (Fa 08).doc">Contract Drafting and Negotiation</a></li>
+    <li><a href="/how/assets/docs/Course_Descriptions/Corporate Business Law/Corporate Finance (Sp 08).doc">Corporate Finance</a></li>
+    <li><a href="/how/assets/docs/Course_Descriptions/Corporate Business Law/Corporate Fraud-Enron and the Financial Crisis - Sp10.doc">Corporate Fraud</a></li>
+    <li><a href="/how/assets/docs/Course_Descriptions/Corporate Business Law/Corporate Reorganization (Sp 08).doc">Corporate Reorganization</a></li>
+    <li><a href="/how/assets/docs/Course_Descriptions/Corporate Business Law/Topics in Corporate Law - Coporate Transactions (Sp 08).doc">Corporate Transactions</a></li>
+    <li><a href="/how/assets/docs/Course_Descriptions/Corporate Business Law/Counseling the Startup Company (Fa 08).doc">Counseling the Start-up Company</a></li>
+    <li><a href="/how/assets/docs/Course_Descriptions/Corporate Business Law/Mergers and Acquisitions (Sp 08).doc">Mergers and Acquisitions</a></li>
+    <li><a href="/how/assets/docs/Course_Descriptions/Corporate Business Law/Major Corporate Fraud (Sp 08).doc">Major Corporate Civil and Criminal Fraud: Lessons of Enron </a></li>
+    <li><a href="/how/assets/docs/Course_Descriptions/Corporate Business Law/Partnerships and Limited Liability Companies (Sp 08).doc">Partnerships &amp;amp; LLCs</a></li>
+    <li><a href="/how/assets/docs/Course_Descriptions/Corporate Business Law/Remedies (Sp 08).doc">Remedies</a></li>
+    <li><a href="/how/assets/docs/Course_Descriptions/Corporate Business Law/Secured Transactions (Sp 08).doc">Secured Transactions</a></li>
+    <li><a href="/how/assets/docs/Course_Descriptions/Corporate Business Law/Securities Fraud Litigation (Fa 08).doc">Securities Fraud Litigation</a></li>
+    <li><a href="/how/assets/docs/Course_Descriptions/Corporate Business Law/Securities Regulation.doc">Securities Regulation</a></li>
+</ul>
+</div>
+</div>
+
+<div class="accordionpanel">
+        <h1 class="accordiontab"><a href="javascript:void(0);">Law of Taxation</a></h1>
+<div class="accordioncontent">
+<h3>Laws that govern taxation of individuals and businesses.</h3>
+<ul>
+    
+    <li><a href="/how/assets/docs/Course_Descriptions/Law of Taxation/Corporate Reorganization (Sp 08).doc">Corporate Reorganization</a></li>
+    <li><a href="/how/assets/docs/Course_Descriptions/Law of Taxation/Corporate Taxation (Sp'11).doc">Corporate Tax</a></li>
+    <li><a href="/how/assets/docs/Course_Descriptions/Law of Taxation/Estate Planning (Fa 07).doc">Estate Planning</a></li>
+    <li><a href="/how/assets/docs/Course_Descriptions/Law of Taxation/Gifts, Wills and Trusts (Sp 08).doc">Gifts, Wills, and Trusts</a></li>
+    <li><a href="/how/assets/docs/Course_Descriptions/Law of Taxation/Mergers and Acquisitions (Sp 08).doc">Mergers &amp; Acquisitions</a></li>
+    <li><a href="/how/assets/docs/Course_Descriptions/Law of Taxation/Partnership Taxation (Sp'11).doc">Partnership Taxation</a></li>
+    <li><a href="/how/assets/docs/Course_Descriptions/Law of Taxation/Taxation (Fa 08).doc">Taxation</a></li>
+</ul>
+</div>
+</div>
+
+<div class="accordionpanel">
+        <h1 class="accordiontab"><a href="javascript:void(0);">The Court System and Civil Rights</a></h1>
+<div class="accordioncontent">
+<h3>Laws that govern the structure and role of the courts, including analysis of arguments made by specific groups seeking recognition of Constitutional protections. Includes courses that explore the moral, personal, and political dimensions of being a lawyer.</h3> 
+<ul>
+    <li><a href="/how/assets/docs/Course_Descriptions/The Court System Civil Rights/American Legal History (Fa 08).doc">American Legal History</a></li>
+    <li><a href="/how/assets/docs/Course_Descriptions/The Court System Civil Rights/Children's Legal Issues.doc">Children's Legal Issues </a></li>
+    <li><a href="/how/assets/docs/Course_Descriptions/The Court System Civil Rights/Civil Discovery (Sp 08).doc">Civil Discovery</a></li>
+    <li>Civil Rights Litigation</li>
+    <li><a href="/how/assets/docs/Course_Descriptions/The Court System Civil Rights/Constitutional Law II (Fa 08).doc">Constitutional Law II: First Amendment Issues</a></li>
+    <li><a href="/how/assets/docs/Course_Descriptions/The Court System Civil Rights/Constitutional Law and Religious Ethics.doc">Constitutional Law and Religious Ethics </a></li>
+    <li>Crime &amp; Social Justice</li>
+    <li><a href="/how/assets/docs/Course_Descriptions/The Court System Civil Rights/Criminal Procedure (Fa 08).doc">Criminal Procedure</a></li>
+    <li><a href="/how/assets/docs/Course_Descriptions/The Court System Civil Rights/Election Law.doc">Election Law</a></li>
+    <li><a href="/how/assets/docs/Course_Descriptions/The Court System Civil Rights/Evidence (Sp 08).doc">Evidence</a></li>
+    <li><a href="/how/assets/docs/Course_Descriptions/The Court System Civil Rights/Federal Courts (Sp 08).doc">Federal Courts</a></li>
+    <li><a href="/how/assets/docs/Course_Descriptions/The Court System Civil Rights/Gender Discrimination (Sp 08).doc">Gender Discrimination</a></li>
+    <li><a href="/how/assets/docs/Course_Descriptions/The Court System Civil Rights/Identity Categories.doc">Identity Categories in Life and the Law</a></li>
+    <li><a href="/how/assets/docs/Course_Descriptions/The Court System Civil Rights/Immigration Law (Fa 08).doc">Immigration Law</a></li>
+    <li><a href="/how/assets/docs/Course_Descriptions/The Court System Civil Rights/Persuasion.doc">Persuasion</a></li>
+    <li><a href="/how/assets/docs/Course_Descriptions/The Court System Civil Rights/Poverty Law (Fa 08).doc">Poverty Law</a></li>
+    <li><a href="/how/assets/docs/Course_Descriptions/The Court System Civil Rights/Rights of Groups.doc">Rights of Groups</a></li>
+    <li>Sexual Orientation and the Law Seminar</li>
+    <li><a href="/how/assets/docs/Course_Descriptions/The Court System Civil Rights/Stereotypes, Prejudice and the Rule of Law (Sp 08).doc">Stereotypes, Prejudice, and the Rule of Law</a></li>
+</ul>
+</div>
+</div>
+
+<div class="accordionpanel">
+        <h1 class="accordiontab"><a href="javascript:void(0);">Family Law, Health, and Behavioral Sciences</a></h1>
+<div class="accordioncontent">
+<h3>Laws that govern the functions and dysfunctions of individuals and families, including issues related to the intervention of advanced technologies and treatments in the lives of individuals.</h3> 
+<ul>
+    <li>Aging and the Law</li>
+    <li><a href="/how/assets/docs/Course_Descriptions/Family Law, Health and Behavioral Sciences/Bioethics and Law (Fa 08).doc">Bioethics and the Law</a></li>
+    <li><a href="/how/assets/docs/Course_Descriptions/Family Law, Health and Behavioral Sciences/Child Interviewing Seminar - Sp10.doc">Child Interviewing Seminar</a></li>
+    <li><a href="/how/assets/docs/Course_Descriptions/Family Law, Health and Behavioral Sciences/Community Property (Fa 08).doc">Community Property</a></li>
+    <li><a href="/how/assets/docs/Course_Descriptions/Family Law, Health and Behavioral Sciences/Educational Disability.doc">Educational Disability</a></li>
+    <li><a href="/how/assets/docs/Course_Descriptions/Family Law, Health and Behavioral Sciences/Family Law (Sp 08).doc">Family Law</a></li>
+    <li><a href="/how/assets/docs/Course_Descriptions/Family Law, Health and Behavioral Sciences/Mental Health Law - Fa09.doc">Mental Health Law</a></li>
+</ul>
+</div>
+</div>
+
+<div class="accordionpanel">
+        <h1 class="accordiontab"><a href="javascript:void(0);">Government Regulation</a></h1>
+<div class="accordioncontent">
+<h3>Laws that govern the regulation of private activities by government agencies, including issues of politics and public policy.</h3>
+<ul>
+    <li><a href="/how/assets/docs/Course_Descriptions/Government Regulation/Administrative Law (Fa 08).doc">Administrative Law</a></li>
+    <li><a href="/how/assets/docs/Course_Descriptions/Government Regulation/Antitrust Law (Sp 08).doc">Antitrust Law</a></li>
+    <li><a href="/how/assets/docs/Course_Descriptions/Government Regulation/Employment Law (Fa 08).doc">Employment Law</a></li>
+    <li><a href="/how/assets/docs/Course_Descriptions/Government Regulation/Homeland Security (Fa 08).doc">Homeland Security</a></li>
+    <li><a href="/how/assets/docs/Course_Descriptions/Government Regulation/Insurance Law (Fa 08).doc">Insurance</a></li>
+    <li><a href="/how/assets/docs/Course_Descriptions/Government Regulation/Internet Law (Fa 08).doc">Internet Law</a></li>
+    <li><a href="/how/assets/docs/Course_Descriptions/Government Regulation/Labor Law (Fa 08).doc">Labor Law</a></li>
+    <li><a href="/how/assets/docs/Course_Descriptions/Government Regulation/Law and Economics (Sp 08).doc">Law and Economics</a> </li>
+    <li><a href="/how/assets/docs/Course_Descriptions/Government Regulation/Law and Public Policy.doc">Law and Public Policy</a></li>
+    <li><a href="/how/assets/docs/Course_Descriptions/Government Regulation/Local Government Law (Fa 08).doc">Local Government Law</a></li>
+    <li>Maritime Law</li>
+    <li><a href="/how/assets/docs/Course_Descriptions/Government Regulation/Mortgage Law (Sp 08).doc">Mortgage Law</a></li>
+    <li>Regulated Markets</li>
+    <li><a href="/how/assets/docs/Course_Descriptions/Government Regulation/Sales (Sp 08).doc">Sales of Goods</a></li>
+    <li>Telecommunications Regulation</li>
+    <li><a href="/how/assets/docs/Course_Descriptions/Government Regulation/Topics in Admiralty Law (Fa 07 Donovan).doc">Topics in Admiralty Law</a></li>
+</ul>
+</div>
+</div>
+
+<div class="accordionpanel">
+        <h1 class="accordiontab"><a href="javascript:void(0);">Intellectual Property, Entertainment, and Patent Law</a></h1>
+<div class="accordioncontent">
+<h3>Substantive law and concepts as applied to the fields of entertainment, media, communications, and advanced technology.</h3>
+<ul>
+    <li><a href="/how/assets/docs/Course_Descriptions/Intellectual Proprty, Entertainment and Patent Law/Advanced Intellectual Property Seminar.doc">Advanced Intellectual Property</a></li>
+    <li><a href="/how/assets/docs/Course_Descriptions/Intellectual Proprty, Entertainment and Patent Law/Antitrust and Intellectual Property Law- Sp10.doc">Antitrust &amp; Intellectual Property Law</a></li>
+    <li><a href="/how/assets/docs/Course_Descriptions/Intellectual Proprty, Entertainment and Patent Law/Copyright (Sp 08).doc">Copyright</a></li>
+    <li><a href="/how/assets/docs/Course_Descriptions/Intellectual Proprty, Entertainment and Patent Law/Entertainment Law (Sp 08).doc">Entertainment Law</a></li>
+    <li><a href="/how/assets/docs/Course_Descriptions/Intellectual Proprty, Entertainment and Patent Law/Entertainment Practicum.doc">Entertainment Law Practicum</a></li>
+    <li><a href="/how/assets/docs/Course_Descriptions/Intellectual Proprty, Entertainment and Patent Law/Intellectual Property (Fa 08).doc">Intellectual Property</a></li>
+    <li><a href="/how/assets/docs/Course_Descriptions/Intellectual Proprty, Entertainment and Patent Law/Internet Law (Fa 08).doc">Internet Law</a></li>
+    <li><a href="/how/assets/docs/Course_Descriptions/Intellectual Proprty, Entertainment and Patent Law/International Intellectual Property.doc">International Intellectual Property </a></li>
+    <li><a href="/how/assets/docs/Course_Descriptions/Intellectual Proprty, Entertainment and Patent Law/Legal Issues in the Music Industry (Sp09).doc">Legal Issues in the Music Industry</a></li>
+    <li><a href="/how/assets/docs/Course_Descriptions/Intellectual Proprty, Entertainment and Patent Law/Legal Issues in TV & Film.doc">Legal Issues in the Film and Television Industries</a></li>
+    <li><a href="/how/assets/docs/Course_Descriptions/Intellectual Proprty, Entertainment and Patent Law/Patent Law (Sp 08).doc">Patent Law</a></li>
+    <li><a href="/how/assets/docs/Course_Descriptions/Intellectual Proprty, Entertainment and Patent Law/Sports Law.doc">Sports Law</a></li>
+    <li>Telecommunications Regulation</li>
+    <li><a href="/how/assets/docs/Course_Descriptions/Intellectual Proprty, Entertainment and Patent Law/Trademark (Sp 08).doc">Trademark Law</a></li>
+</ul>
+</div>
+</div> 
+
+<div class="accordionpanel">
+        <h1 class="accordiontab"><a href="javascript:void(0);">Real Estate, Environmental Law and Land Use</a></h1>
+<div class="accordioncontent">
+<h3>Laws that govern the protection of natural resources and government controls placed on use and exploitation of land.</h3>
+<ul>
+    <li><a href="/how/assets/docs/Course_Descriptions/Real Estate, Environmental Law and Land Use/Environmental Law (Sp 08).doc">Environmental Law and Policy</a></li>
+    <li><a href="/how/assets/docs/Course_Descriptions/Real Estate, Environmental Law and Land Use/Global Warming.doc">Global Warming</a></li>
+    <li><a href="/how/assets/docs/Course_Descriptions/Real Estate, Environmental Law and Land Use/Land Use Controls (Sp 08).doc">Land Use Controls</a></li>
+    <li><a href="/how/assets/docs/Course_Descriptions/Real Estate, Environmental Law and Land Use/Real Estate Finance (Sp 08).doc">Real Estate Development and Finance</a></li>
+    <li><a href="/how/assets/docs/Course_Descriptions/Real Estate, Environmental Law and Land Use/Real Estate Transactions (Fa 08).doc">Real Estate Transactions</a></li>
+    <li><a href="/how/assets/docs/Course_Descriptions/Government Regulation/Topics in Admiralty Law (Fa 07 Donovan).doc">Topics in Admiralty Law</a></li>
+    <li>Water Law</li>
+</ul>
+</div>
+</div>
+
+<div class="accordionpanel">
+        <h1 class="accordiontab"><a href="javascript:void(0);">International and Comparative Law</a></h1>
+<div class="accordioncontent">
+<h3>Laws that govern private international activity, such as foreign trade and business transactions; laws that govern public noncommercial activity such as treaties, arms control, and human rights.</h3> 
+<ul>
+    <li><a href="/how/assets/docs/Course_Descriptions/International and Comparative Law/Comparative Civil Procedure.doc">Comparative Civil Procedure</a> </li>
+    <li><a href="/how/assets/docs/Course_Descriptions/International and Comparative Law/Comparative Constitutional Law - Sp10.doc">Comparative Constitutional Law</a></li>
+    <li><a href="/how/assets/docs/Course_Descriptions/International and Comparative Law/European Business Regulations.doc">European Business Regulations</a></li>
+    <li><a href="/how/assets/docs/Course_Descriptions/International and Comparative Law/European Union Law.doc">European Union Law</a></li>
+    <li><a href="/how/assets/docs/Course_Descriptions/International and Comparative Law/Foreign Relations Law.doc">Foreign Relations Law</a></li>
+    <li><a href="/how/assets/docs/Course_Descriptions/International and Comparative Law/Globalization and the Law (Sp 08).doc">Globalization and the Law</a></li>
+    <li><a href="/how/assets/docs/Course_Descriptions/International and Comparative Law/International Arbitration (Sp 08).doc">International Arbitration</a></li>
+    <li><a href="/how/assets/docs/Course_Descriptions/International and Comparative Law/International Business Transactions (Sp 08).doc">International Business Transactions</a></li>
+    <li><a href="/how/assets/docs/Course_Descriptions/International and Comparative Law/International Law Seminar Int'l Environmental Law - Fa09.doc">International Environmental Law</a></li>
+    <li><a href="/how/assets/docs/Course_Descriptions/International and Comparative Law/International Finance (Sp 08).doc">International Finance</a></li>
+    <li><a href="/how/assets/docs/Course_Descriptions/International and Comparative Law/International Human Rights (Sp 08).doc">International Human Rights</a></li>
+    <li>International Insolvency</li>
+    <li>International Intellectual Property</li>
+    <li><a href="/how/assets/docs/Course_Descriptions/International and Comparative Law/International Negotiation (Fa 08).doc">International Negotiation</a> </li>
+    <li><a href="/how/assets/docs/Course_Descriptions/International and Comparative Law/International Trade Policy.doc">International Trade Policy</a></li>
+    <li><a href="/how/assets/docs/Course_Descriptions/International and Comparative Law/Islamic Law.doc">Islamic Law</a></li>
+    <li><a href="/how/assets/docs/Course_Descriptions/International and Comparative Law/Jewish Law.doc">Jewish Law</a></li>
+    <li>Law of NAFTA</li>
+    <li><a href="/how/assets/docs/Course_Descriptions/International and Comparative Law/Public International Law (Sp 08).doc">Public International Law</a></li>
+</ul>
+</div>
+</div> 
+
+<div class="accordionpanel">
+        <h1 class="accordiontab"><a href="javascript:void(0);">Research, Clinical Training and Public Interest Law</a></h1>
+<div class="accordioncontent">
+<h3>Courses focus on intensive skills-training in the daily advocacy work of a lawyer, involving simulated exercises and work with actual clients.</h3>
+<ul>
+    <li>Advanced Legal Research</li>
+    <li>Alternative Dispute Resolution</li>
+    <li><a href="/how/assets/docs/Course_Descriptions/Family Law, Health and Behavioral Sciences/Child Interviewing Seminar - Sp10.doc">Child Interviewing Seminar</a></li>
+    <li><a href="/how/assets/docs/Course_Descriptions/Research, Clinical Training and Public Interest Law/Client Interviewing and Counseling (Sp 08).doc">Client Interviewing and Counseling</a></li>
+    <li><a href="/how/assets/docs/Course_Descriptions/Research, Clinical Training and Public Interest Law/Directed Research.doc">Directed Research</a></li>
+    <li>Dissertation</li>
+    <li><a href="/how/assets/docs/Course_Descriptions/Research, Clinical Training and Public Interest Law/Employer Legal Advice Clinic (Sp 08).doc">Employer Legal Advice Clinic</a></li>
+    <li><a href="/how/assets/docs/Externships Info - for website.doc">Externships</a></li> 
+    <li><a href="/how/assets/docs/Course_Descriptions/Research, Clinical Training and Public Interest Law/Immigration Clinic (Fa 08).doc">Immigration Clinic I &amp; II</a></li>
+    <li><a href="/how/assets/docs/Course_Descriptions/Research, Clinical Training and Public Interest Law/Intellectual Property Clinic I (Fa 08).doc">Intellectual Property Clinic I</a></li>
+    <li><a href="/how/assets/docs/Course_Descriptions/Research, Clinical Training and Public Interest Law/Intellectual Property Clinic II (Sp 08).doc">Intellectual Property Clinic II</a></li>
+    <li><a href="/how/assets/docs/Course_Descriptions/Research, Clinical Training and Public Interest Law/Legal Research (LLM only).doc">Legal Research</a></li>
+    <li><a href="/how/assets/docs/Course_Descriptions/Research, Clinical Training and Public Interest Law/Legal Writing (LLM only).doc">Legal Writing</a></li>
+    <li><a href="/how/assets/docs/Course_Descriptions/Research, Clinical Training and Public Interest Law/Mediation Clinic (Sp 08).doc">Mediation</a></li>
+    <li><a href="/how/assets/docs/Course_Descriptions/Research, Clinical Training and Public Interest Law/Post Conviction Justice Seminar (Fa 08).doc">Post Conviction Justice Seminar</a></li>
+    <li><a href="/how/assets/docs/Course_Descriptions/Research, Clinical Training and Public Interest Law/Pretrial Advocacy (Fa 08).doc">Pretrial Advocacy</a></li>
+    <li><a href="/how/assets/docs/Course_Descriptions/Research, Clinical Training and Public Interest Law/Trial Advocacy (Fa 08).doc">Trial Advocacy</a></li> 
+     
+</ul>
+</div>
+</div>
+    
+<div class="accordionpanel">
+        <h1 class="accordiontab"><a href="javascript:void(0);">Grading Policies for LL.M. &amp; M.C.L. Students</a></h1>
+<div class="accordioncontent">
+<p>Grades awarded to LL.M. and M.C.L. students reflect the same standards that apply to J.D. students. Whenever possible, exams are blind graded, so that faculty do not know the individual identity or degree program of the student. Blind grading aims to assign LL.M. and M.C.L. students the same grade that a J.D. student would earn for an identical exam or paper. Accommodations for language difficulties are made by allowing eligible LL.M. and M.C.L. students additional time for exams, and by permitting them to use dictionaries in closed-book exams.</p>
+
+<p>The particular rules for LL.M. and M.C.L grading vary somewhat depending on the class. In first-year classes, the curve is established based only on first-year J.D. students, excluding LL.M., M.C.L. and other students in the class. Our LL.M. and M.C.L. students are then awarded the grade that their raw score would have received had a J.D. in the class scored at that level. Thus, for first-year classes, LL.M. and M.C.L students have no effect on the J.D. curve, though they are graded using it.</p>
+
+<p>For most upper level classes, LL.M. and M.C.L. students are graded along with the J.D. students, using the same standards, and are included in the class curve. The law school offers some classes that are open only to our foreign LL.M. and M.C.L. students only, including Introduction to U.S. Legal Education. Because there are no J.D. students taking these classes, we cannot fully implement our principle that LL.M. and M.C.L. students will receive the same grade that a J.D. would receive for identical work. We have no comparable J.D. work. Instead we use our general upper level curve, with a 3.2 median and a constrained spread for these classes. LL.M. and M.C.L. grades are subject to appeal according to the same rules as J.D. grades.</p>
+</div></div></div>
+
+<script type="text/javascript">
+	var Accordion1 = new Spry.Widget.Accordion("accordion", { defaultPanel: -1, useFixedPanelHeights: false });
+</script>
+
+
+</div>
+
+
+
+
+<div id="rightnav">
+
+
+
+
+
+
+</div>
+
+<div id="equality"></div>
+
+</div>
+</div>
+
+
+
+<div id="footer_mobile">
+<div id="content">
+<ul class="social_networking">
+<li><a href="/press/social/facebook/"><img src="/images/bottom/facebook.png" alt="Facebook" height="42" width="42"></a></li>
+<li><a href="/press/social/twitter/"><img src="/images/bottom/twitter.png" alt="Twitter" height="42" width="42"></a></li>
+<li><a href="http://www.youtube.com/user/uscgould" target="_blank"><img src="/images/bottom/youtube.png" alt="YouTube" height="42" width="42"></a></li>
+<li><a href="https://instagram.com/uscgouldlaw" target="_blank"><img src="/images/bottom/instagram.png" alt="Instagram" height="42" width="42"></a></li>
+<li><a href="https://www.linkedin.com/edu/school?id=17973&trk=edu-cp-sa-sname" target="_blank"><img src="/images/bottom/linkedin.png" alt="LinkedIn" height="42" width="42"></a></li>
+<li><a href="https://www.flickr.com/photos/69930317@N08/albums" target="_blank"><img src="/images/bottom/flickr.png" alt="Flickr" height="42" width="42"></a></li>
+</ul>
+<ul class="buttons">
+<li><a href="/about/contact/" style="">Contact Us</a></li>
+<li><a href="/about/aba-required-disclosures/">ABA Required Disclosures</a></li>
+<li><a href="http://policy.usc.edu/" target="_blank" class="external_link">Privacy Policies</a></li>
+<li><a href="/site/?desktop" style="">Switch to Desktop Site</a></li>
+</ul>
+<p>&copy; 2016 USC Gould School of Law</p>
+</div>
+</div>
+
+
+
+<div id="footer">
+<div id="content">
+
+
+
+<div id="contact_us">
+<h3>CONTACT US</h3>
+<a href="/about/contact/"><img src="/images/bottom/building.jpg"></a>
+<address>
+<a href="/about/contact/">
+USC Gould School of Law
+<br>
+699 Exposition Boulevard
+<br>
+Los Angeles, California 90089
+<br>
+(213) 740-7331</a>
+</address>
+<a href="/about/aba-required-disclosures/"><img src="/images/bottom/aba-required-disclosures.png" alt="ABA Required Disclosures" height="20" width="160"/></a>
+</div>
+
+
+
+<div id="weather_and_follow_us">
+
+
+<h3>CURRENTLY 83&deg; <img src="/images/header/weather/34.png" alt="Fair"></h3>
+<p>As of 4:10 PM on Wednesday afternoon it is 83&deg; and fair in downtown Los Angeles.</p>
+
+
+<h3>FOLLOW US</h3>
+<ul>
+<li><a href="/press/social/facebook/"><img src="/images/bottom/facebook.png" alt="Facebook" height="42" width="42"></a></li>
+<li><a href="/press/social/twitter/"><img src="/images/bottom/twitter.png" alt="Twitter" height="42" width="42"></a></li>
+<li><a href="http://www.youtube.com/user/uscgould" target="_blank"><img src="/images/bottom/youtube.png" alt="YouTube" height="42" width="42"></a></li>
+<li><a href="https://instagram.com/uscgouldlaw" target="_blank"><img src="/images/bottom/instagram.png" alt="Instagram" height="42" width="42"></a></li>
+<li><a href="https://www.linkedin.com/edu/school?id=17973&trk=edu-cp-sa-sname" target="_blank"><img src="/images/bottom/linkedin.png" alt="LinkedIn" height="42" width="42"></a></li>
+<li><a href="https://www.flickr.com/photos/69930317@N08/" target="_blank"><img src="/images/bottom/flickr.png" alt="Flickr" height="42" width="42"></a></li>
+</ul>
+</div>
+
+
+
+
+<div id="latest_tweets">
+<h3>LATEST TWEETS</h3>
+<ul>
+
+
+
+
+<li><p><a href="http://twitter.com/uscgouldlaw" target="_blank">@uscgouldlaw:</a> VIDEO: Gould constitutional experts Profs Sam Erman and Rebecca Brown discuss <a href="https://twitter.com/search?q=%23SCOTUSnominee" rel="nofollow" target="_blank">#SCOTUSnominee</a> process <a href="https://t.co/s3Dqgiv6H1" target="_blank">https://t.co/s3Dqgiv6H1</a>
+<br>
+March 16, 2016 @ 10:05 PM</p></li>
+
+
+
+
+<li><p><a href="http://twitter.com/uscgouldlaw" target="_blank">@uscgouldlaw:</a> .<a href="http://twitter.com/USC" rel="nofollow" target="_blank">@USC</a> <a href="https://twitter.com/search?q=%23GouldLaw" rel="nofollow" target="_blank">#GouldLaw</a> students doing justice work over their <a href="https://twitter.com/search?q=%23SpringBreak" rel="nofollow" target="_blank">#SpringBreak</a>  <a href="https://t.co/pdpbzf28NH" target="_blank">https://t.co/pdpbzf28NH</a>
+<br>
+March 16, 2016 @ 9:15 PM</p></li>
+
+</ul>
+</div>
+
+
+<div id="policies_and_copyright">
+<p><a href="http://policy.usc.edu/" target="_blank">Privacy Policies</a> | &copy; 2016 USC Gould School of Law</p>
+</div>
+
+</div>
+</div>
+
+
+
+<a href="#" class="back_to_top">Back to Top</a>
+
+
+
+<script src="/assets/javascripts/wow.js"></script>
+<script>
+	new WOW().init();
+</script>
+
+
+
+
+
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
+<script type="text/javascript">
+	_uacct = "UA-2821901-1";
+	urchinTracker();
+</script>
+</body>
+</html> 
