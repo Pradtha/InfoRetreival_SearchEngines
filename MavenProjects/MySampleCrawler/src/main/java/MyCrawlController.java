@@ -26,15 +26,17 @@ public class MyCrawlController {
 			bw.write("Attempted URLs to Fetch,Status Code\n");
 			bw.close();
 			bw = new BufferedWriter(new FileWriter("urls.csv"));
-			bw.write("Processed URLs, Indicator\n");
+			bw.write("Processed URLs,Indicator\n");
 			bw.close();
 			bw = new BufferedWriter(new FileWriter("visit.csv"));
-			bw.write("Successfully Downloaded URL, Size of Downloaded File, Number of Outgoing Links, Content Type\n");
+			bw.write("Successfully Downloaded URL,Size of Downloaded File,Number of Outgoing Links,Content Type\n");
 			bw.close();
 			bw = new BufferedWriter(new FileWriter("pagerankdata.csv"));
-			bw.write("Page, Outgoing Links\n");
+			bw.write("Page,Outgoing Links\n");
 			bw.close();
-			
+			bw = new BufferedWriter(new FileWriter("docid.csv"));
+			bw.write("DocID,DocURL\n");
+			bw.close();
 		} catch (IOException ioe){
 			ioe.printStackTrace();
 		}
@@ -47,7 +49,7 @@ public class MyCrawlController {
 		config.setUserAgentString(userAgentString);
 		config.setIncludeBinaryContentInCrawling(true);
 		config.setProcessBinaryContentInCrawling(true);
-		config.setMaxDownloadSize(104857600);
+		config.setMaxDownloadSize(10485760);
 		/*
 		* Instantiate the controller for this crawl.
 		*/
