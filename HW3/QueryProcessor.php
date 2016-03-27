@@ -17,7 +17,7 @@ header( 'Pragma: no-cache' );
 		{
 			require_once('./solr-php-client/Apache/Solr/Service.php');	
 	  		$solr =	new Apache_Solr_Service('localhost', 8983,'/solr/TikaCore1/');	
-			$additionalParameters = array('fl' => 'id,tile,stream_size', 'wt'=>'json', 'indent'=>'true'); 
+			$additionalParameters = array('fl' => 'id,title,stream_size', 'wt'=>'json', 'indent'=>'true'); 
 	  		
 			if(get_magic_quotes_gpc()==1)	
 				$query = stripslahes($query);
@@ -67,10 +67,17 @@ header( 'Pragma: no-cache' );
 			$json['total'] = $total." ";
 			$k=0;
 			foreach($results->response->docs as $doc)	
-			{		foreach($doc as $field => $value) {
+			{	
+				$check = array("id", "title", "stream_size");
+				$i = 0;
+				foreach($doc as $field => $value) {
+					if((strcasecmp(htmlspecialchars($field),$check[$i]) == 0))
 						$json[htmlspecialchars($field).($k)] = htmlspecialchars($value);
-					}
-					$k++;					
+					else
+						$json[$check[$i].($k)] = "NOT FOUND";
+					$i++;
+				}
+				$k++;					
 			}
 			
 			echo json_encode($json);
