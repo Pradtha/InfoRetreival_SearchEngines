@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> CSCI 572 HW3 Page Ranking Comparison </title>
+		<meta name="viewport" content="width=device-width">
+		<meta charset="utf-8">
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+		<script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.13.0/jquery.validate.min.js"></script>
+	
+		<script type="text/javascript">
+			$(document).ready(function() {
+				$('#searchId').submit(function(event){
+					alert("hi");
+					$.ajax( {
+						 	url : 'http://localhost/QueryProcessor.php' ,
+							type : 'GET',
+							data : { searchQuery :$('#textSearchQueryId').val() },
+							contentType:'json',
+							success: function(output) {
+								alert("done"+output);
+								obj = JSON.parse(output);
+								var arr = Object.keys(obj).map(function (key) {return obj[key]});
+								alert("success: " + arr.length);
+								/*for(var i=1; i < output.length; i++)
+								{	var obj = output[i];
+									var arr = Object.keys(obj).map(function (key) {return obj[key]});
+									alert(typeof(arr));
+									//var tempOut = (array)(output[i]);
+									//alert(tempOut.length);
+									for(var j=0; j<arr.length; j++)
+										alert(arr[i]);							
+								}	*/		
+							},
+							error: function() {
+								alert("failure");
+							}
+						}); 
+				
+					});
+			});
+		</script>	
+	</head>
+
+	<body>
+		<div class='QueryProcessing' style="border: 1px solid; width:40vw; margin-left:20vw;" align="center">
+   		<form role="form" class="form-inline" id="searchId" onsubmit="return false;"> 
+				<div class="form-group">
+					<label for="textSearchQueryId" class="control-label" style="color:#E5A97D;"> Search Word: * </label>
+					<input id ="textSearchQueryId" class="form-control" type="text" name="textSearchQueryName" rows="1" 
+									style="overflow:hidden;" value="">
+					<t/><t/>
+				</div>
+				<div class="form-group form-inline">
+					<input type="submit" style="margin-left:10vh; background-color:#E5A97D;" class="btn btn-primary form-control" value="Search" /> 
+				</div>
+			</form>	
+			<br/><br/>
+		</div>
+	</body>
+</html>
