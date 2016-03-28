@@ -28,21 +28,21 @@ The queries are enclosed within quotation marks
 Navigational Qeuries
  
 1. 
-   a.  "Eileen Abel USC Social Work"
-   b. "Rino Patti USC Social Work"
-   c. "Ruth Supranovich USC Social Work"
+   a. "Scott Altman USC Gould School of Law"
+   b. "Pauline Aranas USC Gould School of Law"
+   c. "Jody David Armour USC Gould School of Law"
 
 2.
-  a.  "Adults and Healthy Aging USC Social Work"
-  b.  "Children, Youth and Families USC Social Work"
-  c.  "Community, Organization, and Business Innovation USC Social Work"
+  a.  "Center for Law and Philosophy, USC Gould School of Law"
+  b.  "Center for Law, History, and Culture, USC Gould School of Law"
+  c.  "Pacific Center for Health Policy and Ethics, USC Gould School of Law"
 
-3. "Social Work USC map and directions"
-4. "USC Social Work Founder Emory Bogardus"
-5. "USC Social Work Alumni"
+3. "Gould School of Law USC map and directions"
+4. "Gould School of Law USC Founder"
+5. "USC Gould School of Law Alumni"
 
 Informational Queries
 
-1. "USC Social Work Masters Degree Requirements"
-2. "USC Social Work PhD Degree Requirements"
-3. "USC Social Work Masters/PhD Dual Degree Requirements"
+1. "USC Law Undergraduate Degree Requirements"
+2. "USC Law Masters Degree Requirements"
+3. "USC Law Dual Degree Requirements"
