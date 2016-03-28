@@ -9,84 +9,96 @@ header( 'Pragma: no-cache' );
 		header('Content-­‐Type:text/html; charset=utf-­‐8');
 		$start = 0;
 		$rows = 10;	
-		$query = (isset($_GET['searchQuery']))?htmlspecialchars(strip_tags($_GET["searchQuery"])):false;
-		//echo $query;
+		$query = (isset($_GET['PsearchHQueryP']))?htmlspecialchars(strip_tags($_GET["PsearchHQueryP"])):false;
+		$rank = (isset($_GET['PraHnkP']))?htmlspecialchars(strip_tags($_GET["PraHnkP"])):false;
 		$results	= " ";
 
-		if($query)	
+		if($query && $rank)	
 		{
 			require_once('./solr-php-client/Apache/Solr/Service.php');	
 	  		$solr =	new Apache_Solr_Service('localhost', 8983,'/solr/TikaCore1/');	
-			$additionalParameters = array('fl' => 'id,title,stream_size', 'wt'=>'json', 'indent'=>'true'); 
+			$additionalParameters = array('fl' => 'id,title,author,created,stream_size', 'wt'=>'json', 'indent'=>'true');
 	  		
 			if(get_magic_quotes_gpc()==1)	
 				$query = stripslahes($query);
-	
-	 		try	
+			if(get_magic_quotes_gpc()==1)	
+				$rank = stripslahes($rank);
+
+			if( strcasecmp($rank,"solr") != 0)
+				$additionalParameters = array('fl' => 'id,title,author,created,stream_size', 'sort' => 'pageRank desc', 'wt'=>'json', 'indent'=>'true');
+
+			try	
 			{
 				
 				$results = $solr->search($query,$start,$rows,$additionalParameters);
 			}
 			catch(Exception $e)
 			{	
-				print "dying";
-				die("<html><head><title>SEARCH EXCEPTION</title><body><pre>{$e->__toString()}</pre></body></html>");	
+				//print "dying";
+				//die("<html><head><title>SEARCH EXCEPTION</title><body><pre>{$e->__toString()}</pre></body></html>");	
+				$results = " ";
 	  
 			}
-		}
-		if($results != " ")
-		{	//print "super";
-			//echo $query;
-			//echo (array)$results;
-			//echo json_encode((array)$results,JSON_PRETTY_PRINT); 
-			//echo get_object_vars($results->response->docs);
 		
-			//echo gettype($results->response->docs[1]);
-			//$json = json_encode($results->response->docs);
-			//echo $json;
-			/*$total = (int)$results->response->numFound;
-			$begin = min($start,$total);
-			$end = min($rows,$total);
-			$json = array();
-			$k = 0;
-			$json[$k++] = array('total' => $total);
-			foreach($results->response->docs as $doc)	
-			{		$j = 0;
-					$temp = array();	
-					foreach($doc as $field => $value) {
-						echo gettype(htmlspecialchars($field))."  ".gettype(htmlspecialchars($value));
-						$temp[$j++] = array((string)htmlspecialchars($field) => (string)htmlspecialchars($value));
-					}
-					$json[$k++] = $temp;
-			}
-			*/
-			$total = (int)$results->response->numFound;
-			$begin = min($start,$total);
-			$end = min($rows,$total);
-			$json = array();
-			$json['total'] = $total." ";
-			$k=0;
-			foreach($results->response->docs as $doc)	
+			if($results != " ")
 			{	
-				$check = array("id", "title", "stream_size");
-				$i = 0;
-				foreach($doc as $field => $value) {
-					if((strcasecmp(htmlspecialchars($field),$check[$i]) == 0))
-						$json[htmlspecialchars($field).($k)] = htmlspecialchars($value);
-					else
-						$json[$check[$i].($k)] = "NOT FOUND";
-					$i++;
+				$total = (int)$results->response->numFound;
+				$begin = min($start,$total);
+				$end = min($rows,$total);
+				$json = array();
+				$json['total'] = $total." ";
+				$k = 1;
+			
+				foreach($results->response->docs as $doc)	{
+					$checkf = array("id","title","author","created","stream_size");
+					$checkv = array();
+					$docv = array();
+					$loc = array();
+					$l = 0;
+					$i = 0;
+					$j = 0;
+					foreach($doc as $field => $value){
+						for($j=0; $j<count($checkf); $j++) {					
+							if((strcasecmp(htmlspecialchars($field),$checkf[$j]) == 0))
+								$loc[$l++] = $j;
+						}
+						$docv[$i] =  htmlspecialchars($value);	
+						$i++;	
+					}
+				
+					
+					$i = 0;
+					for($j=0; $j<count($checkf); $j++){
+						$present = 0;
+						for($l = 0; $l < count($loc); $l++) {
+							if($j == $loc[$l]){
+								$present = 1;
+								break;
+							}
+						}
+						if($present == 0)
+							$checkv[$j] = "NOT FOUND"; 
+					
+						else
+							$checkv[$j] = $docv[$i++];
+					}	
+			
+					$j = 0;
+					for($j = 0; $j < count($checkf); $j++) {
+						$json[$checkf[$j].($k)] = $checkv[$j]." ";
+					}
+					$k++;
 				}
-				$k++;					
+				
+				echo json_encode($json);
+			
 			}
-			
-			echo json_encode($json);
-			
+			else
+				echo "failure";	
 		}
+
 		else
-		{
-			echo "false";
-		}
+			echo "failure";
 ?>
 
 

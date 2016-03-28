@@ -6,84 +6,147 @@
 		<meta charset="utf-8">
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-		 <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.13.0/jquery.validate.min.js"></script>
+		<script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.13.0/jquery.validate.min.js"></script>
 		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
 		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
 		<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/jquery.bootstrapvalidator/0.5.2/css/bootstrapValidator.min.css">
 	
 		<script type="text/javascript">
+				
 			$(document).ready(function() {
 				$('#searchId').submit(function(event){
 					event.preventDefault();
-					alert("hi");
-					$.ajax( {
-						 	url : 'http://localhost/QueryProcessor.php' ,
-							type : 'GET',
-							data : { searchQuery : $('#textSearchQueryId').val() },
-							contentType:'json',
-							success: function(output) {
-								alert("done"+output);
-								obj = JSON.parse(output);
-								var arr = Object.keys(obj).map(function (key) {return obj[key]});
-								alert(arr.length);
-								var link = 0;
-								var title = 1;
-								var size = 2;
-								var baseIndex = 1;
-								var chunkSize = 3;
-								var text="<br></br>";
-								var findPath = "/home/pradeep/solr-5.3.1/example/PagesDownloaded";
-								var replacePath = "http://localhost/PagesDownloaded";
-								text += "<center>";
-								text += "<table class='table table-striped'>";
-								text += "<tbody>";
-									text += "<tr>";
-										text += "<th> S.No </th>";
-										text += "<th> Page Link </th>";
-										text += "<th> Title </th>";
-										text += "<th> Page Size </th>";
-									text += "</tr>";
-								for(var i=baseIndex; i < arr.length; i+=chunkSize){
-									//alert(typeof(arr[i+link]));
-									text += "<tr>";
-										text += "<td> "+(((i-baseIndex) / chunkSize )+1) +" </td>";
-										text += "<td >"+
-													" <a href='"+(arr[i+link]).replace(findPath,replacePath)+"' target='_blank'>"+				
-													" Page"+ (((i-baseIndex) / chunkSize )+1)+" </a></td>";
-										//text += "<td > <a href='http://www.google.com'> Page"+ (((i-baseIndex) / chunkSize )+1)+" </a></td>"
-																
-										text += "<td> " +arr[i+title]+" </td>";
-										text += "<td> "+ arr[i+size]+" </td>";
-									text += "</tr>";								
-								} 
-								text += "</tbody> </table> </center>";
-
-								document.getElementById('ResponseId').innerHTML = text;
-
-							},
-							error: function() {
-								alert("failure");
-							}
-						}); 
+					var errorfree = true;
+					if($('#textSearchQueryId').val() == ''){
+						alert("Please enter the Search Query");
+						errorfree = false;
+					}
+			
+					var RankAlgos = document.getElementsByName('rankAlgo');
+					var chosenRankAlgo = " ";
+					for(var i=0; i<RankAlgos.length; i++)	
+						if(RankAlgos[i].checked){
+							chosenRankAlgo = RankAlgos[i].value;
+							break;
+						}
 				
+					if(chosenRankAlgo == " "){
+						alert("Please select one of the radio buttons");
+						errorfree = false;
+					}
+			
+					if(errorfree){
+						$.ajax( {
+							 	url : 'http://localhost/QueryProcessor.php' ,
+								type : 'GET',
+								data : { PsearchHQueryP : $('#textSearchQueryId').val(), PraHnkP : chosenRankAlgo },
+								contentType:'json',
+								success: function(output) {
+									obj = JSON.parse(output);
+									$.ajax({
+        								type: 'GET',
+										async : 'false',
+        								url: 'http://localhost/docid.csv',
+        								contentType: 'text/csv',
+        								success: function(csv) {
+											var allTextLines = csv.split('\n');		
+											var lines = [[]];											
+											for (var i=0; i<allTextLines.length; i++) {
+												var data = allTextLines[i].split(',');
+												lines[i] = [];
+												for (var j=0; j<data.length; j++) {
+												  lines[i][j] = data[j];
+												}
+											}
+						      			var arr = Object.keys(obj).map(function (key) {return obj[key]});
+											var link = 0;
+											var title = 1;
+											var author = 2;
+											var created = 3;
+											var size = 4;
+											var baseIndex = 1;
+											var chunkSize = 5;
+											var text="<br></br>";
+											var findPath = "/home/pradeep/solr-5.3.1/example/PagesDownloaded/";
+											var replacePath = "http://localhost/PagesDownloaded/";
+											text += "<center>";
+											text += "<table class='table table-striped'>";
+											text += "<tbody>";
+												text += "<tr>";
+													text += "<th> S.No </th>";
+													text += "<th> Page Link </th>";
+													text += "<th> Title </th>";
+													text += "<th> Author </th>";	
+													text += "<th> Date Created </th>";
+													text += "<th> Page Size </th>";
+												text += "</tr>";
+											for(var i=baseIndex; i < arr.length; i+=chunkSize){
+												text += "<tr>";
+													text += "<td> "+(((i-baseIndex) / chunkSize )+1) +" </td>";
+													var linkURL = '';
+													var pathFind = "PagesDownloaded/";
+													var tempLoc1 = (arr[i+link]).indexOf(pathFind);
+													var docid1 = (arr[i+link]).substring( tempLoc1 + pathFind.length );
+													docid1 = docid1.trim();
+													for(var l = 0; l<lines.length; l++)
+													{	var tempLoc2 = lines[l][0].indexOf(pathFind);
+														var docid2 = (lines[l][0]).substring( tempLoc2 +pathFind.length );
+														docid2 = docid2.trim();
+														if( docid1.localeCompare(docid2) == 0 )
+														{  linkURL = lines[l][1];
+															break;
+														}
+														
+													}
+													text += "<td >"+
+																" <a href='"+linkURL+"' target='_blank'>"+				
+																" Page"+ (((i-baseIndex) / chunkSize )+1)+" </a></td>";
+													text += "<td> " +arr[i+title]+" </td>";
+													text += "<td> "+ arr[i+author]+" </td>";
+													text += "<td> "+ arr[i+created]+" </td>";
+													text += "<td> "+ arr[i+size]+" </td>";
+												text += "</tr>";								
+											} 
+											text += "</tbody> </table> </center>";
+
+											document.getElementById('ResponseId').innerHTML = text;
+
+										},
+										error: function(data) {
+											alert("cant read csv");
+										}									
+     								});
+								},
+								error: function() {
+									alert("failure");
+								}
+							}); 
+						}
 					});
 			});
+	
 		</script>	
 	</head>
 
 	<body>
-		<div class='QueryProcessing' style="border: 1px solid; width:40vw; margin-left:20vw;" align="center">
-   		<form role="form" class="form-inline" id="searchId" onsubmit="return false;"> 
-				<div class="form-group">
+		<div class='QueryProcessing' style="border: 1px solid; width:40vw; margin-left:25vw; margin-top:5vh;">
+			<center>
+   		<form role="form" class="form-inline" id="searchId" style="margin-top:3vh;" onsubmit="return false;"> 
+				<div class="form-group" align="justify">
 					<label for="textSearchQueryId" class="control-label" style="color:#E5A97D;"> Search Word: * </label>
 					<input id ="textSearchQueryId" class="form-control" type="text" name="textSearchQueryName" rows="1" 
-									style="overflow:hidden;" value="">
+									style="overflow:hidden;" value=""/>
+					<div align="justify">
+						<input type="radio" name="rankAlgo" id="SolrId" value="Solr" class="form-control"> Solr <br/>
+  						<input type="radio" name="rankAlgo" id="PageRankId" class="form-control" value="PageRank"> PageRank <br/>
+					<div>
 					<t/><t/>
 				</div>
-				<div class="form-group form-inline">
-					<input type="submit" style="margin-left:10vh; background-color:#E5A97D;" class="btn btn-primary form-control" value="Search" /> 
+				<div class="form-group form-inline" align="center">
+					<input type="submit" style="margin-left:10vw; background-color:#E5A97D;" class="btn btn-primary form-control" value="Search" /> 
 				</div>
 			</form>	
+			</center>
 			<br/><br/>
 		</div>
 		
@@ -93,6 +156,7 @@
 		<script type="text/javascript">
     		document.getElementById('textSearchQueryId').value ='';
 			document.getElementById('ResponseId').innerHTML = '';
+			$('input[name=rankAlgo]').attr('checked',false);
 		</script>
 
 		<noscript>
