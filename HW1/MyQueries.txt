@@ -1,0 +1,48 @@
+pnandaku@usc.edu
+9834726643
+
+
+RQ1: Given a number of Relevant Links; the level of relavancy of data and search string can be considered as a powerful measure of search engine performance. As clearly Seen from the Navigational and Informational graphs (in MyStatistic.xls), Google Performs better than Bing, as it lists more relavant links. The graphs are plotted based on the table calculated below.
+ 
+ 	Navigational Queries			The Google has 88.89% relavancy as compared to Bing which has only 77.78 % .
+	Google	                  Bing		Google and Bing Search Engines are pretty much close in listing relevant links for navigational queries.	
+Relevant	0.888888889	0.777777778
+Irrelevant	0.111111111	0.222222222
+
+		
+	Informational Queries			
+	Google	                  Bing		The Google has 66.7% relavancy as compared to Bing which has only 40 % .
+Relevant	0.666666667	0.4		Google Search engine performs better when compared to  the Bing Search Engine for informational queries.
+Irrelevant	0.333333333	0.6		In fact, Bing listed more irrelevant links than the relevant links, as can be clearly seen from the table.
+
+
+RQ2:    Yes, From the Graphs and table seen in  (MyStatistics.xls), It is clearly evident that the Google has a better relevancy percentage on both grounds, i.e., for Navigational as well as the Informational Queries.
+Further, From the above scenario, it can be clearly observed that the difference in relavancy percentage between Google and Bing Search Engines increased noticeably from Navigational to Informational Queries.
+Difference in Relevancy: | Google ~ Bing | = 11% for Navigational Queries      (approx)
+Difference in Relevancy: | Google ~ Bing | = 26.7% for Informational Queries  (approx)
+
+
+
+The queries are enclosed within quotation marks
+
+Navigational Qeuries
+ 
+1. 
+   a.  "Eileen Abel USC Social Work"
+   b. "Rino Patti USC Social Work"
+   c. "Ruth Supranovich USC Social Work"
+
+2.
+  a.  "Adults and Healthy Aging USC Social Work"
+  b.  "Children, Youth and Families USC Social Work"
+  c.  "Community, Organization, and Business Innovation USC Social Work"
+
+3. "Social Work USC map and directions"
+4. "USC Social Work Founder Emory Bogardus"
+5. "USC Social Work Alumni"
+
+Informational Queries
+
+1. "USC Social Work Masters Degree Requirements"
+2. "USC Social Work PhD Degree Requirements"
+3. "USC Social Work Masters/PhD Dual Degree Requirements"
