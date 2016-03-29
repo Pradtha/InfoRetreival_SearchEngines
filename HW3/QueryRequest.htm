@@ -58,6 +58,7 @@
 												  lines[i][j] = data[j];
 												}
 											}
+											var resShown = 10;
 						      			var arr = Object.keys(obj).map(function (key) {return obj[key]});
 											var link = 0;
 											var title = 1;
@@ -67,6 +68,8 @@
 											var baseIndex = 1;
 											var chunkSize = 5;
 											var text="<br></br>";
+											text += "<div align='center'>";
+											text += "<p><b> "+resShown+" of " + arr[0] + " results </b>";
 											text += "<center>";
 											text += "<table class='table table-striped'>";
 											text += "<tbody>";
@@ -76,7 +79,7 @@
 													text += "<th> Title </th>";
 													text += "<th> Author </th>";	
 													text += "<th> Date Created </th>";
-													text += "<th> Page Size </th>";
+													text += "<th> Page Size (kB) </th>";
 												text += "</tr>";
 											for(var i=baseIndex; i < arr.length; i+=chunkSize){
 												text += "<tr>";
@@ -102,7 +105,7 @@
 													text += "<td> " +arr[i+title]+" </td>";
 													text += "<td> "+ arr[i+author]+" </td>";
 													text += "<td> "+ arr[i+created]+" </td>";
-													text += "<td> "+ arr[i+size]+" </td>";
+													text += "<td> "+ ((Math.round((arr[i+size]*100)/1024)))/100+" </td>";
 												text += "</tr>";								
 											} 
 											text += "</tbody> </table> </center>";

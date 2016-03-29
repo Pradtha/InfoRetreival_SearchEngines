@@ -12,11 +12,14 @@ header( 'Pragma: no-cache' );
 		$query = (isset($_GET['PsearchHQueryP']))?htmlspecialchars(strip_tags($_GET["PsearchHQueryP"])):false;
 		$rank = (isset($_GET['PraHnkP']))?htmlspecialchars(strip_tags($_GET["PraHnkP"])):false;
 		$results	= " ";
+		$server = 'localhost';
+		$port = 8983;
+		$core = '/solr/TikaCore1/';
 
 		if($query && $rank)	
 		{
 			require_once('./solr-php-client/Apache/Solr/Service.php');	
-	  		$solr =	new Apache_Solr_Service('localhost', 8983,'/solr/TikaCore1/');	
+	  		$solr =	new Apache_Solr_Service($server, $port,$core);	
 			$additionalParameters = array('fl' => 'id,title,author,created,stream_size', 'wt'=>'json', 'indent'=>'true');
 	  		
 			if(get_magic_quotes_gpc()==1)	
@@ -33,9 +36,7 @@ header( 'Pragma: no-cache' );
 				$results = $solr->search($query,$start,$rows,$additionalParameters);
 			}
 			catch(Exception $e)
-			{	
-				//print "dying";
-				//die("<html><head><title>SEARCH EXCEPTION</title><body><pre>{$e->__toString()}</pre></body></html>");	
+			{		
 				$results = " ";
 	  
 			}
