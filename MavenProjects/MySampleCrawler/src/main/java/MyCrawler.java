@@ -21,7 +21,8 @@ public class MyCrawler extends WebCrawler {
 	//private final static Pattern FILTERS = Pattern.compile(".*\\.(htm|html|doc|docx|pdf)$");
 	//private final static Pattern FILTERS = Pattern.compile(".*\\.(doc|docx|pdf)$");
 	private final static Pattern FILTERS = Pattern.compile(".*(\\.(css|js|gif|jpg|png|mp3|mp3|zip|gz|vcf))$");
-	private final static String baseUrl = "http://gould.usc.edu/";
+	private final static String baseUrl1 = "http://gould.usc.edu/";
+	private final static String baseUrl2 = "https://gould.usc.edu/";
 	//private final static MyCrawlController mcc = new My;
 	private final static String storageFolder = "D:/data/crawl/PagesDownloaded";
 	
@@ -41,7 +42,7 @@ public class MyCrawler extends WebCrawler {
 	    // Do nothing by default
 	    // Sub-classed can override this to add their custom functionality
 		String urlStr = webUrl.getURL().toLowerCase();
-		if(urlStr.startsWith(baseUrl)){
+		if(urlStr.startsWith(baseUrl1) || urlStr.startsWith(baseUrl2)){
 	    	try{
 	    		synchronized(this){
 	    			BufferedWriter bw = new BufferedWriter(new FileWriter("fetch.csv",true));
@@ -101,7 +102,7 @@ public class MyCrawler extends WebCrawler {
 		}*/
 		
 		//return (FILTERS.matcher(href).matches() || href.endsWith("/")) && href.startsWith(baseUrl);
-		return href.startsWith(baseUrl) && !FILTERS.matcher(href).matches();
+		return (href.startsWith(baseUrl1) || href.startsWith(baseUrl2)) && !FILTERS.matcher(href).matches();
 	}
 	
 	/**
