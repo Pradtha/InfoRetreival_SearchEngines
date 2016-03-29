@@ -15,9 +15,7 @@ csvFile.seek(0)
 reader = csv.DictReader(csvFile)	
 for row in reader:
 	docId[str(row['DocURL'])] = str(row['DocID']).replace(givenRootPath,replaceRootPath)
-
 csvFile.close()
-
 print len(docId)
 
 
@@ -29,7 +27,6 @@ csvFile.seek(0)
 reader = csv.DictReader(csvFile)	
 for row in reader:
 	G.add_edge(str(row['Page']),str(row['Outgoing Links']))
-
 csvFile.close()
 
 print len(G)
@@ -39,13 +36,17 @@ pr = nx.pagerank(G)
 outputFile = open("external_pageRank.txt","w")
 for url,score in pr.iteritems():
 	if url in docId.keys():
-		outputFile.write(str(docId[url])+"="+str(Decimal(score*100000))+"\n")
+		outputFile.write(str(docId[url])+"="+str(Decimal(score))+"\n")
 outputFile.close()
 
-outputFile = open("external_pageRank1.txt","w")
+scores = []
+outputFile = open("external_pageRank_Complete.txt","w")
 for url,score in pr.iteritems():
 	if url in docId.keys():
-		outputFile.write(str(docId[url])+"="+str(Decimal(score*100000))+"\n")
+		outputFile.write(str(docId[url])+"="+str(Decimal(score))+"\n")
 	else:
-		outputFile.write(str(url)+"="+str(Decimal(score*100000))+"\n")
+		outputFile.write(str(url)+"="+str(Decimal(score))+"\n")
+	scores.append(Decimal(score))
 outputFile.close()
+
+print min(scores)

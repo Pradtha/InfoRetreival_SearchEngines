@@ -14,7 +14,7 @@ header( 'Pragma: no-cache' );
 		$results	= " ";
 		$server = 'localhost';
 		$port = 8983;
-		$core = '/solr/TikaCore1/';
+		$core = '/solr/TikaCore3/';
 
 		if($query && $rank)	
 		{
