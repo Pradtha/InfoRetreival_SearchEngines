@@ -529,5 +529,5 @@
   <dynamicField name="*_c" type="currency" indexed="true" stored="true"/>
   <copyField source="*" dest="_text_"/>
   <defaultSearchField>fulltext</defaultSearchField>
-  <solrQueryParser defaultOperator="AND" />
+  <solrQueryParser defaultOperator="OR" />
 </schema>
