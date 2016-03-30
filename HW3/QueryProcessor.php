@@ -12,9 +12,9 @@ header( 'Pragma: no-cache' );
 		$query = (isset($_GET['PsearchHQueryP']))?htmlspecialchars(strip_tags($_GET["PsearchHQueryP"])):false;
 		$rank = (isset($_GET['PraHnkP']))?htmlspecialchars(strip_tags($_GET["PraHnkP"])):false;
 		$results	= " ";
-		$server = 'localhost';
-		$port = 8983;
-		$core = '/solr/TikaCore3/';
+		$server = 'localhost'; //change the server name
+		$port = 8983;          // change the port number
+		$core = '/solr/TikaCore3/';  // change the solr core name
 
 		if($query && $rank)	
 		{

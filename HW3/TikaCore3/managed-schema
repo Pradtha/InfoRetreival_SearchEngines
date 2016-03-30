@@ -399,7 +399,7 @@
   <fieldType name="tlongs" class="solr.TrieLongField" precisionStep="8" multiValued="true" positionIncrementGap="0"/>
   <!--fieldtype name="string" class="solr.StrField" /-->
   <fieldType name="uuid" class="solr.UUIDField" indexed="true" />
-  <fieldType name="external" class="solr.ExternalFileField" keyField="id" defVal="0.0" valType="pfloat"/>
+  <fieldType name="external" class="solr.ExternalFileField" keyField="id" defVal="0.000035" valType="pfloat"/>
   <field name="pageRank" type="external" stored="false" indexed="false"/>
   <field name="uid" type="string" indexed="true" stored="true" default="NEW" multiValued="false" />
   <dynamicField name="*" type="string" multiValued="true" indexed="true" stored="true" />
