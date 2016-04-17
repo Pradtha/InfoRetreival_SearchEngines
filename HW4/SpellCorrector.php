@@ -40,7 +40,8 @@
  *
  */
 
-ini_set('memory_limit', '256M');
+ini_set('memory_limit', '1024M');
+ini_set('max_execution_time', 300);
 
 class SpellCorrector {
 	private static $NWORDS;
@@ -77,18 +78,6 @@ class SpellCorrector {
 		return $model;
 	}
 
-	private static function trainComplete(array $features) {
-		$model = array();
-		$count = count($features);
-		for($i = 0; $i<$count; $i++) {
-			$f = $features[$i];
-			if(!isset($model[$f])) {
-         	$model[$f] = 0;
-         }
-			$model[$f] += 1;
-		}
-		return $model;
-	}
 
 	
 	/**
@@ -171,48 +160,62 @@ class SpellCorrector {
 			
 			/* To optimize performance, the serialized dictionary can be saved on a file
 			instead of parsing every single execution */
-			if(!file_exists('dictionary.txt')) 
+			if(!file_exists('serialized_dictionary.txt')) 
 			{
-				/* *
-				self::$NWORDS = self::train(self::words(file_get_contents("big.txt")));
-				$fp = fopen("serialized_dictionary.txt","w+");
-				frite($fp,serialize(self::$NWORDS));
-				fclose($fp);
 				/* */
+				self::$NWORDS = array();
 				$dir    = './PagesDownloaded/';
 				$pages = scandir($dir);
 				$count = count($pages);
 				for($i = 2; $i < $count; $i++)
 				{
-					$myWords = self::train(self::words(file_get_contents($pages[$i])));
-					$fp = fopen("dictionaryTemp.txt","a");
+					$myWords = self::train(self::words(file_get_contents($dir.$pages[$i])));
+					//$fp = fopen("dictionaryTemp.txt","a");
 					foreach($myWords as $field => $value)
-						fwrite($fp,$field."=>".$value."\n");
-					fclose($fp);
+					{
+					//	fwrite($fp,$field."=>".$value."\n");
+						if(!isset(self::$NWORDS[$field]))
+							self::$NWORDS[$field] = $value;
+						else
+							self::$NWORDS[$field] += $value;
+					}
+					//fclose($fp);
 				}
+				
+				/* *
 				$fp = @fopen("dictionaryTemp.txt", "r"); 
-				// Add each line to an array
 				self::$NWORDS = array();
 				if ($fp) {
 					while($line = fgets($fp)){
 						$stripNewLine = explode("\n",$line);
 						$component = explode("=>",$stripNewLine[0]);
-						if(!isset(self::$NWORDS["$component[0]"])
+						if(!isset(self::$NWORDS["$component[0]"]))
 							self::$NWORDS["$component[0]"] = intval($component[1]);
 						else
 							self::$NWORDS["$component[0]"] += intval($component[1]);
 					}
 				}
 				fclose($fp);
-				$fp = fopen("serialized_dictionary.txt","w");
-				frite($fp,serialize(self::$NWORDS));
-				fclose($fp);
 				/* */
+				//echo "done with Temp Dictionary";
+
+				$fp = fopen("serialized_dictionary.txt","w");
+				fwrite($fp,serialize(self::$NWORDS));
+				fclose($fp);
+
+				$fp = fopen("readable_dictionary.txt","w");
+				foreach(self::$NWORDS as $field=>$value)
+					fwrite($fp,$field."=>".$value."\n");				
+				fclose($fp);
 			} 
 			else {
 				self::$NWORDS = unserialize(file_get_contents("serialized_dictionary.txt"));
+				/* *				
+				$fp = fopen("readable_dictionary.txt","w");
 				foreach(self::$NWORDS as $field=>$value)
-					echo nl2br($field."=>".$value."\n");
+					fwrite($fp,$field."=>".$value."\n");				
+				fclose($fp);
+				/* */
 			}
 		}
 		$candidates = array(); 
