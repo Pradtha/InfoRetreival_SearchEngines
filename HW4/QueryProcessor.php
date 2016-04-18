@@ -20,6 +20,8 @@ header( 'Pragma: no-cache' );
 		$suggestionResults = " ";
 		$suggestions = " ";
 		$words = " ";
+		$correctionResults = " ";
+		$correction = " ";
 		$server = 'localhost';
 		$port = 8983;
 		$core = '/solr/TikaCore3/';
@@ -50,7 +52,6 @@ header( 'Pragma: no-cache' );
 			if(count($suggestionResults) == count($words))
 			{
 				$suggestions = array();
-				//echo print_r($suggestions);
 				$w = 0;
 				$s = 0;
 				foreach($words as $word)
@@ -70,13 +71,6 @@ header( 'Pragma: no-cache' );
 					}
 					$w += 1;
 				}
-				/*
-				for($w =0; $w<2; $w++){
-					echo nl2br("\n");
-					for($s=0;$s<10; $s++)
-						echo " ".$suggestions[$w][$s];
-				}
-				*/
 				echo json_encode($suggestions);
 			}
 			
@@ -99,16 +93,15 @@ header( 'Pragma: no-cache' );
 			{
 				$words = explode(" ",$query);
 				$results = $solr->search($query,$start,$rows,$additionalParameters);
-				$suggestions = array();
-				foreach($words as $word){
-					//echo $word." ";
-					$suggestions[$word] = $solr->suggest($word); 
-				}
+				$correctionResults = array();
+				foreach($words as $word)
+					$correctionResults[$word] = SpellCorrector::correct($word); 
+				
 			}
 			catch(Exception $e)
 			{		
 				$results = " ";
-	  			$suggestions = " ";
+	  			$correctionResults = " ";
 			}
 		
 			if($results != " ")
@@ -117,62 +110,67 @@ header( 'Pragma: no-cache' );
 				$begin = min($start,$total);
 				$end = min($rows,$total);
 				$json = array();
-				if($total == 0){
-					echo "hi".count($results->spellcheck->suggestions);
-				}
 				$json['total'] = $total." ";
-				$k = 1;
-			
-				foreach($results->response->docs as $doc)	{
-					$checkf = array("id","title","author","created","stream_size");
-					$checkv = array();
-					$docv = array();
-					$loc = array();
-					$l = 0;
-					$i = 0;
-					$j = 0;
-					foreach($doc as $field => $value){
-						for($j=0; $j<count($checkf); $j++) {					
-							if((strcasecmp(htmlspecialchars($field),$checkf[$j]) == 0))
-								$loc[$l++] = $j;
-						}
-						$docv[$i] =  htmlspecialchars($value);	
-						$i++;	
-					}
-				
-					
-					$i = 0;
-					for($j=0; $j<count($checkf); $j++){
-						$present = 0;
-						for($l = 0; $l < count($loc); $l++) {
-							if($j == $loc[$l]){
-								$present = 1;
-								break;
-							}
-						}
-						if($present == 0)
-							$checkv[$j] = "NOT FOUND"; 
-					
-						else
-							$checkv[$j] = $docv[$i++];
-					}	
-			
-					$j = 0;
-					for($j = 0; $j < count($checkf); $j++) {
-						$json[$checkf[$j].($k)] = $checkv[$j]." ";
-					}
-					$k++;
+				if($total == 0){
+					$correction = " ";
+					foreach($correctionResults as $field => $value)
+						$correction = $correction." ".$value;
+					$json['correction'] = $correction;
 				}
-				
-				echo json_encode($json);
+				else 
+				{		
+					$k = 1;
 			
+					foreach($results->response->docs as $doc)	{
+						$checkf = array("id","title","author","created","stream_size");
+						$checkv = array();
+						$docv = array();
+						$loc = array();
+						$l = 0;
+						$i = 0;
+						$j = 0;
+						foreach($doc as $field => $value){
+							for($j=0; $j<count($checkf); $j++) {					
+								if((strcasecmp(htmlspecialchars($field),$checkf[$j]) == 0))
+									$loc[$l++] = $j;
+							}
+							$docv[$i] =  htmlspecialchars($value);	
+							$i++;	
+						}
+				
+					
+						$i = 0;
+						for($j=0; $j<count($checkf); $j++){
+							$present = 0;
+							for($l = 0; $l < count($loc); $l++) {
+								if($j == $loc[$l]){
+									$present = 1;
+									break;
+								}
+							}
+							if($present == 0)
+								$checkv[$j] = "NOT FOUND"; 
+					
+							else
+								$checkv[$j] = $docv[$i++];
+						}	
+			
+						$j = 0;
+						for($j = 0; $j < count($checkf); $j++) {
+							$json[$checkf[$j].($k)] = $checkv[$j]." ";
+						}
+						$k++;
+					}
+				
+				}
+				echo json_encode($json);
 			}
 			else
-				echo "failure";	
+				echo json_encode(array("failure"));	
 		}
 
 		else
-			echo "failure";
+			echo json_encode(array("failure"));
 ?>
 
 
