@@ -6,21 +6,86 @@ header( 'Pragma: no-cache' );
 
 <?php
 		require './solr-php-client/Apache/Solr/Service.php';
+		require './SpellCorrector.php';
 		header('Content-­‐Type:text/html; charset=utf-­‐8');
 		$start = 0;
 		$rows = 10;	
 		$query = (isset($_GET['PsearchHQueryP']))?htmlspecialchars(strip_tags($_GET["PsearchHQueryP"])):false;
 		$rank = (isset($_GET['PraHnkP']))?htmlspecialchars(strip_tags($_GET["PraHnkP"])):false;
+		$shouldSuggest = (isset($_GET['PsugHgestP']))?htmlspecialchars(strip_tags($_GET["PsugHgestP"])):false;
+		$enableSuggest = false;
+		if(strcasecmp($shouldSuggest,"true") == 0)
+			$enableSuggest = true;
 		$results	= " ";
+		$suggestionResults = " ";
+		$suggestions = " ";
+		$words = " ";
 		$server = 'localhost';
 		$port = 8983;
 		$core = '/solr/TikaCore3/';
 
-		if($query && $rank)	
+		if($enableSuggest == true and $query) 
 		{
 			require_once('./solr-php-client/Apache/Solr/Service.php');	
 	  		$solr =	new Apache_Solr_Service($server, $port,$core);	
-			$additionalParameters = array('fl' => 'id,title,author,created,stream_size', 'wt'=>'json', 'indent'=>'true');
+			
+			if(get_magic_quotes_gpc()==1)	
+				$query = stripslahes($query);
+			if(get_magic_quotes_gpc()==1)	
+				$rank = stripslahes($rank);
+
+			try	
+			{
+				$words = explode(" ",$query);
+				$suggestionResults = array();
+				foreach($words as $word)
+					$suggestionResults[$word] = $solr->suggest($word); 
+			}
+			catch(Exception $e)
+			{		
+	  			$suggestionResults = " ";
+				echo "";
+			}
+		
+			if(count($suggestionResults) == count($words))
+			{
+				$suggestions = array();
+				//echo print_r($suggestions);
+				$w = 0;
+				$s = 0;
+				foreach($words as $word)
+				{
+					$suggestions[$w] = array();
+					$s = 0;
+					foreach($suggestionResults[$word]->suggest->mySuggester->$word->suggestions as $suggestionResult)
+					{	
+						foreach($suggestionResult as $field => $value)
+						{
+							if(strcasecmp($field,"term")==0) 
+							{
+								$suggestions[$w][$s] = $value;
+							}
+						}
+						$s += 1;
+					}
+					$w += 1;
+				}
+				/*
+				for($w =0; $w<2; $w++){
+					echo nl2br("\n");
+					for($s=0;$s<10; $s++)
+						echo " ".$suggestions[$w][$s];
+				}
+				*/
+				echo json_encode($suggestions);
+			}
+			
+		}
+		else if($query && $rank)	
+		{
+			require_once('./solr-php-client/Apache/Solr/Service.php');	
+	  		$solr =	new Apache_Solr_Service($server, $port,$core);	
+			$additionalParameters = array('qt' => '/spellCheck', 'fl' => 'id,title,author,created,stream_size', 'wt'=>'json', 'indent'=>'true');
 	  		
 			if(get_magic_quotes_gpc()==1)	
 				$query = stripslahes($query);
@@ -28,17 +93,22 @@ header( 'Pragma: no-cache' );
 				$rank = stripslahes($rank);
 
 			if( strcasecmp($rank,"solr") != 0)
-				$additionalParameters = array('fl' => 'id,title,author,created,stream_size', 'sort' => 'pageRank desc', 'wt'=>'json', 'indent'=>'true');
+				$additionalParameters = array('qt' => '/spellCheck', 'fl' => 'id,title,author,created,stream_size', 'sort' => 'pageRank desc', 'wt'=>'json', 'indent'=>'true');
 
 			try	
 			{
-				
+				$words = explode(" ",$query);
 				$results = $solr->search($query,$start,$rows,$additionalParameters);
+				$suggestions = array();
+				foreach($words as $word){
+					//echo $word." ";
+					$suggestions[$word] = $solr->suggest($word); 
+				}
 			}
 			catch(Exception $e)
 			{		
 				$results = " ";
-	  
+	  			$suggestions = " ";
 			}
 		
 			if($results != " ")
@@ -47,6 +117,9 @@ header( 'Pragma: no-cache' );
 				$begin = min($start,$total);
 				$end = min($rows,$total);
 				$json = array();
+				if($total == 0){
+					echo "hi".count($results->spellcheck->suggestions);
+				}
 				$json['total'] = $total." ";
 				$k = 1;
 			

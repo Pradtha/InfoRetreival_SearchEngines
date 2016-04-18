@@ -14,6 +14,72 @@
 		<script type="text/javascript">
 				
 			$(document).ready(function() {
+				alert("Ready");
+				var timerid;	
+			 	$("#textSearchQueryId").on("input",function(e){
+		             var value = $(this).val();
+				 		if($(this).data("lastval")!= value){
+			 			$(this).data("lastval",value);                
+
+			 			clearTimeout(timerid);
+			 			timerid = setTimeout(function() {
+			 				//change action
+			 				//alert(value);
+							document.getElementById('suggestionId').innerHTML = ""; 
+							$.ajax( {
+							 	url : 'http://localhost/QueryProcessor.php' ,
+								type : 'GET',	
+								async : false,
+								data : { PsearchHQueryP : $('#textSearchQueryId').val(), PraHnkP : 'solr', PsugHgestP : 'true' },
+								contentType:'json',
+								success: function(output) {
+									alert("SUGGESTION SUCCESS:"+output);
+									var obj = JSON.parse(output);
+									var suggestions = Object.keys(obj).map(function (key) {return obj[key]});
+									var text="<br>";
+									text += "<div align='center'>";
+									text += "<div align='left'>"
+									var numOfWords = value.split(" ").length;
+									var numOfSuggestions = [];
+									var noSuggestion = true;
+									for(var w=0; w<numOfWords; w++) {
+										numOfSuggestions[w] = suggestions[w].length;
+										if(numOfSuggestions[w] != 0)
+											noSuggestion = false;
+									
+										for(var s=0; s<10; s++){
+											if(suggestions[w][s] == undefined) {
+												alert(w+" "+s);
+												suggestions[w][s] = " ";
+											}
+										}
+									}									
+									var maxSuggestion = 0;
+									for(var w=0; w<numOfWords; w++){
+										if(numOfSuggestions[w] > maxSuggestion)
+											maxSuggestion = numOfSuggestions[w];
+									}
+									if(!noSuggestion) {
+										alert("hit");
+										for(var s=0; s<maxSuggestion; s++)
+										{	
+											var suggestion = " ";
+											for(var w=0; w<numOfWords; w++)
+												suggestion += suggestions[w][s]+"   "; 									
+											text += suggestion + "<br>";
+										}
+									}
+									text += "</div></div>";
+									document.getElementById('suggestionId').innerHTML = text;
+								},
+								error: function(output){
+									alert("failed suggestion");
+								}
+							});
+			 			},500);
+
+			 		};
+			 	});				
 				$('#searchId').submit(function(event){
 					event.preventDefault();
 					var errorfree = true;
@@ -36,16 +102,19 @@
 					}
 			
 					if(errorfree){
+						//alert("Starting AJAX PHP CALL");
 						$.ajax( {
 							 	url : 'http://localhost/QueryProcessor.php' ,
-								type : 'GET',
-								data : { PsearchHQueryP : $('#textSearchQueryId').val(), PraHnkP : chosenRankAlgo },
+								type : 'GET',	
+								async : false,
+								data : { PsearchHQueryP : $('#textSearchQueryId').val(), PraHnkP : chosenRankAlgo, PsugHgestP : 'false' },
 								contentType:'json',
 								success: function(output) {
+									//alert("PHP SUCCESS:"+output);
 									obj = JSON.parse(output);
 									$.ajax({
         								type: 'GET',
-										async : 'false',
+										async: false,
         								url: 'http://localhost/docid.csv',
         								contentType: 'text/csv',
         								success: function(csv) {
@@ -58,8 +127,8 @@
 												  lines[i][j] = data[j];
 												}
 											}
-											var resShown = 10;
 						      			var arr = Object.keys(obj).map(function (key) {return obj[key]});
+											var resShown = Math.min(10,arr[0]);
 											var link = 0;
 											var title = 1;
 											var author = 2;
@@ -137,6 +206,8 @@
 					<label for="textSearchQueryId" class="control-label" style="color:#E5A97D;"> Search Word: * </label>
 					<input id ="textSearchQueryId" class="form-control" type="text" name="textSearchQueryName" rows="1" 
 									style="overflow:hidden;" value=""/>
+					<div id="suggestionId">
+					</div>
 					<div align="justify">
 						<input type="radio" name="rankAlgo" id="SolrId" value="Solr" class="form-control"> Solr <br/>
   						<input type="radio" name="rankAlgo" id="PageRankId" class="form-control" value="PageRank"> PageRank <br/>
@@ -150,13 +221,15 @@
 			</center>
 			<br/><br/>
 		</div>
-		
+		<div id="SpellCheckerId">
+		</div>
 		<div id="ResponseId">
 		</div>
 
 		<script type="text/javascript">
     		document.getElementById('textSearchQueryId').value ='';
 			document.getElementById('ResponseId').innerHTML = '';
+			document.getElementById('SpellCheckerId').innerHTML = '';
 			$('input[name=rankAlgo]').attr('checked',false);
 		</script>
 
