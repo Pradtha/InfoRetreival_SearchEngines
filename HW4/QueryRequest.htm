@@ -11,8 +11,10 @@
 		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
 		<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/jquery.bootstrapvalidator/0.5.2/css/bootstrapValidator.min.css">
 	
+		<!--script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+    	<link type="stylesheet" href="http://code.jquery.com/ui/1.9.1/themes/smoothness/jquery-ui.css" rel="stylesheet"-->
+
 		<script type="text/javascript">
-				
 			$(document).ready(function() {
 				//alert("Ready");
 				var timerid;	
@@ -21,6 +23,7 @@
 				 		if($(this).data("lastval")!= value){
 			 			$(this).data("lastval",value);                
 			 			clearTimeout(timerid);
+						document.getElementById('suggestionId').innerHTML = "";
 			 			timerid = setTimeout(function() {
 			 				//change action
 			 				//alert(value);
@@ -31,7 +34,7 @@
 								data : { PsearchHQueryP : $('#textSearchQueryId').val().trim(), PraHnkP : 'solr', PsugHgestP : 'true' },
 								contentType:'json',
 								success: function(output) {
-									//alert("SUGGESTION SUCCESS:"+output);
+									alert("SUGGESTION SUCCESS:"+output);
 									//$("#suggests").empty();
 									var obj = JSON.parse(output);
 									var suggestions = Object.keys(obj).map(function (key) {return obj[key]});									
@@ -57,13 +60,37 @@
 									}
 									if(!noSuggestion) {
 										//alert("hit");
+										//suggestionTemp = []
 										for(var s=0; s<maxSuggestion; s++)
 										{	
 											var suggestion = " ";
 											for(var w=0; w<numOfWords; w++)
-												suggestion += suggestions[w][s]+"   "; 									
+												suggestion += suggestions[w][s]+"   "; 
+											//suggestionTemp[s] = suggestion; 	
+											//alert(suggestionTemp[s]);								
 											$("<option>").html(suggestion).appendTo("#suggests");
 										}
+										/* *
+										$('#textSearchQueryId').autocomplete({
+										  // req will contain an object with a "term" property that contains the value
+										  // currently in the text input.  responseFn should be invoked with the options
+										  // to display to the user.
+										 	source: function (req, responseFn) {
+											 // Escape any RegExp meaningful characters such as ".", or "^" from the
+											 // keyed term.
+												var term = $.ui.autocomplete.escapeRegex(req.term),
+												// '^' is the RegExp character to match at the beginning of the string.
+												// 'i' tells the RegExp to do a case insensitive match.
+												matcher = new RegExp('^' + term, 'i'),
+												// Loop over the options and selects only the ones that match the RegExp.
+												matches = $.grep(suggestionTemp, function (item) {
+													return matcher.test(item);
+													});
+											 // Return the matched options.
+											 	responseFn(matches);
+										  	}
+										});
+										/* */
 									}
 								},
 								error: function(output){
@@ -73,10 +100,12 @@
 			 			},500);
 
 			 		};
-			 	});				
+			 	});	
+			
 				$('#searchId').submit(function(event){
 					event.preventDefault();
 					var errorfree = true;
+					document.getElementById('suggestionId').innerHTML = "";
 					if($('#textSearchQueryId').val() == ''){
 						alert("Please enter the Search Query");
 						errorfree = false;
@@ -208,9 +237,11 @@
 				<div class="form-group the-basics" align="justify">
 					<label for="textSearchQueryId" class="control-label" style="color:#E5A97D;"> Search Word: * </label>
 					<input id ="textSearchQueryId" class="form-control type-ahead" type="text" name="textSearchQueryName" rows="1" 
-									style="overflow:hidden;" value="" placholder="query terms" list="suggests" autocomplete="off"/>
+									style="overflow:hidden;" value="" placholder="query terms" list="suggests" spellcheck="false" autocomplete="off"/>
 					<datalist id="suggests"> </datalist>
 					</input>
+					<div align = "justify" id="suggestionId">
+					</div>
 					<div align="justify">
 						<input type="radio" name="rankAlgo" id="SolrId" value="Solr" class="form-control"> Solr <br/>
   						<input type="radio" name="rankAlgo" id="PageRankId" class="form-control" value="PageRank"> PageRank <br/>
@@ -230,7 +261,7 @@
 		<script type="text/javascript">
     		document.getElementById('textSearchQueryId').value ='';
 			document.getElementById('ResponseId').innerHTML = '';
-			//document.getElementById('SpellCheckerId').innerHTML = '';
+			document.getElementById('suggestionId').innerHTML = '';
 			$('input[name=rankAlgo]').attr('checked',false);
 		</script>
 
