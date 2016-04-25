@@ -24,6 +24,7 @@
 			 			$(this).data("lastval",value);                
 			 			clearTimeout(timerid);
 						document.getElementById('suggestionId').innerHTML = "";
+						document.getElementById('spellCheckId').innerHTML = '';
 			 			timerid = setTimeout(function() {
 			 				//change action
 			 				//alert(value);
@@ -34,7 +35,7 @@
 								data : { PsearchHQueryP : $('#textSearchQueryId').val().trim(), PraHnkP : 'solr', PsugHgestP : 'true' },
 								contentType:'json',
 								success: function(output) {
-									alert("SUGGESTION SUCCESS:"+output);
+									//alert("SUGGESTION SUCCESS:"+output);
 									//$("#suggests").empty();
 									var obj = JSON.parse(output);
 									var suggestions = Object.keys(obj).map(function (key) {return obj[key]});									
@@ -106,6 +107,7 @@
 					event.preventDefault();
 					var errorfree = true;
 					document.getElementById('suggestionId').innerHTML = "";
+					document.getElementById('spellCheckId').innerHTML = '';
 					if($('#textSearchQueryId').val() == ''){
 						alert("Please enter the Search Query");
 						errorfree = false;
@@ -125,7 +127,7 @@
 					}
 			
 					if(errorfree){
-						//alert("Starting AJAX PHP CALL");
+						alert("Starting AJAX PHP CALL: " + $('#textSearchQueryId').val());
 						$.ajax( {
 							 	url : 'http://localhost/QueryProcessor.php' ,
 								type : 'GET',	
@@ -154,10 +156,8 @@
 											var resShown = Math.min(10,arr[0]);
 											if(resShown == 0) 
 											{
-												var text = "<div align='left'>";
-												text += "No Results Found.<br>Did You Mean: "+arr[1]+" ?";
-												text += "</div>"; 
-												document.getElementById('suggestionId').innerHTML = text;
+												document.getElementById('suggestionId').innerHTML = "No Results Found.<br>Did You Mean: ";
+												document.getElementById('spellCheckId').innerHTML = arr[1];
 											}
 											else 
 											{
@@ -225,6 +225,12 @@
 							}); 
 						}
 					});
+			
+					$("#spellCheckId").click(function(event) {
+						var value = $(this).text().trim();
+						$('#textSearchQueryId').val(value);
+						$('#searchId').submit();
+					});
 			});
 	
 		</script>	
@@ -240,7 +246,10 @@
 									style="overflow:hidden;" value="" placholder="query terms" list="suggests" spellcheck="false" autocomplete="off"/>
 					<datalist id="suggests"> </datalist>
 					</input>
-					<div align = "justify" id="suggestionId">
+					<div align="justify">
+						<spellLabel align = "justify" id="suggestionId">
+						</spellLabel>
+						<spell id="spellCheckId"> </spell>
 					</div>
 					<div align="justify">
 						<input type="radio" name="rankAlgo" id="SolrId" value="Solr" class="form-control"> Solr <br/>
@@ -262,6 +271,7 @@
     		document.getElementById('textSearchQueryId').value ='';
 			document.getElementById('ResponseId').innerHTML = '';
 			document.getElementById('suggestionId').innerHTML = '';
+			document.getElementById('spellCheckId').innerHTML = '';
 			$('input[name=rankAlgo]').attr('checked',false);
 		</script>
 
