@@ -14,31 +14,27 @@
 		<script type="text/javascript">
 				
 			$(document).ready(function() {
-				alert("Ready");
+				//alert("Ready");
 				var timerid;	
 			 	$("#textSearchQueryId").on("input",function(e){
-		             var value = $(this).val();
+		            var value = $(this).val().trim();
 				 		if($(this).data("lastval")!= value){
 			 			$(this).data("lastval",value);                
-
 			 			clearTimeout(timerid);
 			 			timerid = setTimeout(function() {
 			 				//change action
 			 				//alert(value);
-							document.getElementById('suggestionId').innerHTML = ""; 
 							$.ajax( {
 							 	url : 'http://localhost/QueryProcessor.php' ,
 								type : 'GET',	
 								async : false,
-								data : { PsearchHQueryP : $('#textSearchQueryId').val(), PraHnkP : 'solr', PsugHgestP : 'true' },
+								data : { PsearchHQueryP : $('#textSearchQueryId').val().trim(), PraHnkP : 'solr', PsugHgestP : 'true' },
 								contentType:'json',
 								success: function(output) {
 									//alert("SUGGESTION SUCCESS:"+output);
+									//$("#suggests").empty();
 									var obj = JSON.parse(output);
-									var suggestions = Object.keys(obj).map(function (key) {return obj[key]});
-									var text="<br>";
-									text += "<div align='center'>"
-									text += "<select>";
+									var suggestions = Object.keys(obj).map(function (key) {return obj[key]});									
 									var numOfWords = value.split(" ").length;
 									var numOfSuggestions = [];
 									var noSuggestion = true;
@@ -66,12 +62,9 @@
 											var suggestion = " ";
 											for(var w=0; w<numOfWords; w++)
 												suggestion += suggestions[w][s]+"   "; 									
-											text += "<option value='option'"+s+">"+suggestion + "</option>";
+											$("<option>").html(suggestion).appendTo("#suggests");
 										}
 									}
-									text += "</select>";
-									text += "</div></div>";
-									document.getElementById('suggestionId').innerHTML = text;
 								},
 								error: function(output){
 									alert("failed suggestion");
@@ -104,7 +97,6 @@
 			
 					if(errorfree){
 						//alert("Starting AJAX PHP CALL");
-						document.getElementById('suggestionId').innerHTML = "";
 						$.ajax( {
 							 	url : 'http://localhost/QueryProcessor.php' ,
 								type : 'GET',	
@@ -213,12 +205,12 @@
 		<div class='QueryProcessing' style="border: 1px solid; width:40vw; margin-left:25vw; margin-top:5vh;">
 			<center>
    		<form role="form" class="form-inline" id="searchId" style="margin-top:3vh;" onsubmit="return false;"> 
-				<div class="form-group" align="justify">
+				<div class="form-group the-basics" align="justify">
 					<label for="textSearchQueryId" class="control-label" style="color:#E5A97D;"> Search Word: * </label>
-					<input id ="textSearchQueryId" class="form-control" type="text" name="textSearchQueryName" rows="1" 
-									style="overflow:hidden;" value=""/>
-					<div id="suggestionId" align="center">
-					</div>
+					<input id ="textSearchQueryId" class="form-control type-ahead" type="text" name="textSearchQueryName" rows="1" 
+									style="overflow:hidden;" value="" placholder="query terms" list="suggests" autocomplete="off"/>
+					<datalist id="suggests"> </datalist>
+					</input>
 					<div align="justify">
 						<input type="radio" name="rankAlgo" id="SolrId" value="Solr" class="form-control"> Solr <br/>
   						<input type="radio" name="rankAlgo" id="PageRankId" class="form-control" value="PageRank"> PageRank <br/>
