@@ -36,7 +36,7 @@
 								contentType:'json',
 								success: function(output) {
 									//alert("SUGGESTION SUCCESS:"+output);
-									//$("#suggests").empty();
+									$("#suggests").empty();
 									var obj = JSON.parse(output);
 									var suggestions = Object.keys(obj).map(function (key) {return obj[key]});									
 									var numOfWords = value.split(" ").length;
@@ -47,7 +47,7 @@
 										if(numOfSuggestions[w] != 0)
 											noSuggestion = false;
 									
-										for(var s=0; s<10; s++){
+										for(var s=0; s<5; s++){
 											if(suggestions[w][s] == undefined) {
 												//alert(w+" "+s);
 												suggestions[w][s] = " ";
@@ -60,38 +60,67 @@
 											maxSuggestion = numOfSuggestions[w];
 									}
 									if(!noSuggestion) {
-										//alert("hit");
-										//suggestionTemp = []
-										for(var s=0; s<maxSuggestion; s++)
-										{	
-											var suggestion = " ";
-											for(var w=0; w<numOfWords; w++)
-												suggestion += suggestions[w][s]+"   "; 
-											//suggestionTemp[s] = suggestion; 	
-											//alert(suggestionTemp[s]);								
-											$("<option>").html(suggestion).appendTo("#suggests");
+										if(numOfWords == 1){
+											for(var s=0; s<maxSuggestion; s++)
+											{	
+												var suggestion = " ";
+												suggestion += suggestions[0][s]+"   "; 
+												$("<option>").html(suggestion).appendTo("#suggests");
+											}	
 										}
-										/* *
-										$('#textSearchQueryId').autocomplete({
-										  // req will contain an object with a "term" property that contains the value
-										  // currently in the text input.  responseFn should be invoked with the options
-										  // to display to the user.
-										 	source: function (req, responseFn) {
-											 // Escape any RegExp meaningful characters such as ".", or "^" from the
-											 // keyed term.
-												var term = $.ui.autocomplete.escapeRegex(req.term),
-												// '^' is the RegExp character to match at the beginning of the string.
-												// 'i' tells the RegExp to do a case insensitive match.
-												matcher = new RegExp('^' + term, 'i'),
-												// Loop over the options and selects only the ones that match the RegExp.
-												matches = $.grep(suggestionTemp, function (item) {
-													return matcher.test(item);
-													});
-											 // Return the matched options.
-											 	responseFn(matches);
-										  	}
-										});
-										/* */
+
+										else if(numOfWords == 2){
+											for(var s1=0; s1<maxSuggestion; s1++)
+											{	
+												for(var s2=0; s2<maxSuggestion; s2++)
+												{
+													var suggestion = suggestions[0][s1]+" "+suggestions[1][s2]; 
+													$("<option>").html(suggestion).appendTo("#suggests");
+												}
+											}	
+										}
+
+										else if(numOfWords == 3){
+											for(var s1=0; s1<maxSuggestion; s1++) 
+											{
+												for(var s2=0; s2<maxSuggestion; s2++)
+												{	
+													for(var s3=0; s3<maxSuggestion; s3++)
+													{
+														var suggestion = suggestions[0][s1]+" "+suggestions[1][s2]+" "+suggestions[2][s3]; 
+														$("<option>").html(suggestion).appendTo("#suggests");
+													}
+												}	
+											}
+										}
+
+										else if(numOfWords == 4){
+											for(var s1=0; s1<maxSuggestion; s1++) 
+											{
+												for(var s2=0; s2<maxSuggestion; s2++)
+												{	
+													for(var s3=0; s3<maxSuggestion; s3++)
+													{
+														for(var s4=0; s4<maxSuggestion; s4++)
+														{
+													var suggestion=suggestions[0][s1]+" "+suggestions[1][s2]+" "+suggestions[2][s3]+" "+suggestions[3][s4]; 
+															$("<option>").html(suggestion).appendTo("#suggests");
+														}
+													}
+												}	
+											}
+										}
+
+										else 
+										{
+											for(var s=0; s<maxSuggestion; s++)
+											{	
+												var suggestion = " ";
+												for(var w=0; w<numOfWords; w++)
+													suggestion += suggestions[w][s]+"   "; 								
+												$("<option>").html(suggestion).appendTo("#suggests");
+											}
+										}
 									}
 								},
 								error: function(output){
@@ -127,7 +156,7 @@
 					}
 			
 					if(errorfree){
-						alert("Starting AJAX PHP CALL: " + $('#textSearchQueryId').val());
+						//alert("Starting AJAX PHP CALL: " + $('#textSearchQueryId').val());
 						$.ajax( {
 							 	url : 'http://localhost/QueryProcessor.php' ,
 								type : 'GET',	
