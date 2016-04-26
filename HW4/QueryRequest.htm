@@ -111,6 +111,26 @@
 											}
 										}
 
+										else if(numOfWords == 5){
+											for(var s1=0; s1<maxSuggestion; s1++) 
+											{
+												for(var s2=0; s2<maxSuggestion; s2++)
+												{	
+													for(var s3=0; s3<maxSuggestion; s3++)
+													{
+														for(var s4=0; s4<maxSuggestion; s4++)
+														{
+															for(var s5=0; s5<maxSuggestion; s5++)
+															{
+					var suggestion=suggestions[0][s1]+" "+suggestions[1][s2]+" "+suggestions[2][s3]+" "+suggestions[3][s4]+" "+suggestions[4][s5];
+																$("<option>").html(suggestion).appendTo("#suggests");
+															}
+														}
+													}
+												}	
+											}
+										}
+
 										else 
 										{
 											for(var s=0; s<maxSuggestion; s++)
@@ -185,8 +205,9 @@
 											var resShown = Math.min(10,arr[0]);
 											if(resShown == 0) 
 											{
-												document.getElementById('suggestionId').innerHTML = "No Results Found.<br>Did You Mean: ";
+												document.getElementById('suggestionId').innerHTML = "No Results Found. Did You Mean: ";
 												document.getElementById('spellCheckId').innerHTML = arr[1];
+												document.getElementById('ResponseId').innerHTML = "";
 											}
 											else 
 											{
