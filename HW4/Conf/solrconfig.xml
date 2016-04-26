@@ -1134,7 +1134,8 @@
 		 	<str name="name">mySuggester</str>
 		 	<str name="lookupImpl">FuzzyLookupFactory</str>
 		 	<!--str name="dictionaryImpl">DocumentDictionaryFactory</str-->
-		 	<str name="field">_text_</str>
+		 	<str name="field">_text_</str> 
+			<str name="nonfuzzyprefix" >3</str>
 			 <!--str name="weightField">price</str-->
 			 <str name="suggestAnalyzerFieldType">string</str>
 			 <!--str name="buildOnStartup">false</str-->
@@ -1191,9 +1192,10 @@
 	<requestHandler name="/suggest" class="solr.SearchHandler">
 	  <lst name="defaults">
 		 <str name="suggest">true</str>
-		 <str name="suggest.count">10</str>
+		 <str name="suggest.count">5</str>
 		<str name="suggest.dictionary">mySuggester</str>
 		<str name="suggest.build">true</str>
+		<str name="spellcheck.collate">true</str>
 	  </lst>
 	  <arr name="components">
 		 <str>suggest</str>
