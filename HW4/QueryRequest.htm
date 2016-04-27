@@ -46,6 +46,8 @@
 									var numOfWords = value.split(" ").length;
 									var numOfSuggestions = [];
 									var noSuggestion = true;
+									var rx = /[^a-zA-Z0-9']/;
+									var patt = new RegExp(rx);
 									for(var w=0; w<numOfWords; w++) {
 										numOfSuggestions[w] = suggestions[w].length;
 										if(numOfSuggestions[w] != 0)
@@ -57,7 +59,17 @@
 												suggestions[w][s] = " ";
 											}
 										}
-									}									
+									}		
+									for(var w=0; w<numOfWords; w++) {
+										for(var s=0; s<5; s++) {
+											if(!patt.test(wordList[w])) {
+												suggestions[w][s] = suggestions[w][s].split(rx).join(" ");
+											}
+										}
+									}
+									
+
+																
 									var maxSuggestion = 0;
 									for(var w=0; w<numOfWords; w++){
 										if(numOfSuggestions[w] > maxSuggestion)
@@ -67,8 +79,7 @@
 										if(numOfWords == 1){
 											for(var s=0; s<maxSuggestion; s++)
 											{	
-												var suggestion = " ";
-												suggestion += suggestions[0][s]+"   ";
+												var suggestion = suggestions[0][s]+" ";
 												suggestion = suggestion.trim();
 												if(!suggestSet.has(suggestion)) { 
 													suggestSet.add(suggestion);
@@ -78,12 +89,11 @@
 										}
 
 										else if(numOfWords == 2){
-								
 											for(var s1=0; s1<maxSuggestion; s1++)
 											{	
 												for(var s2=0; s2<maxSuggestion; s2++)
 												{	
-													var suggestion = suggestions[0][s1]+" "+suggestions[1][s2];4
+													var suggestion = suggestions[0][s1]+" "+suggestions[1][s2];
 													suggestion = suggestion.trim(); 
 													if(!suggestSet.has(suggestion)) { 
 														suggestSet.add(suggestion);
