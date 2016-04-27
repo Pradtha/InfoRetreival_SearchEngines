@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> CSCI 572 HW3 Page Ranking Comparison </title>
+		<meta name="viewport" content="width=device-width">
+		<meta charset="utf-8">
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+		<script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.13.0/jquery.validate.min.js"></script>
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+		<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/jquery.bootstrapvalidator/0.5.2/css/bootstrapValidator.min.css">
+	
+		<!--script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+    	<link type="stylesheet" href="http://code.jquery.com/ui/1.9.1/themes/smoothness/jquery-ui.css" rel="stylesheet"-->
+
+		<script type="text/javascript">
+			$(document).ready(function() {
+				//alert("Ready");
+				var timerid;	
+				var suggestSet = new Set();
+			 	$("#textSearchQueryId").on("input",function(e){
+		            var value = $(this).val();
+				 		if($(this).data("lastval")!= value){
+						value = value.toLowerCase().trim();
+			 			$(this).data("lastval",value);                
+			 			clearTimeout(timerid);
+
+						document.getElementById('suggestionId').innerHTML = "";
+						document.getElementById('spellCheckId').innerHTML = '';
+			 			timerid = setTimeout(function() {
+			 				//change action
+			 				//alert(value);
+							$.ajax( {
+							 	url : 'http://localhost/QueryProcessor.php' ,
+								type : 'GET',	
+								async : false,
+								data : { PsearchHQueryP : value.trim(), PraHnkP : 'solr', PsugHgestP : 'true' },
+								contentType:'json',
+								success: function(output) {
+									//alert("SUGGESTION SUCCESS:"+output);
+									//$("#suggests").empty();
+									var obj = JSON.parse(output);
+									var suggestions = Object.keys(obj).map(function (key) {return obj[key]});	
+									var wordList = value.split(" ");								
+									var numOfWords = value.split(" ").length;
+									var numOfSuggestions = [];
+									var noSuggestion = true;
+									var rx = /[^a-zA-Z0-9']/;
+									var patt = new RegExp(rx);
+									for(var w=0; w<numOfWords; w++) {
+										numOfSuggestions[w] = suggestions[w].length;
+										if(numOfSuggestions[w] != 0)
+											noSuggestion = false;
+									
+										for(var s=0; s<5; s++){
+											if(suggestions[w][s] == undefined) {
+												//alert(w+" "+s);
+												suggestions[w][s] = " ";
+											}
+										}
+									}		
+									for(var w=0; w<numOfWords; w++) {
+										for(var s=0; s<5; s++) {
+											if(!patt.test(wordList[w])) {
+												suggestions[w][s] = suggestions[w][s].split(rx).join(" ");
+											}
+										}
+									}
+									
+
+																
+									var maxSuggestion = 0;
+									for(var w=0; w<numOfWords; w++){
+										if(numOfSuggestions[w] > maxSuggestion)
+											maxSuggestion = numOfSuggestions[w];
+									}
+									if(!noSuggestion) {
+										if(numOfWords == 1){
+											for(var s=0; s<maxSuggestion; s++)
+											{	
+												var suggestion = suggestions[0][s]+" ";
+												suggestion = suggestion.trim();
+												if(!suggestSet.has(suggestion)) { 
+													suggestSet.add(suggestion);
+													$("<option>").html(suggestion).appendTo("#suggests");
+												}
+											}	
+										}
+
+										else if(numOfWords == 2){
+											for(var s1=0; s1<maxSuggestion; s1++)
+											{	
+												for(var s2=0; s2<maxSuggestion; s2++)
+												{	
+													var suggestion = suggestions[0][s1]+" "+suggestions[1][s2];
+													suggestion = suggestion.trim(); 
+													if(!suggestSet.has(suggestion)) { 
+														suggestSet.add(suggestion);
+														$("<option>").html(suggestion).appendTo("#suggests");
+													}
+												}
+											}	
+										}
+
+										else if(numOfWords == 3){
+											for(var s1=0; s1<maxSuggestion; s1++) 
+											{
+												for(var s2=0; s2<maxSuggestion; s2++)
+												{	
+													for(var s3=0; s3<maxSuggestion; s3++)
+													{
+														var suggestion = suggestions[0][s1]+" "+suggestions[1][s2]+" "+suggestions[2][s3]; 
+														suggestion = suggestion.trim();
+														if(!suggestSet.has(suggestion)) { 
+															suggestSet.add(suggestion);
+															$("<option>").html(suggestion).appendTo("#suggests");
+														}
+													}
+												}	
+											}
+										}
+
+										else if(numOfWords == 4){
+											for(var s1=0; s1<maxSuggestion; s1++) 
+											{
+												for(var s2=0; s2<maxSuggestion; s2++)
+												{	
+													for(var s3=0; s3<maxSuggestion; s3++)
+													{
+														for(var s4=0; s4<maxSuggestion; s4++)
+														{
+													var suggestion=suggestions[0][s1]+" "+suggestions[1][s2]+" "+suggestions[2][s3]+" "+suggestions[3][s4]; 
+															suggestion = suggestion.trim();
+															if(!suggestSet.has(suggestion)) { 
+																suggestSet.add(suggestion);
+																$("<option>").html(suggestion).appendTo("#suggests");
+															}
+														}
+													}
+												}	
+											}
+										}
+										else{
+											var tstr = "";
+											for(var t=0; t<numOfWords-1; t++)
+												tstr += wordList[t]+" ";
+											for(var s=0; s<maxSuggestion; s++)
+											{	
+												suggestion = tstr.trim()+" "+suggestion[0][s].trim();
+												if(!suggestSet.has(suggestion)) { 
+													suggestSet.add(suggestion);
+													$("<option>").html(suggestion).appendTo("#suggests");
+												}
+											}	
+		
+										}
+									}
+								},
+								error: function(output){
+									alert("failed suggestion");
+								}
+							});
+			 			},500);
+
+			 		};
+			 	});	
+			
+				$('#searchId').submit(function(event){
+					event.preventDefault();
+					var errorfree = true;
+					document.getElementById('suggestionId').innerHTML = "";
+					document.getElementById('spellCheckId').innerHTML = '';
+					if($('#textSearchQueryId').val() == ''){
+						alert("Please enter the Search Query");
+						errorfree = false;
+					}
+			
+					var RankAlgos = document.getElementsByName('rankAlgo');
+					var chosenRankAlgo = " ";
+					for(var i=0; i<RankAlgos.length; i++)	
+						if(RankAlgos[i].checked){
+							chosenRankAlgo = RankAlgos[i].value;
+							break;
+						}
+				
+					if(chosenRankAlgo == " "){
+						alert("Please select one of the radio buttons");
+						errorfree = false;
+					}
+			
+					if(errorfree){
+						//alert("Starting AJAX PHP CALL: " + $('#textSearchQueryId').val());
+						$.ajax( {
+							 	url : 'http://localhost/QueryProcessor.php' ,
+								type : 'GET',	
+								async : false,
+								data : { PsearchHQueryP : $('#textSearchQueryId').val(), PraHnkP : chosenRankAlgo, PsugHgestP : 'false' },
+								contentType:'json',
+								success: function(output) {
+									//alert("PHP SUCCESS:"+output);
+									obj = JSON.parse(output);
+									$.ajax({
+		  								type: 'GET',
+										async: false,
+		  								url: 'http://localhost/docid.csv',
+		  								contentType: 'text/csv',
+		  								success: function(csv) {
+											var allTextLines = csv.split('\n');		
+											var lines = [[]];											
+											for (var i=0; i<allTextLines.length; i++) {
+												var data = allTextLines[i].split(',');
+												lines[i] = [];
+												for (var j=0; j<data.length; j++) {
+												  lines[i][j] = data[j];
+												}
+											}
+							   			var arr = Object.keys(obj).map(function (key) {return obj[key]});
+											var resShown = Math.min(10,arr[0]);
+											if(resShown == 0) 
+											{
+												document.getElementById('suggestionId').innerHTML = "No Results Found. Did You Mean: ";
+												document.getElementById('spellCheckId').innerHTML = arr[1];
+												document.getElementById('ResponseId').innerHTML = "";
+											}
+											else 
+											{
+												var link = 0;
+												var title = 1;
+												var author = 2;
+												var created = 3;
+												var size = 4;
+												var baseIndex = 1;
+												var chunkSize = 5;
+												var text="<br></br>";
+												text += "<div align='center'>";
+												text += "<p><b> "+resShown+" of " + arr[0] + " results </b>";
+												text += "<center>";
+												text += "<table class='table table-striped'>";
+												text += "<tbody>";
+													text += "<tr>";
+														text += "<th> S.No </th>";
+														text += "<th> Page Link </th>";
+														text += "<th> Title </th>";
+														text += "<th> Author </th>";	
+														text += "<th> Date Created </th>";
+														text += "<th> Page Size (kB) </th>";
+													text += "</tr>";
+												for(var i=baseIndex; i < arr.length; i+=chunkSize){
+													text += "<tr>";
+														text += "<td> "+(((i-baseIndex) / chunkSize )+1) +" </td>";
+														var linkURL = '';
+														var pathFind = "PagesDownloaded/";
+														var tempLoc1 = (arr[i+link]).indexOf(pathFind);
+														var docid1 = (arr[i+link]).substring( tempLoc1 + pathFind.length );
+														docid1 = docid1.trim();
+														for(var l = 0; l<lines.length; l++)
+														{	var tempLoc2 = lines[l][0].indexOf(pathFind);
+															var docid2 = (lines[l][0]).substring( tempLoc2 +pathFind.length );
+															docid2 = docid2.trim();
+															if(docid1 == docid2)
+															{  linkURL = lines[l][1];
+																break;
+															}
+													
+														}
+														text += "<td >"+
+																	" <a href='"+linkURL+"' target='_blank'>"+				
+																	" Page"+ (((i-baseIndex) / chunkSize )+1)+" </a></td>";
+														text += "<td> " +arr[i+title]+" </td>";
+														text += "<td> "+ arr[i+author]+" </td>";
+														text += "<td> "+ arr[i+created]+" </td>";
+														text += "<td> "+ ((Math.round((arr[i+size]*100)/1024)))/100+" </td>";
+													text += "</tr>";								
+												} 
+												text += "</tbody> </table> </center>";
+
+												document.getElementById('ResponseId').innerHTML = text;
+											}
+										},
+										error: function(data) {
+											alert("cant read csv");
+										}									
+	  								});
+								},
+								error: function() {
+									alert("failure");
+								}
+							}); 
+						}
+					});
+			
+					$("#spellCheckId").click(function(event) {
+						var value = $(this).text().trim();
+						$('#textSearchQueryId').val(value);
+						$('#searchId').submit();
+					});
+			});
+	
+		</script>	
+	</head>
+
+	<body>
+		<div class='QueryProcessing' style="border: 1px solid; width:40vw; margin-left:25vw; margin-top:5vh;">
+			<center>
+   		<form role="form" class="form-inline" id="searchId" style="margin-top:3vh;" onsubmit="return false;"> 
+				<div class="form-group the-basics" align="justify">
+					<label for="textSearchQueryId" class="control-label" style="color:#E5A97D;"> Search Word: * </label>
+					<input id ="textSearchQueryId" class="form-control type-ahead" type="text" name="textSearchQueryName" rows="1" 
+									style="overflow:hidden;" value="" placholder="query terms" list="suggests" spellcheck="false" autocomplete="off"/>
+					<datalist id="suggests"> </datalist>
+					</input>
+					<div align="justify">
+						<spellLabel align = "justify" id="suggestionId">
+						</spellLabel>
+						<spell id="spellCheckId"> </spell>
+					</div>
+					<div align="justify">
+						<input type="radio" name="rankAlgo" id="SolrId" value="Solr" class="form-control"> Solr <br/>
+  						<input type="radio" name="rankAlgo" id="PageRankId" class="form-control" value="PageRank"> PageRank <br/>
+					<div>
+					<t/><t/>
+				</div>
+				<div class="form-group form-inline" align="center">
+					<input type="submit" style="margin-left:10vw; background-color:#E5A97D;" class="btn btn-primary form-control" value="Search" /> 
+				</div>
+			</form>	
+			</center>
+			<br/><br/>
+		</div>
+		<div id="ResponseId">
+		</div>
+
+		<script type="text/javascript">
+    		document.getElementById('textSearchQueryId').value ='';
+			document.getElementById('ResponseId').innerHTML = '';
+			document.getElementById('suggestionId').innerHTML = '';
+			document.getElementById('spellCheckId').innerHTML = '';
+			$('input[name=rankAlgo]').attr('checked',false);
+		</script>
+
+		<noscript>
+	</body>
+</html>
