@@ -18,14 +18,11 @@
 			$(document).ready(function() {
 				//alert("Ready");
 				var timerid;	
-				var suggestSet = new Set();
 			 	$("#textSearchQueryId").on("input",function(e){
-		            var value = $(this).val();
+		            var value = $(this).val().trim();
 				 		if($(this).data("lastval")!= value){
-						value = value.toLowerCase().trim();
 			 			$(this).data("lastval",value);                
 			 			clearTimeout(timerid);
-
 						document.getElementById('suggestionId').innerHTML = "";
 						document.getElementById('spellCheckId').innerHTML = '';
 			 			timerid = setTimeout(function() {
@@ -35,14 +32,13 @@
 							 	url : 'http://localhost/QueryProcessor.php' ,
 								type : 'GET',	
 								async : false,
-								data : { PsearchHQueryP : value.trim(), PraHnkP : 'solr', PsugHgestP : 'true' },
+								data : { PsearchHQueryP : $('#textSearchQueryId').val().trim(), PraHnkP : 'solr', PsugHgestP : 'true' },
 								contentType:'json',
 								success: function(output) {
 									//alert("SUGGESTION SUCCESS:"+output);
-									//$("#suggests").empty();
+									$("#suggests").empty();
 									var obj = JSON.parse(output);
-									var suggestions = Object.keys(obj).map(function (key) {return obj[key]});	
-									var wordList = value.split(" ");								
+									var suggestions = Object.keys(obj).map(function (key) {return obj[key]});									
 									var numOfWords = value.split(" ").length;
 									var numOfSuggestions = [];
 									var noSuggestion = true;
@@ -68,27 +64,18 @@
 											for(var s=0; s<maxSuggestion; s++)
 											{	
 												var suggestion = " ";
-												suggestion += suggestions[0][s]+"   ";
-												suggestion = suggestion.trim();
-												if(!suggestSet.has(suggestion)) { 
-													suggestSet.add(suggestion);
-													$("<option>").html(suggestion).appendTo("#suggests");
-												}
+												suggestion += suggestions[0][s]+"   "; 
+												$("<option>").html(suggestion).appendTo("#suggests");
 											}	
 										}
 
 										else if(numOfWords == 2){
-								
 											for(var s1=0; s1<maxSuggestion; s1++)
 											{	
 												for(var s2=0; s2<maxSuggestion; s2++)
-												{	
-													var suggestion = suggestions[0][s1]+" "+suggestions[1][s2];4
-													suggestion = suggestion.trim(); 
-													if(!suggestSet.has(suggestion)) { 
-														suggestSet.add(suggestion);
-														$("<option>").html(suggestion).appendTo("#suggests");
-													}
+												{
+													var suggestion = suggestions[0][s1]+" "+suggestions[1][s2]; 
+													$("<option>").html(suggestion).appendTo("#suggests");
 												}
 											}	
 										}
@@ -101,11 +88,7 @@
 													for(var s3=0; s3<maxSuggestion; s3++)
 													{
 														var suggestion = suggestions[0][s1]+" "+suggestions[1][s2]+" "+suggestions[2][s3]; 
-														suggestion = suggestion.trim();
-														if(!suggestSet.has(suggestion)) { 
-															suggestSet.add(suggestion);
-															$("<option>").html(suggestion).appendTo("#suggests");
-														}
+														$("<option>").html(suggestion).appendTo("#suggests");
 													}
 												}	
 											}
@@ -121,9 +104,25 @@
 														for(var s4=0; s4<maxSuggestion; s4++)
 														{
 													var suggestion=suggestions[0][s1]+" "+suggestions[1][s2]+" "+suggestions[2][s3]+" "+suggestions[3][s4]; 
-															suggestion = suggestion.trim();
-															if(!suggestSet.has(suggestion)) { 
-																suggestSet.add(suggestion);
+															$("<option>").html(suggestion).appendTo("#suggests");
+														}
+													}
+												}	
+											}
+										}
+
+										else if(numOfWords == 5){
+											for(var s1=0; s1<maxSuggestion; s1++) 
+											{
+												for(var s2=0; s2<maxSuggestion; s2++)
+												{	
+													for(var s3=0; s3<maxSuggestion; s3++)
+													{
+														for(var s4=0; s4<maxSuggestion; s4++)
+														{
+															for(var s5=0; s5<maxSuggestion; s5++)
+															{
+					var suggestion=suggestions[0][s1]+" "+suggestions[1][s2]+" "+suggestions[2][s3]+" "+suggestions[3][s4]+" "+suggestions[4][s5];
 																$("<option>").html(suggestion).appendTo("#suggests");
 															}
 														}
@@ -131,19 +130,16 @@
 												}	
 											}
 										}
-										else{
-											var tstr = "";
-											for(var t=0; t<numOfWords-1; t++)
-												tstr += wordList[t]+" ";
+
+										else 
+										{
 											for(var s=0; s<maxSuggestion; s++)
 											{	
-												suggestion = tstr.trim()+" "+suggestion[0][s].trim();
-												if(!suggestSet.has(suggestion)) { 
-													suggestSet.add(suggestion);
-													$("<option>").html(suggestion).appendTo("#suggests");
-												}
-											}	
-		
+												var suggestion = " ";
+												for(var w=0; w<numOfWords; w++)
+													suggestion += suggestions[w][s]+"   "; 								
+												$("<option>").html(suggestion).appendTo("#suggests");
+											}
 										}
 									}
 								},

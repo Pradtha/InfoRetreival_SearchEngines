@@ -24,7 +24,7 @@ header( 'Pragma: no-cache' );
 		$correction = " ";
 		$server = 'localhost';
 		$port = 8983;
-		$core = '/solr/TikaCoreDemo/';
+		$core = '/solr/TikaCore3/';
 
 		if($enableSuggest == true and $query) 
 		{
